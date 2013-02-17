@@ -4,9 +4,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="author" content="Built By Will"/>
-    <meta name="copyright" content="&copy; 2010 Built By Will"/>
+    <meta name="copyright" content="&copy; <?php echo date("Y") ?> Built By Will"/>
     <meta name="description" content="Portfolio site of Indiana Web Designer and Developer Will Grauvogel" />
-    <meta name="keywords" content="builtbywill, built, will, grauvogel, indiana, purdue, west lafayette, design, web design, interface, flash, multimedia, flash design, portfolio, graphic design, standards compliant" />    
+    <meta name="keywords" content="builtbywill, built, will, grauvogel, indiana, purdue, west lafayette, design, web design, interface, multimedia, portfolio, graphic design, standards compliant, mobile developer, ios developer" />    
 	<meta name="google-site-verification" content="Vv-F3PTIcS6Y_WyioQB9ZjrE6i4dlSPD6JeLb_ubZdA" />    
     <title>Built by Will - UX Design + Development</title>
     <link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
