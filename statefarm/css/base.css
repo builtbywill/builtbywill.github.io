@@ -1,0 +1,126 @@
+/* Reset CSS */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, 
+	em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, 
+	legend, table, caption, tbody, tfoot, thead, tr, th, td 
+	{margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+	body   {line-height:1;}
+	ol, ul {list-style:none;}
+	blockquote, q {quotes:none;}
+	blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;}
+	
+	/* remember to define focus styles! */
+	:focus {outline: 0;}
+	
+	/* remember to highlight inserts somehow! */
+	ins {text-decoration: none;}
+	del {text-decoration: line-through;}
+	
+	/* tables still need 'cellspacing="0"' in the markup */
+	table {border-collapse:collapse; border-spacing:0;}
+	
+/* General CSS */
+	html {}
+	body {width:757px; background:#fff; font:normal 11px/1 Tahoma, Geneva, sans-serif;}
+	
+	h1 {font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+	h2 {color:#d90b1c; font-weight:normal; padding-bottom:10px;}
+	p  {font-size:12px; line-height:15px; color:#333; margin:10px 0;}
+	a  {text-decoration:none; color:#3b59bb;}
+	
+	.left  {float:left;}
+	.right {float:right;}
+	.clear {clear:both;}
+	
+/* Structure */
+	.state-farm-logo {display:block; position:absolute; top:0; left:20px; width:88px; height:86px; text-indent:-9999px; background:url("http://willgrauvogel.com/statefarm/images/state-farm-logo.gif") no-repeat top left; z-index:600;}
+
+	#header                  {height:55px; padding:18px 0 0 130px; background:url("http://willgrauvogel.com/statefarm/images/bg-header.gif") repeat-x; position:relative; margin:0 1px;}
+	#header h1               {color:#fff; font-weight:normal; font-size:22px; line-height:50px;}
+	#header h1 span          {color:#fff; font-weight:normal; font-size:22px; line-height:50px; padding:0;}
+	
+	#main {position:relative; height:315px; border-left:1px solid #d8dfea; border-right:1px solid #d8dfea; background:url("http://willgrauvogel.com/statefarm/images/bg-main.gif") no-repeat left top; z-index:100;}
+	
+	#quote {position:absolute; left:50px; top:22px; width:410px;}
+		#quote .headline    {font-weight:normal; color:#cc0717; font-size:30px; text-align:center; line-height:40px; padding:0;}
+		#quote .subheadline {margin:15px 0 20px; font-weight:normal; color:#3b5998; font-size:19px; text-align:center;}
+		#quote p            {color:#143214; font-size:11px; text-align:center; line-height:17px;}
+	
+	#quote-box {height:100px; background:url("http://willgrauvogel.com/statefarm/images/bg-quote.png") repeat; #background:#bcd1bc;}
+		.quote-form-left {float:left; margin:10px 0 0 15px; clear:none;}
+			.quote-form-left label {display:inline-block; width:58px; height:58px; background:url("http://willgrauvogel.com/statefarm/images/bg-radios.png") no-repeat 0px 0px;  #background:url("http://willgrauvogel.com/statefarm/images/bg-radios.gif") no-repeat 0px 0px; cursor:pointer;}
+			.quote-form-left label input {margin:35px auto 0; display:block;}
+			.quote-form-left label span {display:block; text-align:center; font-size:11px; color:#fff; text-transform:uppercase; font-weight:bold; margin:15px 0 0;}
+			.quote-form-left .quote-radio-renters {background-position:-62px 0px;}
+			.quote-form-left .quote-radio-home {background-position:-125px 0px;}
+			.quote-form-left .quote-radio-life {background-position:-187px 0px;}
+		.quote-form-right {float:left; width:105px; padding:15px 10px 10px 18px; clear:none;}
+			.quote-zip {width:90px; font-size:14px; color:#7a7a7a; border:1px solid #d8dfea; padding:5px;}
+			.quote-zip:hover, .quote-zip:focus {border:1px solid #bdc3cd;}
+	
+	#contact {position:absolute; right:23px; top:-42px; width:200px; height:344px; background:url("http://willgrauvogel.com/statefarm/images/bg-contact.gif") no-repeat left bottom; z-index:200;}
+		#contact ul     {margin:10px 0 0;}
+		#contact li     {float:left; width:50%;}
+		#contact li h3  {padding:5px 10px 0; font-size:10px; color:#fff; text-transform:uppercase;}
+		#contact li p   {padding:5px 10px 5px; margin:0; font-size:10px;color:#fff; }
+		.agent-image    {width:200px; height:200px;}
+		.agent-name     {color:#d90b1c; font-weight:normal; font-size:18px; padding:5px 10px; text-align:center;}
+		.agent-location {color:#000; font-weight:normal; font-size:11px; padding:5px 10px 10px; text-align:center;}
+		.agent-phone    {}
+		.agent-fax      {}
+		
+	#bottom {background:url("http://willgrauvogel.com/statefarm/images/bg-bottom.jpg") no-repeat 0 0; height:460px;}
+	.bottom-left  {float:left; width:285px;}
+	.bottom-right {float:left; width:472px;}	
+	
+	#directions {float:left; padding:20px; width:245px;}
+		#directions p {color:#737476; font-size:12px; margin-top:0;}
+	
+	#search {float:left; padding:15px; height:191px; width:442px;}
+		.search-box 	 {float:left; width:330px; font-size:14px; color:#7a7a7a; border:1px solid #d8dfea; padding:5px;}
+		.search-box:hover, .search-box:focus {border:1px solid #bdc3cd;}
+		.search-list {margin:10px; width:410px;}
+		.search-list tr {}
+		.search-list td {padding:5px 0; border-bottom:1px solid #ccc;}
+		.search-list .search-text  {width:355px;}
+		.search-list .search-stars {}
+		.star-bottom {height:11px; width:55px; background:url("http://willgrauvogel.com/statefarm/images/star-empty.gif") repeat-x 0 0;}
+		.star-top    {height:11px; background:url("http://willgrauvogel.com/statefarm/images/star-full.gif") repeat-x 0 0;}
+	
+	h2.agent-name, #directions h2, #auto-question h2, #bottom h2 {letter-spacing:-0.05em; font-size:19px; font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+	
+	#about {float:left; clear:left; width:240px; padding:20px;}
+	#bottom-right  {float:left; padding:0;}
+	#bottom-right  .image {width:464px; height:205px; border:solid 1px #ccc; margin:10px 0 0; background:#ccc;}
+	
+	#quote-form-right-2 {display:none;}
+	#quote-form-right-2 li a {color:#444; font-weight:bold;}
+	#quote-form-right-2 li a:hover {text-decoration:underline;}
+	
+/* Buttons / Links */
+	.btn {background:#ccc url("http://willgrauvogel.com/statefarm/images/btn-bg-left.gif") no-repeat 0 0; display:block; font-weight:bold; font-size:11px; text-decoration:none; color:#000; padding:0; height:24px; cursor:pointer;}
+	.btn:active {background:#ccc url("http://willgrauvogel.com/statefarm/images/btn-bg-left.gif") no-repeat 0 0;}
+	.btn .icon {display:block; float:left; height:20px; width:20px; padding:1px 0px 1px 5px;}
+	.btn .text {display:block; float:right; background:#ccc url("http://willgrauvogel.com/statefarm/images/btn-bg-right.gif") no-repeat 100% 0; padding:6px 10px 5px 6px;}
+	
+	.btn-fb-message  {margin:0 auto; width:105px;}
+	.btn-directions  {width:125px;}
+	
+	.btn-search      {float:left; width:80px; margin:2px 0 0 10px; border:none; border-right:1px solid #888;}
+	.btn-search .icon {margin:-2px 0 0; padding-left:2px;}
+	.btn-search .text {margin:0; padding:3px 6px 0 4px; background:none;}
+	
+	.btn-quote       {margin-top:9px; border:none;border-right:1px solid #888; width:102px;}
+	.btn-quote .icon {margin:-2px 0 0 -2px; padding-left:2px;}
+	.btn-quote .text {margin:0; padding:3px 2px 0 4px; background:none;}
+	
+	.btn-statefarm   {width:211px;}
+	.btn-statefarm-2 {width:184px; margin-top:6px;}
+	
+	.btn-fb-message .icon {background:url("http://willgrauvogel.com/statefarm/images/btn-fb-message.gif") no-repeat 70% 65%;}
+	.btn-directions .icon {background:url("http://willgrauvogel.com/statefarm/images/btn-directions.gif") no-repeat 70% 65%;}
+	.btn-search .icon     {background:url("http://willgrauvogel.com/statefarm/images/btn-question.gif") no-repeat 70% 65%;}
+	.btn-quote .icon      {background:url("http://willgrauvogel.com/statefarm/images/btn-quote.gif") no-repeat 70% 65%;}
+	.btn-statefarm .icon  {background:url("http://willgrauvogel.com/statefarm/images/btn-statefarm.gif") no-repeat 5px 50%;}
+	
+	.link-analytics {color:#5195ae; display:block; font-weight:bold; font-size:11px; text-decoration:none; margin-top:6px; padding:6px 10px 5px 30px;background:url("http://willgrauvogel.com/statefarm/images/btn-analytics.gif") no-repeat scroll 8px 50% transparent;}
+	

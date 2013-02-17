@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+	body {overflow:auto;}
+
+	h2 {text-indent:0; padding:0;}
+	
+	#content {width:100%; height:auto; padding-top:140px;}
+	#content ul {padding:0 0 0 10px; margin:0 0 20px 10px; line-height:20px; list-style:disc outside;}
+	#content ol {padding:0 0 0 10px; margin:0 0 20px 10px; line-height:20px; list-style:decimal outside;}
+	
+	#content {z-index:100;}

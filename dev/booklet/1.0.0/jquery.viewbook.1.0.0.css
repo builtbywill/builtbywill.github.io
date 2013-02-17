@@ -1,0 +1,98 @@
+/* @Viewbook
+----------------------------------------*/
+	.viewbook           {width:800px; height:600px; position:relative; background:#fff;}
+	.viewbook .vb-page  {left:0; top:0; position:absolute; overflow:hidden; padding:0;}
+	
+	.viewbook .vb-pN  {}
+	.viewbook .vb-p0  {}
+	.viewbook .vb-p1  {}
+	.viewbook .vb-p2  {}    
+	.viewbook .vb-p3  {}
+	.viewbook .vb-p4  {}
+	
+	.viewbook .vb-load  {display:none;}
+   
+   	/* Page Wrappers */
+	.viewbook .vb-p-wrap {top:0; position:absolute; padding:10px;}
+	
+	.viewbook .vb-pN .vb-p-wrap,
+	.viewbook .vb-p1 .vb-p-wrap,
+	.viewbook .vb-p3 .vb-p-wrap  {left:0; background:#fff;}
+	.viewbook .vb-p0 .vb-p-wrap  {right:0; background:#efefef;}
+	.viewbook .vb-p2 .vb-p-wrap,
+	.viewbook .vb-p4 .vb-p-wrap  {left:0; background:#efefef;}
+	
+   	/* Custom Page Types */
+	.viewbook .vb-page-blank  {padding:0; width:100%; height:100%;}
+	.viewbook .vb-page-empty  {padding:0; width:100%; height:100%;}
+   
+   	/* Page Numbers */
+	.viewbook .vb-counter {bottom:0; position:absolute; display:block; width:40px; height:25px; background:#ccc; color:#444; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:16px; padding:5px 0 0;}
+	.viewbook .vb-pN .vb-counter,
+	.viewbook .vb-p1 .vb-counter,
+	.viewbook .vb-p3 .vb-counter {left:40%;}
+	.viewbook .vb-p0 .vb-counter,
+	.viewbook .vb-p2 .vb-counter,
+	.viewbook .vb-p4 .vb-counter {right:40%;}
+   
+   	/* Page Shadows */
+	.viewbook .vb-shadow-f  {right:0; top:0; position:absolute; opacity:0; background-image:url("images/shadow-top-forward.png"); background-repeat:repeat-y; background-position:100% 0;}
+	.viewbook .vb-shadow-b  {left:0;  top:0; position:absolute; opacity:0; background-image:url("images/shadow-top-back.png");    background-repeat:repeat-y; background-position:0 0;}
+	
+	.viewbook .vb-p0 {background-image:url("images/shadow.png"); background-repeat:repeat-y; background-position:100% 10px;}
+	.viewbook .vb-p3 {background-image:url("images/shadow.png"); background-repeat:repeat-y; background-position:0 10px;}
+	
+   	/* Overlay Controls */
+	.viewbook .vb-overlay      {top:0; position:absolute; height:100%; width:50%;}
+	.viewbook .vb-overlay-prev {left:0;}
+	.viewbook .vb-overlay-next {right:0;}
+	
+   	/* Tab Controls */
+	.viewbook .vb-tab        {background:#000; height:40px; width:100%; padding:10px 0 0; text-align:center; color:#ccc; position:absolute; font-size:11px;}
+	.viewbook .vb-tab-prev   {left:0;}
+	.viewbook .vb-tab-next   {right:0;}
+	.viewbook .vb-tab:hover  {background:#aaa; color:#000;}	
+	
+   	/* Arrow Controls */
+	.viewbook .vb-arrow          {display:block; position:absolute; text-indent:-9999px; top:0; height:100%; width:74px;}
+	.viewbook .vb-arrow div      {display:none; text-indent:-9999px; height:170px; width:74px; position:absolute; left:0; top:25%;}
+	.viewbook .vb-arrow-next     {right:-70px;}
+	.viewbook .vb-arrow-prev     {left:-70px;}
+	.viewbook .vb-arrow-next div {background:url("images/arrow-next.png") no-repeat left top;}
+	.viewbook .vb-arrow-prev div {background:url("images/arrow-prev.png") no-repeat left top;}
+		
+/* @z-index fix (needed for older IE browsers)
+----------------------------------------*/
+	body               {z-index:0;}
+    .vb-menu           {z-index:100;}
+    .vb-selector       {z-index:100;}
+	.viewbook          {z-index:10;}
+    .vb-pN             {z-index:10;}
+    .vb-p0             {z-index:10;}
+    .vb-p1             {z-index:10;}
+    .vb-p2             {z-index:10;}
+    .vb-p3             {z-index:10;}
+    .vb-p4             {z-index:10;}
+    .vb-prev           {z-index:40;}
+    .vb-next           {z-index:40;}
+    .vb-counter        {z-index:40;}
+	
+/* @Menu Items
+----------------------------------------*/
+	.vb-menu {height:40px; padding:0 0 10px;}
+	
+	.vb-selector             {height:40px; position:relative; float:right; border:none; color:#cecece; cursor:pointer;}
+	.vb-selector .vb-current {padding:8px 15px 12px; line-height:20px; display:block; background:#000; text-align:center;}
+	.vb-selector-page        {width:auto; margin-left:15px;}
+	.vb-selector-chapter     {width:auto;}
+	
+	.vb-selector:hover            {color:#fff; background-position:left 0px;}
+	.vb-selector:hover .current   {background-position:right 0px;}
+	.vb-selector ul               {overflow:hidden; margin:0; list-style:none !important; position:absolute; top:40px; right:0; padding:0 0 10px; background:#000; width:240px; font:normal 12px "Myriad Pro", Myriad, "DejaVu Sans Condensed","Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+	.vb-selector li               {border:none;}
+	.vb-selector a                {color:#cecece; height:14px; text-decoration:none; display:block; padding:5px 10px;}
+	.vb-selector a .vb-text       {float:left; clear:none;}
+	.vb-selector a .vb-num        {float:right; clear:none;}
+	.vb-selector a:hover          {color:#fff;}
+		
+	

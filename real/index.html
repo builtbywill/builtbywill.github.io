@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<title>Built by Will</title>
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link rel="stylesheet" href="/-/css/reset.css" />
+	<style>
+		body {background:url(bg.jpg) no-repeat 51% 0;}
+		
+		#bg {display:none; width:100%; height:100%; position:absolute; top:0; left:0;}
+		
+		#wrap {width:931px; height:535px; margin:0 auto; position:relative;}
+		
+		section {display:block;}
+		
+		nav {display:block; height:100px; margin:0 auto;}
+			nav ul {list-style:none; float:right;}
+			nav li {display:inline;}
+			nav a  {display:block; float:left; padding:10px; margin:0 10px 0 0;}
+			
+		.project {width:100%; height:500px; margin:0 auto;}		
+		.project .image {float:left; display:block; width:45%; height:100%; overflow:hidden; position:relative; margin-right:10%;}
+		.image img {display:block; position:absolute; top:0; left:0;}
+		.project img {display:block; margin:0 auto; width:100%; height:100%;}
+		
+		.details {padding:20px 5%; background:#eee; float:right; width:34%; height:80%; border:1px solid #ccc; overflow:hidden;}
+		
+		.clear {clear:both;}		
+		
+	</style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>	
+	<script src="/-/js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.superbgimage.js"></script>
+	<script>
+    $(function() {		
+	
+		/*$('#bg').superbgimage({
+			inlineMode: 1
+		});*/	   
+			   
+		var h, scale, w_prev, b_inc, projects, stats, curr, x;
+		
+		b_inc = 0.48,	
+		h = 286,
+		scale = n_scale = 30,
+		w_prev = 100,
+		projects = $('.project').get().reverse(),
+		stats = new Array(),
+		curr,
+		x;
+		
+		initProjects();
+		
+        $('#next').click(function(){
+			animProjects(true);
+			return false;
+		});
+        $('#prev').click(function(){
+			animProjects(false);
+			return false;
+		});
+		
+		//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		function initProjects(){
+			//setup stats array [width, height, left, bottom, scale]
+			$(projects).each(function(i){
+				if(i == 0){
+					stats[i] = ['100%', h, 0, 0, 100];
+				}else{
+					var n = w_prev-n_scale;
+					stats[i] = [
+								  n+'%'
+								, h*((n)/100)
+								, ((100-n)/2)+'%'
+								, (stats[i-1][1]*b_inc + stats[i-1][3] + 0)
+								, n
+								];
+					//update vars			
+					w_prev -= n_scale;
+					if(n < 0){
+						$(this).hide();
+					}
+					n_scale *= 0.75;
+				}
+				$(this).css({'position':'absolute', 'width':stats[i][0], 'height':stats[i][1], 'left':stats[i][2], 'bottom':stats[i][3]});
+				//console.log(stats[i]);
+			});
+		}
+		
+		function animProjects(inc){
+			if(inc){
+				x = -1;
+			}else{
+				x = 1;
+			}
+			$(projects).each(function(i){
+				if(i == 0 && inc){
+					curr = $(this).stop().animate({'bottom':'auto', 'top':-500, 'opacity':0}, 500, 'easeInOutQuad', function(){
+						bookends(inc);
+					});
+				}else if(i == projects.length-1 && !inc){
+					curr = $(this).stop().animate({'bottom':'auto', 'top':-500, 'opacity':0}, 500, 'easeInOutQuad', function(){
+						bookends(inc);
+					});
+				}else{
+					if(stats[i+x][4] < 0){
+						$(this).hide();
+					}else{
+						$(this).show().css({'opacity':1});
+					}
+					$(this).stop().animate({'width':stats[i+x][0], 'height':stats[i+x][1], 'left':stats[i+x][2], 'bottom':stats[i+x][3]}, 500, 'easeInOutQuad');
+				}
+			});
+		}
+		
+		function bookends(inc){
+			if(inc){
+				$('#wrap').prepend(curr.hide());
+				if(stats[stats.length-1][4] < 0){
+					curr.css({'width':stats[stats.length-1][0], 'height':stats[stats.length-1][1], 'left':stats[stats.length-1][2], 'bottom':stats[stats.length-1][3], 'opacity':0});
+					projects = $('.project').get().reverse();
+				}else{
+					curr.show().css({'width':stats[stats.length-1][0], 'height':stats[stats.length-1][1], 'top':'auto', 'left':stats[stats.length-1][2]}).animate({'bottom':stats[stats.length-1][3], 'opacity':1}, 500, 'easeInOutQuad', function(){
+						projects = $('.project').get().reverse();
+					});
+				}
+			}else{
+				$('#wrap').append(curr.hide());
+				curr.show().css({'width':stats[0][0], 'height':stats[0][1], 'top':'auto', 'left':stats[0][2]}).animate({'bottom':stats[0][3], 'opacity':1}, 500, 'easeInOutQuad', function(){
+					projects = $('.project').get().reverse();
+				});
+			}
+		}
+		
+    });
+	</script>
+</head>	
+<body>
+	<div id="bg"><img src="bg.jpg" /></div>
+	<nav>
+		<ul>
+			<li><a href="" id="prev">Prev</a></li>			
+			<li><a href="" id="next">Next</a></li>			
+		</ul>
+	</nav>
+    <div id="wrap">
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+        <section class="project">
+            <img src="viewbook.png" alt="Project Image - Discovery Park" />
+        </section>
+    </div>
+</body>
+</html> 

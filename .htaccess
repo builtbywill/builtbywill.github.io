@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+ErrorDocument 404 /404.php 
+RewriteCond %{HTTP_HOST} ^willgrauvogel.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.willgrauvogel.com$
+RewriteRule ^/?$ "http\:\/\/builtbywill\.com" [R=301,L]
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://builtbywill.com/</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://builtbywill.com/code/booklet/</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://builtbywill.com/code/booklet/installation</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://builtbywill.com/code/booklet/changelog</loc>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://builtbywill.com/#projects</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://builtbywill.com/#about</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://builtbywill.com/#contact</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://builtbywill.com/code/booklet/options</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://builtbywill.com/code/booklet/examples/</loc>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>

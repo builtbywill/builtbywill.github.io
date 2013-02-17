@@ -1,0 +1,148 @@
+/*
+----------------------------------------------------------------------
+
+	CGT 456 Group 1 - fitFAQ
+	Screen Stylesheet
+	
+	Author: Will Grauvogel
+	Version: 04.18.2009
+
+----------------------------------------------------------------------*/
+
+/*  @General Elements
+----------------------------------------------------------------------*/
+	
+	body  {background:#222; font:normal 70%/1em Tahoma, Arial, Helvetica, sans-serif;}
+	
+	h1    {text-indent:-9999px;}
+	h2    {font:bold 2.5em/1em "Trebuchet MS", Arial, Helvetica, sans-serif; color:#d43333;}
+	h3    {font:bold 1.7em/1.2em Tahoma, Arial, Helvetica, sans-serif; color:#444;}
+	
+	a       {color:#555; text-decoration:none;}
+	a:hover {color:#000; border-bottom:1px dotted #8a1f1f;}
+
+/*  @Mast
+----------------------------------------------------------------------*/
+
+	#mast   {height:156px;}
+
+	#header {height:56px; background:#8a1f1f url(../img/header-bg.png) top center;}
+	#logo   {float:left; width:155px; height:69px; background:url(../img/logo.png) top left no-repeat; }
+	#logo:hover {border:none;}
+	
+	/* Nav */
+	
+		#nav    {float:right; clear:none; width:304px; height:55px; list-style:none;}
+		#nav li {display:inline; float:left;}
+		#nav a  {display:block; background:url(../img/nav-bg.png); height:55px; overflow:hidden; text-indent:-9999px;}
+	
+	/* Nav Links */
+	
+		#nav #a-login   {width:100px;background-position:0px top;}
+		#nav #a-about   {width:100px;background-position:-100px top;}
+		#nav #a-contact {width:104px;background-position:-199px top;}
+		
+		#nav #a-login:hover   {background-position:0px center;}
+		#nav #a-about:hover   {background-position:-100px center;}
+		#nav #a-contact:hover {background-position:-199px center;}
+		
+		#nav #a-login:active   {background-position:0px bottom;}
+		#nav #a-about:active   {background-position:-100px bottom;}
+		#nav #a-contact:active {background-position:-199px bottom;}
+	
+	/* Search */
+	
+		#search       {height:100px; background:#4d1212;}
+		
+		#search-form  {width:318px; margin:0 auto; padding:15px 0 0; position:relative;}
+		#search-input {width:266px; height:28px; padding:5px 42px 5px 10px; margin-bottom:10px; font-size:2em; border:none; background:url(../img/search-input-bg.png) no-repeat;}
+		#search-glass {width:32px; height:28px; border:none; background:url(../img/search-glass-bg.png); text-indent:-9999px; cursor:pointer; position:absolute; right:5px; top:20px;}
+		
+		#search label {color:#ddd; font:normal 1.5em "Trebuchet MS", Arial, Helvetica, sans-serif; padding:0 5px 0 20px; cursor:pointer;}
+		#search label:hover {color:#fff;}
+
+/*  @Content
+----------------------------------------------------------------------*/
+	
+	#content {background:#bab6a4 url(../img/content-top.png) repeat-x top left; min-height:325px;}
+	#home #content {height:325px;}
+	
+	
+	/* Main Page */
+	
+		.four-col {width:183px; height:291px; float:left; padding:30px; position:relative; margin:0 0 0 -13px; font-size:1.2em;}
+		.four-col-top {width:243px; height:14px; position:absolute; top:0; left:0;}
+		.four-col-btm {width:243px; height:26px; position:absolute; bottom:0; left:0;}
+		
+		.four-col:hover   {background: url(../img/four-col-hover.png) left top repeat-y;}
+		.four-col:hover a {color:#000;}
+		.four-col:hover .four-col-top {background: url(../img/four-col-hover-top.png) top center no-repeat;}
+		.four-col:hover .four-col-btm {background: url(../img/four-col-hover-btm.png) top center no-repeat;}
+		
+		h2.categories {text-indent:-9999px; background:url(../img/h2-mainpage.png) 0 0; width:126px; height:30px; }
+		h2.keywords   {text-indent:-9999px; background:url(../img/h2-mainpage.png) -126px 0; width:127px; height:30px; }
+		h2.recent     {text-indent:-9999px; background:url(../img/h2-mainpage.png) -253px 0; width:152px; height:30px; }
+		h2.subscribe  {text-indent:-9999px; background:url(../img/h2-mainpage.png) -405px 0; width:126px; height:30px; }
+	
+		.four-col:hover h2.categories {background-position: 0 100%;}
+		.four-col:hover h2.keywords   {background-position: -126px 100%;}
+		.four-col:hover h2.recent     {background-position: -253px 100%;}
+		.four-col:hover h2.subscribe  {background-position: -405px 100%;}
+		
+		.four-col ul {padding:10px 0;}
+		.four-col li {padding:0 0 0 20px; line-height:1.5em;}
+		
+		.browse-all  {padding:0 0 0 7px;}
+	
+	/* Normal Page */
+	
+		#crumbs      {margin-bottom:10px;}
+		
+		.one-col     {width:838px; min-height:400px; margin:0 auto -39px; padding:20px 30px 30px; background: url(../img/one-col-bg.png) left top repeat-y; position:relative;}
+		.one-col-top {width:895px; height:17px; position:absolute; top:0; left:0; background: url(../img/one-col-top.png) left top no-repeat;}
+		.one-col-btm {width:895px; height:39px; position:absolute; bottom:0; left:0; background: url(../img/one-col-btm.png) left top no-repeat;}
+	
+		table       {margin-top:20px; width:835px;}
+		tr:hover td {background:#e7e4d7;}
+		th          {text-align:left; font-size:1.5em;}
+		th,td       {padding:15px 20px;}
+		
+		.gray    {background:#efefef;}
+		.gray td {background:#efefef;}
+		.column1 {width:400px;}
+
+	/* FAQ */
+	
+		.question, .answer {min-height:30px;}
+		.question    {background:url(../img/question-bg.png) top left no-repeat; padding:10px 0 0 70px; margin-top:20px;}
+		.question h2 {color:#000;}
+		.answer      {background:url(../img/answer-bg.png) top left no-repeat; padding:10px 0 0 70px; margin-top:20px;}
+		
+		#question-form {padding:20px 0 0 70px;}
+		.btn-answer    {background:url(../img/btn-answer.png) left top no-repeat;}
+		.btn-edit      {background:url(../img/btn-edit.png) left top no-repeat;}
+		.btn-answer,
+		.btn-edit      {cursor:pointer;height:28px; width:74px; border:none; text-indent:-9999px;}
+		.btn-answer:hover,
+		.btn-edit:hover      {background-position:left bottom;}
+
+/*  @Footer
+----------------------------------------------------------------------*/
+
+	#footer        {height:50px; background:#222 url(../img/footer-top.png) repeat-x top left;padding-top:60px; color:#5f5f5f;}
+	#footer a      {color:#555; border-bottom:1px dotted;}
+	#footer a:hover{color:#999; border-bottom:1px dotted #8a1f1f;}
+	#footer-nav    {float:right;}
+	#footer-nav li {display:inline; padding:0 3px;}
+
+/*  @Global Classes
+----------------------------------------------------------------------*/
+
+	.right   {float:right;}
+	.left    {float:left;}
+	.clear   {clear:both;}
+	.hide    {display:none;}
+	
+	.center  {width:925px; margin:0 auto;}
+	
+	

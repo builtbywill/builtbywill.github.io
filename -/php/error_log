@@ -1,0 +1,1 @@
+[12-Nov-2012 16:27:04] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in /home2/willgrau/public_html/-/php/mail.php on line 2

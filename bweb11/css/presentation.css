@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, textarea, input {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+	}
+	
+	html, body                 {height:100%;}
+	:focus                     {outline: 0;}
+	ul                         {list-style:none;}
+	
+	
+	/*
+	General
+	------------------------------------------------------------------------------------------------------------*/
+	html {}
+	body {
+		background:#444;
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0.01, rgb(74,74,74)),
+			color-stop(0.51, rgb(102,102,102))
+		);
+		background-image: -moz-linear-gradient(
+			center bottom,
+			rgb(74,74,74) 1%,
+			rgb(102,102,102) 51%
+		);
+	
+		color:#fff; /*overflow:hidden;*/ 
+		text-shadow:0 2px 3px rgba(0,0,0,0.5);
+		font:normal 14px/1.2 Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	
+	h1, h2, h3, h4 {font-weight:normal; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+	h1 {font-size:5em; text-align:center; margin:1em 0; color:#fff;}
+	h2 {font-size:4em; color:#00cccc;}
+	h3 {font-size:3em; color:#bbb;}
+	h4 {font-size:2em; margin:.5em 0;}
+	
+	p, ul ul {margin:.5em 0; font:normal 2em/1.2 Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+	
+	ul ul {list-style:outside circle;padding:0 0 0 1em;}
+	ul ol {list-style:outside decimal;}
+	ul ul li {margin:.5em 0;}
+	ul ol li {margin:.5em 0; font-size:80%; margin-left:30px;}
+	ul ol code {font-size:80%;}
+	
+	pre {font-size:1.2em; color:#fff;}
+	
+	a {text-decoration:none; color:#00ffff; border-bottom:1px dashed #fff; 
+		-moz-transition:all 0.20s; -webkit-transition:all 0.20s;
+		transition:all 0.20s;
+	}
+	a:hover {color:#fff;}
+	abbr, acronym   {cursor:help; border-bottom:1px dashed;}
+	form            {margin:10px 0 0;}
+	
+	img {box-shadow:0 2px 3px rgba(0,0,0,0.5);}
+	
+	.center {margin:0 auto; display:block;}
+	
+	.red   {color:red;}
+	.green {color:green;}
+	.bold   {font-weight:bold;}
+	.italic {font-style:italic;}
+	
+	.slides {height:100%;}
+	.slide  {position:absolute; top:0; left:0; width:90%; padding:2% 5%; display:block; height:96%;}
+	
+	.pager      {position:fixed; bottom:0; left:0; width:100%; background:rgba(0,0,0,0.5);}
+	.pager li   {display:inline;}
+	.pager li a {display:block; float:left; padding:10px; border:none;}
+	.pager .current {background:rgba(255,255,255,0.5); color:#000;}
