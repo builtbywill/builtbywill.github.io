@@ -210,35 +210,7 @@
                         </ul>
                         <p class="icon icon-twitter"><a href="http://twitter.com/builtbywill" title="@builtbywill on twitter" target="_blank">@builtbywill</a></p>
                         <p class="icon icon-gmail">builtbywill [at] gmail.com</p>
-                        <?php //<p class="icon icon-phone">+1 574.286.6908</p> ?>
                     </div>
-                    <?php /*
-                    <div class="col-third">
-                    	<script type="text/javascript">
-						 var RecaptchaOptions = {
-							theme : 'white'
-						 };
-						 </script>
-                        <h3>quick contact</h3>
-                        <div id="message">
-							<?php if(!empty($_SESSION["errormsg"])) echo $_SESSION["errormsg"]; ?>
-							<?php if(!empty($_SESSION["message"])) echo $_SESSION["message"]; ?>
-                        </div>
-                        <form method="post" action="/-/php/mail.php" id="contact_form">
-                        	<div>
-                                <input id="name" type="text" name="name" value="<?php if(!empty($_SESSION["name"])) echo $_SESSION["name"];?>" placeholder="name"/>
-                                <input id="email" type="text" name="email" value="<?php if(!empty($_SESSION["email"])) echo $_SESSION["email"];?>" placeholder="email"/>
-                                <textarea id="comments" name="comments" rows="7" cols="6" placeholder="comments"><?php if(!empty($_SESSION["comments"])) echo $_SESSION["comments"];?></textarea>
-                                <?php
-								  require_once('-/php/captcha/recaptchalib.php');
-								  $publickey = "6Lc0sNESAAAAABCjq4XsIhaRwSl9fIkW7F1N1wPs"; // you got this from the signup page
-								  echo recaptcha_get_html($publickey);
-								?>
-                                <input type="submit" alt="submit" value="send" id="button"/>
-                           	</div>
-                        </form>
-                    </div>
-					*/ ?>
                     <div class="clear"></div>
                 </div>
             </li>
