@@ -31,17 +31,20 @@
         <ul id="content-list">
         	<li>
             	<a href="http://purdue.edu/studio">            		
-            		<p><img src="-/images/studio-by-purdue.png" alt="Studio by Purdue" /> I have worked for the ITaP Informatics Team at Purdue since 2009. Studio by Purdue is a showcase of our top projects including <em>Passport</em>, <em>Jetpack</em>, <em>Mixable</em> and <em>Hotseat</em>.<span class="clear"></span></p>
+            		<img src="-/images/studio-by-purdue.png" alt="Studio by Purdue" />
+                    <p>I have worked for the ITaP Informatics Team at Purdue since 2009. Studio by Purdue is a showcase of our top projects including <em>Passport</em>, <em>Jetpack</em>, <em>Mixable</em> and <em>Hotseat</em>.<span class="clear"></span></p>
                 </a>
             </li>
             <li>
             	<a href="/code/booklet/">	            	
-            		<p><img src="-/images/booklet.png" alt="Booklet jQuery Plugin" /> Booklet is a jQuery tool for displaying content on the web in a flipbook layout. View demos, installation instructions, and documentation.<span class="clear"></span></p>
+            		<img src="-/images/booklet.png" alt="Booklet jQuery Plugin" />
+                    <p>Booklet is a jQuery tool for displaying content on the web in a flipbook layout. View demos, installation instructions, and documentation.<span class="clear"></span></p>
                 </a>
             </li>
             <li>
             	<a href="http://github.com/builtbywill">	            	
-            		<p><img src="-/images/github.png" alt="github/builtbywill" /> Some of my personal side projects are hosted on github. Check out the <em>jQuery Booklet Plugin</em>, or view the full documentation above.<span class="clear"></span></p>
+            		<img src="-/images/github.png" alt="github/builtbywill" />
+                    <p>Some of my personal side projects are hosted on github. Check out the <em>jQuery Booklet Plugin</em>, or view the full documentation above.<span class="clear"></span></p>
                 </a>
             </li>
         </ul>

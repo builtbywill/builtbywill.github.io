@@ -24,10 +24,10 @@
 	
 	#content-list         {padding:45px 0 0;}
 	#content-list li      {display:inline;}
-	#content-list a       {display:block; clear:both; padding:35px 15px; text-decoration:none; border-bottom:2px solid #e6e6e6; color:#000;}
+	#content-list a       {display:block; clear:both; padding:35px 15px; text-decoration:none; border-bottom:2px solid #e6e6e6; color:#000;  transition:.25s; -webkit-transition:.25s;}
 	#content-list a:hover {color:#09F; border-bottom:2px solid #09F; transition:.25s; -webkit-transition:.25s;}
 	#content-list img     {float:left; margin:0 20px 0 0;}
-	#content-list p       {}
+	#content-list p       {padding-left:163px;}
 	
 	.clear {display:block; clear:both;}
 	
@@ -41,10 +41,11 @@
 	}
 	@media handheld, only screen and (max-width: 767px) {
 		header, #content, footer p {padding-left:20%; padding-right:20%;}
+		#content-list img {float:none; display:block; margin: 0 auto 10px;}
+		#content-list p   {padding-left:0;}
 	}
 	@media handheld, only screen and (max-width: 480px) {
 		header, #content, footer p {padding-left:10%; padding-right:10%;}
 	}
 	@media handheld, only screen and (max-width: 300px) {
-		#content-list img {float:none; display:block; margin: 0 auto 10px;}
 	}
