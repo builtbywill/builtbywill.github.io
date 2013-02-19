@@ -17,7 +17,7 @@
 <body>
 <?php include("-/php/analytics.php"); ?>
 	<header>
-    	<h1>Built By Will</h1>
+    	<h1><a href="/">Built By Will</a></h1>
         <ul>
         	<li><a href="#" title="builtbywill [at] gmail.com" id="gmail_link">gmail</a></li>
 	        <li><a href="http://twitter.com/builtbywill" title="@builtbywill" id="twitter_link">@builtbywill</a></li>

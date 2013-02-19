@@ -8,6 +8,8 @@
 	
 	header {padding-top:50px; background-color:#fff; height:200px;}
 	h1     {display:block; text-indent:-999em; width:185px; height:122px; background:url("../images/logo.png") no-repeat 0 0; margin:0 auto;}
+	h1 a   {display:block; width:185px; height:122px;}
+	h2     {font:700 25px/1.5em "Ubuntu", sans-serif;}
 	
 	header ul      {width:100px; margin:0 auto;}
 	header ul li   {display:inline;}	
@@ -15,12 +17,12 @@
 	#gmail_link    {background:url("../images/gmail.png") no-repeat 50% 50%;}
 	#twitter_link  {background:url("../images/twitter.png") no-repeat 50% 50%;}
 	
-	#content {background-color:#fff;}
+	#content {background-color:#fff; padding-bottom:100px;}
 	
 	#about     {background-color:#e6e6e6; border-radius:8px; padding:22px; box-shadow: inset 0 1px 1px #dbdbdb; position:relative; line-height:26px; text-shadow:0 1px 0 #fff;}	
 	#about img {position:absolute; right:-30px; bottom:-50px;}
 	
-	#content-list         {padding:45px 0 100px;}
+	#content-list         {padding:45px 0 0;}
 	#content-list li      {display:inline;}
 	#content-list a       {display:block; clear:both; padding:35px 15px; text-decoration:none; border-bottom:2px solid #e6e6e6; color:#000;}
 	#content-list a:hover {color:#09F; border-bottom:2px solid #09F; transition:.25s; -webkit-transition:.25s;}
