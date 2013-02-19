@@ -3,7 +3,7 @@
 /* @General
 ----------------------------------------*/
 
-	body {font:400 14px/1.2em "Ubuntu", sans-serif; overflow-x:hidden; padding:45px 0 0;}
+	body {font:400 14px/1.5em "Ubuntu", sans-serif; overflow-x:hidden; padding:45px 0 0;}
 	header, #content, footer p {padding-left:10%; padding-right:10%;}
 		
 	html, header, #content, aside {background-color:#4c9bc0;}
@@ -13,44 +13,51 @@
 	#donate-form {margin-right:20px;}
 	
 	header {padding-top:50px;}
-	h1     {display:block; text-indent:-999em; width:300px; height:69px; background:url("../images/booklet.png") no-repeat 0 0;}
+	h1     {display:block; text-indent:-999em; width:300px; height:69px; background:url("../images/booklet.png") no-repeat 0 0; float:left;}
 	
-	nav           {float:right; height:40px;}
+	nav           {float:right; padding-top:20px;}
 	nav li        {float:left;}
-	nav a         {display:block; color:#000; margin-left:25px; text-transform:lowercase; text-shadow:0px 1px 1px rgba(0,0,0,0.5); font-weight:bold; font-size:20px;}
+	nav a         {display:block; color:#fff; margin-left:25px; text-transform:lowercase; text-shadow:0px 1px 1px rgba(0,0,0,0.5); font-weight:bold; font-size:20px;}
 	nav a:hover   {color:#000; text-shadow:0 1px 0 #c1ebff;}
+	nav li:first-child a {margin:0;}
 	nav a.current {color:#222;  text-shadow:0px 1px 1px #c1ebff;}
 	
-	h2 {font-size:30px; line-height:2em; text-shadow:0 1px 0 #7ACEF5;}
-	h3 {font-size:25px; line-height:2em; text-shadow:0 1px 0 #7ACEF5;}
-	h4 {font-size:18px; line-height:2em; color:#fff; text-shadow:0px -1px 1px rgba(0, 0, 0, 0.25);}
-	h5 {line-height:2em; text-shadow:0 1px 0 #7ACEF5;}
+	h2 {font-size:30px; line-height:30px; text-shadow:0 1px 0 #7ACEF5; padding:0 0 0.5em;}
+	h3 {font-size:25px; text-shadow:0 1px 0 #7ACEF5; padding:0 0 0.5em;}
+	h4 {font-size:18px; color:#fff; padding:0 0 0.5em; text-shadow:0px -1px 1px rgba(0, 0, 0, 0.25);}
+	h5 {line-height:1em; padding:0 0 0.5em; text-shadow:0 1px 0 #7ACEF5;}
 	
-	#content   {padding-bottom:50px;}	
+	#content   {padding-bottom:50px; padding-top:20px;}	
 	#content p {padding:0 0 10px;}
 	#content a, aside a {color:#fff; text-shadow:0px -1px 1px rgba(0, 0, 0, 0.25);}
 	#content ul, aside ul {padding:0 0 0 10px; margin:0 0 20px 10px; line-height:20px; list-style:disc outside;}
+	#content ol {padding:0 0 0 10px; margin:0 0 20px 10px; line-height:20px;}
 	
 	#content.sub-content {padding-left:30%}
 
-	aside {float:left; width:20%; padding:0 0 50px 10%;}
-	aside h3 {font-size:20px; line-height:2.5em;}
+	aside {float:left; width:19%; padding:20px 1% 50px 10%;}
+	aside h3 {font-size:20px; line-height:1em; padding:0 0 10px;}
 	
-	.download-area {width:600px; margin:0 auto;}
+	.download-area {width:340px; margin:0 auto;}
 	
 	#download-btn {
-	border-radius:10px;
-    box-shadow:0 1px 2px #333;
-    background:#925C0E;
-    border:none;
-    display:block;
-    float:left;
-    padding:10px;
-    text-shadow:0 1px 2px #333; margin-right:20px;}
+		border-radius:10px;
+		box-shadow:0 1px 2px #333;
+		background:rgba(0,0,0,0.5);
+		border:none;
+		display:block;
+		padding:0.5em;
+		line-height:1.2em;
+		text-align:center;
+		text-shadow:0 1px 2px #333; 
+	}
 	
 	#download-btn:hover {
-	color:#efefef;
-	text-shadow: 0 -1px 0 #333;}
+		background:rgba(0,0,0,0.8);
+		color:#efefef;
+		text-shadow: 0 -1px 0 #333;}
+	
+	#download-btn span {display:block; font-size:14px; line-height:2em; font-weight:400;}
 	
 	.syntaxhighlighter, 
 	.syntaxhighlighter div, 
@@ -62,6 +69,56 @@
 	
 	.code-wrap {overflow:scroll; overflow-y:auto; background:#fff; margin-bottom:20px; width:auto;}
 	
+/* @Documentation Styling
+----------------------------------------*/
+	
+	.details {background:#fff; padding:20px; clear:both;}
+		
+	#content #tabs .toggle {float:right; color:#222;}
+		
+	#tabs {}
+	.ui-tabs-nav   {font-size:14px;}
+	.ui-tabs-panel {}
+	
+	.ui-tabs .ui-tabs-nav li a {display:block; border-bottom:0;}
+	.ui-tabs .ui-tabs-nav li.ui-state-active a {background:#fff; color:#000 !important;}
+	
+	.ui-tabs .ui-tabs-panel {padding:1em 0 !important;}
+	
+	#content #tabs h2 {text-shadow:none;}
+	
+	#content #tabs .list {margin:0; padding:0;}
+	#content #tabs .list > li {float:left; width:100%; clear:both; list-style:none; background:#fff;}
+	
+	#content #tabs pre {overflow:auto;}
+
+	#content #tabs .section-name {padding:0 0 0 20px; margin:0; border-top:1px solid #eee; border-bottom:1px solid #ddd; font-size:20px; line-height:40px; height:40px;  text-shadow:none;}
+
+	#content #tabs .header {background:#efefef; border-top:1px solid #ddd; height:40px; line-height:40px; font-size:13px;}
+	#content #tabs .header:hover {background:#f4f4f4; cursor:pointer;}
+	
+	#content #tabs .name   {float:left; margin:0 0 0 20px; padding:0; text-shadow:none; line-height:40px; font-size:16px;}
+	
+	.header dl {float:right; width:50%; margin:0; padding:0;}
+	.header dt {float:left; color:#888; padding-right:10px;}
+	.header dd {float:left; margin:0; color:#222;}
+
+	.option-type-label    {display:none;}
+	.option-type          {width:35%; padding-right:10px;}
+	.option-default-label {}
+	.option-default       {}
+		
+	.description {padding:0 20px;}
+	.description p {margin:1em 0;}
+		
+	.examples {padding:0 20px 10px;}
+	
+	.examples h4 {color:#000;}
+	
+	.examples dl {}
+	.examples dt {}
+	.examples dd {margin:0; padding:0 0 0 20px;}
+	
 /* @Booklet Styling
 ----------------------------------------*/
 
@@ -71,20 +128,47 @@
 
 	#content .booklet a        {color:#006699; text-decoration:none;}
 	#content .booklet a:hover  {border-bottom:1px dotted;}
-	#content .booklet ul       {font-size:12px; padding:0; margin:0 0 20px 10px; line-height:20px; color:#524f4a; list-style:disc outside;}
+	#content .booklet ul       {font-size:12px; margin:0 0 20px 10px; line-height:20px; color:#524f4a; list-style:disc outside;}
     #content .booklet h2,
     #content .booklet h3 {font-size:20px;height:auto;text-shadow:none;}
-    #content .booklet h4 {color:#444;}
+    #content .booklet h4 {color:#444; text-shadow:none;}
     #content .booklet p  {font-size:12px; padding:0 0 10px; line-height:20px; color:#524f4a;}
 	
 	#content .booklet q  {display:block; width:200px; font-size:18px; font-weight:bold; font-style:italic;}
 	
 /* @Responsive Design
-----------------------------------------
+----------------------------------------*/
 
-	@media only screen and (min-width: 1260px) {
-		header, #content, footer p {padding-left:30%; padding-right:30%;}
+	@media only screen and (max-width: 1125px) {
+		header {padding-top:5%;}
+		header, #content, footer p {padding-left:5%; padding-right:5%;}
+		aside {width:19%; padding:20px 1% 50px 5%;}
+		#content.sub-content {padding-left:25%}
+		nav {clear:left; float:left;}
 	}
+	@media only screen and (max-width: 768px) {
+		header, #content, footer p {padding-left:5%; padding-right:5%;}
+		aside {width:19%; padding:20px 1% 20px 5%;}
+		#content.sub-content {padding-left:25%}
+		nav {float:none;}
+		nav li {float:none; display:block;}
+		nav li a {margin:0;}		
+	}
+	@media handheld, only screen and (max-width: 480px) {
+		aside {float:none; width:90%; padding:20px 5% 10px;}
+		#content.sub-content {float:none; padding-left:5%}
+		.download-area {width:90%; margin:0 auto;}
+	}
+	@media handheld, only screen and (max-width: 368px) {
+		.ui-tabs .ui-tabs-nav li a {padding:0.5em !important;}
+		#content #tabs .name {line-height:25px;}
+		#content #tabs .header {height:50px; line-height:25px;}
+		.header dl {width:93%;}
+	}
+	@media handheld, only screen and (max-width: 300px) {
+		
+	}
+	/*
 	@media handheld, only screen and (max-width: 767px) {
 		header, #content, footer p {padding-left:20%; padding-right:20%;}
 	}
@@ -94,4 +178,4 @@
 	@media handheld, only screen and (max-width: 300px) {
 		#content-list img {float:none; display:block; margin: 0 auto 10px;}
 	}
-*/
+	*/

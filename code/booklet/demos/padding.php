@@ -25,13 +25,13 @@
                 <h3>Yay, Page 1!</h3>
             </div>
             <div> 
-                <img src="../images/LargeThumbnail.jpg" width="100%" height="100%" alt="" />
+                <img src="../-/images/sample-booklet-image.png" width="100%" height="100%" alt="" />
             </div>
             <div> 
                 <h3>Yay, Page 3!</h3>
             </div>
             <div> 
-                <img src="../images/LargeThumbnail.jpg" width="100%" height="100%" alt="" />
+                <img src="../-/images/sample-booklet-image.png" width="100%" height="100%" alt="" />
             </div>
         </div>
         <div class="code-wrap">
@@ -48,13 +48,13 @@
                 <h3>Yay, Page 1!</h3>
             </div>
             <div> 
-                <img src="../images/LargeThumbnail.jpg" width="100%" height="100%" alt="" />
+                <img src="../-/images/sample-booklet-image.png" width="100%" height="100%" alt="" />
             </div>
             <div> 
                 <h3>Yay, Page 3!</h3>
             </div>
             <div> 
-                <img src="../images/LargeThumbnail.jpg" width="100%" height="100%" alt="" />
+                <img src="../-/images/sample-booklet-image.png" width="100%" height="100%" alt="" />
             </div>
         </div>
         <div class="code-wrap">

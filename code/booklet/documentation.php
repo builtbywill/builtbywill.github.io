@@ -5,56 +5,8 @@
     <title>Documentation - Booklet - jQuery Plugin</title>
     <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
 	<?php include("-/includes/scripts.php"); ?>
-	<link href="src/jquery-ui/base/jquery.ui.tabs.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
-   
-	<style type="text/css">
-	
-		.details {background:#fff; padding:20px; clear:both;}
-		
-		#content #tabs .toggle {float:right; color:#222;}
-			
-		#tabs {}
-		.ui-tabs-nav   {font-size:14px;}
-		.ui-tabs-panel {}
-		
-		.ui-tabs .ui-tabs-nav li a {display:block; border-bottom:0;}
-		.ui-tabs .ui-tabs-nav li.ui-state-active a {background:#fff; color:#000 !important;}
-		
-		.ui-tabs .ui-tabs-panel {padding:1em 0;}
-		
-		#content #tabs h2 {text-shadow:none;}
-		
-		#content #tabs .list {margin:0; padding:0;}
-		#content #tabs .list > li {float:left; width:100%; clear:both; list-style:none; background:#fff;}
-		
-			#content #tabs .section-name {padding:0 0 0 20px; margin:0; border-top:1px solid #eee; border-bottom:1px solid #ddd; font-size:20px; line-height:40px; height:40px;  text-shadow:none;}
-		
-			#content #tabs .header {background:#efefef; border-top:1px solid #ddd; height:40px; line-height:40px; font-size:13px;}
-			#content #tabs .header:hover {background:#f4f4f4; cursor:pointer;}
-			
-			#content #tabs .name   {float:left; margin:0 0 0 20px; padding:0; text-shadow:none; line-height:40px; font-size:16px;}
-			
-			.header dl {float:right; width:50%; margin:0; padding:0;}
-			.header dt {float:left; color:#888; padding-right:10px;}
-			.header dd {float:left; margin:0; color:#222;}
+	<link href="/-/js/jquery-ui/base/jquery.ui.tabs.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
 
-			.option-type-label    {display:none;}
-			.option-type          {width:35%; padding-right:10px;}
-			.option-default-label {}
-			.option-default       {}
-				
-			.description {padding:0 20px;}
-			.description p {margin:1em 0;}
-				
-			.examples {padding:0 20px 10px;}
-			
-			.examples h4 {color:#000;}
-			
-			.examples dl {}
-			.examples dt {}
-			.examples dd {margin:0; padding:0 0 0 20px;}
-			
-    </style>
 	<script type="text/javascript">
 	$(function() {
 		$("#tabs").tabs();

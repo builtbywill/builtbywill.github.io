@@ -1,5 +1,7 @@
     <meta name="description" content="Booklet - jQuery Plugin" />
     <meta name="keywords" content="booklet, jquery, plugin, page flip, page turn, flipbook" /> 
+    <meta name="author" content="Built By Will"/>
+    <meta name="copyright" content="&copy; <?php echo date("Y") ?> Built By Will"/>
        
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
        
@@ -25,7 +27,7 @@
     <link href="/code/booklet/src/jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
     
     <!--[if lte IE 6]>
-    <script src="/code/booklet/-/js/DD_belatedPNG.js" type="text/javascript"></script>
+    <script src="/-/js/DD_belatedPNG.js" type="text/javascript"></script>
     <script type="text/javascript">  
         DD_belatedPNG.fix("h1 a, .b-shadow-f, .b-shadow-b, .b-p0, .b-p3, .b-arrow-next div, .b-arrow-prev div");  
     </script>  

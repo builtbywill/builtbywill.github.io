@@ -26,27 +26,12 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://builtbywill.com/#projects</loc>
+  <loc>http://builtbywill.com/code/booklet/documentation</loc>
   <priority>0.80</priority>
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://builtbywill.com/#about</loc>
-  <priority>0.80</priority>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://builtbywill.com/#contact</loc>
-  <priority>0.80</priority>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://builtbywill.com/code/booklet/options</loc>
-  <priority>0.80</priority>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://builtbywill.com/code/booklet/examples/</loc>
+  <loc>http://builtbywill.com/code/booklet/demos/</loc>
   <priority>0.80</priority>
   <changefreq>daily</changefreq>
 </url>

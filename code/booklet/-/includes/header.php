@@ -9,10 +9,11 @@
         <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"  onClick="_gaq.push(['_trackPageview', '/donate'])">
         <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
-        <a class="left" href="/">go to builtbywill.com</a>
+        <a class="left" href="/">&laquo; go to builtbywill.com</a>
         <div class="clear"></div>
 	</div>
     <header>
+        <h1><a href="/code/booklet/">Booklet - jQuery Plugin</a></h1>
         <nav>
             <ul>
                 <li><a href="/code/booklet/">Home</a></li>
@@ -22,5 +23,5 @@
                 <li><a href="/code/booklet/changelog">Change Log</a></li>
             </ul>
         </nav>
-        <h1><a href="/code/booklet/">Booklet - jQuery Plugin</a></h1>
+        <div class="clear"></div>
     </header>

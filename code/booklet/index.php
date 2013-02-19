@@ -20,8 +20,7 @@
         <h2>what is it?</h2>        
         <p>Booklet is a jQuery tool for displaying content on the web in a flipbook layout.
         It was built using the <a href="http://jquery.com/">jQuery library</a>.
-        Licensed under both <a href="http://docs.jquery.com/Licensing">MIT and GPL licenses</a>.</p>
-        <p>Want to check out the source? Take a look at the project's <a href="https://github.com/builtbywill/Booklet" rel="external">github repo</a>.</p>
+        Licensed under both <a href="http://docs.jquery.com/Licensing">MIT and GPL licenses</a>. Want to check out the source? Take a look at the project's <a href="https://github.com/builtbywill/Booklet" rel="external">GitHub Repository</a>.</p>
                 
         <h2>see it work</h2>        
         <div id="mybook">
@@ -54,18 +53,20 @@
                 </ul>      
             </div>
             <div>
-                <img src="-/images/LargeThumbnail.jpg" width="100%" height="100%" alt="" />
+                <img src="-/images/sample-booklet-image.png" width="100%" height="100%" alt="" />
             </div>
         </div>
     
         <h2>try it out!</h2> 
         <div class="download-area">   
-            <h3><a href="/code/booklet/src/jquery.booklet.1.4.1.zip" onClick="_gaq.push(['_trackPageview', '/download/1.4.1'])" id="download-btn">Download jQuery Booklet</a></h3>        
-            <p>Current Version: <strong>1.4.1</strong><br />
-                Download Size: <strong>144KB</strong><br />
-                Minified Script Size: <strong>33KB</strong>
-            </p>        
-            <p><a href="changelog">View Change Log</a></p>
+            <h3><a href="/code/booklet/src/jquery.booklet.1.4.1.zip" onClick="_gaq.push(['_trackPageview', '/download/1.4.1'])" id="download-btn">
+            	Download jQuery Booklet
+                <span>
+                v1.4.1 
+                &bull; 
+                144KB
+                </span>
+            </a></h3>
         </div>
  
     </section>
