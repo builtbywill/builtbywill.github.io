@@ -1,6 +1,8 @@
     <meta name="description" content="Booklet - jQuery Plugin" />
     <meta name="keywords" content="booklet, jquery, plugin, page flip, page turn, flipbook" /> 
        
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+       
     <!-- syntax highlighter -->
     <script src="/-/js/syntaxhighlighter/scripts/shCore.js" type="text/javascript"></script>
     <script src="/-/js/syntaxhighlighter/scripts/shBrushXml.js" type="text/javascript" ></script>
@@ -12,12 +14,12 @@
     </script>
     
     <!-- page css -->
-    <link href="/-/css/base.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
-    <link href="/-/css/booklet.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
+    <link href="/-/css/common.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
+    <link href="/code/booklet/-/css/booklet.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
     
     <!-- required files for booklet -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js" type="text/javascript"></script>
     <script src="/code/booklet/src/jquery.easing.1.3.js" type="text/javascript"></script>
     <script src="/code/booklet/src/jquery.booklet.latest.js" type="text/javascript"></script>
     <link href="/code/booklet/src/jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />

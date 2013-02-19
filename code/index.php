@@ -1,1 +1,1 @@
-<? header("location: /#code"); ?>
+<?php header("location: /"); ?>

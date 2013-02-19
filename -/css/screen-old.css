@@ -18,7 +18,7 @@ General
 	form            {margin:10px 0 0;}
 	
 	input[type="text"] {width:271px; height:26px; line-height:26px; margin:0 0 20px 0; padding: 7px 10px; border:4px solid #1A3F4F; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
-	textarea {margin:0 0 20px 0; width:271px; height:123px; padding:10px; border:4px solid #1A3F4F; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+	textarea {margin:0 0 20px 0; width:271px; height:100px; padding:10px; border:4px solid #1A3F4F; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
 	
 	.description .btn, #button {padding:4px 7px 12px; width:90px; height:43px; color:#000; font-weight:bold; text-align:center; cursor:pointer; background:url(../img/sprite-01.png) no-repeat -300px -300px;}
 	.description .btn          {display:block; border:none !important; width:75px; height:25px; padding-top:9px; float:right; marg sin-top:5px;}
@@ -212,6 +212,9 @@ Structure
 	
 	.message {color:#fff; font-weight:bold; font-size:16px;}
 	.errormessage {color:#d24d19; font-weight:bold; font-size:16px;}
+	
+	#recaptcha_widget_div {margin-bottom:20px;}
+	.recaptchatable #recaptcha_response_field {background:#fff !important; color:black !important; line-height:16px !important; height:15px !important;}
 	
 	#fancybox-close {border:none;}
 	#fancybox-title {padding:10px; text-align:left; color:#fff; font-weight:bold; opacity:0.7;}

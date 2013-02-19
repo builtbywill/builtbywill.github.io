@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Documentation - Booklet - jQuery Plugin</title>
@@ -17,8 +17,10 @@
 		.ui-tabs-nav   {font-size:14px;}
 		.ui-tabs-panel {}
 		
-		.ui-tabs .ui-tabs-nav li a {border-bottom:0;}
-		.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {background:#fff; color:#000;}
+		.ui-tabs .ui-tabs-nav li a {display:block; border-bottom:0;}
+		.ui-tabs .ui-tabs-nav li.ui-state-active a {background:#fff; color:#000 !important;}
+		
+		.ui-tabs .ui-tabs-panel {padding:1em 0;}
 		
 		#content #tabs h2 {text-shadow:none;}
 		
@@ -75,30 +77,10 @@
 	});
     </script>
 </head>
-<body class="day">
-	<?php include("-/includes/bar.php"); ?>
-    <div id="header">
-        <div class="wrap">
-            <h1><a href="./">Booklet</a></h1>
-            <ul id="nav">
-                <li><a href="./">Home</a></li>
-                <li><a href="installation">Installation</a></li>
-                <li><a href="documentation" class="current">Documentation</a></li>
-                <li><a href="demos/">Demos</a></li>
-                <li><a href="changelog">Change Log</a></li>
-            </ul>
-        </div>
-    </div>
-    <div id="content">
-        <div class="wrap">    	
-            <div class="col-2">        	
-                <h2>documentation</h2>
-            </div>
-        </div>
-        <div class="clear"></div>
-        <div class="wrap">
-            <div class="col-5">
-
+<body>
+	<?php include("-/includes/header.php"); ?>
+    <section id="content">      	
+        <h2>documentation</h2>
 		<div id="tabs">
 		<ul>
 			<li><a href="#tabs-1">Options</a></li>
@@ -2260,13 +2242,9 @@ $(".selector").booklet( "option", "shadowBtmWidth", 100 );</code></pre>
 				</li>
 			</ul>
 		</div>
-                </div>
-
-
-            </div>  
-        	<div class="clear"></div>
-        </div>    
-</div>
+        </div>
+        <div class="clear"></div>
+</section>
 <?php include("../../-/php/footer.php"); ?>
 <?php include("../../-/php/analytics.php"); ?>
 </body>

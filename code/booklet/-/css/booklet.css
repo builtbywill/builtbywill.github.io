@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/* @General
+----------------------------------------*/
+
+	body {font:400 14px/1.2em "Ubuntu", sans-serif; overflow-x:hidden; padding:45px 0 0;}
+	header, #content, footer p {padding-left:10%; padding-right:10%;}
+		
+	html, header, #content, aside {background-color:#4c9bc0;}
+		
+	#bar         {font-size:12px; background:#000; position:absolute; top:0; left:0; width:100%; border-bottom:1px solid #c1ebff; padding:10px 0;}
+	#bar a       {margin-left:20px; color:#fff;}
+	#donate-form {margin-right:20px;}
+	
+	header {padding-top:50px;}
+	h1     {display:block; text-indent:-999em; width:300px; height:69px; background:url("../images/booklet.png") no-repeat 0 0;}
+	
+	nav           {float:right; height:40px;}
+	nav li        {float:left;}
+	nav a         {display:block; color:#000; margin-left:25px; text-transform:lowercase; text-shadow:0px 1px 1px rgba(0,0,0,0.5); font-weight:bold; font-size:20px;}
+	nav a:hover   {color:#000; text-shadow:0 1px 0 #c1ebff;}
+	nav a.current {color:#222;  text-shadow:0px 1px 1px #c1ebff;}
+	
+	h2 {font-size:30px; line-height:2em; text-shadow:0 1px 0 #7ACEF5;}
+	h3 {font-size:25px; line-height:2em; text-shadow:0 1px 0 #7ACEF5;}
+	h4 {font-size:18px; line-height:2em; color:#fff; text-shadow:0px -1px 1px rgba(0, 0, 0, 0.25);}
+	h5 {line-height:2em; text-shadow:0 1px 0 #7ACEF5;}
+	
+	#content   {padding-bottom:50px;}	
+	#content p {padding:0 0 10px;}
+	#content a, aside a {color:#fff; text-shadow:0px -1px 1px rgba(0, 0, 0, 0.25);}
+	#content ul, aside ul {padding:0 0 0 10px; margin:0 0 20px 10px; line-height:20px; list-style:disc outside;}
+	
+	#content.sub-content {padding-left:30%}
+
+	aside {float:left; width:20%; padding:0 0 50px 10%;}
+	aside h3 {font-size:20px; line-height:2.5em;}
+	
+	.download-area {width:600px; margin:0 auto;}
+	
+	#download-btn {
+	border-radius:10px;
+    box-shadow:0 1px 2px #333;
+    background:#925C0E;
+    border:none;
+    display:block;
+    float:left;
+    padding:10px;
+    text-shadow:0 1px 2px #333; margin-right:20px;}
+	
+	#download-btn:hover {
+	color:#efefef;
+	text-shadow: 0 -1px 0 #333;}
+	
+	.syntaxhighlighter, 
+	.syntaxhighlighter div, 
+	.syntaxhighlighter code, 
+	.syntaxhighlighter table, 
+	.syntaxhighlighter table td, 
+	.syntaxhighlighter table tr, 
+	.syntaxhighlighter table tbody {font-size:12px !important;}
+	
+	.code-wrap {overflow:scroll; overflow-y:auto; background:#fff; margin-bottom:20px; width:auto;}
+	
+/* @Booklet Styling
+----------------------------------------*/
+
+    #menu     {margin:0 auto; width:1080px; height:65px; padding:0; position:relative;}
+    #mybook,
+    #mybook2   {margin:40px auto 20px;}
+
+	#content .booklet a        {color:#006699; text-decoration:none;}
+	#content .booklet a:hover  {border-bottom:1px dotted;}
+	#content .booklet ul       {font-size:12px; padding:0; margin:0 0 20px 10px; line-height:20px; color:#524f4a; list-style:disc outside;}
+    #content .booklet h2,
+    #content .booklet h3 {font-size:20px;height:auto;text-shadow:none;}
+    #content .booklet h4 {color:#444;}
+    #content .booklet p  {font-size:12px; padding:0 0 10px; line-height:20px; color:#524f4a;}
+	
+	#content .booklet q  {display:block; width:200px; font-size:18px; font-weight:bold; font-style:italic;}
+	
+/* @Responsive Design
+----------------------------------------
+
+	@media only screen and (min-width: 1260px) {
+		header, #content, footer p {padding-left:30%; padding-right:30%;}
+	}
+	@media handheld, only screen and (max-width: 767px) {
+		header, #content, footer p {padding-left:20%; padding-right:20%;}
+	}
+	@media handheld, only screen and (max-width: 480px) {
+		header, #content, footer p {padding-left:10%; padding-right:10%;}
+	}
+	@media handheld, only screen and (max-width: 300px) {
+		#content-list img {float:none; display:block; margin: 0 auto 10px;}
+	}
+*/
