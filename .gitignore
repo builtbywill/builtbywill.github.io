@@ -183,6 +183,8 @@ $RECYCLE.BIN/
 .DS_Store
 
 _notes
+_notes/
+_notes/*
 
 #############
 ## Python

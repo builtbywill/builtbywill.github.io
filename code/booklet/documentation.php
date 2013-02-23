@@ -1718,7 +1718,7 @@ $(".selector").booklet( "option", "shadowTopFwdWidth", 100 );</code></pre>
 				</li>
 				<li>
 					<div class="header">
-						<h3 class="name">shadowTopFwdWidth</h3>
+						<h3 class="name">shadowTopBackWidth</h3>
 						<dl>
 							<dt class="option-type-label">Type:</dt>
 							<dd class="option-type"><span>Number</span></dd>
@@ -1727,25 +1727,25 @@ $(".selector").booklet( "option", "shadowTopFwdWidth", 100 );</code></pre>
 						</dl>
 					</div>
 					<div class="description">
-						<p>The width of the top forward animation shadow. Only change if you change the shadow images.</p>
+						<p>The width of the top back animation shadow. Only change if you change the shadow images.</p>
 					</div>
 					<div class="examples">
 					    <h4>Code examples</h4>
 					    <dl class="examples-list">
 							<dt>
-							  Initialize booklet with the <code>shadowTopFwdWidth</code> option.
+							  Initialize booklet with the <code>shadowTopBackWidth</code> option.
 							</dt>
 							<dd>
-								<pre><code>$(".selector").booklet({ shadowTopFwdWidth: 100 });</code></pre>
+								<pre><code>$(".selector").booklet({ shadowTopBackWidth: 100 });</code></pre>
 								</dd>
 								<dt>
-								  Get or set the <code>shadowTopFwdWidth</code> option, after init.
+								  Get or set the <code>shadowTopBackWidth</code> option, after init.
 								</dt>
 							<dd>
 							<pre><code>//getter
-var shadowTopFwdWidth = $(".selector").booklet( "option", "shadowTopFwdWidth" );
+var shadowTopBackWidth = $(".selector").booklet( "option", "shadowTopFwdWidth" );
 //setter
-$(".selector").booklet( "option", "shadowTopFwdWidth", 100 );</code></pre>
+$(".selector").booklet( "option", "shadowTopBackWidth", 100 );</code></pre>
 							</dd>
 						</dl>
 					</div>
