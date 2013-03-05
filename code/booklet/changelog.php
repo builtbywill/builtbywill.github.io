@@ -11,6 +11,15 @@
     <section id="content">       	
         <h2>change log</h2>
     
+        <h3>1.4.2</h3>
+        <h4>February 24, 2013</h4>
+        <h5>Updates</h5>
+        <ul>
+            <li>Added a simple self-contained example.</li>
+            <li>Fixed bug with white ghosting lines appearing while animating.</li>
+            <li>Updated License and Version Files.</li>
+        </ul>
+    
         <h3>1.4.1</h3>
         <h4>February 17, 2013</h4>
         <h5>Bug Fixes</h5>
