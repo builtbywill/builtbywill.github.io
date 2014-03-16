@@ -10,9 +10,9 @@
  	<title>404 - Built By Will - Design + Development</title>
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<link rel="stylesheet" href="-/css/common.css" />
-    <link rel="stylesheet" href="-/js/jquery.qtip.min.css" />
-    <link rel="stylesheet" href="-/css/screen.css" />
+	<link rel="stylesheet" href="/-/css/common.css" />
+    <link rel="stylesheet" href="/-/js/jquery.qtip.min.css" />
+    <link rel="stylesheet" href="/-/css/screen.css" />
 </head>	
 <body>
 <?php include("-/php/analytics.php"); ?>
