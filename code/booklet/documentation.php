@@ -6,7 +6,7 @@
 <?php template_start_close(); ?>
 
         <h2>documentation</h2>
-        <p>version 1.4.3</p>
+        <p>version 1.4.4</p>
 		<div id="tabs">
 		<ul>
 			<li><a href="#tabs-1">Options</a></li>
