@@ -9,3 +9,5 @@ RewriteCond %{HTTP_HOST} ^willgrauvogel.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www.willgrauvogel.com$
 RewriteRule ^/?$ "http\:\/\/builtbywill\.com" [R=301,L]
 
+RedirectMatch 404 /\.git
+
