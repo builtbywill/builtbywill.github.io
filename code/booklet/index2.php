@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Booklet - jQuery Plugin</title>
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<?php include("-/includes/head.php"); ?>
-</head>
-<body>
-	<?php include("-/includes/header.php"); ?>
-    <section id="content">         	
+<?php include("-/includes/template_start.php"); ?>
+
         <h2>what is it?</h2>        
         <p>Booklet is a jQuery tool for displaying content on the web in a flipbook layout.
         It was built using the <a href="http://jquery.com/">jQuery library</a>.
