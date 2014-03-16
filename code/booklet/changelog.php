@@ -5,6 +5,15 @@
         <h2>change log</h2>
         <p>Interested in following current development or seeing what code changed? Check out Booklet on <a href="https://github.com/builtbywill/Booklet" rel="external">GitHub</a>.</p>
     
+        <h3>1.4.4</h3>
+        <h4>March 16, 2014</h4>
+        <h5>Updates</h5>
+        <ul>
+            <li>Fixed errors caused by outdated checks for IE.</li>
+            <li>Fixed issue with setting option values to "true" or "false".</li>
+            <li>Other minor updates and code clean-up.</li>
+        </ul>
+            
         <h3>1.4.3</h3>
         <h4>March 2, 2014</h4>
         <h5>Updates</h5>
