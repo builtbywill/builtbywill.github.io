@@ -186,6 +186,8 @@ _notes
 _notes/
 _notes/*
 
+cgi-bin
+
 #############
 ## Python
 #############
