@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body     {background:#fff; font:normal 14px/20px Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+	textarea {font:normal 14px/20px Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+	#wrap    {width:1000px; margin:0 auto;}
+
+	
+	/*
+	 * Editor Styles
+	-----------------------------------------------------------------------------------------------------------------------------*/
+	
+	#via-editor {}
+		#via-editor textarea      {display:block; padding:0; margin:0; /*overflow:hidden;*/}
+		#via-editor .b-wrap-left  {background:#f6f6f6 url(../images/left-page.gif) repeat-y 100% 0;}
+		#via-editor .b-wrap-right {background:#f6f6f6 url(../images/right-page.gif) repeat-y 0 0;}
+		#via-editor .b-wrap-left,
+		#via-editor .b-wrap-right {border:1px solid #ccc; -moz-box-shadow:0 6px 10px rgba(0,0,0,0.5);}
+		
+	.via-page {}
+		.via-editable       {border:3px dashed #ccc; cursor:pointer; position:relative; -webkit-transition:all 0.25s; webkit-transition:all 0.25s;}
+		.via-editable:hover {border:3px dashed #aaa;}
+		.via-editing,
+		.via-editing:hover  {border:3px solid #ffb81c;}
+	
+		.via-text        {}
+			.via-text:focus  {border:none; outline:none;}
+			.via-text-static {}
+			.via-text-form   {display:none; background:none; border:none; width:100%; height:100%; margin:0;}
+			
+			.via-overflow {}
+		
+		.via-photo         {width:100%; height:100%; overflow:hidden; position:relative;}
+			.via-photo-img     {display:block;}
+			.via-photo-trigger {position:absolute; top:0; left:0;}	
+		
+		.via-photo-dialog  {}
+		.via-photo-wrap    {border:3px solid #ffb81c; overflow:hidden; position:relative;}
+		.via-photo-resizer {float:right;}
+		.via-photo-dialog  .ui-draggable {cursor:move;}
+	
+		
+	/*
+	 * Styles for current Template
+	-----------------------------------------------------------------------------------------------------------------------------*/
+	
+		.layout-title {padding:10px; margin-bottom:10px;}
+		.layout-title .via-text {font-size:20px; height:1.5em; line-height:1.5em; text-align:center;}
+		
+		.layout-content {padding:10px; margin-bottom:10px;}
+		.layout-content .via-text {font-size:15px; text-align:center;}
+		
+		.layout-fullpage {padding:10px; height: 540px;}
+		.layout-fullpage .via-text {font-size:15px; height:520px;}
+		
+		.layout-photo {height:300px; width:400px; margin:0 auto 10px;}
+		.layout-photo .via-photo-trigger {width:380px; height:280px; padding:10px; font-size:20px; text-align:center;}
+	

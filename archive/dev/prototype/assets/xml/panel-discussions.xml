@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+<!-- Nanoelectronic / Grid Computing Paricipation -->
+	<item type="nano">
+		<old>Pa 9</old>
+		<id>Pa_2007_2</id>
+		<authors>
+			<author />
+		</authors>
+		<title>Open Source Developments in Nanotechnology</title>
+		<text>Host and Moderator: Dr. Rajinder Khosla, NSF Program Director Panelists: Chuck Bouldin (NSF Program Director, DMR), Sandip Tiwari (Director NNIN), Gerhard Klimeck (NCN Associate Director) NSF nano Grantee's Meeting, Dec. 4th, 2007</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>Pa 8</old>
+		<id>Pa_2007_1</id>
+		<authors>
+			<author />
+		</authors>
+		<title>Quantum Electronics</title>
+		<text>Host and Moderator: Dr. Gerhard Klimeck, Panelists: Kang Wang, Dragica Vasileska, Dmitri Nikonov, and Susan Coppersmith,	NSF Workshop on Quantum, Molecular and High Performance Modeling and Simulation for Devices and Systems (QMHP), April 17, 2007.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>Pa 7</old>	
+		<id>Pa_2006_2</id>
+		<authors>
+			<author />
+		</authors>
+		<title>Cyber Infrastructure Roundtable Discussion, Host and Moderator: Ahmed Elmagarmid, Director Cyber Center</title>
+		<text>Panelists: Brian Wilson (SUN micorsystems, CTO), Gerhard Klimeck, Rudolf Eigenmann, David Ebert, Thomas J. Hacker</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>Pa 6</old>	
+		<id>Pa_2006_1</id>
+		<authors>
+			<author />
+		</authors>
+		<title>Nano Frontiers Workshop</title>
+		<text>by invitation only, Meeting sponsored by NSF, NIH, Pew Charitable Trust, Wilson Center for International Scholars, Feb. 9-10, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link url="http://www.nanotechproject.org/114/nanofrontiers-visions-for-the-future-of-nanotechnology" title="Nano Frontiers Report Website"/>
+			<link url="pubs_src/Pa06.pdf" title="Nano Frontiers Report PDF"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>Pa 5</old>
+		<id>Pa_2005_1</id>
+		<authors>
+			<author />
+		</authors>
+		<title>Panel Discussion:  Nanotechnology in the Americas</title>
+		<text>GNN 2005, 3rd International Workshop to Develop a Global Nanotechnology Network, May 25-27, 2005, Saarbr&#252;cken, Germany.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>Pa 4</old>
+		<id>Pa_2004_2</id>
+		<authors>
+			<author />
+		</authors>
+		<title>Panel discussion:  Interaction with Industry</title>
+		<text>2004 NSF Nanoscale Science and Engineering Grantees Conference, Washington, DC, Dec. 15, 2004.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>Pa 3</old>
+		<id>Pa_2004_1</id>
+		<authors>
+			<author />
+		</authors>
+		<title>Opportunities on International Collaborations on Grid Computing</title>
+		<text>Grid Forum Korea (GFK) Summer Workshop, Seoul, Korea, Aug. 26-27, 2004, Moderator: Prof. Chan-Hyun Youn (ICU, Korea).</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>Pa 2</old>
+		<id>Pa_2003_1</id>
+		<authors>
+			<author />
+		</authors>
+		<title>Bird of a Feather Panel on HPC Innovation for Nanotechnology</title>
+		<text>Supercomputing Conference 2003, Phoenix, AZ, November 16-21, 2003, Moderator: Dr. David Kahaner (ATIP, Japan).</text>
+		<date>2003</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>Pa 1</old>
+		<id>Pa_2000_1</id>
+		<authors>
+			<author />
+		</authors>
+		<title>Software Development at Academia, Government Labs, Industry</title>
+		<text>John Barker Agenda/Questions: How can the three share development? Possibly cooperation like designer chemistry software? What are the technical challenges? What is the software we are talking about anyways?, Glasgow, Scotland, UK, May 22-25, 2000, Moderator: Prof. John Barker (U. of Glasgow).</text>
+		<date>2000</date>
+		<links>
+			<link url="http://www.elec.gla.ac.uk/iwce7/main.html" title="International Workshop on Computational Electronics"/>
+		</links>
+	</item>	
+</items>

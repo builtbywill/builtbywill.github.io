@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+<!-- Conference Proceedings Publications -->
+<!-- Nanoelectronics, Genetic Algorithms, and Cluster Computing -->
+	<item type="nano">
+		<old>P113</old>
+		<id>P_2009_6</id> 
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Dragica Vasileska</author>
+		</authors>
+		<title>ABACUS and AQME: Semiconductor Device and Quantum Mechanics Education on nanoHUB.org</title>  
+		<text>to appear in IEEE proceedings of the 13th International Workshop on Computational Electronics, Tsinghua University, Beijing, May 27-29 2009</text>
+		<date>2009</date>
+		<links>
+			<link/>
+		</links>
+	</item>
+	<item type="nano">
+		<old>P112</old>
+		<id>P_2009_5</id>
+		<authors> 
+			<author>Sunhee Lee</author>
+			<author>Hoon Ryu</author>
+			<author>Zhengping Jiang</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Million Atom Electronic Structure on Peta-Scale Computers </title>  
+		<text>to appear in IEEE proceedings of the 13th International Workshop on Computational Electronics, Tsinghua University, Beijing, May 27-29 2009.</text>
+		<date>2009</date>
+		<links>
+			<link />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P111</old>
+		<id>P_2009_4</id>
+		<authors>
+			<author>Hoon Ryu</author>
+			<author>Sunhee Lee</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>A Study of Temperature-dependent Properties of n-type delta-doped Si Band-structures in Equilibrium</title>  
+		<text>to appear in IEEE proceedings of the 13th International Workshop on Computational Electronics, Tsinghua University, Beijing, May 27-29 2009.</text>
+		<date>2009</date>
+		<links>
+			<link />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P110</old>
+		<id>P_2009_3</id>
+		<authors> 
+			<author>Muhammad Usman</author>
+			<author>Hoon Ryu</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Quantum Confined Stark Shift and Ground State Optical Transition Rate in [100] Laterally Biased InAs/GaAs Quantum Dots</title>
+		<text>to appear in IEEE proceedings of the 13th International Workshop on Computational Electronics, Tsinghua University, Beijing, May 27-29 2009.</text>
+		<date>2009</date>
+		<links>
+			<link />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P109</old>
+		<id>P_2009_2</id>
+		<authors> 
+			<author>Abhijeet Paul</author>
+			<author>Saumitra Mehrotra</author>
+			<author>Mathieu Luisier</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>On the validity of the top of the barrier quantum transport model for ballistic nanowire MOSFETs</title> 
+		<text>to appear in IEEE proceedings of the 13th International Workshop on Computational Electronics, Tsinghua University, Beijing, May 27-29 2009.</text>
+		<date>2009</date>
+		<links>
+			<link />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P108</old>
+		<id>P_2009_1</id>
+		<authors>
+			<author>Abhijeet Paul</author>
+			<author>Saumitra Mehrotra</author>
+			<author>Mathieu Luisier</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Surface and Orientation dependence on performance of Trigated Silicon Nanowire pMOSFETs</title>
+		<text>proceedings of 7th IEEE Workshop on Microelectronics and Electron Devices (WMED 2009), Apr 03, 2009</text>
+		<date>2009</date>
+		<links>
+			<link />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P107</old>
+		<id>P_2008_18</id>
+		<authors>   
+			<author>Gabriel P. Lansbergen</author>
+			<author>Rajib Rahman</author>
+			<author>C.J. Wellard</author>
+			<author>P.E. Rutten</author>
+			<author>J.Caro</author>
+			<author>I. Woo</author>
+			<author>N.Colleart</author>
+			<author>S. Biesemans</author>
+			<author>Gerhard Klimeck</author>
+			<author>L.C.L. Hollenberg</author>
+			<author>Sven Rogge</author>
+		</authors>
+		<title>Determination of the eigenstates and wavefunctions of a single gated As donor</title>
+		<text>International Conference on Nanoscience and Nanotechnology, ICONN 2008, Feb. 25-29, 2008, Page(s):164-167</text>
+		<date>2008</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=4639272&amp;isnumber=4639211&amp;punumber=4634709&amp;k2dockey=4639272@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=2&amp;access=no" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/155/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1153&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P106</old>
+		<id>P_2008_17</id>
+		<authors>   
+			<author>Gerhard Klimeck</author>
+			<author>Mathieu Luisier</author>
+		</authors>
+		<title>From NEMO1D and NEMO3D to OMEN: moving towards atomistic 3-D quantum transport in nano-scale semiconductors</title>
+		<text>INVITED paper in IEEE IEDM, San Francisco, USA, Dec. 15-17, 2008</text>
+		<date>2008</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4796647" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/154/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1154&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P105</old>
+		<id>P_2008_16</id>
+		<authors>   
+			<author>Gabriel P. Lansbergen</author>
+			<author>Rajib Rahman</author>
+			<author>C.J. Wellard</author>
+			<author>J.Caro1</author>
+			<author>N.Collaert</author>
+			<author>S. Biesemans</author>
+			<author>Gerhard Klimeck</author>
+			<author>Lloyd C.L. Hollenberg</author>
+			<author>Sven Rogge</author>
+		</authors>
+		<title>Transport-based dopant mapping in advanced FinFETs</title>
+		<text>IEEE IEDM, San Francisco, USA, Dec. 15-17, 2008</text>
+		<date>2008</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4796794" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/153/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1155&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">		
+		<old>P104</old>
+		<id>P_2008_15</id>
+		<authors>
+			<author>Mathieu Luisier</author>
+			<author>Neophytos Neophytou</author>
+			<author>Neerav Kharche</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Full-Band and Atomistic Simulation of Realistic 40 nm InAs HEMT</title>
+		<text>IEEE IEDM, San Francisco, USA, Dec. 15-17, 2008</text>
+		<date>2008</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4796842" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/152/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1156&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P103</old>
+		<id>P_2008_14</id>
+		<authors>
+			<author>Mathieu Luisier</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>A multi-level parallel simulation approach to electron transport in nano-scale transistors</title>
+		<text>Supercomputing 2008, Austin TX, Nov. 15-21 2008. Regular paper - 59 accepted papers, 277 submissions (21%), preprint.</text>
+		<date>2008</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/148/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1130&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P102</old>
+		<id>P_2008_13</id>
+		<authors>   
+			<author>Hoon Ryu</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Contact Block Reduction Method for Ballistic Quantum Transport with Semi-empirical sp3d5s* Tight Binding Band Models</title>
+		<text>IEEE Proceedings of the 2008 International Conference on Solid-State and Integrated-Circuit Technology (ICSICT), Pages 349-352, October 20-23, 2008, Beijing, China.</text>
+		<date>2008</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/147/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1131&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+			<link url="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4734543" title="Article at IEEE" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P101</old>
+		<id>P_2008_12</id>
+		<authors>
+			<author>Mathieu Luisier</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Full-band and atomistic simulation of n- and p-doped double-gate MOSFETs for the 22nm technology node</title>
+		<text>2008 International Conference on Simulation of Semiconductor Processes and Devices, SISPAD 2008, September 9-11, 2008, Yumoto Fujiya Hotel, Hakone, Japan, pages 17-20</text>
+		<date>2008</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=4648226&amp;isnumber=4648212&amp;punumber=4636077&amp;k2dockey=4648226@ieeecnfs&amp;query=%28%28luisier%29%3Cin%3Eau+%29&amp;pos=9&amp;access=no" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/146/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1132&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P100</old>
+		<id>P_2008_11</id>
+		<authors>   
+			<author>Mathieu Luisier</author>
+			<author>Andreas Schenk</author>
+			<author>Wolfgang Fichtner</author>
+			<author>Timothy B. Boykin</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>A parallel sparse linear solver for nearest-neighbor tight-binding problems</title> 
+		<text>14th International Conference on Parallel and Distributed Computing. August 26-29, Las Palmas de Gran Canaria, Spain, 89 accepted papers out of 264 submissions.</text>
+		<date>2008</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/145/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1133&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P99</old>
+		<id>P_2008_10</id>
+		<authors>   
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+			<author>Mark S. Lundstrom</author>
+			<author>George B. Adams III.</author>
+		</authors>
+		<title>nanoHUB.org - online simulation and more materials for semiconductors and nanoelectronics in education and research</title>
+		<text>8th IEEE Conference on Nanotechnology, 2008. NANO '08. Aug. 18-21 2008 Page(s):401-404</text>
+		<date>2008</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=4617106&amp;isnumber=4616982&amp;punumber=4616981&amp;k2dockey=4617106@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=23&amp;access=no" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/144/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1134&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P98</old>
+		<id>P_2008_9</id>
+		<authors>   
+			<author>Muhammad Usman</author>
+			<author>Shaikh Ahmed</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Atomistic tight binding study of strain-reduced confinement potentials in identical and non-identical InAs/GaAs vertically stacked quantum dots</title>
+		<text>8th IEEE Conference on Nanotechnology, 2008. NANO '08. Aug. 18-21 2008 Page(s):541-544</text>
+		<date>2008</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=4617143&amp;isnumber=4616982&amp;punumber=4616981&amp;k2dockey=4617143@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=0&amp;access=no" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/143/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1135&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P97</old>
+		<id>P_2008_8</id>
+		<authors>   
+			<author>Mathieu Luisier</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>OMEN an atomistic and full-band quantum transport simulator for post-CMOS nanodevices</title>
+		<text>8th IEEE Conference on Nanotechnology, 2008. NANO '08. Aug. 18-21 2008 Page(s):354-357</text>
+		<date>2008</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=4617092&amp;isnumber=4616982&amp;punumber=4616981&amp;k2dockey=4617092@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=24&amp;access=no" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/142/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1136&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P96</old>
+		<id>P_2008_7</id>
+		<authors>   
+			<author>Abhijeet Paul</author>
+			<author>Neophytos Neophytou</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Orientation dependence of the charge distribution and quantum capacitance in silicon nanowire transistors</title> 
+		<text>Proceedings of TECHCON 2008, Austin, TX, September 15 - 16, 2008, 50% acceptance rate.</text>
+		<date>2008</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/141/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1137&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P95</old>
+		<id>P_2008_6</id>
+		<authors>   
+			<author>Amritanshu Palaria</author>
+			<author>Alejandro Stracha</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Electronic Structure and Transport in Silicon Nano-Structures with Non-Ideal Bonding Environments</title> 
+		<text>Proceedings of TECHCON 2008, Austin, TX, September 15 - 16, 2008, 50% acceptance rate.</text>
+		<date>2008</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/140/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1138&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P94</old>
+		<id>P_2008_5</id>
+		<authors>   
+			<author>Samarth Agarwal</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>1D hetero-structure tool for atomistic simulation of nano-devices</title> Proceedings of TECHCON 2008, 
+		<text>Austin, TX, September 15 - 16, 2008, 50% acceptance rate.</text>
+		<date>2008</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/139/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1139&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P93</old>
+		<id>P_2008_4</id>
+		<authors>   
+			<author>Muhammad Usman</author>
+			<author>Dragica Vasileska</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Strain-Engineered Self Organized InAs/GaAs Quantum Dots for Long Wavelength (1.3-1.5um) Optical Applications</title>
+		<text>Proceedings of ICPS 2008 (International Conference on the Physics of Semiconductors), Rio de Janeiro, Brazil, July 27-Aug 1, 2008.</text>
+		<date>2008</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/138/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1140&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P92</old>
+		<id>P_2008_3</id>
+		<authors>   
+			<author>Gabriel Lansbergen</author>
+			<author>Rajib Rahman</author>
+			<author>Cameron Wellard </author>
+			<author>Nadine Colleart</author>
+			<author>Serge Biesemans</author>
+			<author>Gerhard Klimeck</author>
+			<author>Lloyd Hollenberg</author>
+			<author>Sven Rogge</author>
+		</authors>
+		<title>Kondo Effects and Transport through a single gated donor atom</title> 
+		<text>Proceedings of ICPS 2008 (International Conference on the Physics of Semiconductors), Rio de Janeiro, Brazil, July 27-Aug 1, 2008 (Oral presentation).</text>
+		<date>2008</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/151/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1157&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P91</old>
+		<id>P_2008_2</id>
+		<authors>   
+			<author>Hansang Bae</author>
+			<author>Steve Clark </author>
+			<author>Ben Haley</author>
+			<author>Ryu Hoon</author>
+			<author>Gerhard Klimeck</author>
+			<author>Sunhee Lee</author>
+			<author>Mathieu Luisier</author>
+			<author>Faisal Saied</author>
+		</authors>
+		<title>A Nano-electronics Simulator for Petascale Computing: From NEMO to OMEN</title> 
+		<text>Proceedings of TeraGrid 2008, June 9-13, 2008, Las Vegas.</text>
+		<date>2008</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/136/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1142&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P90</old>
+		<id>P_2008_1</id>
+		<authors>    		
+			<author>Clemens Heitzinger</author>
+			<author>Rick Kennell</author>
+			<author>Gerhard Klimeck</author>
+			<author>Norbert Mauser</author>
+			<author>Michael McLennan</author>
+			<author>Christian Ringhofer</author>
+		</authors>
+		<title>Modeling and simulation of field-effect biosensors (BioFETs) and their deployment on the nanoHUB</title>
+		<text>Journal of Physics: Conference Series, Vol. 107, pg. 012004 (2008).</text>
+		<date>2008</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/135/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1143&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P89</old>
+		<id>P_2007_10</id>
+		<authors>   
+			<author>Bhaskaran Muralidharan</author>
+			<author>Hoon Ryu</author>
+			<author>Z. Huang</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEMO-3D based Atomistic Simulation of a Double Quantum Dot Structure for Spin-Blockaded Transport</title>
+		<text>Proceedings of the 12th International Workshop on Computational Electronics, University of Massachusetts Amherst, Oct. 7-10, 2007</text>
+		<date>2007</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/74/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1085&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P88</old>
+		<id>P_2007_9</id>
+		<authors> 
+			<author>Roksana Golizadeh-Mojarad</author>
+			<author>A.N.M. Zainuddin</author>
+			<author>Shaikh S. Ahmed</author>
+			<author>Gerhard Klimeck</author>
+			<author>Supriyo Datta</author>
+		</authors>
+		<title>Atomistic NEGF Simulations of Carbon Nano-Ribbons in Magnetic Fields</title> 
+		<text>Proceedings of The 12th International Workshop on Computational Electronics, University of Massachusetts Amherst, Oct. 7-10, 2007</text>
+		<date>2007</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/133/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1145&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P87</old>
+		<id>P_2007_8</id>
+		<authors>   
+			<author>Neophytos Neophytou</author>
+			<author>Abhijeet Paul</author>
+			<author>Mark S. Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Simulation of nanowire transistors: Atomistic vs. Effective Mass Models</title> 
+		<text>Proceedings of The 12th International Workshop on Computational Electronics, University of Massachusetts Amherst, Oct. 7-10, 2007</text>
+		<date>2007</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/131/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1146&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P86</old>
+		<id>P_2007_7</id>
+		<authors>   
+			<author>Neerav Kharche</author>
+			<author>Mathieu Luisier</author>
+			<author>Timothy B. Boykin</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Electronic Structure and Transmission Characteristics of SiGe Nanowires</title> 
+		<text>Proceedings of The 12th International Workshop on Computational Electronics, University of Massachusetts Amherst, Oct. 7-10, 2007</text>
+		<date>2007</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/128/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1147&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P85</old>
+		<id>P_2007_6</id>
+		<authors> 
+			<author>Maxim Naumov</author>
+			<author>Sunhee Lee</author>
+			<author>Ben Haley</author>
+			<author>Rajib Rahman</author>
+			<author>Hoon Ryu</author>
+			<author>Faisal Saied</author>
+			<author>Steve Clark</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Eigenvalue Solvers for Atomistic Simulations of  Electronic Structures with NEMO-3D</title>
+		<text>Proceedings of The 12th International Workshop on Computational Electronics, University of Massachusetts Amherst, Oct. 7-10, 2007</text>
+		<date>2007</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/129/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1148&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P84</old>
+		<id>P_2007_5</id>
+		<authors>   
+			<author>Neophytos Neophytou</author>
+			<author>Abhijeet Paul</author>
+			<author>Mark S. Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Self-consistent simulations of nanowire transistors using atomistic basis sets</title> 
+		<text>Proceedings of The 12th International Conference on Simulation of Semiconductor Devices and Processes (SISPAD), Vienna Austria, September 25-27, 2007.</text>
+		<date>2007</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/132/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1149&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P83</old>
+		<id>P_2007_4</id>
+		<authors>   
+			<author>Neophytos Neophytou</author>
+			<author>Abhijeet Paul</author>
+			<author>Mark S. Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Self-consistent simulations of nanowire transistors using atomistic basis sets</title>
+		<text>Proceedings of SRC's TECHCON 2007, September 10-12, 2007</text>
+		<date>2007</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/130/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1150&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P82</old>
+		<id>P_2007_3</id>
+		<authors> 
+			<author>Hansang Bae</author>
+			<author>Steve Clark</author>
+			<author>Gerhard Klimeck</author>
+			<author>Sunhee Lee</author>
+			<author>Maxim Naumov</author>
+			<author>Faisal Saied</author>
+		</authors>
+		<title>Large Scale Simulations of Nanoelectronic devices with NEMO3-D on the Teragrid</title>
+		<text>Proceedings of Teragrid 2007 Conference, Madison WI, June 2007.</text>
+		<date>2007</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/127/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1151&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P81</old>
+		<id>P_2007_2</id>
+		<authors>   
+			<author>Mark Lundstrom</author>
+			<author>Jason V. Clark</author>
+			<author>Gerhard Klimeck</author>
+			<author>Arvind Raman</author>
+		</authors>
+		<title>Nanoelectronics: Metrology and Computation</title>
+		<text>proceedings of 2007 International Conference on Frontiers of Characterization and Metrology for Nanoelectronics, March 27-29, 2007, National Institutes of Standards and Technology, Gaithersberg, MD. conference proceedings will be published by AIP in a hardback book</text>
+		<date>2007</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanopub/229/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1228&amp;context=nanopub" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P80</old>
+		<id>P_2007_1</id>
+		<authors> 
+			<author>Shaikh Ahmed</author>
+			<author>Muhammad Usman</author>
+			<author>Neerav Kharche</author>
+			<author>Andrei Schliwa</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Atomistic Simulation of Non-Degeneracy and Optical Polarization Anisotropy in Pyramidal Quantum Dots</title>
+		<text>proceedings of IEEE NEMs Jan 16-19, 2007, pgs. 937-942, Bangkok Thailand. oral presentation, 340 submission, 90% acceptance, 55% oral presentations.</text>
+		<date>2007</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=4160475&amp;isnumber=4144525&amp;punumber=4160288&amp;k2dockey=4160475@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=6&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P79</old>
+		<id>P_2006_11</id>
+		<authors>   
+			<author>Eddie Howell</author>
+			<author>Clemens Heitzinger</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Investigation of Device Parameters for Field-Effect DNA-Sensors by Three-Dimensional Simulation</title>
+		<text>in proceedings of IEEE Nanotechnology Materials and Devices Conference, October 22-25, pg 154, 2006. (about 67% acceptance rate)</text>
+		<date>2006</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4388725" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/150/" title="abstract" />			
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1158&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P77</old>
+		<id>P_2006_10</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+			<author>Timothy Boykin</author>
+			<author>Mathieu Luisier</author>
+			<author>Neerav Kharche</author>
+			<author>Andreas Schenk</author>
+		</authors>
+		<title>A Study of alloyed nanowires from two perspectives: approximate dispersion diagrams and transmission coefficients</title>
+		<text>proceedings of the 28th International Conference on the Physics of Semiconductors, ICPS 2006, Vienna, Austria, July 24-28 2006, AIP Conference Proceedings Volume 893, pp 711-712</text>
+		<date>2006</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanopub/215/" title="abstract" />			
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?filename=0&amp;article=1216&amp;context=nanopub&amp;type=additional" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P76</old>
+		<id>P_2006_9</id>
+		<authors> 
+			<author>Shaikh Ahmed</author>
+			<author>Muhammad Usman</author>
+			<author> Clemens Heitzinger</author>
+			<author>Rajib Rahman</author>
+			<author>Andrei Schliwa</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Symmetry Breaking and Fine Structure Splitting in Self-Assembled Zincblende Quantum Dots: Atomistic Simulations of Long-Range Strain and Piezoelectric Field</title>
+		<text>proceedings of the 28th International Conference on the Physics of Semiconductors, ICPS 2006, Vienna, Austria, July 24-28 2006, AIP Conference Proceedings Volume 893, pg 849.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P75</old>
+		<id>P_2006_8</id>
+		<authors> 
+			<author>Muhammad Usman</author>
+			<author>Shaikh Ahmed</author>
+			<author>Marek Korkusinski</author>
+			<author>Clemens Heitzinger</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Strain and electronic structure interactions in realistically scaled quantum dot stacks</title>
+		<text>proceedings of the 28th International Conference on the Physics of Semiconductors, ICPS 2006, Vienna, Austria, July 24-28 2006, AIP Conference Proceedings Volume 893, pg 849.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P74</old>
+		<id>P_2006_7</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+			<author>Micchael McLennan</author>
+			<author>Matteo Mannino</author>
+			<author>Marek Korkusinski</author>
+			<author>Clemens Heitzinger</author>
+			<author>Rick Kennell</author>
+			<author>Steven Clark</author>
+		</authors>
+		<title>NEMO 3-D and nanoHUB: Bridging Research and Education</title> 
+		<text>proceedings of IEEE-NANO 2006. Sixth IEEE Conference on Nanotechnology, 17-20 June 2006, Vol. 2, pg. 441-444</text>
+		<date>2006</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1717132&amp;isnumber=36119&amp;punumber=11219&amp;k2dockey=1717132@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=8&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P73</old>
+		<id>P_2006_6</id>
+		<authors>   
+			<author>Clemens Heitzinger</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Numerical aspects of the three-dimensional feature-scale simulation of silicon-nanowire field-effect sensors for DNA detection</title>		
+		<text>Extended Abstract in Proceedings of 11th International Workshop on Computational Electronics (IWCE 11), Vienna, Austria, May 2006.</text>	
+		<date>2006</date>
+		<links>
+			<link />		
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P72</old>
+		<id>P_2006_5</id>
+		<authors>
+			<author>Mathieu Luisier</author>
+			<author>Gerhard Klimeck</author>
+			<author>Andreas Schenk</author>
+			<author>Wolfgang Fichtner</author>
+		</authors>
+		<title>Transport Calculation of Semiconductor Nanowires Coupled to Quantum Well Reservoirs</title> 
+		<text>Extended Abstract in Proceedings of 11th International Workshop on Computational Electronics (IWCE 11), Vienna, Austria, May 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />		
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P71</old>
+		<id>P_2006_4</id>
+		<authors>    
+			<author>Gianluca Fiori</author>
+			<author>Giuseppe Iannaccone</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Coupled mode space vs Real space approach for the simulation of CNT-FETs</title> 
+		<text>Extended Abstract in Proceedings of 11th International Workshop on Computational Electronics (IWCE 11), Vienna, Austria, May 2006.</text>
+		<date>2006</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/32/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1032&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P70</old>
+		<id>P_2006_3</id>
+		<authors>    
+			<author>Neophytos Neophytou</author>
+			<author>Shaikh Ahmed</author>
+			<author>M.P. Anantram</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Non-Equilibrium Green's Function (NEGF) Simulation of Metallic Carbon Nanotube Transistors: Impact of Vacancy Defect </title> 
+		<text>Extended Abstract in Proceedings of 11th International Workshop on Computational Electronics (IWCE 11), Vienna, Austria, May 2006.</text>
+		<date>2006</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/98/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1102&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P69</old>
+		<id>P_2006_2</id>
+		<authors>    
+			<author>Vladimir V. Mitin</author>
+			<author>Nizami Z. Vagidov</author>
+			<author>Mathieu Luisier</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Energy dispersion relations for holes in silicon quantum wells and quantum wires</title> 
+		<text>Extended Abstract in Proceedings of 11th International Workshop on Computational Electronics (IWCE 11), Vienna, Austria, May 2006.</text>
+		<date>2006</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanodocs/97/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1103&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P68</old>
+		<id>P_2006_1</id>
+		<authors>    
+			<author>Mark S. Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>The NCN: Science, Simulation, and Cyber Services</title>
+		<text>2006 IEEE Conference on Emerging Technologies - Nanoelectronics, 10-13 Jan. 2006 Page(s):496 - 500</text>
+		<date>2006</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1609779&amp;isnumber=33794&amp;punumber=10704&amp;k2dockey=1609779@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=9&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P67</old>
+		<id>P_2005_11</id>
+		<authors>    
+			<author>Jing Wang</author>
+			<author>Anisur Rahman</author>
+			<author>Gerhard Klimeck</author>
+			<author>Mark Lundstrom</author>
+		</authors>
+		<title>Bandstructure and Orientation Effects in Si and Ge Nanowire FETs</title>
+		<text>2005 IEEE International Electron Devices Meeting, Washington, DC, December 5 - 7, 2005. (One of 27 accepted out 120 submitted Modeling and Simulation abstracts)</text>
+		<date>2005</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1609399&amp;isnumber=33791&amp;punumber=10701&amp;k2dockey=1609399@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=16&amp;access=no" title="Article at IEEE" />	
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P66</old>
+		<id>P_2005_10</id>
+		<authors>  
+			<author>Anisur Rahman</author>
+			<author>Gerhard Klimeck</author>
+			<author>Mark Lundstrom</author>
+		</authors>
+		<title>Novel channel materials for ballistic nanoscale MOSFETs bandstructure effects</title>
+		<text>2005 IEEE International Electron Devices Meeting, Washington, DC, December 5 - 7, 2005. (One of 27 accepted out 120 submitted Modeling and Simulation abstracts)</text>
+		<date>2005</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1609421&amp;isnumber=33791&amp;punumber=10701&amp;k2dockey=1609421@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=21&amp;access=no" title="Article at IEEE"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P65</old>
+		<id>P_2005_9</id>
+		<authors>    
+			<author>Gianluca Fiori</author>
+			<author>Giuseppe Iannaccone</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Performance of Carbon Nanotube Field Effect Transistors with doped source and drain extensions and arbitrary geometry</title>
+ 		<date>2005</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1609397&amp;isnumber=33791&amp;punumber=10701&amp;k2dockey=1609397@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=11&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P64</old>
+		<id>P_2005_8</id>
+		<authors> 
+			<author>Wei Qiao</author>
+			<author>David S. Ebert</author>
+			<author>Alireza Entezari</author>
+			<author>Marek Korkusinski</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>VolQD: Direct Volume Rendering of Multi-million Atom Ql Electron Devices Meeting, Washington, DC, December 5 - 7, 2005. (One of 27 accepted out 120 submitted Modeling and Simulation abstracts)</title>
+		<text>IEEE Visualization 2005, October 23-28, Minneapolis, Minnesota, USA, one of 88 accepted from 268 submissions</text>
+		<date>2005</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1532811&amp;isnumber=32702&amp;punumber=10269&amp;k2dockey=1532811@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=12&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P64</old>
+		<id>P_2005_7</id>
+		<authors>    	
+			<author>Gianluca Fiori</author>
+			<author>Giuseppe Iannaccone</author>
+			<author>Mark Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Three-dimensional atomistic simulation of Carbon Nanotube FETs with realistic geometry</title>
+		<text>European Solid-State Device Research Conference, ESSDERC, Grenoble, France, 12 - 16 September 2005, pages 537-540</text>
+		<date>2005</date>
+		<links>
+			<link url="http://www.essderc2005.com/" title="Conference site"/>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1546703&amp;isnumber=32983&amp;punumber=10379&amp;k2dockey=1546703@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=14&amp;access=no" title="Article at IEEE" /> 
+			<link url="http://docs.lib.purdue.edu/nanodocs/111/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1112&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P62</old>
+		<id>P_2005_6</id>
+		<authors>  
+			<author>Gerhard Klimeck</author>
+			<author>Marek Korkusinski</author>
+			<author>Haiying Xu</author>
+			<author>Seungwon Lee</author>
+			<author>Sebastien Goasguen</author>
+			<author>Faisal Saied</author>
+		</authors>
+		<title>Atomistic simulations of long-range strain effects in multimillion-atom quantum dot nanostructures</title>
+		<text>SISPAD 2005, International Conference on Simulation of Semiconductor Processes and Devices, Komaba Eminence, Tokyo, Japan, September 1-3, 2005. pg 335-338</text>
+		<date>2005</date>
+		<links>
+			<link url="http://www6.eie.eng.osaka-u.ac.jp/sispad/" title="Conference Site"/>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1562093&amp;isnumber=33165&amp;punumber=10443&amp;k2dockey=1562093@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=13&amp;access=no" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/110/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1113&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P61</old>
+		<id>P_2005_5</id>
+		<authors>  			
+			<author>Gerhard Klimeck</author>
+			<author>Marek Korkusinski</author>
+			<author>Haiying Xu</author>
+			<author>Seungwon Lee</author>
+			<author>Sebastien Goasguen</author>
+			<author>Faisal Saied</author>
+		</authors>
+		<title>Building and Deploying Community Nanotechnology Software Tools on nanoHUB.org and Atomistic simulations of multimillion-atom quantum dot nanostructures</title>
+		<text>Proceedings of the 5th IEEE Conference on Nanotechnology, July 11-15, pg 807, Vol 2 (2005)</text>
+		<date>2005</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1500654&amp;isnumber=32214&amp;punumber=10038&amp;k2dockey=1500654@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=20&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P60</old>
+		<id>P_2005_4</id>
+		<authors>   
+			<author>Richard J. Terrile</author>
+			<author>H. Aghazarian</author>
+			<author>M.I. Ferguson</author>
+			<author>W. Fink</author>
+			<author>WT.L. Huntsberger</author>
+			<author>D. Keymeulen</author>
+			<author>Gerhard Klimeck</author>
+			<author>Mark A. Kordon</author>
+			<author>Seungwon Lee</author>
+			<author>Paul von Allmen</author>
+		</authors>
+		<title>Evolutionary Computation Technologies for the Automated Design of Space Systems</title>
+		<text>Proceedings. 2005 NASA/DoD Conference on Evolvable Hardware, 2005. 29 June-1 July 2005, pg 131-138</text>
+		<date>2005</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1508493&amp;isnumber=32315&amp;punumber=10082&amp;k2dockey=1508493@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=15&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P59</old>
+		<id>P_2005_3</id>
+		<authors>  
+			<author>Marek Korkusinski</author>
+			<author>Gerhard Klimeck</author>
+			<author>Haiying Xu</author>
+			<author>Seungwon Lee</author>
+			<author>Sebastien Goasguen</author>
+			<author>Faisal Saied</author>
+		</authors>
+		<title>Atomistic Simulations in Nanostructures Composed of Tens of Millions of Atoms:Importance of long-range Strain Effects in Quantum Dots</title> 
+		<text>2005 NSTI Nanotechnology Conference and Trade Show, Anaheim, CA, May 8-12, 2005.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P58</old>
+		<id>P_2005_2</id>
+		<authors> 
+			<author>Sebastien Goasguen</author>
+			<author>Michael McLennan</author>
+			<author>Gerhard Klimeck</author>
+			<author>Mark S. Lundstrom</author>
+		</authors>
+		<title>What do Mambo, VNC, UML and Grid computing have in common?</title> 
+		<text>2005 Linux Cluster Institute Conference, Raleigh, NC, April, 2005</text>
+		<date>2005</date>
+		<links>
+			<link url="pubs_src/P58.pdf" title="Proceedings" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P57</old>
+		<id>P_2005_1</id>
+		<authors>  
+			<author>Marek Korkusinski</author>
+			<author>Faisal Saied</author>
+			<author>Haiying Xu</author>
+			<author>Seungwon Lee</author>
+			<author>Mohamed Sayeed</author>
+			<author>Sebastien Goasguen</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Large Scale Simulations in Nanostructures with NEMO3-D on Linux Clusters</title>
+		<text>2005 Linux Cluster Institute Conference, Raleigh, NC, April, 2005</text>
+		<date>2005</date>
+		<links>
+			<link url="proceedings#P57" title="Proceedings" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P56</old>
+		<id>P_2004_14</id>	
+		<authors>
+			<author>Richard J. Terrile</author>
+			<author>Christoph Adami</author>
+			<author>Hrand Aghazarian</author>
+			<author>Savio N. Chau</author>
+			<author>Van T. Dang</author>
+			<author>Michael I. Ferguson</author>
+			<author>Wolfgang Fink</author>
+			<author>Terrance L. Huntsberger</author>
+			<author>Gerhard Klimeck</author>
+			<author>Mark A. Kordon</author>
+			<author>Seungwon Lee</author>
+			<author>Paul von Allmen</author>
+			<author>Joseph Xu</author>
+		</authors>
+		<title>Evolutionary Computation Technologies for the Automated Design of Space Systems</title>	
+		<text>IEEE Aerospace Conference Proceedings, 5-12 March 2005 Page(s):1 - 12 .</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P55</old>
+		<id>P_2004_13</id>		
+		<authors>  
+			<author>Anisur Rahman</author>
+			<author>Gerhard Klimeck</author>
+			<author>Mark Lundstrom</author>
+		</authors>
+		<title>Bandstructure Effects in Nanoscale MOSFETs</title>
+		<text>IEEE IEDM, San Francisco, CA, Dec. 6-8 2004, pgs. 139-142</text>
+		<date>2004</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1419089&amp;isnumber=30682&amp;punumber=9719&amp;k2dockey=1419089@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=22&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P54</old>
+		<id>P_2004_12</id>
+		<authors>  
+			<author>E. Khorenko</author>
+			<author>W. Prost</author>
+			<author>F.-J. Tegude</author>
+			<author>M. Stoffel</author>
+			<author>R. Duschl</author>
+			<author>M.W. Dashiell</author>
+			<author>O.G. Schmidt</author>
+			<author>G. Klimeck</author>
+		</authors>
+		<title>Manufacturability and Electrical Characteristics of Si/SiGe Interband Tunnelling Diodes</title>
+		<text>ASDAM '04, Proceedings of The Fifth International Conference on Advanced Semiconductor Devices and Microsystems, Smolenice Castle, Slovakia, Oct. 17-21, 2004, IEEE Catalog Number 04EX867, ISBN 0-7803-8535-7, Library of Congress: 2004105360</text>
+		<date>2004</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1441150&amp;isnumber=30992&amp;punumber=9833&amp;k2dockey=1441150@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=16&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P53</old> 
+		<id>P_2004_11</id>
+		<authors>  
+			<author>Seungwon Lee</author>
+			<author>Paul von Allmen</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Gerhard Klimeck</author>
+			<author>Timothy B. Boykin</author>
+			<author>S.N. Coppersmith</author>
+			<author>Mark Friesen</author>
+			<author>Mark Erikson</author>
+		</authors>
+		<title>Electron Exchange Interaction in Electronically Confined Si Quantum Dots</title>
+		<text>IEEE proceedings of the 10th International Workshop for Computational Electronics (IWCE), Purdue University, West Lafayette, Oct. 24-27, 2004</text>
+		<date>2004</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1407352&amp;isnumber=30514&amp;punumber=9657&amp;k2dockey=1407352@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=19&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P52</old>
+		<id>P_2004_10</id>
+		<authors>  
+			<author>Yun Zheng</author>
+			<author>Cristian Rivas</author>
+			<author>Roger Lake</author>
+			<author>Khairul Alam</author>
+			<author>Timothy B. Boykin</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Electronic Properties of Silicon Nanowires</title>
+		<text>IEEE proceedings of the 10th International Workshop for Computational Electronics (IWCE), Purdue University, West Lafayette, Oct. 24-27, 2004</text>
+		<date>2004</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1407334&amp;isnumber=30514&amp;punumber=9657&amp;k2dockey=1407334@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=3&amp;access=no" title="article at IEEE"/>
+			<link url="http://docs.lib.purdue.edu/nanodocs/117/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1119&amp;context=nanodocs" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P51</old>
+		<id>P_2004_9</id>
+		<authors>  			
+			<author>Anisur Rahman</author>
+			<author>Gerhard Klimeck</author>
+			<author>Nizami Vagidov</author>
+			<author>Timothy B. Boykin</author>
+			<author>Mark S. Lundstrom</author>
+		</authors>
+		<title>Nanoscale Device Simulation at the Scaling Limit and Beyond</title> 
+		<text>International Conference on Solid State Devices and Materials (SSDM 2004), Tokyo, Japan, Sept. 14-17, 2004.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P50</old>
+		<id>P_2004_8</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+		</authors>		
+		<title>NEMO 1-D: the first NEGF-based TCAD tool</title> 
+		<text>IEEE SISPAD 2004, Keynote Speaker, Munich, Germany, September 2-4, 2004</text>
+		<date>2004</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanopub/226/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1225&amp;context=nanopub" title="Free PDF from Purdue Library" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P49</old>
+		<id>P_2004_7</id>
+		<authors>  
+			<author>Ahmet Ali Yanik</author>
+			<author>Prabhakar Srivastava</author>
+			<author>Gerhard Klimeck</author>
+			<author>Supriyo Datta</author>
+		</authors>
+		<title>Coherent Transport in SWCNTs with Spin-Orbit Coupling</title>
+		<text>IEEE Nano 2004, pgs. 89-91, Munich, Germany, August 16-19, 2004</text>
+		<date>2004</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1392259&amp;isnumber=30307&amp;punumber=9589&amp;k2dockey=1392259@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=18&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P48</old>
+		<id>P_2004_6</id>
+		<authors>  
+			<author>Olga L. Lazarenkova</author>
+			<author>Paul von Allmen</author>
+			<author>Seungwon Lee</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>The effect of the strain relaxation in InAs/GaAs stacked quantum dots and multiple quantum wells on the Raman spectrum</title>
+		<text>12-th International Symposium &amp;quot;Nanostructures: Physics and Technology&amp;quot; June 21-25, 2004, St Petersburg, Russia</text>
+		<date>2004</date>
+		<links>
+			<link url="http://docs.lib.purdue.edu/nanopub/225/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1217&amp;context=nanopub" title="Free PDF from Purdue Library" />
+			<link url="pubs_src/P48.pdf" title="Proceedings" />		
+		</links>
+	</item>
+	<item type="nano">
+		<old>P47</old>
+		<id>P_2004_5</id>
+		<authors>  
+			<author>Paul von Allmen</author>
+			<author>Seungwon Lee</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Gerhard Klimeck</author>
+			<author>Olga Lazarenkova</author>
+		</authors>
+		<title>Coupled electron and nuclear spin dynamics in InAs quantum dots: impact on single and two-qubit operations</title>
+		<text>Quantum Dot 2004, Banff, Alberta, Canada, May 10-13, 2004</text>
+		<date>2004</date>
+		<links>
+			<link url="http://cobweb.ecn.purdue.edu/~gekco/pubs_src/P47.pdf" title="Proceedings" />		
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P46</old>
+		<id>P_2004_4</id>
+		<authors>  
+			<author>Seungwon Lee</author>
+			<author>Olga Lazarenkova</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Paul von Allmen</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Effect of Wetting Layers on Strain and Electronic Structures of Self-Assembled Quantum Dots</title>
+		<text>Quantum Dot 2004, Banff, Alberta, Canada, May 10-13, 2004.</text>
+		<date>2004</date>
+		<links>
+			<link url="pubs_src/P46.pdf" title="Proceedings" />	
+			<link url="http://docs.lib.purdue.edu/nanopub/219/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1223&amp;context=nanopub" title="Free PDF from Purdue Library" />	
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P45</old>
+		<id>P_2004_3</id>
+		<authors>  
+			<author>Olga L. Lazarenkova</author>
+			<author>Paul von Allmen</author>
+			<author>Seungwon Lee</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Atomistic-Level Simulation of the Vibration Spectrum of Quantum Dot Crystals</title>
+		<text>Quantum Dot 2004, Banff, Alberta, Canada, May 10-13, 2004.</text>
+		<date>2004</date>
+		<links>
+			<link url="pubs_src/P45.pdf" title="Proceedings" />		
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P44</old>
+		<id>P_2004_2</id>
+		<authors>  
+			<author>Mark Kordon</author>
+			<author>Gerhard Klimeck</author>
+			<author>Dave Hanks</author>
+			<author>Hook Hua</author>
+		</authors>
+		<title>Evolutionary Computing for Spacecraft Power Subsystem Design Search and Optimization</title> 
+		<text>Proceedings of IEEE Aerospace Conference, Big Sky, Montana, March 2004, pg 4004-4014.</text>
+		<date>2004</date>
+		<links>
+			<link url="pubs_src/P44.pdf" title="Preprint" />
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1368219&amp;isnumber=29905&amp;punumber=9422&amp;k2dockey=1368219@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=17&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P43</old>
+		<id>P_2004_1</id>
+		<authors> 
+			<author>Seungwon Lee</author>
+			<author>Paul von Allmen</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Gerhard Klimeck</author>
+			<author>K. B. Whaley</author>
+		</authors> 
+		<title>Electron spin dephasing and decoherence by interaction with nuclear spins in self-assembled quantum dots</title>
+		<text>published in proceedings of Winter International Symposium on Information and Communication Technologies, January 5-8, 2004, Cancun, Mexico.</text>
+		<date>2004</date>
+		<links>		
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P42</old>
+		<id>P_2003_8</id>
+		<authors>  
+			<author>Gerhard Klimeck</author>
+			<author>Timothy B. Boykin</author>
+			<author>Mark Eriksson</author>
+			<author>Mark Friesen</author>
+			<author>S. N. Coppersmith</author>
+			<author>Paul von Allmen</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Seungwon Lee</author>
+		</authors> 
+		<title>Conduction band valley splitting in silicon nano-structures</title> 
+		<text>Sixth International Conference on New Phenomena in Mesoscopic Structures, Fourth International Conference on Surfaces and Interfaces of Mesoscopic Devices, December 1-5, 2003, Maui, Hawaii.</text>
+		<date>2003</date>
+		<links>		
+			<link />			
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P41</old>
+		<id>P_2003_7</id>
+		<authors>  
+			<author>Seungwon Lee</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Paul von Allmen</author>
+			<author>Gerhard Klimeck</author>
+		</authors> 
+		<title>Numerical surface treatment for finite-extent semiconductor nanostructures</title>
+		<text>14th Workshop on Modelling and Simulation of Electron Devices, Barcelona, Spain. October 16-17 2003.</text>
+		<date>2003</date>
+		<links>		
+			<link url="pubs_src/P41.pdf" title="Proceeding"/>	
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P40</old>
+		<id>P_2003_6</id>
+		<authors>  
+			<author>Hans Kosina</author>
+			<author>Gerhard Klimeck</author>
+			<author>Michail Nedjalkov</author>
+			<author>Siegfried Selberherr</author>
+		</authors> 
+		<title>Comparison of Numerical Quantum Device Models</title>
+		<text>International Conference on Simulation of Semiconductor Processes and Devices (SISPAD 2003), September 3-5, 2003, Boston, MA, pages 171 -174</text>
+		<date>2003</date>
+		<links>
+			<link url="pubs_src/P40.pdf" title="Proceeding"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P39</old>
+		<id>P_2003_5</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+			<author>Gary Yagi</author>
+			<author>Robert Deen</author>
+			<author>Myche McAuley</author>
+			<author>Eric DeJong</author>
+			<author>Fabiano Oyafuso</author>
+		</authors>
+		<title>Near Real-Time Parallel Image Processing using Cluster Computers</title>
+		<text>International Conference on Space Mission Challenges for Information Technology (SMC-IT), Pasadena, CA July 13-16, 2003.</text>
+		<date>2003</date>
+		<links>
+			<link url="pubs_src/P39.pdf" title="Proceeding"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P38</old>
+		<id>P_2003_4</id>
+		<authors>
+			<author>Fabiano Oyafuso</author>
+			<author>Gerhard Klimeck</author>
+			<author>Timothy B. Boykin</author>
+			<author>R. Chris Bowen</author>
+			<author>Paul von Allmen</author>
+		</authors> 
+		<title>Study of Strain Boundary Conditions and GaAs Buffer Sizes in InGaAs Quantum Dots</title>
+		<text>Extended Abstract in Proceedings of International Workshop on Computational Electronics, Frascati, Rome, Italy, May 25-28, 2003.</text>
+		<date>2003</date>
+		<links>
+			<link url="pubs_src/P38.pdf" title="Extended Abstract"/>
+			<link url="pubs_src/P38.ppt" title="Presentation"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P37</old>
+		<id>P_2003_3</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+			<author>Phillip Stout</author>
+			<author>R. Chris Bowen</author>
+		</authors> 
+		<title>Quantum and semi-classical transport in RTDs using NEMO 1-D</title>
+		<text>Extended Abstract in Proceedings of International Workshop on Computational Electronics, Frascati, Rome, Italy, May 25-28, 2003.</text>
+		<date>2003</date>
+		<links>
+			<link url="pubs_src/P37.pdf" title="Extended Abstract"/>
+			<link url="pubs_src/P37.ppt" title="Presentation"/>	
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P36</old>
+		<id>P_2003_2</id>
+		<authors>  			
+			<author>Jeremy Green</author>
+			<author>Corrie Farmer</author>
+			<author>Michel Garcia</author>
+			<author>Hock Koon Lee</author>
+			<author>Colin Stanley</author>
+			<author>Charles Ironside</author>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+		</authors>	
+		<title></title>
+		<text>2003 Conference on Lasers and Electro-Optics Europe, CLEO/Europe. Munich, 22-27 June 2003 Page(s):182</text>
+		<date>2003</date>
+		<links>
+			<link url="pubs_src/P36.pdf" title="Extended Abstract"/>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1312243&amp;isnumber=29127&amp;punumber=9180&amp;k2dockey=1312243@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=17&amp;access=no" title="Article at IEEE" />
+			<link url="http://docs.lib.purdue.edu/nanodocs/116/" title="Abstract" />
+			<link url="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1120&amp;context=nanodocs" title="Free PDF from Purdue Library" />	
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P35</old>
+		<id>P_2003_1</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Timothy B. Boykin</author>
+			<author>R. Chris Bowen</author>
+			<author>Paul von Allmen</author>
+		</authors>
+		<title>Quantum and semi-classical transport in RTDs using NEMO 1-D</title>
+		<text>Proceedings of Nanotech2003 (including MSM 2003 and ICCN 2003), February 23-27, 2003, San Francisco</text>
+		<date>2003</date>
+		<links>
+			<link url="pubs_src/P35.pdf" title="Extended Abstract"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P34</old>
+		<id>P_2002_2</id>
+		<authors> 
+			<author>Fabiano Oyafuso</author>
+			<author>Gerhard Klimeck</author>
+			<author>R. Chris Bowen</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>Nanoelectronic 3-D (NEMO 3-D) Simulation of Multimillion Atom Quantum Dot Systems</title>
+		<text>SISPAD 2002, Kobe, Japan, Sept. 3-6, pg 163 - 166, 2002</text>
+		<date>2002</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=1034542&amp;isnumber=22206&amp;punumber=8038&amp;k2dockey=1034542@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=18&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P33</old>
+		<id>P_2002_1</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Timothy B. Boykin</author>
+			<author>R. Chris Bowen</author>
+			<author>Paul von Allmen</author>
+		</authors>
+		<title>Status of the Nanoelectronic Modeling tool (NEMO 1-D and 3-D) and its planned extension to Spintronics</title>
+		<text>The first International Workshop on Quantum Dots for Quantum Computing and Classical Size Effect Circuits, Kochi, Japan, Jan 26-28, 2002</text>
+		<date>2002</date>
+		<links>
+			<link url="pubs_src/P33.pdf" title="Extended Abstract"/>
+			<link url="http://qdqc.is.kochi-u.ac.jp" title="IWQDQC"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P32</old>
+		<id>P_2001_5</id>
+		<authors> 
+			<author>Tom Cwik</author>
+			<author>Gerhard Klimeck</author>
+			<author>Myche McAuley</author>
+			<author>Bob Deen</author>
+			<author>Eric Dejong</author>
+		</authors>	
+		<title>Applications on High Performance Cluster Computers Production of Mars Panoramic Mosaic Images</title>
+		<text>Proceedings of the 2001 AMOS Technical Conference September 10-14, 2001, Maui</text>
+		<date>2001</date>
+		<links>
+			<link url="http://ulua.mhpcc.af.mil/AMOS/conf_01.html" title="AMOS Technical Conference" />
+			<link url="conference.html#C67" title="Conference Presentation"/>
+			<link url="pubs/P32.html" title="Abstract" />
+			<link url="pubs_src/P32.pdf" title="PDF" />.
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P31</old>
+		<id>P_2001_4</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Full Brillouin-Zone, Charge Self-consistent Quantum Transport Simulations Enabled by Parallelization of the Nanoelectronic Modeling Tool (NEMO 1-D) on a Beowulf Cluster</title>
+		<text>8th International Workshop on Computational Electronics October 15-18, 2001, Univ. of Illinois, Extended abstract in conference handout.</text>
+		<date>2001</date>
+		<links>
+			<link url="http://www-ncce.ceg.uiuc.edu/iwce8" title="8th International Workshop on Computational Electronics"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P30</old>
+		<id>P_2001_3</id>
+		<authors> 
+			<author>Fabiano Oyafuso</author>
+			<author>Gerhard Klimeck</author>
+			<author>R. Chris Bowen</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>Atomistic Electronic Structure Calculations of Unstrained Alloyed Systems Consisting of a Million Atoms</title>
+		<text>8th International Workshop on Computational Electronics October 15-18, 2001, Univ. of Illinois. Extended abstract in conference handout.</text>
+		<date>2001</date>
+		<links>
+			<link url="http://www-ncce.ceg.uiuc.edu/iwce8" title="8th International Workshop on Computational Electronics"/>
+		</links>
+	</item>
+	<item type="nano">
+		<old>P29</old>
+		<id>P_2001_2</id>
+		<authors> 
+			<author>Tom Cwik</author>
+			<author>Gerhard Klimeck</author>
+			<author>Charles Norton</author>
+			<author>Thomas Sterling</author>
+			<author>Frank Villegas</author>
+			<author>Ping Wang</author>
+		</authors>
+		<title>The Use of Cluster Computers Systems for NASA/JPL Applications</title>
+		<text>Proceedings of AIAA Space 2001 Conference and Exposition Albuquerque, New Mexico 28-30 August 2001.</text>
+		<date>2001</date>
+		<links>
+			<link />
+		</links>
+	</item>
+	<item type="nano">
+		<old>P28</old>
+		<id>P_2001_1</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+			<author>R. Chris Bowen</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>Large-Scale Design and Optimization Using Cluster Computers</title>
+		<text>Proceedings of IEEE AP-S International Symposium and USNC/URSI National Radio Science Symposium, Boston, MA, July 8-13 (2001)</text>
+		<date>2001</date>
+		<links>
+			<link url="pubs_src/P28.pdf" title="Proceedings article" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P27</old>
+		<id>P_2000_5</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+			<author>R. Chris Bowen</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>Atomistic simulation of quantum dots including strain and bandstructure and full band simulation of hole transport in 1-D heterostructures</title>
+		<text>7th International Workshop on Computational Electronics, 2000, Univ. of Glasgow, book of abstracts, pages 6-7</text>
+		<date>2000</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=869893&amp;isnumber=18825&amp;punumber=6983&amp;k2dockey=869893@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=19&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P26</old>
+		<id>P_2000_4</id>
+		<authors> 
+			<author>D. Keymeulen</author>
+			<author>Gerhard Klimeck</author>
+			<author>R. Zebulum</author>
+			<author>Adrian Stoica</author>
+			<author>Yili Jin</author>
+			<author>Carlos-Salazar Lazaro</author>
+		</authors>
+		<title>EHWPack: an Evolvable Hardware Environment using the Spice Simulator and the Field Programmable Transistor Array</title>		
+		<text>In the Proceedings of ANNIE 2000 (Smart Enginering System Design), St. Louis, MO, November 5-8, 2000</text>
+		<date>2000</date>
+		<links>
+			<link url="pubs/P26.html" title="Abstract" />
+			<link url="pubs_src/P26.pdf" title="PDF" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P25</old>
+		<id>P_2000_3</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+			<author>R. Chris Bowen</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>Transverse Momentum Dependence of Electron and Hole Tunneling in a Full Band Tight-Binding Simulation</title>
+		<text>Proceedings of the 27th international Symposium on Compound Semiconductors (ISCS), IEEE, pg. 257 (2000)</text>
+		<date>2000</date>
+		<links>
+			<link url="pubs/P25.html" title="Abstract" />
+			<link url="pubs_src/P25.pdf" title="PDF" />
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=947165&amp;isnumber=20503&amp;punumber=7533&amp;k2dockey=947165@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=21&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P24</old>		
+		<id>P_2000_2</id>
+		<authors> 
+			<author>Adrian Stoica</author>
+			<author>Didier Keymeulen</author>
+			<author>Ricardo Zebulum</author>
+			<author>Anil Thakoor</author>
+			<author>Taher Daud</author>
+			<author>Gerhard Klimeck</author>
+			<author>Yili Jin</author>
+			<author>R. Tawel</author>
+			<author>Vu Duong</author>
+		</authors>
+		<title>Evolution of analog circuits on field programmable transistor arrays</title>
+		<text>Proceedings of 2nd NASA/DoD Workshop on Evolvable Hardware, July 13-15, pg. 99-108, 2000</text>
+		<date>2000</date>
+		<links>
+			<link url="pubs_src/P24.pdf" title="PDF" />
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=869347&amp;isnumber=18834&amp;punumber=6989&amp;k2dockey=869347@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=20&amp;access=no" title="Article at IEEE" />.
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P23</old>
+		<id>P_2000_1</id>
+		<authors> 
+			<author>Didier Keymeulen</author>
+			<author>Gerhard Klimeck</author>
+			<author>Ricardo Zebulum</author>
+			<author>Adrian Stoica</author>
+			<author>Carlos Salazar-Lazaro</author>
+		</authors>
+		<title>EHWPack: A Parallel Software/Hardware Environment for Evolvable Hardware</title>
+		<text>In Whitley Darrell (eds.), Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2000), July 8-12, 2000, Las Vegas, Nevada USA. San Francisco, CA: Morgan Kaufmann. </text>
+		<date>2000</date>
+		<links>
+		 	<link url="pubs/P23.html" title="Abstract" />
+			<link url="pubs_src/P23.pdf" title="PDF" />		
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P22</old>	
+		<id>P_1999_5</id>
+		<authors> 
+			<author>Adrian Stoica</author>
+			<author>Gerhard Klimeck</author>
+			<author>Carlos Salazar-Lazaro</author>
+			<author>Didier Keymeulen</author>
+			<author>Anil Thakor</author>
+		</authors>
+		<title>Evolutionary Design of Electronic Devices and Circuits</title>
+		<text>Proceedings of the 1999 Congress on Evolutionary Computation, IEEE, CEC 99, Vol. 2, Pages: 1271-1278</text>
+		<date>1999</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=782588&amp;isnumber=16979&amp;punumber=6342&amp;k2dockey=782588@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=22&amp;access=no" title="Article at IEEE" />.
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P21</old>
+		<id>P_1999_4</id>
+		<authors> 
+			<author>Tom Cwik</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Genetically Engineered Microelectronic Infrared Filters</title>
+		<text>Proceedings of the First NASA/DoD Workshop on Evolvable Hardware, IEEE 1999 , Page(s): 242 -246.</text>
+		<date>1999</date>
+		<links>
+			<link url="pubs/P21.html" title="Abstract" />
+			<link url="mailto:gekco_no_spaem@kein_spaem.purdue.edu?subject=Request P21.pdf" title="PDF" />
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=785459&amp;isnumber=16999&amp;punumber=6360&amp;k2dockey=785459@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=0&amp;access=no" title="Article at IEEE" />.
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P20</old>
+		<id>P_1999_3</id>
+		<authors> 
+			<author>Gerhard Klimeck</author>
+			<author>Carlos H. Salazar-Lazaro</author>
+			<author>Adrian Stoica</author>
+			<author>Thomas Cwik</author>
+		</authors>
+		<title>Genetically Engineered Nanoelectronics</title>
+		<text>Proceedings of the First NASA/DoD Workshop on Evolvable Hardware, IEEE 1999 , Page(s): 247 -248.</text>
+		<date>1999</date>
+		<links>
+			<link url="pubs/P20.html" title="Abstract" />
+			<link url="mailto:gekco_no_spaem@kein_spaem.purdue.edu?subject=Request P19_submit.pdf" title="PDF" />
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=785460&amp;isnumber=16999&amp;punumber=6360&amp;k2dockey=785460@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=24&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>		
+	<item type="nano">
+		<old>P19</old>
+		<id>P_1999_2</id>
+		<authors>			
+			<author>Tom Cwik</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Integrated Design and Optimization of Microelectronic Devices</title>
+		<text>Proceedings of 1999 Aerospace Conference, IEEE Volume: 5 , 1999 , Page(s): 131 -138</text>
+		<date>1999</date>
+		<links>
+			<link url="pubs/P19.html" title="Abstract" />
+			<link url="mailto:gekco_no_spaem@kein_spaem.purdue.edu?subject=Request P27.pdf" title="PDF" />
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=790196&amp;isnumber=17136&amp;punumber=6411&amp;k2dockey=790196@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=23&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>P18</old>
+		<id>P_1999_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Carlos H. Salazar-Lazaro</author>
+			<author>Adrian Stoica</author>
+			<author>Tom Cwik</author>
+		</authors>
+		<title>Genetically Engineered Nanostructure Devices</title>
+		<text>in &amp;quot;Materials in Space Science, Technology, and Exploration&amp;quot; MRS Symposium Proceedings, Vol. 551, pg. 149 (1999).</text>
+		<date>1999</date>
+		<links>
+			<link url="pubs/P18.html" title="Abstract" />
+			<link url="pubs_src/P18_MRS_pres.pdf" title="Presentation" />
+			<link url="mailto:gekco_no_spaem@kein_spaem.purdue.edu?subject=Request P26.pdf" title="PDF" />
+		</links>
+	</item>	
+		
+<!-- NEMO Related Publications"></a>NEMO Related Work at Raytheon / TI / UTD -->
+	<item type="nemo">
+		<old>P17</old>
+		<id>P_1998_1</id> 
+		<authors>
+			<author>Daniel K. Blanks</author>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>R. Chris Bowen</author>
+			<author>Manhua Leng</author>
+			<author>Chenjing Fernando</author>
+			<author>William R. Frensley</author>
+			<author>Dejan Jovanovic</author>
+		</authors>
+		<title>NEMO Quantum Device Simulator</title>
+		<text>1998 Government Microcircuit Applications Conference Digest of Papers (GOMAC), March 1998, p. 218.</text>
+		<date>1998</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P16</old>
+		<id>P_1997_8</id> 
+		<authors>
+			<author>R. Chris Bowen</author>
+			<author>Chenjing Fernando</author>
+			<author>Gerhard Klimeck</author>
+			<author>A. Chatterjee</author>
+			<author>Daniel Blanks</author>
+			<author>Roger Lake</author>
+			<author>J. Hu</author>
+			<author>J. Davis</author>
+			<author>M. Kularni</author>
+			<author>S. Hattangady</author>
+			<author>I.C. Chen</author>
+		</authors>
+		<title>Physical Oxide Extraction and Versification using Quantum Mechanical Simulation</title>
+		<text>Proceedings of IEDM 1997, IEEE, 869 (1997)</text>
+		<date>1997</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=650518&amp;isnumber=14153&amp;punumber=5237&amp;k2dockey=650518@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=5&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P15</old>
+		<id>P_1997_7</id> 
+		<authors>
+			<author>Chris Bowen</author>
+			<author>Chenjing L. Fernando</author>
+			<author>Gerhard Klimeck</author>
+			<author>Amitava Chatterjee</author>
+			<author>Dan Blanks</author>
+			<author>Roger Lake</author>
+			<author>Jerry Hu</author>
+			<author>Joseph Davis</author>
+			<author>Mak Kulkarni</author>
+			<author>Sunil Hattangady</author>
+			<author>Ih-Chin Chen</author>
+		</authors>
+		<title>Dopant Fluctuations and Quantum Effects in Sub-0.1um CMOS</title>
+		<text>Proceedings of the 1997 International Semiconductor Device Research Symposium, p. 1.</text>
+		<date>1997</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P14</old>
+		<id>P_1997_6</id> 
+		<authors>
+			<author>Roger Lake</author>
+			<author>Berinder Brar</author>
+			<author>Glen Wilks</author>
+			<author>Alan Seabaugh</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Resonant Tunneling in Disordered Materials such as SiO2/Si/SiO2</title>
+		<text>Proceedings of the 24th International Symposium on Compound Semiconductors, September 8-11, San Diego, CA, (1997). Inst. Phys. Conf. Ser. 156: 617-620, 1998</text>
+		<date>1997</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=711753&amp;isnumber=15178&amp;punumber=5669&amp;k2dockey=711753@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=2&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P13</old>
+		<id>P_1997_5</id> 
+		<authors>
+			<author>Daniel K. Blanks</author>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>Dejan Jovanovic</author>
+			<author>R. Chris Bowen</author>
+			<author>Chenjing Fernando</author>
+			<author>William R. Frensley</author>
+			<author>Manhua Leng</author>
+		</authors>
+		<title>NEMO: General Release of a New Comprehensive Quantum Device Simulator</title>
+		<text>Proceedings of the Twenty-Forth International Symposium on Compound Semiconductors, IEEE, NJ (1997). Inst. Phys. Conf. Ser. 156: 639-642, 1998</text>
+		<date>1997</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=711758&amp;isnumber=15178&amp;punumber=5669&amp;k2dockey=711758@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=3&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P12</old>
+		<id>P_1997_4</id>
+		<authors>
+			<author>J. P. A. van der Wagt</author>
+			<author>Alan Seabaugh</author>
+			<author>Gerhard Klimeck</author>
+			<author>Ed A. Beam III</author>
+			<author>Timothy</author>
+			<author>B. Boykin</author>
+			<author>R. Chris Bowen</author>
+			<author>Roger Lake</author>
+		</authors>
+		<title>Ultralow Current Density RTDs for Tunneling-based SRAM</title>
+		<text>Proceedings of the 24th International Symposium on Compound Semiconductors, September 8-11, San Diego, CA, (1997). Inst. Phys. Conf. Ser. 156: 601-604, 1998.</text>
+		<date>1997</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=711749&amp;isnumber=15178&amp;punumber=5669&amp;k2dockey=711749@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=1&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P11</old>
+		<id>P_1997_3</id> 
+		<authors>
+			<author>Dan Blanks</author>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>R. Chris Bowen</author>
+			<author>William R. Frensley</author>
+			<author>Manhua Leng</author>
+			<author>Chenjing L. Fernando</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO): A New Quantum Device Simulator</title>
+		<text>Proceedings of The Second NASA Device Modeling Workshop, August 7-8,  1997, page 70-84, Edited by Subhash Saini. You can request a copy of this from NAS Library, MS 258-5, NASA Ames research center, Moffett Field, CA 94035-1000.</text>
+		<date>1997</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P10</old>
+		<id>P_1997_2</id> 
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Timothy B. Boyki</author>
+			<author>R. Chris Bowen</author>
+			<author>Roger Lake</author>
+			<author>Dan Blanks</author>
+			<author>Ted Moise</author>
+			<author>Y. C. Kao</author>
+			<author>William R. Frensley</author>
+		</authors>
+		<title>Quantitative Simulation of Strained InP-Based Resonant Tunneling Diodes</title>
+		<text>in Proceedings of the 1997 55th IEEE Device Research Conference Digest, IEEE, NJ, p. 92 (1997)</text>
+		<date>1997</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=612487&amp;isnumber=13389&amp;punumber=4839&amp;k2dockey=612487@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=4&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P09</old>
+		<id>P_1997_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Dan Blanks</author>
+			<author>Bobby Brar</author>
+			<author>Tom Broekaert</author>
+			<author>Gary Frazier</author>
+			<author>Dejan Jovanovic</author>
+			<author>Roger Lake</author>
+			<author>Ted Moise</author>
+			<author>Alan Seabaugh</author>
+			<author>Glen Wilk</author>
+			<author>Paul van der Wagt</author>
+			<author>Chenjing L. Fernando</author>
+			<author>R. Chris Bowen</author>
+			<author>William R. Frensley</author>
+		</authors>
+		<title>Design and Implementation of Resonant Tunneling Devices into Circuits and Applications</title>
+		<text>in Proceedings of PHASDOM 97, Phantoms Strategic Domain Meetings, Aachen, Germany 10-13 March 1997.</text>
+		<date>1997</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P8</old>
+		<id>P_1996_3</id>
+		<authors>
+			<author>Roger Lake</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Experimentally Verified Quantum Device Simulations Based on Multiband Models, Hartree Selfconsistency, and Scattering Assisted Charging</title>
+		<text>in Proceedings of the 1996 54th IEEE Device Research Conference Digest, IEEE, NJ, p. 174, 1996</text>
+		<date>1996</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=546425&amp;isnumber=11468&amp;punumber=3979&amp;k2dockey=546425@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=6&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P7</old>
+		<id>P_1996_2</id>
+		<authors>
+			<author>William R. Frensley</author>
+			<author>R. Chris Bowen</author>
+			<author>Chenjing Fernando</author>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+		</authors>
+		<title>Quantitatively Accurate Simulation of Quantum Semiconductor Devices</title>
+		<text>Proceedings of International Workshop on Physics and Computer Modeling of Devices Based on Low-Dimensional Structures. IEEE Comp. Soc. Press, Los Alamitos, CA, p.2-5, 1996</text>
+		<date>1996</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=494459&amp;isnumber=10674&amp;punumber=3566&amp;k2dockey=494459@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=7&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P6</old>
+		<id>P_1996_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>Chenjing L. Fernando</author>
+			<author>R. Chris Bowen</author>
+			<author>Dan Blanks</author>
+			<author>Manhua Leng</author>
+			<author>Ted Moise</author>
+			<author>Y. C. Kao</author>
+			<author>William R. Frensley</author>
+		</authors>
+		<title>Numerical Approximations for Polar Optical Phonon Scattering in Resonant Tunneling Diodes in Quantum Devices and Circuits</title>
+		<text>edited by K. Ismail, S. Bandyopadhyay, ed J. P. Leburton, Imperial Press London (1996).</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P5</old>
+		<id>P_1995_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>R. Chris Bowen</author>
+			<author>Dan Blanks</author>
+			<author>William R. Frensley</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO)</title>
+		<text>in Proceedings of the 1995 53rd Device Research Conference Digest, IEEE, NJ p. 52, 1995</text>
+		<date>1995</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=496267&amp;isnumber=10711&amp;punumber=3596&amp;k2dockey=496267@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=8&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>P4</old>
+		<id>P_1995_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>R. Chris Bowen</author>
+			<author>William R. Frensley</author>
+		</authors>
+		<title>Efficient I-V simulation of quantum devices using full bandstructure models</title>
+		<text>Proceeding of IEEE Cornell Conference on Advanced Concepts in High Speed Semiconductor Devices and Circuits, IEEE, New York, NY, p.435, 1995</text>
+		<date>1995</date>
+		<links>
+			<link url="http://ieeexplore.ieee.org/search/srchabstract.jsp?arnumber=482537&amp;isnumber=10319&amp;punumber=3488&amp;k2dockey=482537@ieeecnfs&amp;query=%28%28klimeck%29%3Cin%3Eau+%29&amp;pos=9&amp;access=no" title="Article at IEEE" />
+		</links>
+	</item>	
+	
+<!-- Quantum Dots and RTD's at Purdue -->
+
+	<item type="phd">
+		<old>P3</old>
+		<id>P_1995_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger K. Lake</author>
+			<author>Supriyo Datta</author>
+			<author>M. P. Anantram</author>
+		</authors>
+		<title>Resonant Tunneling devices: Effect of Scattering</title>
+		<text>International Symposium on Compound Semiconductors, San Diego, Sept. 18-24, 1994. Inst. Phys. Conf. Ser. No 141; Chapter 7, p.775, (1995)</text>
+		<date>1995</date>
+		<links>
+			<link/>
+		</links>
+	</item>
+	<item type="phd">
+		<old>P2</old>
+		<id>P_1995_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger K. Lake</author>
+			<author>Supriyo Datta</author>
+		</authors>
+		<title>The Phonon Peak in Resonant Tunneling Diodes</title>
+		<text>Journal of the Electrochemical Society, (1995)</text>
+		<date>1995</date>
+		<links>
+			<link/>
+		</links>
+	</item>
+	<item type="phd">
+		<old>P1</old>
+		<id>P_1995_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>Supriyo Datta</author>
+			<author>Garnett Bryant</author>
+		</authors>
+		<title>High Bias Transport through Quantum Dots</title>
+		<text>Journal of the Electrochemical Society, (1995)</text>
+		<date>1995</date>
+		<links>
+			<link/>
+		</links>
+	</item>
+</items>

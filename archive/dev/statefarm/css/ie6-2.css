@@ -1,0 +1,5 @@
+/* IE6 CSS */
+	#header { overflow:visible;}
+	.quote-form-left {display:inline;}
+	
+	#bottom .bordered h2 {position:relative; z-index:500; margin-right:-8px;}

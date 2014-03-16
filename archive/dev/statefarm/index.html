@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>State Farm Insurance - Josh Baumgartner</title>
+    <link type="text/css" rel="stylesheet" media="screen, tv, projection" href="css/base-2.css" />
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script>
+    $(function(){	
+        $('.search-box').blur(function(){
+            if($(this).val() == '')
+                $(this).val('Enter search terms');
+        }).focus(function(){
+            if($(this).val() == 'Enter search terms')
+                $(this).val('');
+        });
+        $('.quote-zip').blur(function(){
+            if($(this).val() == '')
+                $(this).val('Zip Code');
+        }).focus(function(){
+            if($(this).val() == 'Zip Code')
+                $(this).val('');
+        });
+    });
+    </script>
+    <!--[if lte IE 6]>
+    <script src="js/DD_belatedPNG.js" type="text/javascript"></script>
+    <script type="text/javascript">  
+        DD_belatedPNG.fix("#quote-box, .quote-radio-auto, .quote-radio-renters, .quote-radio-home, .quote-radio-life");  
+    </script>     
+    <link type="text/css" rel="stylesheet" media="screen, tv, projection" href="css/ie6-2.css" />
+    <![endif]--> 
+</head>
+<body>
+    <a href="#" class="state-farm-logo" target="_blank">State Farm Insurance</a>
+    <div id="header">
+        <h1><span class="agent-name">Josh Baumgartner</span> a State Farm Agent</h1>
+    </div>
+    <div id="main">
+      <div id="quote">
+            <h2 class="headline">At home or on the go, <br/>State Farm has you covered.</h2>
+            <h3 class="subheadline">Thanks for stopping by, how can we help?</h3>
+            <div id="quote-box">
+                <form id="quote-form" action="https://online2.statefarm.com/apps/sfappselector/RedirectorServlet" target="_blank">
+                    <div class="quote-form-left">
+                        <label class="quote-radio-auto" title="Auto"><input type="radio" name="applicationName" id="quote-type" value="Auto" checked="checked" /><span>Auto</span></label>
+                        <label class="quote-radio-renters" title="Renters"><input type="radio" name="applicationName" id="quote-type" value="Renters" /><span>Renters</span></label>
+                        <label class="quote-radio-home" title="Home"><input type="radio" name="applicationName" id="quote-type" value="Homeowners" /><span>Home</span></label>
+                        <label class="quote-radio-life" title="Life"><input type="radio" name="applicationName" id="quote-type" value="Life" /><span>Life</span></label>
+                    </div>
+                    <div class="quote-form-right">
+                        <input type="text" class="quote-zip" id="quote-zip" name="postalCode" maxlength="9" value="Zip Code" title="Zip Code" onblur="text_swap(this);" onfocus="text_swap(this);"/>
+                        <button type="submit" class="btn-quote btn"><span class="icon"></span><span class="text">Get a Quote</span></button>
+                    </div>
+                </form>
+            </div>
+            <p>State Farm rate quote, auto question, and agent links direct users to the StateFarm.com website for additional information.</p>
+        </div>
+        <div id="contact">
+            <img class="agent-image" src="http://willgrauvogel.com/dev/statefarm/images/baumgartner.jpg" width="200" height="200" />
+            <h2 class="agent-name">Josh Baumgartner</h2>
+            <h3 class="agent-location">Agent, Northern Illinois</h3>
+            <a href="#" class="btn-fb-message btn"><span class="icon"></span><span class="text">facebook message me</span></a>
+            <ul>
+                <li>
+                    <h3>Phone</h3>
+                    <p class="agent-phone">(708) 946-0190</p>
+                </li>
+                <li>
+                    <h3>Fax</h3>
+                    <p class="agent-fax">(708) 946-0190</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="bottom">
+        <div class="bottom-left">
+            <div id="directions">
+                <img class="right" src="http://willgrauvogel.com/dev/statefarm/images/admin-direction-1.gif" width="82" height="66" alt="Directions" />
+                <h2>Swing by our office</h2>
+                <p>993 Dixie Highway<br/>Beecher, IL 60401-3781</p>
+                <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=993+Dixie+Highway+Beecher,+IL+60401-3781&sll=40.425869,-86.908065&sspn=0.210912,0.507088&ie=UTF8&hq=&hnear=993+Dixie+Hwy,+Beecher,+Will,+Illinois+60401&ll=41.353522,-87.62013&spn=0.025997,0.063386&t=h&z=15" class="btn-directions btn"><span class="icon"></span><span class="text">Get Directions</span></a>
+            </div>
+            <div id="about">
+                <img class="right" src="http://willgrauvogel.com/dev/statefarm/images/state-farm-logo-bottom.jpg" alt="State Farm Logo" />
+                <h2>About State Farm</h2>
+                <p>State Farm's mission is to help people manage the risks of everyday life, recover from the unexpected, and realize their dreams.</p>
+                <p>We are people who make it our business to be like a good neighbor; who built a premier company by selling and keeping promises through our marketing partnership; who bring diverse talents and experiences to our work of serving the State Farm customer.</p>            
+                <a href="http://statefarm.com" class="btn-statefarm btn"><span class="icon"></span><span class="text">Learn more at StateFarm.com</span></a>
+                <a href="http://insurewithjosh.com" class="btn-statefarm btn-statefarm-2 btn"><span class="icon"></span><span class="text">Visit InsureWithJosh.com</span></a>
+                <a href="#" class="link-analytics">Admin Analytics</a>
+            </div>
+        </div>
+        <div class="bottom-right">
+            <div id="search">
+                <h2>Search the State Farm Auto Learning Center</h2>
+                <form id="search-form" action="http://learningcenter.statefarm.com/mte/mt-search.cgi" method="get" target="_blank"> 
+                    <input class="search-box" name="search" id="search-box" value="Enter search terms" title="Enter search terms" maxlength="250" onblur="text_swap(this);" onfocus="text_swap(this);" />
+                    <input name="IncludeBlogs" value="1" type="hidden">
+                    <input name="limit" value="20" type="hidden">
+                    <button type="submit" class="btn-search btn"><span class="icon"></span><span class="text">Search</span></button>
+                    <div class="clear"></div>
+                    <table class="search-list">
+                        <tr><td class="search-text"><a href="#">How To Handle A Vehicle Recall</a></td><td class="search-stars"><div class="star-bottom"><div class="star-top"></div></div></td></tr>
+                        <tr><td class="search-text"><a href="#">Car Insurance Discounts By State</a></td><td class="search-stars"><div class="star-bottom"><div class="star-top"></div></div></td></tr>
+                        <tr><td class="search-text"><a href="#">New Car Buying Tips</a></td><td class="search-stars"><div class="star-bottom"><div class="star-top"></div></div></td></tr>
+                        <tr><td class="search-text"><a href="#">Tips For What To Do After A Car Accident</a></td><td class="search-stars"><div class="star-bottom"><div class="star-top"></div></div></td></tr>
+                        <tr><td class="search-text"><a href="#">How Teen Drivers Affect Car Insurance</a></td><td class="search-stars"><div class="star-bottom"><div class="star-top"></div></div></td></tr>
+                    </table>
+                </form>
+            </div>
+            <div id="form">
+            </div>
+    </div>
+   <div class="clear"></div>
+</div>
+</html>

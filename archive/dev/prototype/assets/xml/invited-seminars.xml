@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+<!-- JPL and Purdue Work - Nanoelectronics -->
+	<item type="nano">
+		<old>S94</old>
+		<id>S_2009_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Your Career Choices after Graduate School and The Most-Neglected Item in your Career Development</title>
+		<text>Purdue SURF Spring Seminar, April 8, 2009, Host: Vicki Leavitt.</text>
+		<date>2009</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S93</old>
+		<id>S_2009_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Modeling and Simulation Tools for Nanoelectronics</title>
+		<text>University of Duisburg-Essen, Germany, 2:30pm, March 18., 2009, Host. Dr. Werner Prost and Prof. Tegude.</text>
+		<date>2009</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S92</old> 
+		<id>S_2009_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Modeling and Simulation Tools for Nanoelectronics</title>
+		<text>Ruhr University Bochum, Germany, 10:15am, March 18., 2009, Host. Prof. Ulrich Kunze.</text>
+		<date>2009</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S91</old> 
+		<id>S_2009_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Quantum Dots 101 and Quantum Dot Lab</title>
+		<text>Purdue, School of Technology, March 12., 2009, Host. Prof. Helen McNally.</text>
+		<date>2009</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S90</old> 
+		<id>S_2008_11</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Introduction to Quantum Dots on nanoHUB.org</title>
+		<text>Purdue, School of Technology, Oct. 27, 2008, Host. Prof. Helen McNally.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S89</old> 
+		<id>S_2008_10</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB.org  simulation tools ranging from semiconductor device education to nanoelectronic research</title>
+		<text>MIT, MSD Teleseminar Series, Oct. 9, 2008, Host. Prof. Judy Hoyt.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S88</old> 
+		<id>S_2008_9</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB.org - Future Cyberinfrastructure serving over 75,000 users today</title>
+		<text>Purdue-Silicon Valley Symposium, August 26, 2008, Host. Margarita Contreni.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S87</old> 
+		<id>S_2008_8</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB.org serving over 6,200 simulation users including NanoElectronic MOdeling (NEMO and OMEN)</title>
+		<text>UT Dallas Seminar, August 22, 2008, Host: Prof. Eric Vogel.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S86</old>
+		<id>S_2008_7</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Atomistic Nanoelectronic Modeling - NEMO and OMEN</title>
+		<text>NCSA Director's Seminar, NCSA, University of Illinois Urbana Champaign, April 17, 2008, Host. Prof. Thom Dunning.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S85</old> 
+		<id>S_2008_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Introduction to Quantum Dot Lab</title>
+		<text>Purdue University, School of Technology, Introduction to nanotechnology Course.  march 6th, 2008. Host Prof. Helen McNally.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S84</old> 
+		<id>S_2008_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Atomistic Modeling of Single Electron Quantum State Control in Silicon using NEMO 3-D</title>
+		<text>University of New South Wales, Physics Department, Centre for Quantum Electronics, March 3rd, 2008, Host Profs. Michelle Simmons and Bob Clark.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S83</old> 
+		<id>S_2008_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Atomistic Quantum Transport in Realistically Extended Devices - nanowires and thin bodies</title>
+		<text>GRC / SRC Technology Transfer e-workshop, Feb. 21, 2008, Host Dr. Kwok Ng.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S82</old> 
+		<id>S_2008_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Algorithms and Parallelization Approaches for Scaling to 23,000 Processors in Nanoelectronic Modeling (NEMO)</title>
+		<text>Purdue University SIAM student meeting, Feb 7, 2008.  Host Mr. Maxim Naumov</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S81</old>
+		<id>S_2008_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB.org - Future Cyberinfrastructure serving over 26,000 users today</title>
+		<text>Oak Ridge National Lab, TN, Jan 9, 2008</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S80</old> 
+		<id>S_2008_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Atomistic NanoElectronic MOdeling (NEMO) for Predictive 1D Out-of-Equilibrium Quantum Transport, and Disordered 3D Multi-Million Atom Electronic Structure</title>
+		<text>Oak Ridge National Lab, TN, Jan 8, 2008</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S79</old> 
+		<id>S_2007_11</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB.org: Future Cyberinfrastructure serving over 26,000 users today</title>
+		<text>Northwestern University, Dec. 6, 2007</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S78</old>
+		<id>S_2007_10</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB.org: Future Cyberinfrastructure serving over 26,000 users today</title>
+		<text>Purdue University, School of Technology Student Seminar, Nov. 15, 2007</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S77</old> 
+		<id>S_2007_9</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB.org: Future Cyberinfrastructure serving over 25,000 users today</title>
+		<text>Ruhr University Bochum, Institute for Theoretical Electrical Engineering, Oct. 25, 2007, Hosts: Prof. Kunze and Brinkmann</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S76</old>
+		<id>S_2007_8</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Engineering at the nanometer scale: Is it a new material or a new device?</title>
+		<text>Purdue University, Material Science and Engineering Seminar, Oct. 19, 2007, Host: Prof. Edwin Garcia.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S75</old> 
+		<id>S_2007_7</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB.org: Future Cyberinfrastructure serving over 25,000 users today</title>
+		<text>Purdue University, Math Graduate Student Seminar, Oct. 19, 2007</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S74</old>
+		<id>S_2007_6</id>
+		<authors>
+			<author>>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB.org: Future Cyberinfrastructure serving over 25,000 users today</title>
+		<text>Purdue University, Electrical and Computer Engineering Graduate Student Seminar, ECE694, Oct. 18, 2007, Host: Prof. P. Krause</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S73</old>
+		<id>S_2007_5</id>
+		<authors>
+			<author>Gerhard Klimeck </author>
+		</authors>
+		<title>nanoHUB.org: Future Cyberinfrastructure serving over 25,000 users today</title>
+		<text>Jet Propulsion Laboratory, Section 388 seminar, Pasadena CA, October 4, 2007.  Host: Dr. Paul von Allmen</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S72</old>
+		<id>S_2007_4</id>
+		<authors>
+			<author>Mark Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>The NCN and the nanoHUB</title>
+		<text>Lawrence Livermore National Laboratory, April 9, 2007, Host: Dr. Jeff Neaton.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S71</old>
+		<id>S_2007_3</id>
+		<authors>
+			<author>Michael McLennan</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB Demo and Usage Scenarios for Education</title>
+		<text>Purdue University, Electrical and Computer Engineering, EI2G: The ECE Instructional Innovation Group, March 6th, 2007, Host: Dr. Mark Johnsson.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S70</old>
+		<id>S_2007_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Atomistic Alloy Disorder in Nanostructures</title>
+		<text>Purdue University, NCN/INAC Tutorial Lecture Feb. 7, 2007, Host: NCN Student Leadership Council.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S69</old>
+		<id>S_2007_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Mara Prada</author>
+		</authors>
+		<title>Electronic Structure of Si/InAs Composite Channels</title>
+		<text>University of Notre Dame, Electrical Engineering Department Januaray 30, 2007, Host: Prof. Alan Seabaugh.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S68</old>
+		<id>S_2006_13</id>
+		<authors>
+			<author>Mark Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>Network for Computational Nanotechnology</title>
+		<text>Semiconductor Research Corporation e-Workshop, Teleseminar, Nov. 17, 2006, Host: Jim Hutchby</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S67</old>
+		<id>S_2006_12</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Atomistic Modeling of Ultra-Scaled Si/Ge Devices and Tool Deployment on nanoHUB.org</title>
+		<text>Samsung Advanced Institute of Technonlogy, Seoul, Korea, October 27, 2006 Host: Dr. Jongsoeb Kim.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S66</old>
+		<id>S_2006_11</id>
+		<authors>
+			<author>Sebastien Goasguen</author>
+			<author>Gerhard Klimeck</author>
+			<author>Dongyan Xu</author>
+			<author>Renato Figueiredo</author>
+			<author>Alain Roy</author>
+			<author>Krishna Madhavan</author>
+		</authors>
+		<title>The nanoHUB case: Cyberinfrastructure-enabled Virtual Organization</title>
+		<text>NSF / OCI (Office of Cyberinfrastructure) seminar, presentation to program directors, NSF, Washington DC, Oct 5, 2006.  Host: Dr. Miriam Heller.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S65</old>
+		<id>S_2006_10</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Why is Nanotechnology Multidisciplinary? - A perspective of one EE</title>
+		<text>Purdue Multi-Disciplinary Engineering Program, Purdue Univerisy, Oct. 3, 2006, Host: Prof. Robin Adams</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S64</old>
+		<id>S_2006_9</id>
+		<authors>
+			<author>Michael McLennan</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>HUB Technologies: A Fully Operational Collaborative Cyberinfrastructure for Research, Education, and Outreach Shared Infrastructure Available for You Today!</title>
+		<text>Cyber Center Seminar, Purdue University, School of Computer Science, September 25, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S63</old>
+		<id>S_2006_8</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB overview to the MSD/MARCO Center</title>
+		<text>MIT MSD/MARCO center Teleseminar, Sept 21. 2006, Host: Prof. Judy Hoyd</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S62</old>
+		<id>S_2006_7</id>
+		<authors>
+			<author>Michael McLennan</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>HUB Technologies: A Fully Operational Collaborative Cyberinfrastructure for Research, Education, and Outreach Shared Infrastructure Available for You Today! </title>
+		<text>University wide presentation, Purdue University, Burton Morgan Center for Entrepeneurship, September 6, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S61</old>
+		<id>S_2006_6</id>
+		<authors>
+			<author>Michael McLennan</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Usage Scenarios of and Vision for nanoHUB</title>
+		<text>Presentation to the teacher summer workshop initiated from SC05, Purdue University, STEW 322 Host: Krishna Madhavan, July, 12, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S60</old>
+		<id>S_2006_5</id>
+		<authors>
+			<author>Michael McLennan</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>nanoHUB.org: The Computational User Facility Complement to the Birck Nanotechnology Center</title>
+		<text>Nanotechnology Seminar Series, Purdue University, Birck 1001 June 5, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S59</old>
+		<id>S_2006_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Mark Lundstrom</author>
+			<author>Michael McLennan</author>
+			<author>Sebastien Goasguen</author>
+			<author>Krishna Madhavan</author>
+		</authors>
+		<title>nanoHUB.org online simulation and more - A fully operational Cyberinfrastructure that is transforming how Students learn, Teachers teach and Researchers and Engineers work </title>
+		<text>Presentation to the Northwest Indiana Grid Steering committee, representatives of Purdue West Lafayatte, Purdue-Calumet, and Notre Dame. Host Nathan Bohlmann, Chris Hoffmann, Access grid presentation, May 24, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S58</old>
+		<id>S_2006_3</id>
+		<authors>
+			<author>Krishna P.C. Madhavan</author>
+			<author>Sebastien Goasguen</author>
+			<author>Gary Bertoline</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Next-generation Cyberinfrastructure for Bridging Discovery and Learning: nanoHUB</title>
+		<text>Revolutionizing science and education through cyberinfrastructure. Presentation at the Exploratorium Brown Bag Series, San Francisco, CA, May 18, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S57</old>
+		<id>S_2006_2</id>
+		<authors>
+			<author>Krishna P.C. Madhavan</author>
+			<author>Dongyan Xu</author>
+			<author>Sebastien Goasguen</author>
+			<author>Gary Bertoline</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Next-generation Cyberinfrastructure for Bridging Discovery and Learning: nanoHUB</title>
+		<text>April 11, 2006, 10:00am, NSF ENG Cyberinfrastructure Seminar, National Science Foundation, Washington DC, Host: Dr. Gary Gabriele.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S56</old>
+		<id>S_2006_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Computational and Algorithm Challenges for Nanoscience and  Nanotechnology</title>
+		<text>March 1, 2006, 4:00pm, Purdue University, Jointly sponsored by Computing Research Institute (CRI), CSE Spring 2006 Seminar Series, Center for Computational and Applied Mathematics (CCAM), Host: Prof. Dongbin Xiu.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S55</old>
+		<id>S_2005_10</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Bandstructure in Nanoelectronics</title>
+		<text>Nov. 2, 2005, 10:30am, Purdue University Nanotechnology Tutorial Series. </text>
+		<date>2005</date>
+		<links>
+			<link url="https://www.nanohub.org/index.php?option=com_content&amp;task=view&amp;id=595&amp;Itemid=0" title="Presentation on the nanoHUB"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S54</old>
+		<id>S_2005_9</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Development of a Nanowire Simulator at the Network for Computational Nanotechnologies (NCN)</title>
+		<text>Sept. 20, 2005, 4:30pm, Gerhard Mercator Universiät Duisburg, Host: Dr. Werner Prost.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S53</old>
+		<id>S_2005_8</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Parallel Computing for Realistic Nanoelectronic Simulations</title>
+		<text>Sept. 12, 2005, 2:30pm, Purdue University, Nanotechnology Tutorial Series.  </text>
+		<date>2005</date>
+		<links>
+			<link url="https://www.nanohub.org/index.php?option=com_content&amp;task=view&amp;id=564&amp;Itemid=0" title="Presentation on the nanoHUB"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S52</old>
+		<id>S_2005_7</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Nano 101 - Quantum Dots</title>
+		<text>July 20, 2005, 11am, Purdue University, Summer Undergraduate Research Institute (SURI) Host: Prof. Michael Melloch.</text>
+		<date>2005</date>
+		<links>
+			<link url="https://www.nanohub.org/index.php?option=com_content&amp;task=view&amp;id=565&amp;Itemid=0" title="Presentation on the nanoHUB"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S51</old>
+		<id>S_2005_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>CVS Crashcourse</title>
+		<text>April 6, 9am, 2005, Purdue University, Burton Morgan Entrepreneurship Center, NCN Student Leadership workshop.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S50</old>
+		<id>S_2005_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NCN Cyberinfrastrucutre or How can your science software reach thousands of users?</title>
+		<text>April 6, 2pm, 2005, Purdue University, Burton Morgan Entrepreneurship Center, NCN Student Leadership workshop.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S49</old>
+		<id>S_2005_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>The Network for Computational Nanotechnology (NCN) or How can your educational modules contain interactive online simulation? </title>
+		<text>Feb 28, 2005, National Center for Learning and Teaching in Nanoscale Science and Engineering, Northwestern University, Purdue University, web-based seminar, Host: Prof. Bob Chang.</text>
+		<date>2005</date>
+		<links>
+			<link url="http://www.materialsworld.net/nclt/conferencing_archive.htm" title="web-site"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S48</old>
+		<id>S_2005_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>The Network for Computational Nanotechnology (NCN)</title>
+		<text>Feb 28, 11am, 2005, Purdue University, STEW 320, ITaP user forum, Host: Steve Dunlop.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S47</old>
+		<id>S_2005_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>The Network for Computational Nanotechnology (NCN)  and NEMO 1-D transport simulations </title>
+		<text>Feb 18, 2005, Morgan State University, Baltimore, Host: Prof. Craig Scott.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S46</old>
+		<id>S_2005_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Mark Lundstrom</author>
+			<author>Michael McLennan</author>
+			<author>Sebastien Goasguen</author>
+		</authors>
+		<title>The Network for Computational Nanotechnology (NCN) or How can your science software reach thousands of users? </title>
+		<text>Feb 17, 2005, NIST, Gaithersburg, Host: Dr. David Seiler.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S45</old>
+		<id>S_2004_11</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEMO 1-D: The First NEGF-based TCAD Tool and The Network for Computational Nanotechnology</title>
+		<text>Nov. 4, 2004, Purdue University, EE 694 Graduate Student Seminar, Host: Prof. P. Krause.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S44</old>
+		<id>S_2004_10</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Mark Lundstrom</author>
+			<author>Sebastien Goasguen</author>
+		</authors>
+		<title>The Network for Computational Nanotechnology Cyber-Infrastructure and Grid Computing for Nanotechnology Exploration and Education</title>
+		<text>Sept. 21, 2004, Purdue University, IEEE Computer Society, Host: Mr. Greg Veldman.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S43</old>
+		<id>S_2004_9</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Computational Nanoelectronics: Towards Design, Analysis, and Fundamental Limits - Development of the Nanoelectronic Modeling Tool NEMO</title>
+		<text>Sept. 1, 2004, Walter Schottky Institute, Garching, Munich,	Host: Prof. Peter Vogl.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S42</old>
+		<id>S_2004_8</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Computational Nanoelectronics: Towards Design, Analysis, Synthesis, and Fundamental Limits.</title>
+		<text>August 30, 2004, Gwangju Institute of Technology (GIST), South Korea, Host: Prof. Youngjoo Chung.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S41</old>
+		<id>S_2004_7</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEMO 1-D: A NEGF-based CAD Tool, Interactive lecture and software demo.</title>
+		<text>Lecture on June 14, 2004, Summer School: Introduction to Computational Nanotechnology, June 7-18, 2004, Beckman Institute, University of Illinois at Urbana-Champaign, Host: Prof. Umberto Ravaioli.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S40</old>
+		<id>S_2004_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Numerical Aspects of NEGF: The Recursive Green Function Algorithm</title>
+		<text>Lecture on June 14, 2004, Summer School: Introduction to Computational Nanotechnology, June 7-18, 2004, Beckman Institute, University of Illinois at Urbana-Champaign, Host: Prof. Umberto Ravaioli.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S39</old>
+		<id>S_2004_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Development of the Nanoelectronic Modeling Tool (NEMO): Towards Design, Analysis, Synthesis, and Fundamental Limits</title>
+		<text>April 15, 2004, Ball State University, Center for Computational Nanoscience (CCN), Host: Prof. Jin Feng.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S38</old>
+		<id>S_2004_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>HPC Challenges for NanoElectronic Modeling (NEMO)s</title>
+		<text>March 5, 2004, Purdue University, Computing Research Institute (CRI) Advisory Group, Host: Prof. Chris Hoffmann.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S37</old>
+		<id>S_2004_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Development of NEMO 3-D: Boundary conditions for the electronic structure of finite-extent, embedded semiconductor nanostructures</title>
+		<text>Feb. 27, 2004, University of Duisburg-Essen, Germany, Host: Dr. Werner Prost.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S36</old>
+		<id>S_2004_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Development of NEMO 3-D: Boundary conditions for the electronic structure of finite-extent, embedded semiconductor nanostructures</title>
+		<text>Feb. 24, 2004, Ruhr-University University Bochum, Germany, Host: Prof. Ulrich Kunze.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S35</old>
+		<id>S_2004_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Development of the Nanoelectronic Modeling Tool (NEMO): Towards Design, Analysis, Synthesis, and Fundamental Limits</title>
+		<text>Feb. 18, 2004, State University of New York, Buffalo, Host: Prof. Vladimir Mitin.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S34</old>
+		<id>S_2003_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Computational Nanoelectronics: Towards Design, Analysis, Synthesis, and Fundamental Limits </title>
+		<text>July 28, 2003, Purdue University, Host: Prof. Mark Lundstrom.</text>
+		<date>2003</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S33</old>
+		<id>S_2003_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Computational Nanoelectronics: Towards Design, Analysis, Synthesis, and Fundamental Limits </title>
+		<text>JPL, Division 32 and 38 Seminar, June 18, Host: Dr. Carl Ruoff, Div 32 and 38 Chief Technologist.</text>
+		<date>2003</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S32</old>
+		<id>S_2003_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Computational Nanoelectronics: Towards Design, Analysis, Synthesis, and Fundamental Limits </title>
+		<text>JPL, Section 381 Noontime seminar, April 10, 2003, Host Jason Hyon, Section 381 Deputy.</text>
+		<date>2003</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S31</old>
+		<id>S_2003_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Computational Nanoelectronics: Towards Design, Analysis, Synthesis, and Fundamental Limits </title>
+		<text>Dr. Ed Stone Award Outstanding Research Publication Award Lecture, JPL, Feb. 18, 2003, Host: Dr. Tom Prince, JPL Chief Scientist. </text>
+		<date>2003</date>
+		<links>
+			<link url="pubs/S31.html" title="Abstract"/>
+			<link url="pubs_src/S31.pps" title="Presentation"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S30</old>
+		<id>S_2002_10</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Modeling of Disordered Multimillion Atom Quantum Dot Systems</title>
+		<text>University of Duisburg, Germany, Nov 13, 2002, Hosts Dr. Werner Prost and Prof. Tegude. </text>
+		<date>2002</date>
+		<links>
+			<link url="pubs/S29.html" title="Abstract"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S29</old>
+		<id>S_2002_9</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Modeling of Disordered Multimillion Atom Quantum Dot Systems</title>
+		<text>Ruhr-University Bochum, Germany, Nov 11, 2002, Host Prof. Ulrich Kunze. </text>
+		<date>2002</date>
+		<links>
+			<link url="pubs/S29.html" title="Abstract"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S28</old>
+		<id>S_2002_8</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Development of a Nanoelectronic 3-D (NEMO 3-D) Simulator for Multimillion Atom Simulations and Its Application to Alloyed Quantum Dots </title>
+		<text>California State University Northridge, Northridge, CA, March 29, 2002, Host Prof. Nickolas Kioussis.</text>
+		<date>2002</date>
+		<links>
+			<link url="pubs/S20.html" title="Abstract"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S27</old>
+		<id>S_2002_7</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Development of a Nanoelectronic 3-D (NEMO 3-D) Simulator for Multimillion Atom Simulations and Its Application to Alloyed Quantum Dots </title>
+		<text>Purdue University, West Lafayette, IN, March 20, 2002, Host Prof. Supriyo Datta.</text>
+		<date>2002</date>
+		<links>
+			<link url="pubs/S20.html" title="Abstract"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S26</old>
+		<id>S_2002_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Development of a Nanoelectronic 3-D (NEMO 3-D) Simulator for Multimillion Atom Simulations and Its Application to Alloyed Quantum Dots </title>
+		<text>Notre Dame, South Bend, IN, March 15, 2002, Host Prof. Wolfgang Porod.</text>
+		<date>2002</date>
+		<links>
+			<link url="pubs/S20.html" title="Abstract"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S25</old> 
+		<id>S_2002_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Development of a Nanoelectronic 3-D (NEMO 3-D) Simulator for Multimillion Atom Simulations and Its Application to Alloyed Quantum Dots </title>
+		<text>R. G. Herb Memorial Lecture, Physics Dept., University of Wisconsin-Madison, Madison, WI, March 14, 2002, Host Prof. Bob Joynt</text>
+		<date>2002</date>
+		<links>
+			<link url="pubs/S20.html" title="Abstract"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S24</old> 
+		<id>S_2002_4</id>
+		<authors>
+			<author>Status of the Nanoelectronic Modeling tool (NEMO 1-D and 3-D) and its planned extension to Spintronics</author>
+		</authors>
+		<title>Gerhard Klimeck</title>
+		<text>NTT Central Reaearch Laboratory, Erato Project, Feb 8, 2002, Hosts Dr. Michael Stope and Prof. Tarucha. </text>
+		<date>2002</date>
+		<links>
+			<link url="pubs/S20.html" title="Abstract"/>
+			<link url="pubs_src/S22.ppt" title="Powerpoint"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S23</old> 
+		<id>S_2002_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO): Moving from commercial grade 1-D simulation to prototype 3-D simulation</title>
+		<text>University of Tokyo, February 8, 2002, Host Prof. Seigo Tarucha. </text>
+		<date>2002</date>
+		<links>
+			<link url="pubs/S20.html" title="Abstract"/> 
+			<link url="pubs_src/S21.ppt" title="Powerpoint"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S22</old> 
+		<id>S_2002_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Status of the Nanoelectronic Modeling tool (NEMO 1-D and 3-D) and its planned extension to Spintronics</title>
+		<text>Tokyo Institute of Technology, Feb 6, 2002, Host Prof. Oda. </text>
+		<date>2002</date>
+		<links>
+			<link url="pubs/S20.html" title="Abstract"/>
+			<link url="pubs_src/S22.ppt" title="Powerpoint"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S21</old> 
+		<id>S_2002_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO): Moving from commercial grade 1-D simulation to prototype 3-D simulation</title>
+		<text>Osaka University, January 30m 2002, Host Prof. Hishiro Hamaguchi. </text>
+		<date>2002</date>
+		<links>
+			<link url="pubs/S20.html" title="Abstract"/>
+			<link url="pubs_src/S21.ppt" title="Powerpoint"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S20</old> 
+		<id>S_2001_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Quantum Dot Modeling using NEMO 3-D</title>
+		<text>JPL, Section 367 Seminar, February 6, 2001, 126-346, 3p.m.</text>
+		<date>2001</date>
+		<links>
+			<link url="pubs/S20.html" title="Abstract"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S19</old> 
+		<id>S_2000_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Quantum Dot Modeling using NEMO 3-D</title>
+		<text>University of California Riverside, Department of Electrical and Computer Engineering, Dec 8, 2000. </text>
+		<date>2000</date>
+		<links>
+			<link url="pubs/S19.html" title="Abstract"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S18</old> 
+		<id>S_2000_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Chris Bowen</author>
+			<author>Tom Cwik</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>A Prototype of a 3-D Nanoelectronic Modeling Tool (NEMO-3D)</title>
+		<text>Notre Dame, South Bend, IN, April 12, 2000.</text>
+		<date>2000</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S17</old> 
+		<id>S_2000_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Chris Bowen</author>
+			<author>Tom Cwik</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>A Prototype of a 3-D Nanoelectronic Modeling Tool (NEMO-3D)</title>
+		<text>General Dynamics Information Systems, Minneapolis, MN, March 22, 2000. </text>
+		<date>2000</date>
+		<links>
+			<link url="pubs/S17.html" title="Abstract"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S16</old> 
+		<id>S_1999_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Chris Bowen</author>
+			<author>Tom Cwik</author>
+		</authors>
+		<title>Simulator Development for Nanoelectronic and Electromagnetic Devices</title>
+		<text>National Reconnaissance Office, Chantilly, VA, March 31, 1999. </text>
+		<date>1999</date>
+		<links>
+			<link url="pubs/S16.html" title="Abstract"/>
+			<link url="pubs_src/S16.pdf" title="PDF"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S15</old>
+		<id>S_1998_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Chris Bowen</author>
+			<author>Tim Boykin</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Tom Cwik</author>
+			<author>Carlos Salazar-Lazaro</author>
+			<author>Adrian Stoica</author>
+		</authors>
+		<title>The Nanoelectronic Modeling Tool NEMO and its extension to High Performance Computing</title>
+		<text>MIT Lincoln Laboratory, Lexington, MA. Dec. 2, 1998. </text>
+		<date>1998</date>
+		<links>
+			<link url="pubs_src/I17_ICSDT/index.htm" title="Large Screen Presentation" />
+			<link url="pubs_src/I17_ICSDT_small/index.htm" title="Small Screen Presentation" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S14</old>
+		<id>S_1998_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Chris Bowen</author>
+			<author>Tim Boykin</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Tom Cwik</author>
+			<author>Carlos Salazar-Lazaro</author>
+			<author>Adrian Stoica</author>
+		</authors>
+		<title>The Nanoelectronic Modeling Tool NEMO and its extension to High Performance Computing</title>
+		<text>Gerhard Mercator University Duisbug, Nov 25, 1998. </text>
+		<date>1998</date>
+		<links>
+			<link url="pubs_src/I17_ICSDT/index.htm" title="Large Screen Presentation" />
+			<link url="pubs_src/I17_ICSDT_small/index.htm" title="Small Screen Presentation" />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>S13</old>
+		<id>S_1998_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Chris Bowen</author>
+			<author>Tim Boykin</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Tom Cwik</author>
+			<author>Carlos Salazar-Lazaro</author>
+			<author>Adrian Stoica</author>
+		</authors>
+		<title>The Nanoelectronic Modeling Tool NEMO and its extension to High Performance Computing</title>
+		<text>Ruhr University Bochum, Lehrstuhl fuer Werkstoffe der Elektrotechnik, Nov 23, 1998. </text>
+		<date>1998</date>
+		<links>
+			<link url="pubs_src/I17_ICSDT/index.htm" title="Large Screen Presentation" />
+			<link url="pubs_src/I17_ICSDT_small/index.htm" title="Small Screen Presentation" />
+		</links>
+	</item>	
+				
+<!-- NEMO Related Publications - NEMO Related Work at Raytheon / TI / UTD -->
+		
+	<item type="nemo">
+		<old>S12</old>
+		<id>S_1998_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEMO: A 1-D Heterostructure Design Tool</title>
+		<text>Center for Integrated Space Microsystems, Jet Propulsion Laboratory, Pasadena, CA, April 24, 1998. </text>
+		<date>1998</date>
+		<links>
+			<link url="http://cism.jpl.nasa.gov/events/seminar98.html" title="Seminar List"/>
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>S11</old>
+		<id>S_1997_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEMO: A General Purpose 1-D Quantum Device Simulator</title>
+		<text>November 21, 1997, Intel Corporation, Portland, OR.</text>
+		<date>1997</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>S10</old>
+		<id>S_1997_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEMO: A General Purpose 1-D Quantum Device Simulator</title>
+		<text>October 6, 1997, Jet Propulsion Laboratory, Pasadena, CA.</text>
+		<date>1997</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>S9</old>
+		<id>S_1997_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEMO: Quantitative RTD Simulation</title>
+		<text>Hitachi Ltd., Cambridge, UK, July 21, 1997.</text>
+		<date>1997</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>S8</old>
+		<id>S_1996_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Dejan Jovanovic</author>
+		</authors>
+		<title>NEMO: Quantum Device Modeling (1-D, 2-D and 3-D)</title>
+		<text>Ultra Electronics Program Review, Estes Park, CO, Oct. 6-10, 1996.</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>S7</old>
+		<id>S_1996_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>R. Chris Bowen</author>
+			<author>Dan Blanks</author>
+			<author>Manhua Leng</author>
+			<author>Chenjing Fernando</author>
+			<author>Dejan Jovanovic</author>
+			<author>Paul Sotirelis</author>
+		</authors>
+		<title>NEMO: A General Purpose Quantum Device Simulator</title>
+		<text>IMEC, Leuven, Belgium, May 31, 1996</text>
+		<date>1996</date>
+		<links>
+			<link url="http://www.imec.be/seminars/1996/960531.klimeck" title="IMEC"/>			
+			<link url="http://www.imec.be/seminars/1996/960531.klimeck" title="Abstract"/>
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>S6</old>
+		<id>S_1996_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>R. Chris Bowen</author>
+			<author>Dan Blanks</author>
+			<author>Manhua Leng</author>
+			<author>Chenjing Fernando</author>
+			<author>Dejan Jovanovic</author>
+			<author>Paul Sotirelis</author>
+		</authors>
+		<title>NEMO: A General Purpose Quantum Device Simulator</title>
+		<text>Ruhr-Universit&#228;t Bochum, Germany, May 30, 1996.</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>S5</old>
+		<id>S_1996_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>R. Chris Bowen</author>
+			<author>Dan Blanks</author>
+			<author>Manhua Leng</author>
+			<author>Chenjing Fernando</author>
+			<author>Dejan Jovanovic</author>
+			<author>Paul Sotirelis</author>
+		</authors>
+		<title>NEMO: A General Purpose Quantum Device Simulator</title>
+		<text>Universit&#228;t Duisburg, Germany, May 28, 1996.</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>S4</old>
+		<id>S_1996_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>R. Chris Bowen</author>
+			<author>Dan Blanks</author>
+			<author>Manhua Leng</author>
+			<author>Chenjing Fernando</author>
+			<author>Dejan Jovanovic</author>
+			<author>Paul Sotirelis</author>
+		</authors>
+		<title>NEMO: A General Purpose Quantum Device Simulator</title>
+		<text>Texas Instruments Research Colloquium, Dallas, TX, May 23, 1996.</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+		
+		
+		
+<!-- PHD Publications - Quantum Dots, RTD's and 2DEG's at Purdue -->
+	<item type="phd">
+		<old>S3</old>
+		<id>S_1994_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>Garnett Bryant</author>
+			<author>Guanlong Chen</author>
+			<author>Supriyo Datta</author>
+			<author>Chris Bowen</author>
+			<author>William Frensley</author>
+		</authors>
+		<title>Elektronen-Elektronen und Elektronen-Phononen Wechselwirkungen in der Nanotechnologie</title>
+		<text>Ruhr-Universit&#228;t Bochum, Germany, Dec. 20, 1994.</text>
+		<date>1994</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="phd">
+		<old>S2</old>
+		<id>S_1994_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>Garnett Bryant</author>
+			<author>Guanlong Chen</author>
+			<author>Supriyo Datta</author>
+			<author>Chris Bowen</author>
+			<author>William R. Frensley</author>
+		</authors>
+		<title>Elektronen-Elektronen und Elektronen-Phononen Wechselwirkungen in der Nanotechnologie</title>
+		<text>Universit&#228;t Duisburg, Germany, Dec. 15, 1994.</text>
+		<date>1994</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="phd">
+		<old>S1</old>
+		<id>S_1993_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>Supriyo Datta</author>
+		</authors>
+		<title>Erh&#246;hter Stromfluss durch Streuprozesse oder &#252;berraschende Ergebnisse im Bereich der Quantenbauelemente</title>
+		<text>Ruhr-Universit&#228;t Bochum, Germany, Jan. 8, 1993.</text>
+		<date>1993</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+</items>

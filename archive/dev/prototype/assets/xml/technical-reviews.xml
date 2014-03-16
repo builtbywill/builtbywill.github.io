@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+<!-- Nanoelectronics and Cluster Computing - Nanoelectronics and Cluster Computing -->
+	<item type="nano">
+		<old>R63</old>	
+		<id>R_2008_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Neerav Kharche</author>
+			<author>Rajib Rahman</author>
+			<author></author>
+			<author>Ben Haley</author>
+			<author>Timothy B. Boykin</author>
+			<author>Cameron Wellard</author>
+			<author>Jared Cole</author>
+			<author>Lloyd Hollenberg</author>
+			<author>Gabri Lansbergen</author>
+			<author>Sven Rogge</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO) for High Fidelity Simulation of Solid-State Quantum Computing Gates</title>
+		<text>NSA / DTO / ARO Quantum Computing Technology Workshop, Atlanta, August 11-16, 2008.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R62</old>	
+		<id>R_2007_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>nanoHUB overview and demo</title>
+		<text>NCN annual review, June 26-27, 2007.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R61</old>	
+		<id>R_2007_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Diane Beaudin</author>
+		</authors>
+		<title>nanoHUB metrics, statistics, and assessment</title>
+		<text>NCN annual review, June 26-27, 2007.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R60</old>	
+		<id>R_2008_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Full 3-D quantum transport modeling of realistically extended devices</title>
+		<text>SRC - Semiconductor Research Corporation, Annual Review, Austin, Tx, June 24, 2008.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R59</old>	
+		<id>R_2008_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>3D Atomistic Modeling. from NEMO to OMEN</title>
+		<text>MIND - Kickoff and Review Meeting, (Midwest Institute for Nanoelectronics Discovery), Notre Dame, June 4-5th, 2008.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R58</old>	
+		<id>R_2008_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+			<author>George Adams</author>
+			<author>Mark Lundstrom</author>
+		</authors>
+		<title>nanoHUB - future cyberinfrastructure serving over 62,000 users today</title>
+		<text>Birck Nanotechnology Research Review 2008, April 14th, 2008.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R57</old>	
+		<id>R_2008_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>nanoHUB overview</title>
+		<text>NCN all hands meeting, External Advisory Board meeting, April 2nd and 3rd, 2008.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R56</old>	
+		<id>R_2008_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Software Customization and Deployment on the nanoHUB</title>
+		<text>MSD / FCRP All hands meeting, Stanford University, March 4, 2008.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R55</old>	
+		<id>R_2007_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Neerav Kharche</author>
+			<author>Rajib Rahman</author>
+			<author>Srikant Srinivasan</author>
+			<author>Leonid Rokhinson</author>
+			<author>Marta Prada</author>
+			<author>Ben Haley</author>
+			<author>Timothy B. Boykin</author>
+			<author>Cameron Wellard</author>
+			<author>Jared Cole</author>
+			<author>Lloyd Hollenberg</author>
+			<author>Gabri Lansbergen</author>
+			<author>Sven Rogge</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO) for High Fidelity Simulation of Solid-State Quantum Computing Gates</title>
+		<text>NSA / DTO / ARO Quantum Computing Technology Workshop, Minneapolis, August 12-17, 2007.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R54</old>	
+		<id>R_2007_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Full 3-D quantum transport modeling of realistically extended devices</title>
+		<text>SRC - Semiconductor Research Corporation, Annual Review, Durham, NC, June 26, 2007.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R53</old>	
+		<id>R_2007_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>nanoHUB overview and demo</title>
+		<text>NCN annual review, June 19-21, 2007.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R52</old>	
+		<id>R_2007_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>nanoHUB overview, metrics, and plans</title>
+		<text>NCN all hands meeting, External Advisory Board meeting, April 4rd and 5th, 2007.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R51</old>	
+		<id>R_2006_9</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Marta Prada</author>
+			<author>Neerav Kharche</author>
+			<author>Rajib Rahman</author>
+			<author>Timothy B. Boykin</author>
+			<author>Seungwon Lee</author>
+			<author>Paul von Allmen</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO) for High Fidelity Simulation of Solid-State Quantum Computing Gates</title>
+		<text>LPS / ARO Site visit to University of Wisconsin, Madison, Sept. 19, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R50</old>	
+		<id>R_2006_8</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michale McLennan</author>
+		</authors>
+		<title>nanoHUB overview and Usage Scenarios</title>
+		<text>Purdue University, Discovery Park Advisory Council Meeting, September 15, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R49</old>	
+		<id>R_2006_7</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Marta Prada</author>
+			<author>Neerav Kharche</author>
+			<author>Rajib Rahman</author>
+			<author>Timothy B. Boykin</author>
+			<author>Seungwon Lee</author>
+			<author>Paul von Allmen</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO) for High Fidelity Simulation of Solid-State Quantum Computing Gates</title>
+		<text>NSA / ARO Quantum Computing Technology Workshop, Atlanta, August 14-16, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R48</old>			
+		<id>R_2006_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>Full 3-D quantum transport modeling of realistically extended devices </title>
+		<text>SRC - Semiconductor Research Corporation, Annual Review	Durham, NC, June 26-28, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R47</old>	
+		<id>R_2006_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>nanoHUB overview</title>
+		<text>NCN annual review, June 20-22, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R46</old>	
+		<id>R_2006_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>nanoHUB overview</title>
+		<text>NCN all hands meeting, External Advisory Board meeting, April 3rd and 4th, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R45</old>	
+		<id>R_2006_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Mark Lundstrom</author>
+			<author>Michael McLennan</author>
+			<author>Sebstien Goasguen</author>
+			<author>Krishna Madhavan</author>
+		</authors>
+		<title>The NCN cyber infratructure strategic plan</title>
+		<text>NCN advisory board meeting, Purdue University, Feb 6 and 7th, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R44</old>	
+		<id>R_2006_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>nanoHUB overview</title>
+		<text>NCN advisory board meeting, Purdue University, Feb 6 and 7th, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R43</old>	
+		<id>R_2006_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Mark Lundstrom</author>
+			<author>Michael McLennan</author>
+			<author>Sebstien Goasguen</author>
+			<author>Krishna Madhavan</author>
+		</authors>
+		<title>The nanoHUB: a demo</title>
+		<text>NCN advisory board meeting, Purdue University, Feb 6 and 7th, 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R42</old>	
+		<id>R_2005_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Mark Lundstrom</author>
+			<author>Michael McLennan</author>
+			<author>Sebstien Goasguen</author>
+			<author>Neerav Kharche</author>
+			<author>Marek Korkusinski</author>
+			<author>Jing Wang</author>
+			<author>Timothy Boykin</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Paul von Allmen</author>
+			<author>Seungwon Lee</author>
+		</authors>
+		<title>The NCN: science, simulation, and cyber services and Transport in Si Nanowires</title>
+		<text>SRC Review, The New York Center for Advanced Interconnect Science and Technology (NYCAIST),	Packaging / Interconnect and BEP Fall Review, October 2-6, 2005, University at Albany-SUNY, Albany Nanotech Campus, NanoFab 300S.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R41</old>	
+		<id>R_2005_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Paul von Allmen</author>
+			<author>Rajib Rahman</author>
+			<author>Neerav Kharche</author>
+			<author>Timothy B. Boykin</author>
+			<author>Seungwon Lee</author>
+			<author>Fabiano Oyafuso</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO) for High Fidelity Simulation of Solid-State Quantum Computing Gates</title>
+		<text>NSA / ARDA / ARO Quantum Computing Technology Workshop, Tampa, FL, August 22-26, 2005.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R40</old>	
+		<id>R_2005_4</id>
+		<authors>
+			<author>Mark Lundstrom</author>
+			<author>Jing Wang</author>
+			<author>Anisur Rahman</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEGF Transistor Simulations</title>
+		<text>SRC Modeling and Simulation / Compact Modeling Research Review, June 27-29, 2005, Research Triangle Park, NC</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R39</old>	
+		<id>R_2005_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Network for Computational Nanotechnology and Nanowire Simulation</title>
+		<text>SRC Modeling and Simulation / Compact Modeling Research Review, June 27-29, 2005, Research Triangle Park, NC</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R38</old>	
+		<id>R_2005_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NCN Infrastructure Development</title>
+		<text>Network for Computational Nanotechnology (NCN), NSF Site visit, Jun 21-22, 2005.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R37</old>	
+		<id>R_2005_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>HPC and Visualization for multimillion atom simulations</title>
+		<text>Network for Computational Nanotechnology (NCN), NSF Site visit, Jun 21-22, 2005.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R36</old>	
+		<id>R_2004_7</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Timothy B. Boykin</author>
+			<author>Mark Eriksson</author>
+			<author>Mark Friesen</author>
+			<author>Susan Coppersmith</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Paul von Allmen</author>
+			<author>Seungwon Lee</author>
+			<author>K. Birgitta Whaley</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO) for High Fidelity Simulation of Solid-State Quantum Computing Gates</title>
+		<text>NSA / ARDA / ARO Quantum Computing Technology Workshop, Orlando, FL, August 16-20, 2004.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R35</old>	
+		<id>R_2004_6</id>
+		<authors>
+			<author>Sebastien Goasguen</author>
+			<author>Markek Korkusinski</author>
+			<author>Michael McLennan</author>
+			<author>Gerhard Klimeck</author>
+			<author>Mark S Lundstrom</author>
+		</authors>
+		<title>The nanoHUB a TeraGrid Science Gateway</title>
+		<text>TeraGrid Grid Infrastructure Group Review Argonne National Lab, IL, November 17-19, 2004.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R34</old>
+		<id>R_2004_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Top-Down Approaches: 1) Tight binding, 2) System Synthesis, 3) Software Infrastructure</title>
+		<text>DARPA, PROM kickoff meeting, July 18-19, 2004, California Institute of Technology.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R33</old>
+		<id>R_2004_4</id>
+		<authors>
+			<author>Anisur Rahman</author>
+			<author>Mark Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Bandstructure effects in Ultra-thin Body MOSFETs</title>
+		<text>SRC Research Annual Review, June 30, 2004.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R32</old>	
+		<id>R_2004_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NCN Computational Research Overview</title>
+		<text>Network for Computational Nanotechnology (NCN), NSF Site visit, Jun 24-25, 2004.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R31</old>	
+		<id>R_2004_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NCN Infrastructure Development</title>
+		<text>Network for Computational Nanotechnology (NCN), NSF Site visit, Jun 24-25, 2004.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R30</old>
+		<id>R_2004_1</id>
+		<authors>
+			<author>Paul von Allmen</author>
+			<author>Seungwon Lee</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Olga Lazarenkova</author>
+			<author>Gerhard Klimeck</author>
+			<author>Timothy B. Boykin</author>
+			<author>Mark Eriksson</author>
+			<author>Susan Coppersmith</author>
+			<author>Mark Friesen</author>
+		</authors>
+		<title>Empirical Atomic Level Simulations for QC Applications</title>
+		<text>ARDA Kickoff Meeting, Madison, WI, June 3, 2004.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R29</old>	
+		<id>R_2003_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Timothy B. Boykin</author>
+			<author>Mark Eriksson</author>
+			<author>Mark Friesen</author>
+			<author>Susan Coppersmith</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Paul von Allmen</author>
+			<author>Seungwon Lee</author>
+			<author>K. Birgitta Whaley</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO) for High Fidelity Simulation of Solid-State Quantum Computing Gates</title>
+		<text>NSA / ARDA / ARO Quantum Computing Technology Workshop, Nashville, TN, August 18-22, 2003.</text>
+		<date>2003</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R28</old>
+		<id>R_2002_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Bob Tisdale</author>
+			<author>Hook Hua</author>
+			<author>R. Chris Bowen</author>
+		</authors>
+		<title>Development of a Parallel Eigensystem Solver for Beowulf Clusters</title>
+		<text>Oct 31 2002, JPL ESTO-CT program review.</text>
+		<date>2002</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R27</old>
+		<id>R_2002_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Joey Czikmantory</author>
+			<author>Hook Hua</author>
+		</authors>
+		<title>WIGLAF &#150; A Web Interface Generator and Legacy Application Facade</title>
+		<text>Oct 31 2002, JPL ESTO-CT program review.</text>
+		<date>2002</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R26</old>	
+		<id>R_2002_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Timothy B. Boykin</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Paul von Allmen</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO) for High Fidelity Simulation of Solid-State Quantum Computing Gates</title>
+		<text>NSA / ARDA / ARO Quantum Computing Technology Workshop, Nashville, TN, August 19-23, 2002.</text>
+		<date>2002</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R25</old>
+		<id>R_2001_1</id>
+		<authors>
+			<author>Nikzad Toomarian</author>
+			<author>R. Chris Bowen</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Quantum Dot Modeling &#150; Development of a Bottom-Up Nanoelectronic Modeling Tool</title>
+		<text>May 9, 2001, JPL CISM (Center for Integrated Space Microelectronics) zero-base review of RCT (Revolutionary Computing Technologies) program.</text>
+		<date>2001</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R24</old>
+		<id>R_2000_2</id>
+		<authors>
+			<author>R. Chris Bowen</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Quantum Dot Modeling &#150; Development of a Bottom-Up Nanoelectronic Modeling Tool</title>
+		<text>September 2000, JPL CISM (Center for Integrated Space Microelectronics) review of RCT (Revolutionary Computing Technologies) program.</text>
+		<date>2000</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R23</old>
+		<id>R_2000_1</id>
+		<authors>
+			<author>R. Chris Bowen</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Quantum Dot Modeling &#150; Development of a Bottom-Up Nanoelectronic Modeling Tool</title>
+		<text>August 1 2000, JPL CISM (Center for Integrated Space Microelectronics) review of RCT (Revolutionary Computing Technologies) program.</text>
+		<date>2000</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>R22</old>
+		<id>R_1999_1</id>
+		<authors>
+			<author>R. Chris Bowen</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>3-D Quantum Device Simulator Development</title>
+		<text>March 18. 1999, JPL CISM (Center for Integrated Space Microelectronics) review of RCT (Revolutionary Computing Technologies) program</text>
+		<date>1999</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+		
+		
+<!-- NEMO Related Reports - NEMO Related Work at Raytheon / TI / UTD 
+		
+		The NEMO program sponsor National Reconnaissance Office required a program review on a quarterly basis. 
+		Prof. David Ferry (ASU), Prof. George Haddad (U. of Michigan), and Dr. Harold Grubin (SRA) were hired as formal scientific reviewers by the program sponsor.  
+		In addition to representatives of the program sponsor program managers from other agencies such as ONR, DARPA, and NSA were typically present as well. 
+		The reviews were generally held in the Central Research Lab of Texas Instruments or at the DFW Hilton.  Individual presentations listed below lasted typically 25-45 minutes.
+-->		
+	<item type="nemo">
+		<old>R21</old>
+		<id>R_1997_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NanoElectronic MOdeling&#150;Software Development Approach</title>
+		<text>Dec., 1997.</text>
+		<date>1997</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R20</old>
+		<id>R_1997_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Program Status, Activities Overview</title>
+		<text>May 19, 1997.</text>
+		<date>1997</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R19</old>
+		<id>R_1997_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Software Development &#150; Theory</title>
+		<text>1997</text>
+		<date>May 19, 1997.</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R18</old>
+		<id>R_1997_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Software Demo</title>
+		<text>May 19, 1997.</text>
+		<date>1997</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R17</old>
+		<id>R_1996_7</id>
+		<authors>
+			<author>Dan Blanks</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Software / Interface Development</title>
+		<text>1996</text>
+		<date>Nov., 1996.</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R16</old>
+		<id>R_1996_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Test Matrix Results</title>
+		<text>Nov., 1996.</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R15</old>
+		<id>R_1996_5</id>
+		<authors>
+			<author>NEMO Phase I Review in Washington DC</author>
+		</authors>
+		<title>NEMO Software Summary</title>
+		<text>May, 1996.</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R14</old>
+		<id>R_1996_4</id>
+		<authors>
+			<author>NEMO Phase I Review in Washington DC</author>
+		</authors>
+		<title>NEMO Software Tutorial&#148; (3 hours)</title>
+		<text>May, 1996.</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R13</old>
+		<id>R_1996_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEMO: Software Development</title>
+		<text>Feb. 7, 1996.</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R12</old>
+		<id>R_1996_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEMO: GUI Development</title>
+		<text>Feb. 7, 1996.</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R11</old>
+		<id>R_1996_1</id>
+		<authors>
+			<author>R. Chris Bowen</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Multiband Simulations</title>
+		<text>Feb. 7, 1996.</text>
+		<date>1996</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R10</old>
+		<id>R_1995_8</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>GUI and Theory Interaction - A Dynamic Design</title>
+		<text>October 11, 1995.</text>
+		<date>1995</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R9</old>
+		<id>R_1995_7</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>NEGF Code Development</title>
+		<text>October 11, 1995.</text>
+		<date>1995</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R8</old>
+		<id>R_1995_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>R. Chris Bowen</author>
+		</authors>
+		<title>Multiband Simulation Results</title>
+		<text>October 11, 1995.</text>
+		<date>1995</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R7</old>
+		<id>R_1995_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>William R. Frensley</author>
+			<author>Chenjing L. Fernando</author>
+			<author>R. Chris Bowen</author>
+		</authors>
+		<title>Non-Equilibrium Green Function Approach &#150; Software Development</title>
+		<text>June 27, 1995.</text>
+		<date>1995</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R6</old>
+		<id>R_1995_4</id>
+		<authors>
+			<author>R. Chris Bowen</author>
+			<author>Gerhard Klimeck</author>
+			<author>William R. Frensley</author>
+		</authors>
+		<title>Multiband Simulations</title>
+		<text>June 27, 1995.</text>
+		<date>1995</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R5</old>
+		<id>R_1995_3</id>
+		<authors>
+			<author>Chenjing L. Fernando</author>
+			<author>Gerhard Klimeck</author>
+			<author>William R. Frensley</author>
+		</authors>
+		<title>Polar Optical Phonon Scattering Simulations</title>
+		<text>June 27, 1995.</text>
+		<date>1995</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R4</old>
+		<id>R_1995_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>William R. Frensley</author>
+			<author>Chenjing L. Fernando</author>
+			<author>R. Chris Bowen</author>
+		</authors>
+		<title>Non-Equilibrium Green Function Approach &#150; Software Development</title>
+		<text>Feb. 23, 1995.</text>
+		<date>1995</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R3</old>
+		<id>R_1995_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>William R. Frensley</author>
+			<author>Chenjing L. Fernando</author>
+			<author>R. Chris Bowen</author>
+		</authors>
+		<title>Non-Equilibrium Green Function Approach &#150; Software Development</title>
+		<text>Feb. 23, 1995.</text>
+		<date>1995</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R2</old>
+		<id>R_1994_2</id>
+		<authors>
+			<author>William R. Frensley</author>
+			<author>Gerhard Klimeck</author>
+			<author>Chenjing L. Fernando</author>
+			<author>R. Chris Bowen</author>
+		</authors>
+		<title>Non-Equilibrium Green Function Approach &#150; Software Development</title>
+		<text>fall 1994.</text>
+		<date>1994</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>R1</old>
+		<id>R_1994_1</id>
+		<authors>
+			<author>William R. Frensley</author>
+			<author>Gerhard Klimeck</author>
+			<author>Chenjing L. Fernando</author>
+			<author>R. Chris Bowen</author>
+		</authors>
+		<title>Non-Equilibrium Green Function Approach &#150; Software Development</title>
+		<text>summer 1994.</text>
+		<date>1994</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+		
+</items>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>The Klimeck Research Group - Recent News</title>
+    <link>http://www.willgrauvogel.com/dev/prototype/assets/xml/rss.xml</link>
+    <description>News from the Klimeck Research Group and Gerhard Klimeck, Purdue University</description>
+    <language>en-us</language>
+    <copyright>Copyright 2009 The Klimeck Research Group</copyright>
+    <docs/>
+    <lastBuildDate>2009-05-12T14:24:36-06:00</lastBuildDate>
+    <image>
+			<title>The Klimeck Research Group - Recent News</title>
+			<url>http://www.willgrauvogel.com/dev/prototype/assets/img/xml_rss.gif</url>
+			<description>RSS Image</description>
+			<link>http://www.willgrauvogel.com/dev/prototype/</link>
+		</image>
+    
+    <item>
+      <title>Test News Item</title>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. &#xD;
+&#xD;
+Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. Pellentesque auctor fringilla neque. &#xD;
+&#xD;
+Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. Quisque volutpat malesuada velit.</description>
+      <link>http://willgrauvogel.com/dev/prototype/news</link>
+      <guid>1</guid>
+      <author>Will Grauvogel</author>
+      <pubDate>2009-04-23T22:10:22-06:00</pubDate>
+    </item>
+    <item>
+      <title>Another Thing is Here</title>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. Pellentesque auctor fringilla neque. Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. Quisque volutpat malesuada velit.</description>
+      <link>http://willgrauvogel.com/dev/prototype/news</link>
+      <guid>2</guid>
+      <author>Will Grauvogel</author>
+      <pubDate>2009-04-02T05:43:53+00:00</pubDate>
+    </item>
+    <item>
+      <title>Site Being Weird</title>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. Pellentesque auctor fringilla neque. Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. Quisque volutpat malesuada velit.</description>
+      <link>http://willgrauvogel.com/dev/prototype/news</link>
+      <guid>3</guid>
+      <author>Will Grauvogel</author>
+      <pubDate>2009-01-02T05:43:53+00:00</pubDate>
+    </item>
+    <item>
+      <title>Orange Conference This Weekend</title>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. Pellentesque auctor fringilla neque. Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. Quisque volutpat malesuada velit.</description>
+      <link>http://willgrauvogel.com/dev/prototype/news</link>
+      <guid>4</guid>
+      <author>Will Grauvogel</author>
+      <pubDate>2009-04-02T05:43:53+00:00</pubDate>
+    </item>
+    <item>
+      <title>Do You NEMO?</title>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. Pellentesque auctor fringilla neque. Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. Quisque volutpat malesuada velit.</description>
+      <link>http://willgrauvogel.com/dev/prototype/news</link>
+      <guid>5</guid>
+      <author>Will Grauvogel</author>
+      <pubDate>2009-04-02T05:43:53+00:00</pubDate>
+    </item>
+  </channel>
+</rss>

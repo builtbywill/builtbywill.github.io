@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<title>VIA Document Editor</title>
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href="js/booklet/jquery.booklet.1.2.0.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
+    <link href="css/jquery-ui-1.8.10.custom.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
+	<link href="css/via-editor.css" rel="stylesheet" media="all" />
+</head>	
+<body>
+    <div id="wrap">	
+        <h1>VIA - Document Editor - Demo</h1>
+        
+        <form action="./" method="get" id="via-form">
+        
+            <div id="via-editor-controls">Not Saved.</div>
+        
+            <div id="via-editor">
+                
+                	<div class="via-page">
+                    	<div class="via-editable layout-photo">
+                    		<input type="hidden" id="photo-src-page-1" name="photo-src-page-1" class="via-photo-src" />
+							<input type="hidden" id="photo-width-page-1" name="photo-width-page-1" class="via-photo-w" />
+                    		<input type="hidden" id="photo-height-page-1" name="photo-height-page-1" class="via-photo-h" />
+							<input type="hidden" id="photo-x1-page-1" name="photo-x1-page-1" class="via-photo-x1" />
+							<input type="hidden" id="photo-y1-page-1" name="photo-y1-page-1" class="via-photo-y1" />
+							<input type="hidden" id="photo-x2-page-1" name="photo-x2-page-1" class="via-photo-x2" />
+							<input type="hidden" id="photo-y1-page-1" name="photo-y2-page-1" class="via-photo-y2" />
+							<div class="via-photo"></div>
+                        	<div class="via-photo-trigger">Click Here to Add a Photo</div>
+                        </div>
+                    	<div class="via-editable layout-title">
+                        	<div class="via-text via-text-static">Layout Title</div>
+                            <textarea id="title-page-1" name="title=page-1" class="via-text via-text-form">Layout Title</textarea>
+                        </div>
+                    	<div class="via-editable layout-content">
+                        	<div class="via-text via-text-static">Layout Content</div>
+                            <textarea id="date-page-1" name="date-page-1" class="via-text via-text-form via-overflow">Layout Content</textarea>
+                        </div>
+                    </div>
+                 	<div class="via-page">
+                    	<div class="via-editable layout-photo">
+                    		<input type="hidden" id="photo-src-page-2" name="photo-src-page-2" class="via-photo-src" />
+							<input type="hidden" id="photo-width-page-2" name="photo-width-page-2" class="via-photo-w" />
+                    		<input type="hidden" id="photo-height-page-2" name="photo-height-page-2" class="via-photo-h" />
+							<input type="hidden" id="photo-x1-page-2" name="photo-x1-page-2" class="via-photo-x1" />
+							<input type="hidden" id="photo-y1-page-2" name="photo-y1-page-2" class="via-photo-y1" />
+							<input type="hidden" id="photo-x2-page-2" name="photo-x2-page-2" class="via-photo-x2" />
+							<input type="hidden" id="photo-y1-page-2" name="photo-y2-page-2" class="via-photo-y2" />
+							<div class="via-photo"></div>
+                        	<div class="via-photo-trigger">Click Here to Add a Photo</div>
+                        </div>
+                    	<div class="via-editable layout-title">
+                        	<div class="via-text via-text-static">Layout Title</div>
+                            <textarea id="title-page-2" name="title=page-2" class="via-text via-text-form">Layout Title</textarea>
+                        </div>
+                    	<div class="via-editable layout-content">
+                        	<div class="via-text via-text-static">Layout Content</div>
+                            <textarea id="date-page-2" name="date-page-2" class="via-text via-text-form via-overflow">Layout Content</textarea>
+                        </div>
+                    </div>                                       
+            </div>
+            
+        </form>
+    </div>	
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/booklet/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/booklet/jquery.booklet.1.2.1.js" type="text/javascript"></script>
+    <script src="js/via-editor-1.0.js" type="text/javascript"></script>
+</body>
+</html>

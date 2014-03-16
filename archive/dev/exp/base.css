@@ -1,21 +1,21 @@
-/*
-----------------------------------------------------------------------
-
-	WILLGRAUVOGEL.COM
-	Base Stylesheet
-	
-	Author: Will Grauvogel
-	Version: 03.09.2009
-
-----------------------------------------------------------------------*/
-
-	@import url("reset.css");          /* Reset */
-	@import url("typography.css");     /* Typography */
-	
-/*  @Global Classes
-----------------------------------------------------------------------*/
-
-	.right   {float:right;}
-	.left    {float:left;}
-	.clear   {clear:both;}
+/*
+----------------------------------------------------------------------
+
+	WILLGRAUVOGEL.COM
+	Base Stylesheet
+	
+	Author: Will Grauvogel
+	Version: 03.09.2009
+
+----------------------------------------------------------------------*/
+
+	@import url("reset.css");          /* Reset */
+	@import url("typography.css");     /* Typography */
+	
+/*  @Global Classes
+----------------------------------------------------------------------*/
+
+	.right   {float:right;}
+	.left    {float:left;}
+	.clear   {clear:both;}
 	.hide    {display:none;}

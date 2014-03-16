@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+<!-- JPL Related Reports - Nanoelectronics and Cluster Computing at JPL -->		
+	<item type="nano">
+		<old>T32</old>
+		<id>T_2008_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Mark S. Lundstrom</author>
+			<author>Venkatamaran Balakrishnan</author>
+			<author>Cheng-Kok Koh</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>Device Simulation at the Scaling Limit and Beyond</title>
+		<text>Semiconductor Research Corporation - Deliverables Report: Research ID 1374 - Task IDs: 1374.001, 1374.002, 1374.003, December 2008.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T31</old>
+		<id>T_2008_2</id>
+		<authors>
+			<author>Mark Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>Network for Computational Nanotechnology</title>
+		<text>Annual Report, May 2008.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T30</old>
+		<id>T_2008_1</id>
+		<authors>
+			<author>Hoon Ryu</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Contact Block Reduction Method for transport in Multimillion Atom Systems</title>
+		<text>Annual Research report to NSF, April 1, 2008.</text>
+		<date>2008</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T29</old>
+		<id>T_2007_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Mark S. Lundstrom</author>
+			<author>Venkatamaran Balakrishnan</author>
+			<author>Cheng-Kok Koh</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>Device Simulation at the Scaling Limit and Beyond</title>
+		<text>Semiconductor Research Corporation - Deliverables Report: Research ID 1374 - Task IDs: 1374.001, 1374.002, 1374.003, December 2007.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T28</old>
+		<id>T_2007_2</id>
+		<authors>
+			<author>Mark Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>Network for Computational Nanotechnology</title>
+		<text>Annual Report, May 2007.</text>
+		<date>2007</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T27</old>
+		<id>T_2007_1</id>
+		<authors>
+			<author>Jonathan Dowling</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Final Report on ECCS/NSF Workshop on Quantum, Molecular and High Performance Modeling and Simulation for Devices and Systems</title>
+		<text>Community Report on NSF workshop</text>
+		<date>2007</date>
+		<links>
+			<link url="http://front.math.ucdavis.edu/0709.3310" title="arXiv:0709.3310"/>
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T26</old>
+		<id>T_2006_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Mark S. Lundstrom</author>
+			<author>Venkatamaran Balakrishnan</author>
+			<author>Cheng-Kok Koh</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>Device Simulation at the Scaling Limit and Beyond</title>
+		<text>Semiconductor Research Corporation - Deliverables Report: Research ID 1374 - Task IDs: 1374.001, 1374.002, 1374.003, December 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T25</old>
+		<id>T_2006_1</id>
+		<authors>
+			<author>Mark Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>Network for Computational Nanotechnology</title>
+		<text>Annual Report, May 2006.</text>
+		<date>2006</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T24</old>
+		<id>T_2005_3</id>
+		<authors>
+			<author>Mark Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+			<author>Michael McLennan</author>
+		</authors>
+		<title>Network for Computational Nanotechnology</title>
+		<text>Annual Report, May 2005.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T23</old>
+		<id>T_2005_2</id>
+		<authors>
+			<author>Mark S Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+			<author>Sebastien Goasguen</author>
+			<author>Michael McLennan</author>
+			<author>Renato J. Figueiredo</author>
+			<author>Jose A. B. Fortes</author>
+		</authors>
+		<title>The Network for Computational Nanotechnolgoy: A Global Infrastructure for Researchers, Educators, and Students</title>
+		<text>JIUMRS Facets, Vol. 4, Num. 2, pp. 1-7,  April 2005.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T22</old>
+		<id>T_2005_1</id>
+		<authors>
+			<author>Seungwon Lee</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Paul von Allmen</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Efficient boundary condition for embedded semiconductor nanostructure modeling</title>
+		<text>Jan. 4, 2005, NTR-41155, JPL New Technology Report.</text>
+		<date>2005</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T21</old>
+		<id>T_2004_1</id>
+		<authors>
+			<author>Mark Lundstrom</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Network for Computational Nanotechnology</title>
+		<text>Annual Report, May 2004.</text>
+		<date>2004</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T20</old>
+		<id>T_2002_9</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Hook Hua</author>
+		</authors>
+		<title>XML-based C++ Code Generation for User Interface Integration</title>
+		<text>Oct. 8, 2002, NTR 30844, JPL New Technology Report.</text>
+		<date>2002</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T19</old>
+		<id>T_2002_8</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>E. Robert Tisdale</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Hook Hua</author>
+		</authors>
+		<title>Nanoelectronic Modeling (NEMO 3-D) upgrade to no license restrictions</title>
+		<text>Oct. 8, 2002, NTR 30843, JPL New Technology Report.</text>
+		<date>2002</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T18</old>
+		<id>T_2002_7</id>
+		<authors>
+			<author>Thomas A. Cwik</author>
+			<author>Akos Czikmantory</author>
+			<author>Fabiano Oyafuso</author>
+			<author>Gerhard Klimeck</author>
+			<author>Hook Hua</author>
+			<author>Edward S. Vinyard</author>
+		</authors>
+		<title>WIGLAF (A Web Interface Generator and Legacy Application Fa&#231;ade)</title>
+		<text>Oct. 8, 2002, NTR 30842, JPL New Technology Report.hr></text>
+		<date>2002</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T17</old>
+		<id>T_2002_6</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Structure Based simulator Input using tcl/tk</title>
+		<text>Oct. 3, 2002, NTR 30835, JPL New Technology Report.</text>
+		<date>2002</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T16</old>
+		<id>T_2002_5</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>E. Robert Tisdale</author>
+			<author>Fabiano Oyafuso</author>
+			<author>R. Chris Bowen</author>
+		</authors>
+		<title>Parallel Complex Hermitian Sparse Matrix Eigensolvers</title>
+		<text>Oct. 3, 2002, NTR 30834, JPL New Technology Report.</text>
+		<date></date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T15</old>
+		<id>T_2002_4</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Gary M. Yagi</author>
+		</authors>
+		<title>Quality Control of Tiepoints Computed from Image Correlation</title>
+		<text>April 1, 2002, NTR 30632, JPL New Technology Report.</text>
+		<date>2002_4</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T14</old>
+		<id>T_2002_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Robert Deen</author>
+			<author>Michael McAuley</author>
+			<author>Eric DeJong</author>
+		</authors>
+		<title>Parallel Algorithms for Near-Realtime Image Correlation</title>
+		<text>April 1, 2002, NTR 30631, JPL New Technology Report.</text>
+		<date>2002</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T13</old>
+		<id>T_2002_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Robert Deen</author>
+			<author>Michael McAuley</author>
+		</authors>
+		<title>Parallel Algorithms for Near-Realtime Mosaic Generation</title>
+		<text>April 1, 2002, NTR 30630, JPL New Technology Report.</text>
+		<date>2002</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T12</old>
+		<id>T_2002_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Fabiano Oyafuso</author>
+			<author>R. Chris Bowen</author>
+			<author>Timothy B. Boykin</author>
+		</authors>
+		<title>Nanoelectronic Modeling 3-D (NEMO 3-D) upgrade</title>
+		<text>Jan. 6, 2002, NTR 30520, JPL New Technology Report.	</text>
+		<date>2002</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T11</old>
+		<id>T_1999_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Tigthgen - genetic algorithm-based tight binding paramter generation</title>
+		<text>Oct. 3, 1999, NTR 20877, JPL New Technology Report.</text>
+		<date>1999</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T10</old>
+		<id>T_1998_4</id>
+		<authors>
+			<author>Thomas A. Cwik</author>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Integrated Design and Optimization of Microelectronic Devices</title>
+		<text>Dec. 16, 1998, NTR 20625, JPL New Technology Report.</text>
+		<date>1998</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T9</old>
+		<id>T_1998_3</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>JPL NEMO, Benchmarks including Compiler-Based Parallelization</title>
+		<text>Sept. 23, 1998, NTR 20552, JPL New Technology Report.</text>
+		<date>1998</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T8</old>
+		<id>T_1998_2</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>JPL NEMO extension for Hole transport</title>
+		<text>Aug. 1998, JPL New Technology Report.</text>
+		<date>1998</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T7</old>
+		<id>T_1999_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Nanotechnology</title>
+		<text>Annual report of the Center for Integrated Space Microsystems (CISM) 1999.</text>
+		<date>1999</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nano">
+		<old>T6</old>
+		<id>T_1998_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author></author>
+			<author></author>
+			<author></author>
+			<author></author>
+		</authors>
+		<title>NEMO Benchmarks on SUN, HP, SGI, and Intel Pentium II</title>
+		<text></text>
+		<date>1998</date>
+		<links>
+			<link url="parallel/Benchmark/benchmark.pdf" title="Paper"/>
+			<link url="parallel/benchmark.html" title="Web Page"/>
+		</links>
+	</item>	
+<!-- NEMO Related Reports - NEMO Related Work at Raytheon / TI / UTD -->
+	<item type="nemo">
+		<old>T5</old>
+		<id>T_1997_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author> Roger Lake</author>
+			<author>Daniel K. Blanks</author>
+		</authors>
+		<title>NEMO 3.0 User's,Theory and Technical Guide</title>
+		<text>Rayheon Corporation (1997)</text>
+		<date>1997</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="nemo">
+		<old>T4</old>
+		<id>T_1995_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author> Roger Lake</author>
+			<author>Daniel K. Blanks</author>
+		</authors>
+		<title>NEMO 2.0 User's and Theory Guide</title>
+		<text>Texas Instruments Incorporated, 1995.</text>
+		<date>1995</date>
+		<links>
+			<link url="http://www.raytheon.com/rtis/nemo/pubs/users_guide_html/docum.html" title="HTML"/>
+			<link url="http://www.raytheon.com/rtis/nemo/pubs/users_guide.pdf" title="PDF"/>
+		</links>
+	</item>	
+<!-- PHD Technical Report - Quantum Dots, RTD's and 2DEG's at Purdue -->
+	<item type="phd">
+		<old>T3</old>
+		<id>T_1994_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+		</authors>
+		<title>Electron-Phonon and Electron-Electron Interactions in Quantum Transport</title>
+		<text>Technical Report TR-EE 94-7, Purdue University, May 1994.</text>
+		<date>1994</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="phd">
+		<old>T2</old>
+		<id>T_1993_1</id>
+		<authors>
+			<author>Gerhard Klimeck</author>
+			<author>Roger Lake</author>
+			<author>Michael J. McLennan</author>
+			<author>Supriyo Datta</author>
+		</authors>
+		<title>QUEST User&#237;s Manual</title>
+		<text>Technical Report TR-EE 93-17, Purdue University, April 1993.</text>
+		<date>1993</date>
+		<links>
+			<link />
+		</links>
+	</item>	
+	<item type="phd">
+		<old>T1</old>
+		<id>T_1991_1</id>
+		<authors>
+			<author>Michael J. McLennan</author>
+			<author>Gerhard Klimeck</author>
+			<author>Supriyo Datta</author>
+		</authors>
+		<title>SQUALID-2D: Version 1.0 and 1.1, A Guide for the User</title>
+		<text>Technical Report TR-EE 91-15, Purdue University, April 1991.</text>
+		<date>1991</date>
+		<links>
+			<link />
+		</links>
+	</item>			
+</items>

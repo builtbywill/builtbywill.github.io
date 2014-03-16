@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+
+	<title>jQuery-Plugin SuperBGImage - Scaling Fullscreen Backgrounds and Slideshow using jQuery</title>
+ 
+	<link type="text/css" href="demo.css" media="screen" rel="stylesheet" />
+
+	<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="jquery.effects.core.min.js"></script>
+	<script type="text/javascript" src="jquery.effects.slide.min.js"></script>
+	<script type="text/javascript" src="jquery.effects.blind.min.js"></script>
+
+	<script type="text/javascript" src="jquery.superbgimage.min.js"></script>
+
+	<script type="text/javascript" src="demo.js"></script>
+	
+<script type="text/javascript">
+$(function() {
+
+	// Options for SuperBGImage
+	$.fn.superbgimage.options = {
+		id: 'superbgimage', // id for the containter
+		z_index: 0, // z-index for the container
+		inlineMode: 0, // 0-resize to browser size, 1-do not resize to browser-size
+		showimage: 1, // number of first image to display
+		vertical_center: 1, // 0-align top, 1-center vertical
+		transition: 1, // 0-none, 1-fade, 2-slide down, 3-slide left, 4-slide top, 5-slide right, 6-blind horizontal, 7-blind vertical, 90-slide right/left, 91-slide top/down
+		transitionout: 1, // 0-no transition for previous image, 1-transition for previous image
+		randomtransition: 0, // 0-none, 1-use random transition (0-7)
+		showtitle: 0, // 0-none, 1-show title
+		slideshow: 0, // 0-none, 1-autostart slideshow
+		slide_interval: 5000, // interval for the slideshow
+		randomimage: 0, // 0-none, 1-random image
+		speed: 'slow', // animation speed
+		preload: 1, // 0-none, 1-preload images
+		onShow: superbgimage_show, // function-callback show image
+		onClick: superbgimage_click, // function-callback click image
+		onHide: superbgimage_hide, // function-callback hide image
+		onMouseenter: superbgimage_mouseenter, // function-callback mouseenter
+		onMouseleave: superbgimage_mouseleave, // function-callback mouseleave
+		onMousemove: superbgimage_mousemove // function-callback mousemove
+	};
+
+	// initialize SuperBGImage
+	$('#thumbs1').superbgimage();
+
+});
+
+// function callback on hiding image
+function superbgimage_hide(img) {
+	$('#showtitle').hide();
+}
+
+// function callback on showing image
+// get title and display it
+function superbgimage_show(img) {
+	$('#superbgimage').css('background', 'none');
+	$('#superbgimage').append($('#showtitle'));
+	$('#showtitle p.imagecount').html('image ' + img + ' of ' + $.superbg_imgIndex);
+	if ($('#thumbs1').css('display') == 'block') {
+		$('#showtitle p.title').html($('#thumbs1 a' + "[rel='" + img + "']").attr('title'));
+	} else {
+		$('#showtitle p.title').html($('#thumbs2 a' + "[rel='" + img + "']").attr('title'));
+	}
+	$('#showtitle').fadeIn('fast');
+}
+
+// function callback on clicking image, show next slide
+function superbgimage_click(img) {
+	$('#thumbs').nextSlide();
+}
+
+my_slideshowActive = false;
+
+// function callback onmouseenter, stop slideshow, show pause-indicator
+function superbgimage_mouseenter(img) {
+	if ($.superbg_slideshowActive) {
+		my_slideshowActive = true;
+		if ($('#pause').length == 0) { 
+			$('body').prepend('<div id="pause"><img src="pause.png" \/><\/div>');
+		}
+		$('#pause').css('position', 'absolute').css('z-index', 3).show();
+		return $('#thumbs').stopSlideShow();
+	}
+}
+
+// function callback onmouseleave, start slideshow, hide pause-indicator
+function superbgimage_mouseleave(img) {
+	if (my_slideshowActive && ($('#pause').length > 0) && ($('#pause').css('display') == 'block'))  { 
+		$('#pause').hide();
+		return $('#thumbs').startSlideShow();
+	}	
+}
+
+// function callback onmousemove, show and move pause-indicator
+function superbgimage_mousemove(img, e) {
+	if (my_slideshowActive && ($('#pause').length > 0)) { 
+		$("#pause").css("top",(e.pageY + 20) + "px").css("left",(e.pageX + 20) + "px").show();
+	}
+}
+</script>
+
+</head>
+
+<body>
+
+	<div id="overlay">
+
+		<h1 title="jQuery-Plugin SuperBGImage - Scaling Fullscreen Backgrounds and Slideshow using jQuery"><a href="#">jQuery-Plugin SuperBGImage - Scaling Fullscreen Backgrounds and Slideshow using jQuery</a></h1>
+		
+		<fieldset id="control">
+			<legend class="legend">control</legend>
+			<a class="prev" href="#">&laquo; prev slide</a>
+			<a class="next" href="#">next slide &raquo;</a><br /><br />
+			<a class="start" href="#">start slideshow</a>
+			<a class="stop" href="#">stop slideshow</a><br /><br />
+			<a class="loadset1" href="#">load set 1</a>
+			<a class="loadset2" href="#">load set 2</a>
+		</fieldset>
+		
+		<fieldset id="thumbs1">
+			<legend class="legend">select image (set 1)</legend>
+			<a href="img/603001_65851823.jpg" title="roadside assistance required<br />http://www.sxc.hu/photo/603001">1</a>
+			<a href="img/1066378_36549393.jpg" title="sydney spectrum<br />http://www.sxc.hu/photo/1066378">2</a>
+			<a href="img/1179064_34608640.jpg" title="arches national park<br />http://www.sxc.hu/photo/1179064">3</a>
+			<a href="img/54084_1994.jpg" title="field of dreams<br />http://www.sxc.hu/photo/54084">4</a>
+			<a href="img/779385_38305506.jpg" title="oil colors<br />http://www.sxc.hu/photo/779385">5</a>
+			<a href="img/825627_12412582.jpg" title="cherry<br />http://www.sxc.hu/photo/825627">6</a>
+			<a href="img/1141271_14949691.jpg" title="green tree snake<br />http://www.sxc.hu/photo/1141271">7</a>
+			<a href="img/70689_3772.jpg" title="jungle dreaming<br />http://www.sxc.hu/photo/70689">8</a>
+			<a href="img/233351_9835.jpg" title="waikiki sunset<br />http://www.sxc.hu/photo/233351">9</a>
+			<a href="img/1154570_50589137.jpg" title="winter road 3<br />http://www.sxc.hu/photo/1154570">10</a>
+			<br style="clear:both"/>
+			<a href="img/877605_47387075.jpg" title="beauty of autumn<br />http://www.sxc.hu/photo/877605">11</a>
+			<a href="img/764073_97126434.jpg" title="weed<br />http://www.sxc.hu/photo/764073">12</a>
+			<a href="img/554663_56423461.jpg" title="roadsign animals on road in australia<br />http://www.sxc.hu/photo/554663">13</a>
+			<a href="img/259989_4523.jpg" title="musical<br />http://www.sxc.hu/photo/259989">14</a>
+			<a href="img/1206264_80512031.jpg" title="rock piles 2<br />http://www.sxc.hu/photo/1206264">15</a>
+			<a href="img/59950_7278.jpg" title="the lens 2<br />http://www.sxc.hu/photo/59950">16</a>
+			<a href="img/1205517_92523237.jpg" title="after sail<br />http://www.sxc.hu/photo/1205517">17</a>
+			<a href="img/843690_77552462.jpg" title="green fly on orange flower<br />http://www.sxc.hu/photo/843690">18</a>
+			<a href="img/154096_4842.jpg" title="security stairs ...<br />http://www.sxc.hu/photo/154096">19</a>
+			<a href="img/116960_1971.jpg" title="transverse flute 2<br />http://www.sxc.hu/photo/116960">20</a>
+			<br style="clear:both"/>
+		</fieldset>
+		<fieldset id="thumbs2">
+			<legend class="legend">select image (set 2)</legend>			
+			<a href="img/603469_58343949.jpg" title="perfect figure<br />http://www.sxc.hu/photo/603469">1</a>
+			<a href="img/1209327_57884736.jpg" title="condominium (note: portrait)<br />http://www.sxc.hu/photo/1209327">2</a>
+			<a href="img/589945_73099178.jpg" title="tiger<br />http://www.sxc.hu/photo/589945">3</a>
+			<a href="img/514822_49922613.jpg" title="fire alarm (note: portrait)<br />http://www.sxc.hu/photo/514822">4</a>
+			<a href="img/1135989_13050328.jpg" title="full speed<br />http://www.sxc.hu/photo/1135989">5</a>
+			<a href="img/1094274_75631044.jpg" title="butterfly 3<br />http://www.sxc.hu/photo/1094274">6</a>
+			<a href="img/337867_5861.jpg" title="road king 5 engine<br />http://www.sxc.hu/photo/337867">7</a>
+			<a href="img/414418_8786.jpg" title="roulette<br />http://www.sxc.hu/photo/414418">8</a>
+			<a href="img/1060873_31012347.jpg" title="mouse<br />http://www.sxc.hu/photo/1060873">9</a>
+			<a href="img/300197_9710.jpg" title="lighter 2<br />http://www.sxc.hu/photo/300197">10</a>
+			<br style="clear:both"/>
+		</fieldset>
+		
+		<fieldset id="options">
+			<legend class="legend">options</legend>
+			<span>transition</span><br />
+			<select name="transition" id="transition">
+				<option value="0"> 0 - none</option>
+				<option value="1" selected="selected"> 1 - fade</option>
+				<option value="2"> 2 - slide down</option>
+				<option value="3"> 3 - slide left</option>
+				<option value="4"> 4 - slide top</option>
+				<option value="5"> 5 - slide right</option>
+				<option value="6"> 6 - blind horizontal</option>
+				<option value="7"> 7 - blind vertical</option>
+				<option value="90"> 90 - slide right/left</option>
+				<option value="91"> 91 - slide top/down</option>
+			</select><br /><br />
+			<input type="text" size="6" name="optspeed" id="optspeed" value="slow"></input><label for="optspeed">&nbsp;transition speed</label><br />
+			<input type="text" size="6" name="optinterval" id="optinterval" value="5000"></input><label for="optinterval">&nbsp;slideshow interval</label><br />
+			<input type="checkbox" name="opttransout" id="opttransout" checked="checked"></input><label for="opttransout">transition out</label><br />
+			<input type="checkbox" name="optrandomtrans" id="optrandomtrans"></input><label for="optrandomtrans">random transition</label><br />
+			<input type="checkbox" name="optrandom" id="optrandom"></input><label for="optrandom">random image</label><br />
+			<input type="checkbox" name="optclick" id="optclick" checked="checked"></input><label for="optclick">onClick-callback</label><br />
+			<input type="checkbox" name="optshow" id="optshow" checked="checked"></input><label for="optshow">onShow-callback</label><br />
+		</fieldset>
+		
+		<p>
+			<br />
+			<a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="cc88x31.png" /></a>
+			<br />
+			<a href="http://dev.andreaseberhard.de/projects/superbgimage/"><strong>SuperBGImage</strong></a> by <a href="http://andreaseberhard.de/">Andreas Eberhard</a>
+		</p>
+
+		<p class="small">
+			<br />
+			Version 1.0, 29.08.2009
+		</p>
+
+		<p class="small">
+			<br />
+			Inspired by <a href="http://buildinternet.com/project/supersized/">Supersized - Fullscreen Slideshow jQuery Plugin</a> by Sam Dunn
+			<br /><br />
+			Photos from <a href="http://sxc.hu">http://sxc.hu</a>
+		</p>
+		
+	</div>
+
+	<div id="showtitle">
+		 <p class="imagecount small">image 1 of 1</p>
+		 <p class="title">description</p>
+	</div>
+	
+</body>
+</html>

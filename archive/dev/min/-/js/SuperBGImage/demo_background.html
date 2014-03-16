@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+
+	<title>jQuery-Plugin SuperBGImage - Scaling Fullscreen Backgrounds and Slideshow using jQuery</title>
+ 
+	<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+
+	<script type="text/javascript" src="jquery.superbgimage.min.js"></script>
+	
+<script type="text/javascript">
+$(function() {
+
+	// initialize SuperBGImage
+	$('#thumbs').superbgimage().hide();
+
+	$('#content').fadeTo('slow', 0.75);
+	
+});
+</script>
+
+<style type="text/css">
+body {
+	text-align: center;
+	margin: 50px;
+}
+
+#content {
+	z-index: 3;
+	position: relative;
+	border: solid 20px #fff;
+	background: #efefef;
+	width: 600px;
+	margin: 0 auto;
+	text-align:left;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	text-indent:-9999px;
+	width: 255px;
+	height: 100px;
+	background: url('superbgimage.png') no-repeat;
+}
+h1 a {
+	display: block;
+	overflow: hidden;
+	width: 255px;
+	height: 100px;
+}
+.scanlines {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+	background: url('grid.png');
+}
+</style>
+<!--[if IE 6]>
+<style type="text/css">
+.scanlines { display: none; }
+</style>
+<![endif]-->
+
+</head>
+
+<body>
+
+	<div id="content">
+		<h1 title="jQuery-Plugin SuperBGImage - Scaling Fullscreen Backgrounds and Slideshow using jQuery"><a href="http://dev.andreaseberhard.de/projects/superbgimage/">SuperBGImage</a></h1>
+		<h2>Lorem ipsum</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet, sapien vitae bibendum ullamcorper, sem sapien bibendum augue, ut porta tortor libero a nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Ut cursus eros quis dolor semper tempor. Vestibulum molestie neque eget odio suscipit sed consequat erat vulputate. Morbi at augue sit amet mauris euismod euismod. Cras eget diam eu sem consequat fringilla. Nunc varius, enim vel mattis euismod, elit lectus sodales dui, sit amet pretium lectus diam ullamcorper nulla. Sed tempor, eros id fermentum semper, tellus mauris tristique sapien, non porta ligula ipsum in elit. Ut dui ante, pellentesque sed aliquet at, accumsan sed felis. Sed non magna augue, vel bibendum erat. Integer lectus leo, fringilla quis fermentum cursus, suscipit a tellus.</p>
+		<p>Duis consectetur sollicitudin ante ut fermentum. Suspendisse vel risus leo. Suspendisse potenti. Ut hendrerit tellus felis, sed consectetur est. Fusce ligula magna, sodales ultricies semper vel, rutrum a leo. Etiam lacus ligula, placerat quis adipiscing et, vehicula at neque. Aliquam eget dignissim eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce fringilla tincidunt enim vel placerat. Nam blandit, libero in rhoncus rhoncus, lorem urna aliquam neque, eu vulputate arcu purus a dolor. Nulla eget facilisis libero. Cras at aliquam mauris. Phasellus fermentum turpis id erat posuere eu adipiscing dolor fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec enim massa. Maecenas ac nisi in lorem condimentum lacinia ut at justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae viverra tortor. Proin rhoncus, arcu eu semper iaculis, lorem urna fringilla lacus, malesuada lacinia lorem velit eleifend dolor. Sed in sem in justo sollicitudin aliquam.</p>
+		<p>Mauris pellentesque diam vitae odio bibendum ultricies. Etiam ut quam lorem, id tempus tellus. Quisque nec nibh tortor. Sed semper mi elit, ut vulputate nisl. Vivamus convallis porta lectus, sit amet semper augue egestas in. Proin vestibulum lobortis lorem vel scelerisque. Pellentesque accumsan pulvinar fermentum. Nunc sodales fringilla porttitor. Mauris dignissim scelerisque pulvinar. Nullam non nisl augue.</p>
+		<h2>Lorem ipsum</h2>
+		<p>In non justo nec ante pharetra rutrum lacinia sit amet nibh. Duis tristique risus id erat tempus faucibus. Nullam fringilla dapibus luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum sed elit at sem condimentum rhoncus. In id tortor justo. Duis ultricies pellentesque magna quis luctus. Donec ut arcu quam. Maecenas ac tortor augue, id blandit purus. Sed sit amet nibh orci. Nulla eget elit sit amet ante adipiscing sollicitudin. Suspendisse eros justo, fringilla eget iaculis vitae, hendrerit vel erat. Donec eleifend nisl eget nulla volutpat tristique. Ut sagittis est nec elit auctor semper. Nulla tristique molestie volutpat.</p>
+		<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus commodo dui et odio iaculis ornare. Nam elementum vehicula velit, tempus cursus nunc commodo et. Morbi commodo ultricies auctor. Integer sit amet lacus sem. Praesent mattis, arcu vel pretium venenatis, lectus tortor imperdiet felis, sit amet pulvinar ligula orci eu velit. Fusce pulvinar pharetra orci non vulputate. Cras tincidunt purus ut magna faucibus tempus. Pellentesque imperdiet feugiat ipsum sit amet consequat. Ut vel massa quis sapien facilisis sodales et vitae ante. Maecenas rutrum volutpat mauris in lobortis.</p>
+		<p>Vivamus mollis, nisl sit amet bibendum accumsan, metus turpis semper elit, in tincidunt risus urna vitae felis. In sagittis malesuada leo, vitae tincidunt mauris dignissim eu. Aliquam vehicula massa in risus vehicula semper. Duis vitae massa eu turpis dictum mollis nec semper felis. Cras volutpat malesuada mi sit amet placerat. Etiam hendrerit pellentesque faucibus. Donec lectus diam, lacinia vitae posuere pretium, pulvinar at lorem. In vel arcu sem. Morbi aliquet tristique dictum. Quisque iaculis hendrerit purus sed scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi eu magna a nulla varius rutrum. Fusce eu lorem ligula, vitae consectetur nisi. Duis cursus porttitor lorem, quis pretium justo mattis fermentum.</p>
+		<p>Duis sit amet turpis risus, in convallis lorem. Mauris id tincidunt diam. Praesent laoreet consectetur nisl vitae consequat. Suspendisse purus mauris, volutpat sed varius eu, vehicula et eros. In hac habitasse platea dictumst. Nunc mi quam, sagittis et suscipit eu, rutrum sit amet magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi sit amet ullamcorper augue. Praesent sed turpis sit amet tellus tristique accumsan. Duis at eros mauris, id tincidunt sem. Sed scelerisque placerat tellus, ut tincidunt dolor ullamcorper et. Donec eu aliquam metus. Phasellus cursus lacus faucibus dui ullamcorper sed sodales turpis consectetur. In hac habitasse platea dictumst. Aliquam erat volutpat. Nulla in mattis orci. Suspendisse lacinia, libero sed auctor tincidunt, turpis lacus hendrerit nisi, a tincidunt risus felis sit amet augue.</p>
+	</div>
+	
+	<div id="superbgimage">
+		<img src="img/603469_58343949.jpg" alt="" />
+		<div class="scanlines"></div>
+		<h1 title="jQuery-Plugin SuperBGImage - Scaling Fullscreen Backgrounds and Slideshow using jQuery" style="position:absolute;bottom:0px;right:20px;z-index:3;"><a href="http://dev.andreaseberhard.de/projects/superbgimage/">SuperBGImage</a></h1>
+	</div>
+
+</body>
+</html>
