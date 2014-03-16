@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Reading Direction - Demos - Booklet - jQuery Plugin</title>    
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
-	<?php include("../-/includes/head.php"); ?>
-</head>
-<body>
-<?php include("../-/includes/header.php"); ?>
-<?php include("../-/includes/aside.php"); ?>
-<section id="content" class="sub-content">
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start("Reading Direction - Demos", true);
+?>
         <h2>examples</h2>
         <h3>Direction</h3>
         <p>Direction is set to left to right by default.</p><br />
@@ -61,10 +53,8 @@
             });
         ]]></script>
         </div> 
-    </section>
-<?php include("../../../-/php/footer.php"); ?>
-<?php include("../../../-/php/analytics.php"); ?>
-<?php include("../-/includes/scripts.php"); ?>
+<?php template_end_open(); ?>
+
 	<script type="text/javascript">
 	$(function() {
 		$('#mybook').booklet({
@@ -75,5 +65,4 @@
 		});
     });
     </script>
-</body>
-</html>
+<?php template_end_close(); ?>

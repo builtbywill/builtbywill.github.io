@@ -10,9 +10,9 @@
  	<title>Built By Will - Design + Development</title>
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<link rel="stylesheet" href="-/css/common.css" />
-    <link rel="stylesheet" href="-/js/jquery.qtip.min.css" />
-    <link rel="stylesheet" href="-/css/screen.css" />
+	<link rel="stylesheet" href="/-/css/common.css" />
+    <link rel="stylesheet" href="/-/js/jquery.qtip.min.css" />
+    <link rel="stylesheet" href="/-/css/screen.css" />
 </head>	
 <body>
 	<header>
@@ -48,8 +48,8 @@
             </li>
         </ul>
     </section>
-<?php include("-/php/footer.php"); ?>
-<?php include("-/php/analytics.php"); ?>
+<?php include("-/includes/footer.php"); ?>
+<?php include("-/includes/analytics.php"); ?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="/-/js/jquery.qtip.min.js"></script>
     <script>

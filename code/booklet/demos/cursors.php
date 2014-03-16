@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Cursors - Demos - Booklet - jQuery Plugin</title>    
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
-	<?php include("../-/includes/head.php"); ?>
-</head>
-<body>
-<?php include("../-/includes/header.php"); ?>
-<?php include("../-/includes/aside.php"); ?>
-	<section id="content" class="sub-content">
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start("Cursors - Demos", true);
+?>
         <h2>examples</h2>
         <h3>Custom Cursors</h3>
         <p>Modify the cursor that is used on hover for the side links and tabs.</p><br />
@@ -45,18 +37,17 @@
             });
         ]]></script>
         </div> 
-    </section>
-<?php include("../../../-/php/footer.php"); ?>
-<?php include("../../../-/php/analytics.php"); ?>
-<?php include("../-/includes/scripts.php"); ?>
-	<script type="text/javascript">
-	$(function() {
-		$('#mybook').booklet({
-			manual: false,
-			overlays: true,
-			cursor: 'crosshair'			  
-		});
-	});
+
+<?php template_end_open(); ?>
+
+	<script>
+    	$(function() {
+    		$('#mybook').booklet({
+    			manual: false,
+    			overlays: true,
+    			cursor: 'crosshair'			  
+    		});
+    	});
     </script>
-</body>
-</html>
+    
+<?php template_end_close(); ?>

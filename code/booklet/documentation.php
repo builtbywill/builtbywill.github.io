@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Documentation - Booklet - jQuery Plugin</title>
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<?php include("-/includes/head.php"); ?>
-	<link href="/-/js/jquery-ui/base/jquery.ui.tabs.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
-</head>
-<body>
-	<?php include("-/includes/header.php"); ?>
-    <section id="content">      	
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start_open("Documentation");
+?>
+        <link href="/-/js/jquery-ui/base/jquery.ui.tabs.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
+<?php template_start_close(); ?>
+
         <h2>documentation</h2>
         <p>version 1.4.3</p>
 		<div id="tabs">
@@ -2175,31 +2170,29 @@ $(".selector").booklet( "option", "shadowBtmWidth", 100 );</code></pre>
 		</div>
         </div>
         <div class="clear"></div>
-</section>
-<?php include("../../-/php/footer.php"); ?>
-<?php include("../../-/php/analytics.php"); ?>
-<?php include("-/includes/scripts.php"); ?>
 
-	<script type="text/javascript">
-	$(function() {
-		$("#tabs").tabs();
-		$(".description, .examples").hide();
-		$(".header").click(function(e){
-			e.preventDefault();
-			//$(this).parent().siblings().find(".description, .examples").hide();
-			$(this).siblings(".description, .examples").toggle();
-		});
-		$('.toggle').click(function(e){
-			e.preventDefault();
-			if($(this).text() == "Expand All"){
-				$(".description, .examples").show();
-				$('.toggle').text("Collapse All"); 
-			} else {
-				$(".description, .examples").hide();
-				$('.toggle').text("Expand All");				
-			}
-		});
-	});
+<?php template_end_open(); ?>
+
+	<script>
+    	$(function() {
+    		$("#tabs").tabs();
+    		$(".description, .examples").hide();
+    		$(".header").click(function(e){
+    			e.preventDefault();
+    			//$(this).parent().siblings().find(".description, .examples").hide();
+    			$(this).siblings(".description, .examples").toggle();
+    		});
+    		$('.toggle').click(function(e){
+    			e.preventDefault();
+    			if($(this).text() == "Expand All"){
+    				$(".description, .examples").show();
+    				$('.toggle').text("Collapse All"); 
+    			} else {
+    				$(".description, .examples").hide();
+    				$('.toggle').text("Expand All");				
+    			}
+    		});
+    	});
     </script>
-</body>
-</html>
+
+<?php template_end_close(); ?>

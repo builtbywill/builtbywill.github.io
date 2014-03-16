@@ -13,8 +13,9 @@
     <!-- jQuery UI (optional) -->
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script> window.jQuery.ui || document.write('<script src="/code/booklet/src/jquery-ui-1.10.4.min.js"><\/script>') </script>
-
+    
     <!-- Booklet -->
 	<script src="/code/booklet/src/jquery.easing.1.3.js"></script>
-    <script src="/code/booklet/src/jquery.booklet.latest.min.js"></script>
+    <script src="/code/booklet/src/jquery.booklet.latest.min.js"></script>    
     
+    <script src="/code/booklet/-/js/booklet.js"></script>

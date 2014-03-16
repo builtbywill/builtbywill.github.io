@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Auto Play - Demos - Booklet - jQuery Plugin</title>    
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
-	<?php include("../-/includes/head.php"); ?>
-</head>
-<body>
-<?php include("../-/includes/header.php"); ?>
-<?php include("../-/includes/aside.php"); ?>
-	<section id="content" class="sub-content">                	
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start("Auto Play - Demos", true);
+?>
         <h2>examples</h2>
         <h3>Auto Play</h3>
         <p>The <strong>auto</strong> option allows you to set your booklet to automatically progress forward. The default delay on each page is 5 seconds.</p><br/>
@@ -114,25 +106,24 @@
             });
         ]]></script>
         </div>   
-    </section>
-<?php include("../../../-/php/footer.php"); ?>
-<?php include("../../../-/php/analytics.php"); ?>
-<?php include("../-/includes/scripts.php"); ?>
-	<script type="text/javascript">
-	$(function() {
-		$('#mybook').booklet({
-			auto: true
-		});
-		$('#mybook2').booklet({
-			auto: true,
-			delay: 2000
-		});
-		$('#mybook3').booklet({
-			auto: true,
-			play: '#play',
-			pause: '#pause'
-		});
-    });
+
+<?php template_end_open(); ?>
+
+	<script>
+    	$(function() {
+    		$('#mybook').booklet({
+    			auto: true
+    		});
+    		$('#mybook2').booklet({
+    			auto: true,
+    			delay: 2000
+    		});
+    		$('#mybook3').booklet({
+    			auto: true,
+    			play: '#play',
+    			pause: '#pause'
+    		});
+        });
     </script>
-</body>
-</html>
+    
+<?php template_end_close(); ?>
