@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Tabs - Demos - Booklet - jQuery Plugin</title>    
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
-	<?php include("../-/includes/head.php"); ?>
-</head>
-<body>
-<?php include("../-/includes/header.php"); ?>
-<?php include("../-/includes/aside.php"); ?>
-	<section id="content" class="sub-content">
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start("Tabs - Demos", true);
+?>
 		<h2>examples</h2>                
         <h3>Tabs</h3>
         <p>You can use tab navigation with the tabs option. Alternately, you can modify the size of the tabs to better fit your design.</p><br />

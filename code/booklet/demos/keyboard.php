@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Keyboard - Demos - Booklet - jQuery Plugin</title>    
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
-	<?php include("../-/includes/head.php"); ?>
-</head>
-<body>
-<?php include("../-/includes/header.php"); ?>
-<?php include("../-/includes/aside.php"); ?>
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start("Keyboard - Demos", true);
+?>
 	<section id="content" class="sub-content">
 		<h2>examples</h2>               
         <h3>Keyboard Controls</h3>

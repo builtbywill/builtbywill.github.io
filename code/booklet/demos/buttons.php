@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Buttons - Demos - Booklet - jQuery Plugin</title>    
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
-	<?php include("../-/includes/head.php"); ?>
-</head>
-<body>
-<?php include("../-/includes/header.php"); ?>
-<?php include("../-/includes/aside.php"); ?>
-	<section id="content" class="sub-content">                	
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start("Buttons - Demos", true);
+?>             	
         <h2>examples</h2>
         <h3>Custom "Next" and "Prev" Buttons</h3>
         <p>By indicating either next or previous buttons you can make custom controls for your booklet.</p>
@@ -50,17 +42,13 @@
             });
         ]]></script>
         </div>   
-    </section>
-<?php include("../../../-/php/footer.php"); ?>
-<?php include("../../../-/php/analytics.php"); ?>
-<?php include("../-/includes/scripts.php"); ?>
-	<script type="text/javascript">
-	$(function() {
-		$('#mybook').booklet({
-			next: '#custom-next',				  
-			prev: '#custom-prev'					  
-		});
-	});
+<?php template_end_open(); ?>
+	<script>
+    	$(function() {
+    		$('#mybook').booklet({
+    			next: '#custom-next',				  
+    			prev: '#custom-prev'					  
+    		});
+    	});
     </script>
-</body>
-</html>
+<?php template_end_close(); ?>

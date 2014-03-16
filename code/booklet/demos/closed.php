@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Closed Book and Covers - Demos - Booklet - jQuery Plugin</title>
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<?php include("../-/includes/head.php"); ?>
-</head>
-<body>
-<?php include("../-/includes/header.php"); ?>
-<?php include("../-/includes/aside.php"); ?>
-	<section id="content" class="sub-content">                	
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start("Closed Book and Covers - Demos", true);
+?>           	
         <h2>examples</h2>
         <h3>Closed Book</h3>
         <p>The closed option lets you give your book the appearance of being closed, by adding blank pages to the beginning and end.</p><br />
@@ -181,36 +173,35 @@
             });
         ]]></script>
         </div>   
-    </section>
-<?php include("../../../-/php/footer.php"); ?>
-<?php include("../../../-/php/analytics.php"); ?>
-<?php include("../-/includes/scripts.php"); ?>
-    <script type="text/javascript">
-	$(function() {
-		$('#mybook').booklet({
-			closed: true
-		});
-		$('#mybook2').booklet({
-			closed: true,
-			autoCenter: true
-		});
-		$('#mybook3').booklet({
-			closed: true,
-			covers: true
-		});
-		$('#mybook4').booklet({
-			closed: true,
-			covers: true,
-			direction: 'RTL'
-		});
-		$('#mybook5').booklet({
-			closed: true,
-			covers: true,
-			menu: '#custom-menu',
-			pageSelector: true,
-			chapterSelector: true
-		});
-	});
+
+<?php template_end_open(); ?>
+
+    <script>
+    	$(function() {
+    		$('#mybook').booklet({
+    			closed: true
+    		});
+    		$('#mybook2').booklet({
+    			closed: true,
+    			autoCenter: true
+    		});
+    		$('#mybook3').booklet({
+    			closed: true,
+    			covers: true
+    		});
+    		$('#mybook4').booklet({
+    			closed: true,
+    			covers: true,
+    			direction: 'RTL'
+    		});
+    		$('#mybook5').booklet({
+    			closed: true,
+    			covers: true,
+    			menu: '#custom-menu',
+    			pageSelector: true,
+    			chapterSelector: true
+    		});
+    	});
     </script>
-</body>
-</html>
+    
+<?php template_end_close(); ?>

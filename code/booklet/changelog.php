@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Changelog - Booklet - jQuery Plugin</title>
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<?php include("-/includes/head.php"); ?>
-</head>
-<body>
-	<?php include("-/includes/header.php"); ?>
-    <section id="content">       	
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start("Change Log");
+?>
         <h2>change log</h2>
         <p>Interested in following current development or seeing what code changed? Check out Booklet on <a href="https://github.com/builtbywill/Booklet" rel="external">GitHub</a>.</p>
     
@@ -110,9 +103,5 @@
         <h3>1.0.0</h3>
         <h4>November 23, 2010</h4>
         <p>First Release</p>
-    </section>
-<?php include("../../-/php/footer.php"); ?>
-<?php include("../../-/php/analytics.php"); ?>
-<?php include("-/includes/scripts.php"); ?>
-</body>
-</html>
+    
+<?php template_end(); ?>

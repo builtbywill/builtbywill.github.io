@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Booklet - jQuery Plugin</title>
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<?php include("-/includes/head.php"); ?>
-</head>
-<body>
-	<?php include("../../-/php/analytics.php"); ?>
-	<?php include("-/includes/header.php"); ?>
-    <section id="content">         	
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start();
+?>
+
         <h2>what is it?</h2>        
         <p>Booklet is a jQuery tool for displaying content on the web in a flipbook layout.
         It was built using the <a href="http://jquery.com/">jQuery library</a>.
@@ -50,7 +43,7 @@
     
         <h2>try it out!</h2> 
         <div class="download-area">   
-            <h3><a href="/code/booklet/src/jquery.booklet.1.4.3.zip" onClick="_gaq.push(['_trackPageview', '/download/1.4.3'])" id="download-btn">
+            <h3><a href="/code/booklet/src/jquery.booklet.1.4.3.zip" id="download-btn">
             	Download jQuery Booklet
                 <span>
                 v1.4.3 
@@ -59,16 +52,19 @@
                 </span>
             </a></h3>
         </div>
- 
-    </section>
-<?php include("../../-/php/footer.php"); ?>
-<?php include("-/includes/scripts.php"); ?>
+    
+<?php template_end_open(); ?>
 
-	<!-- basic initialization -->
     <script type="text/javascript">
-    $(function() {
-        $('#mybook').booklet();
-    });
+        $(function() {
+            
+            $('#download-btn').on('click', function(){
+                ga('send', 'event', 'button', 'click',  { page: "/download/1.4.3" });
+            });
+            
+        	// basic initialization
+            $('#mybook').booklet();
+        });
     </script>
-</body>
-</html>
+    
+<?php template_end_close(); ?>

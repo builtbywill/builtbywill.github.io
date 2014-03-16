@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Installation - Booklet - jQuery Plugin</title>
-    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<?php include("-/includes/head.php"); ?>
-</head>
-<body>
-	<?php include("-/includes/header.php"); ?>
-    <section id="content">        	
+<?php 
+    include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/php/functions.php"); 
+    template_start("Installation");
+?>
+
         <h2>installation</h2>
         
         <h3>Add CSS and Javascript</h3>
         
-        <p>Add the Booklet CSS file to your page.</p>
+        <p>Add the booklet CSS file to your page.</p>
         <div class="code-wrap">    
             <div style="width:1000px;">        	
             <script type="syntaxhighlighter" class="brush: xml"><![CDATA[
@@ -84,11 +78,6 @@
             });
         ]]></script>
         </div>
-        
     </div>  
-    </section>
-<?php include("../../-/php/footer.php"); ?>
-<?php include("../../-/php/analytics.php"); ?>
-<?php include("-/includes/scripts.php"); ?>
-</body>
-</html>
+
+<?php template_end(); ?>
