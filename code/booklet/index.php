@@ -43,12 +43,12 @@
     
         <h2>try it out!</h2> 
         <div class="download-area">   
-            <h3><a href="/code/booklet/src/jquery.booklet.1.4.3.zip" id="download-btn">
+            <h3><a href="/code/booklet/src/jquery.booklet.1.4.4.zip" id="download-btn">
             	Download jQuery Booklet
                 <span>
-                v1.4.3 
+                v1.4.4 
                 &bull; 
-                156KB
+                159KB
                 </span>
             </a></h3>
         </div>
@@ -59,7 +59,7 @@
         $(function() {
             
             $('#download-btn').on('click', function(){
-                ga('send', 'event', 'button', 'click',  { page: "/download/1.4.3" });
+                ga('send', 'event', 'button', 'click',  { page: "/download/1.4.4" });
             });
             
         	// basic initialization
