@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="-/css/screen.css" />
 </head>	
 <body>
-<?php include("-/php/analytics.php"); ?>
 	<header>
     	<h1><a href="/">Built By Will</a></h1>
         <ul>
@@ -50,6 +49,7 @@
         </ul>
     </section>
 <?php include("-/php/footer.php"); ?>
+<?php include("-/php/analytics.php"); ?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="/-/js/jquery.qtip.min.js"></script>
     <script>

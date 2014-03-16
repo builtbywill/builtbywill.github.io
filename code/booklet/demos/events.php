@@ -2,28 +2,9 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Events - Demos - Booklet - jQuery Plugin</title>    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
-	<?php include("../-/includes/scripts.php"); ?>
-	<script type="text/javascript">
-	$(function() {
-		// init binding
-		$('#mybook').booklet({			  
-			change: function(event, data){
-				alert('change! new page index is : '+data.index);
-			}			  
-		});
-		
-		// event type binding
-		$("#mybook").bind("bookletadd", function(event, data) {
-			alert('page added! page html: '+ data.page.outerHTML);
-		});
-		
-		$('#custom-add-end').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("add", "end", "<div><h3>I'm a new page!</h3></div>");
-		});
-	});
-    </script>
+    <title>Events - Demos - Booklet - jQuery Plugin</title>    
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
+	<?php include("../-/includes/head.php"); ?>
 </head>
 <body>
 <?php include("../-/includes/header.php"); ?>
@@ -79,5 +60,26 @@
     </section>
 <?php include("../../../-/php/footer.php"); ?>
 <?php include("../../../-/php/analytics.php"); ?>
+<?php include("../-/includes/scripts.php"); ?>
+	<script type="text/javascript">
+	$(function() {
+		// init binding
+		$('#mybook').booklet({			  
+			change: function(event, data){
+				alert('change! new page index is : '+data.index);
+			}			  
+		});
+		
+		// event type binding
+		$("#mybook").bind("bookletadd", function(event, data) {
+			alert('page added! page html: '+ data.page.outerHTML);
+		});
+		
+		$('#custom-add-end').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("add", "end", "<div><h3>I'm a new page!</h3></div>");
+		});
+	});
+    </script>
 </body>
 </html>

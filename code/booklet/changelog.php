@@ -4,13 +4,22 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Changelog - Booklet - jQuery Plugin</title>
     <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<?php include("-/includes/scripts.php"); ?>
+	<?php include("-/includes/head.php"); ?>
 </head>
 <body>
 	<?php include("-/includes/header.php"); ?>
     <section id="content">       	
         <h2>change log</h2>
+        <p>Interested in following current development or seeing what code changed? Check out Booklet on <a href="https://github.com/builtbywill/Booklet" rel="external">GitHub</a>.</p>
     
+        <h3>1.4.3</h3>
+        <h4>March 2, 2014</h4>
+        <h5>Updates</h5>
+        <ul>
+            <li>Fixed issue where jQuery UI checks were failing. It is now correctly setup to be optional.</li>
+            <li>Updated to latest versions of jQuery and jQuery UI.</li>
+        </ul>
+            
         <h3>1.4.2</h3>
         <h4>February 24, 2013</h4>
         <h5>Updates</h5>
@@ -104,5 +113,6 @@
     </section>
 <?php include("../../-/php/footer.php"); ?>
 <?php include("../../-/php/analytics.php"); ?>
+<?php include("-/includes/scripts.php"); ?>
 </body>
 </html>

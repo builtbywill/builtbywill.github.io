@@ -2,101 +2,9 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Methods - Demos - Booklet - jQuery Plugin</title>    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
-	<?php include("../-/includes/scripts.php"); ?>
-    
-    <script type="text/javascript">
-	$(function() {
-		
-		var mybook = $('#mybook').booklet();
-		var newPageHtml = "<div><h3>I'm a new page!</h3></div>";
-		var display = $("#display");	
-				
-		$('#custom-destroy').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("destroy");
-			display.text('Destroyed');
-		});
-		
-		$('#custom-create').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet();
-			display.text('Created');
-		});
-		
-		$('#custom-disable').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("disable");
-			display.text('Disabled');			
-		});
-		
-		$('#custom-enable').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("enable");
-			display.text('Enabled');						
-		});
-		
-		$('#custom-next').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("next");
-		});
-		
-		$('#custom-prev').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("prev");
-		});
-		
-		$('#custom-goto').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("gotopage", "end");
-		});
-		
-		$('#custom-add-start').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("add", "start", newPageHtml);
-		});
-		
-		$('#custom-add-end').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("add", "end", newPageHtml);
-		});
-		
-		$('#custom-add-index').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("add", 4, newPageHtml);
-		});
-		
-		$('#custom-remove-start').click(function(e){
-			e.preventDefault();
-			var page = $('#mybook').booklet("remove", "start");
-			alert("Removed Page: "+page);
-		});
-		
-		$('#custom-remove-end').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("remove", "end");
-		});
-		
-		$('#custom-remove-index').click(function(e){
-			e.preventDefault();
-			var page = $('#mybook').booklet("remove", 4);
-			alert("Removed Page: "+page);
-		});
-		
-		$('#custom-keyboard-off').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("option", {keyboard: false});
-			display.text("Keyboard off");
-		});
-		
-		$('#custom-keyboard-on').click(function(e){
-			e.preventDefault();
-			$('#mybook').booklet("option", {keyboard: true});
-			display.text("Keyboard on");
-		});
-
-	});
-    </script>
+    <title>Methods - Demos - Booklet - jQuery Plugin</title>    
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
+	<?php include("../-/includes/head.php"); ?>
 </head>
 <body>
 <?php include("../-/includes/header.php"); ?>
@@ -242,5 +150,99 @@
     </section>
 <?php include("../../../-/php/footer.php"); ?>
 <?php include("../../../-/php/analytics.php"); ?>
+<?php include("../-/includes/scripts.php"); ?>
+    
+    <script type="text/javascript">
+	$(function() {
+		
+		var mybook = $('#mybook').booklet();
+		var newPageHtml = "<div><h3>I'm a new page!</h3></div>";
+		var display = $("#display");	
+				
+		$('#custom-destroy').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("destroy");
+			display.text('Destroyed');
+		});
+		
+		$('#custom-create').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet();
+			display.text('Created');
+		});
+		
+		$('#custom-disable').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("disable");
+			display.text('Disabled');			
+		});
+		
+		$('#custom-enable').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("enable");
+			display.text('Enabled');						
+		});
+		
+		$('#custom-next').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("next");
+		});
+		
+		$('#custom-prev').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("prev");
+		});
+		
+		$('#custom-goto').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("gotopage", "end");
+		});
+		
+		$('#custom-add-start').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("add", "start", newPageHtml);
+		});
+		
+		$('#custom-add-end').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("add", "end", newPageHtml);
+		});
+		
+		$('#custom-add-index').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("add", 4, newPageHtml);
+		});
+		
+		$('#custom-remove-start').click(function(e){
+			e.preventDefault();
+			var page = $('#mybook').booklet("remove", "start");
+			alert("Removed Page: "+page);
+		});
+		
+		$('#custom-remove-end').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("remove", "end");
+		});
+		
+		$('#custom-remove-index').click(function(e){
+			e.preventDefault();
+			var page = $('#mybook').booklet("remove", 4);
+			alert("Removed Page: "+page);
+		});
+		
+		$('#custom-keyboard-off').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("option", {keyboard: false});
+			display.text("Keyboard off");
+		});
+		
+		$('#custom-keyboard-on').click(function(e){
+			e.preventDefault();
+			$('#mybook').booklet("option", {keyboard: true});
+			display.text("Keyboard on");
+		});
+
+	});
+    </script>
 </body>
 </html>

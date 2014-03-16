@@ -1,27 +1,1 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<dwsync>
-<file name="arrows.php" server="ftp.builtbywill.com/www/" local="130057038860000000" remote="130057118400000000" />
-<file name="auto.php" server="ftp.builtbywill.com/www/" local="130057039090000000" remote="130057118400000000" />
-<file name="buttons.php" server="ftp.builtbywill.com/www/" local="130057039230000000" remote="130057118400000000" />
-<file name="chapterselect.php" server="ftp.builtbywill.com/www/" local="130057039430000000" remote="130057118400000000" />
-<file name="closed.php" server="ftp.builtbywill.com/www/" local="130057039660000000" remote="130057118400000000" />
-<file name="cursors.php" server="ftp.builtbywill.com/www/" local="130057039810000000" remote="130057118400000000" />
-<file name="direction.php" server="ftp.builtbywill.com/www/" local="130057039940000000" remote="130057118400000000" />
-<file name="easing.php" server="ftp.builtbywill.com/www/" local="130057040830000000" remote="130057118400000000" />
-<file name="events.php" server="ftp.builtbywill.com/www/" local="130057040930000000" remote="130057118400000000" />
-<file name="hash.php" server="ftp.builtbywill.com/www/" local="130057041020000000" remote="130057118400000000" />
-<file name="hovers.php" server="ftp.builtbywill.com/www/" local="130057041110000000" remote="130057118400000000" />
-<file name="index.php" server="ftp.builtbywill.com/www/" local="130057033910000000" remote="130057118400000000" />
-<file name="keyboard.php" server="ftp.builtbywill.com/www/" local="130057041200000000" remote="130057118400000000" />
-<file name="manual.php" server="ftp.builtbywill.com/www/" local="130057041270000000" remote="130057118400000000" />
-<file name="methods.php" server="ftp.builtbywill.com/www/" local="130057041400000000" remote="130057118400000000" />
-<file name="overlays.php" server="ftp.builtbywill.com/www/" local="130057041480000000" remote="130057118400000000" />
-<file name="padding.php" server="ftp.builtbywill.com/www/" local="130057149108270000" remote="130057118400000000" />
-<file name="pagenums.php" server="ftp.builtbywill.com/www/" local="130057041640000000" remote="130057118400000000" />
-<file name="pageselect.php" server="ftp.builtbywill.com/www/" local="130057041710000000" remote="130057118400000000" />
-<file name="shadows.php" server="ftp.builtbywill.com/www/" local="130057041800000000" remote="130057118400000000" />
-<file name="size.php" server="ftp.builtbywill.com/www/" local="130057041960000000" remote="130057118400000000" />
-<file name="speed.php" server="ftp.builtbywill.com/www/" local="130057042030000000" remote="130057118400000000" />
-<file name="starting.php" server="ftp.builtbywill.com/www/" local="130057042120000000" remote="130057118400000000" />
-<file name="tabs.php" server="ftp.builtbywill.com/www/" local="130057042210000000" remote="130057118400000000" />
-</dwsync>
+<?xml version="1.0" encoding="utf-8" ?><dwsync><file name="arrows.php" server="ftp.builtbywill.com/www/" local="3477790474" remote="12067714292" /><file name="auto.php" server="ftp.builtbywill.com/www/" local="3477790457" remote="12067714292" /><file name="buttons.php" server="ftp.builtbywill.com/www/" local="3477790419" remote="12067714292" /><file name="chapterselect.php" server="ftp.builtbywill.com/www/" local="3477790402" remote="12067714292" /><file name="closed.php" server="ftp.builtbywill.com/www/" local="3477790378" remote="12067714292" /><file name="cursors.php" server="ftp.builtbywill.com/www/" local="3477790337" remote="12067714292" /><file name="direction.php" server="ftp.builtbywill.com/www/" local="3477790317" remote="12067714292" /><file name="easing.php" server="ftp.builtbywill.com/www/" local="3477790296" remote="12067714292" /><file name="events.php" server="ftp.builtbywill.com/www/" local="3477790277" remote="12067714292" /><file name="hash.php" server="ftp.builtbywill.com/www/" local="3477790257" remote="12067714292" /><file name="hovers.php" server="ftp.builtbywill.com/www/" local="3477790224" remote="12067714292" /><file name="index.php" server="ftp.builtbywill.com/www/" local="3477790198" remote="12067714292" /><file name="keyboard.php" server="ftp.builtbywill.com/www/" local="3477790177" remote="12067714292" /><file name="manual.php" server="ftp.builtbywill.com/www/" local="3477790158" remote="12067714292" /><file name="methods.php" server="ftp.builtbywill.com/www/" local="3477790133" remote="12067714292" /><file name="overlays.php" server="ftp.builtbywill.com/www/" local="3477790094" remote="12067714292" /><file name="padding.php" server="ftp.builtbywill.com/www/" local="3477790068" remote="12067714292" /><file name="pagenums.php" server="ftp.builtbywill.com/www/" local="3477790037" remote="12067714292" /><file name="pageselect.php" server="ftp.builtbywill.com/www/" local="3477789929" remote="12067714292" /><file name="shadows.php" server="ftp.builtbywill.com/www/" local="3477789910" remote="12067714292" /><file name="size.php" server="ftp.builtbywill.com/www/" local="3477789884" remote="12067714292" /><file name="speed.php" server="ftp.builtbywill.com/www/" local="3477789856" remote="12067714292" /><file name="starting.php" server="ftp.builtbywill.com/www/" local="3477789829" remote="12067714292" /><file name="tabs.php" server="ftp.builtbywill.com/www/" local="3477789797" remote="12067714292" /></dwsync>

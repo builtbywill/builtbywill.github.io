@@ -4,35 +4,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Documentation - Booklet - jQuery Plugin</title>
     <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<?php include("-/includes/scripts.php"); ?>
+	<?php include("-/includes/head.php"); ?>
 	<link href="/-/js/jquery-ui/base/jquery.ui.tabs.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
-
-	<script type="text/javascript">
-	$(function() {
-		$("#tabs").tabs();
-		$(".description, .examples").hide();
-		$(".header").click(function(e){
-			e.preventDefault();
-			//$(this).parent().siblings().find(".description, .examples").hide();
-			$(this).siblings(".description, .examples").toggle();
-		});
-		$('.toggle').click(function(e){
-			e.preventDefault();
-			if($(this).text() == "Expand All"){
-				$(".description, .examples").show();
-				$('.toggle').text("Collapse All"); 
-			} else {
-				$(".description, .examples").hide();
-				$('.toggle').text("Expand All");				
-			}
-		});
-	});
-    </script>
 </head>
 <body>
 	<?php include("-/includes/header.php"); ?>
     <section id="content">      	
         <h2>documentation</h2>
+        <p>version 1.4.3</p>
 		<div id="tabs">
 		<ul>
 			<li><a href="#tabs-1">Options</a></li>
@@ -2174,7 +2153,7 @@ $(".selector").booklet( "option", "shadowBtmWidth", 100 );</code></pre>
 						<p>Added to <strong>.b-wrap</strong> of the first and last pages, when using the "closed" and "covers" options.</p>
 					</div>
 				</li>
-				<li><h2 class="section-name">Controls</h2></li>
+				<!--<li><h2 class="section-name">Controls</h2></li>
 				<li>
 					<div class="header">
 						<h3 class="name"></h3>
@@ -2191,7 +2170,7 @@ $(".selector").booklet( "option", "shadowBtmWidth", 100 );</code></pre>
 					<div class="description">
 						<p></p>
 					</div>
-				</li>
+				</li>-->
 			</ul>
 		</div>
         </div>
@@ -2199,5 +2178,28 @@ $(".selector").booklet( "option", "shadowBtmWidth", 100 );</code></pre>
 </section>
 <?php include("../../-/php/footer.php"); ?>
 <?php include("../../-/php/analytics.php"); ?>
+<?php include("-/includes/scripts.php"); ?>
+
+	<script type="text/javascript">
+	$(function() {
+		$("#tabs").tabs();
+		$(".description, .examples").hide();
+		$(".header").click(function(e){
+			e.preventDefault();
+			//$(this).parent().siblings().find(".description, .examples").hide();
+			$(this).siblings(".description, .examples").toggle();
+		});
+		$('.toggle').click(function(e){
+			e.preventDefault();
+			if($(this).text() == "Expand All"){
+				$(".description, .examples").show();
+				$('.toggle').text("Collapse All"); 
+			} else {
+				$(".description, .examples").hide();
+				$('.toggle').text("Expand All");				
+			}
+		});
+	});
+    </script>
 </body>
 </html>

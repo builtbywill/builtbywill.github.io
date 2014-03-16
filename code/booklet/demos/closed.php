@@ -2,36 +2,9 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Chapter Selector - Demos - Booklet - jQuery Plugin</title>
+    <title>Closed Book and Covers - Demos - Booklet - jQuery Plugin</title>
     <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<?php include("../-/includes/scripts.php"); ?>
-    <script type="text/javascript">
-	$(function() {
-		$('#mybook').booklet({
-			closed: true
-		});
-		$('#mybook2').booklet({
-			closed: true,
-			autoCenter: true
-		});
-		$('#mybook3').booklet({
-			closed: true,
-			covers: true
-		});
-		$('#mybook4').booklet({
-			closed: true,
-			covers: true,
-			direction: 'RTL'
-		});
-		$('#mybook5').booklet({
-			closed: true,
-			covers: true,
-			menu: '#custom-menu',
-			pageSelector: true,
-			chapterSelector: true
-		});
-	});
-    </script>
+	<?php include("../-/includes/head.php"); ?>
 </head>
 <body>
 <?php include("../-/includes/header.php"); ?>
@@ -211,5 +184,33 @@
     </section>
 <?php include("../../../-/php/footer.php"); ?>
 <?php include("../../../-/php/analytics.php"); ?>
+<?php include("../-/includes/scripts.php"); ?>
+    <script type="text/javascript">
+	$(function() {
+		$('#mybook').booklet({
+			closed: true
+		});
+		$('#mybook2').booklet({
+			closed: true,
+			autoCenter: true
+		});
+		$('#mybook3').booklet({
+			closed: true,
+			covers: true
+		});
+		$('#mybook4').booklet({
+			closed: true,
+			covers: true,
+			direction: 'RTL'
+		});
+		$('#mybook5').booklet({
+			closed: true,
+			covers: true,
+			menu: '#custom-menu',
+			pageSelector: true,
+			chapterSelector: true
+		});
+	});
+    </script>
 </body>
 </html>

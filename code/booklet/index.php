@@ -4,14 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Booklet - jQuery Plugin</title>
     <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
-	<?php include("-/includes/scripts.php"); ?>
-    
-	<!-- basic initialization -->
-    <script type="text/javascript">
-    $(function() {
-        $('#mybook').booklet();
-    });
-    </script>
+	<?php include("-/includes/head.php"); ?>
 </head>
 <body>
 	<?php include("../../-/php/analytics.php"); ?>
@@ -57,17 +50,25 @@
     
         <h2>try it out!</h2> 
         <div class="download-area">   
-            <h3><a href="/code/booklet/src/jquery.booklet.1.4.2.zip" onClick="_gaq.push(['_trackPageview', '/download/1.4.2'])" id="download-btn">
+            <h3><a href="/code/booklet/src/jquery.booklet.1.4.3.zip" onClick="_gaq.push(['_trackPageview', '/download/1.4.3'])" id="download-btn">
             	Download jQuery Booklet
                 <span>
-                v1.4.2 
+                v1.4.3 
                 &bull; 
-                148KB
+                156KB
                 </span>
             </a></h3>
         </div>
  
     </section>
 <?php include("../../-/php/footer.php"); ?>
+<?php include("-/includes/scripts.php"); ?>
+
+	<!-- basic initialization -->
+    <script type="text/javascript">
+    $(function() {
+        $('#mybook').booklet();
+    });
+    </script>
 </body>
 </html>

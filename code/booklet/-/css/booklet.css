@@ -3,7 +3,7 @@
 /* @General
 ----------------------------------------*/
 
-	body {font:400 14px/1.5em "Ubuntu", sans-serif; overflow-x:hidden; padding:45px 0 0;}
+	body {font:400 16px/1.5em "Ubuntu", sans-serif; overflow-x:hidden; padding:45px 0 0;}
 	header, #content, footer p {padding-left:10%; padding-right:10%;}
 		
 	html, header, #content, aside {background-color:#4c9bc0;}
@@ -11,30 +11,36 @@
 	#bar         {font-size:12px; background:#000; position:absolute; top:0; left:0; width:100%; border-bottom:1px solid #c1ebff; padding:10px 0;}
 	#bar a       {margin-left:20px; color:#fff;}
 	#donate-form {margin-right:20px;}
+	#donate-form input {background-color:transparent; margin:0; border:none;}
 	
 	header {padding-top:50px;}
 	h1     {display:block; text-indent:-999em; width:300px; height:69px; background:url("../images/booklet.png") no-repeat 0 0; float:left;}
+	h1 a   {display:block; height:100%;}
 	
 	nav           {float:right; padding-top:20px;}
 	nav li        {float:left;}
-	nav a         {display:block; color:#fff; margin-left:25px; text-transform:lowercase; text-shadow:0px 1px 1px rgba(0,0,0,0.5); font-weight:bold; font-size:20px;}
-	nav a:hover   {color:#000; text-shadow:0 1px 0 #c1ebff;}
+	nav a         {display:block; color:#eee; margin-left:25px; text-transform:lowercase; text-shadow:0px 1px 1px rgba(0,0,0,0.5); font-weight:bold; font-size:20px;}
+	nav a:hover   {color:#fff;}
+	nav a:active  {color:#000; text-shadow:0 1px 0 rgba(255, 255, 255, 0.25);}
 	nav li:first-child a {margin:0;}
 	nav a.current {color:#222;  text-shadow:0px 1px 1px #c1ebff;}
 	
-	h2 {font-size:30px; line-height:30px; text-shadow:0 1px 0 #7ACEF5; padding:0 0 0.5em;}
-	h3 {font-size:25px; text-shadow:0 1px 0 #7ACEF5; padding:0 0 0.5em;}
-	h4 {font-size:18px; color:#fff; padding:0 0 0.5em; text-shadow:0px -1px 1px rgba(0, 0, 0, 0.25);}
-	h5 {line-height:1em; padding:0 0 0.5em; text-shadow:0 1px 0 #7ACEF5;}
+	h2 {font-size:200%; line-height:1.75em; text-shadow:0 1px 0 rgba(255, 255, 255, 0.25);}
+	h3 {font-size:150%; line-height:1.75em; text-shadow:0 1px 0 rgba(255, 255, 255, 0.25); color:rgba(0,0,0,0.7);}
+	h4 {font-size:120%; line-height:1.75em; font-style:italic; color:rgba(255,255,255,0.6);}
+	h5 {font-size:105%; line-height:1.75em; text-shadow:0 1px 0 rgba(255, 255, 255, 0.25); padding:0 0 0.5em; font-weight:600;}
 	
 	input, textarea {background-color:white; border:2px inset; padding:2px;}
 	
-	#content   {padding-bottom:50px; padding-top:20px;}	
+	a {-webkit-transition:0.25s; transition:0.25s;}
+	
+	#content   {padding:20px 0 50px 0; max-width:950px; margin:0 auto;}
 	#content p {padding:0 0 10px;}
-	#content a, aside a {color:#fff; text-shadow:0px -1px 1px rgba(0, 0, 0, 0.25);}
+	#content a, aside a {color:#eee; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.25);}
+	#content a:hover, aside a:hover {color:#fff;}
+	#content a:active, aside a:active {color:#000; text-shadow:0 1px 0 rgba(255, 255, 255, 0.25);}
 	#content ul, aside ul {padding:0 0 0 10px; margin:0 0 20px 10px; line-height:20px; list-style:disc outside;}
 	#content ol {padding:0 0 0 10px; margin:0 0 20px 10px; line-height:20px;}
-	
 	#content.sub-content {padding-left:30%}
 
 	aside {float:left; width:19%; padding:20px 1% 50px 10%;}
@@ -93,7 +99,7 @@
 	#content #tabs .list {margin:0; padding:0;}
 	#content #tabs .list > li {float:left; width:100%; clear:both; list-style:none; background:#fff;}
 	
-	#content #tabs pre {overflow:auto;}
+	#content #tabs pre {overflow:auto; padding:10px; font-size:90%;}
 
 	#content #tabs .section-name {padding:0 0 0 20px; margin:0; border-top:1px solid #eee; border-bottom:1px solid #ddd; font-size:20px; line-height:40px; height:40px;  text-shadow:none;}
 
@@ -101,7 +107,8 @@
 	#content #tabs .header:hover {background:#f4f4f4; cursor:pointer;}
 	
 	#content #tabs .name   {float:left; margin:0 0 0 20px; padding:0; text-shadow:none; line-height:40px; font-size:16px;}
-	
+	#content #tabs .list a  {color:#09F; text-shadow:none;}
+
 	.header dl {float:right; width:50%; margin:0; padding:0;}
 	.header dt {float:left; color:#888; padding-right:10px;}
 	.header dd {float:left; margin:0; color:#222;}
@@ -114,10 +121,8 @@
 	.description {padding:0 20px;}
 	.description p {margin:1em 0;}
 		
-	.examples {padding:0 20px 10px;}
-	
-	.examples h4 {color:#000;}
-	
+	.examples {padding:0 20px 10px;}	
+	.examples h4 {color:#000; text-shadow:none;}	
 	.examples dl {}
 	.examples dt {}
 	.examples dd {margin:0; padding:0 0 0 20px;}
@@ -129,7 +134,7 @@
     #mybook,
     #mybook2   {margin:40px auto 20px;}
 
-	#content .booklet a        {color:#006699; text-decoration:none;}
+	#content .booklet a        {color:#006699; text-decoration:none; text-shadow:none;}
 	#content .booklet a:hover  {border-bottom:1px dotted;}
 	#content .booklet ul       {font-size:12px; margin:0 0 20px 10px; line-height:20px; color:#524f4a; list-style:disc outside;}
     #content .booklet h2,
@@ -138,6 +143,8 @@
     #content .booklet p  {font-size:12px; padding:0 0 10px; line-height:20px; color:#524f4a;}
 	
 	#content .booklet q  {display:block; width:200px; font-size:18px; font-weight:bold; font-style:italic;}
+	
+	#content .booklet .b-counter {font-family: "Ubuntu", sans-serif; line-height:1.2;}
 	
 /* @Responsive Design
 ----------------------------------------*/

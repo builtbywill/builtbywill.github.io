@@ -2,16 +2,9 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Buttons - Demos - Booklet - jQuery Plugin</title>    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
-	<?php include("../-/includes/scripts.php"); ?>
-	<script type="text/javascript">
-	$(function() {
-		$('#mybook').booklet({
-			next: '#custom-next',				  
-			prev: '#custom-prev'					  
-		});
-	});
-    </script>
+    <title>Buttons - Demos - Booklet - jQuery Plugin</title>    
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />	
+	<?php include("../-/includes/head.php"); ?>
 </head>
 <body>
 <?php include("../-/includes/header.php"); ?>
@@ -60,5 +53,14 @@
     </section>
 <?php include("../../../-/php/footer.php"); ?>
 <?php include("../../../-/php/analytics.php"); ?>
+<?php include("../-/includes/scripts.php"); ?>
+	<script type="text/javascript">
+	$(function() {
+		$('#mybook').booklet({
+			next: '#custom-next',				  
+			prev: '#custom-prev'					  
+		});
+	});
+    </script>
 </body>
 </html>
