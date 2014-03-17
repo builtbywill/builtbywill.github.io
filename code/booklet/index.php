@@ -59,7 +59,7 @@
         $(function() {
             
             $('#download-btn').on('click', function(){
-                ga('send', 'event', 'button', 'click',  { page: "/download/1.4.4" });
+                ga('send', 'event', 'button', 'click', 'download-1.4.4');
             });
             
         	// basic initialization

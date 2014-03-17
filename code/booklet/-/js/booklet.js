@@ -1,5 +1,5 @@
 $(function(){
     $('#donate-btn').on('click', function(){
-        ga('send', 'event', 'button', 'click',  { page: "/donate" });
+        ga('send', 'event', 'button', 'click', "donate");
     });
 });
