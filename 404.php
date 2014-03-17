@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Built By Will"/>
     <meta name="copyright" content="&copy; <?php echo date("Y") ?> Built By Will"/>
     <meta name="description" content="Portfolio site of Indiana Web Designer and Developer Will Grauvogel" />
