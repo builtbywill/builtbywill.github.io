@@ -4,6 +4,6 @@
 ?>
 
         <h2>examples</h2>
-        <h3>Choose a demo link from the left column to get started...</h3>   
+        <h3>Choose a demo link from the right column to get started...</h3>   
     
 <?php template_end(); ?>

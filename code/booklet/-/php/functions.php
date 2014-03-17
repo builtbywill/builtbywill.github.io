@@ -16,7 +16,7 @@
         include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/includes/head.php");
     }
     
-    function template_start_close($aside = false){
+    function template_start_close($demos = false){
         echo 
 '   </head>
     <body>
@@ -24,18 +24,18 @@
 
     	include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/includes/header.php");
         
-        $content_class = "";
-        if ($aside == true) {
+        if ($demos == true) {
+        	include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/includes/aside-demos.php");
+        } else {
         	include($_SERVER["DOCUMENT_ROOT"] . "/code/booklet/-/includes/aside.php");
-            $content_class = 'class="sub-content"';
         }
         
-        echo '<section id="content"'. $content_class .'>';
+        echo '<section id="content" class="sub-content">';
     }
     
-    function template_start($page_title = "", $aside = false){
+    function template_start($page_title = "", $demos = false){
         template_start_open($page_title);
-        template_start_close($aside);
+        template_start_close($demos);
     }
     
     function template_end_open(){
