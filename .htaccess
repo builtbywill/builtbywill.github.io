@@ -16,7 +16,5 @@ RedirectMatch 404 /\.git
 
 # add expires headers
 <FilesMatch "\.(gif|jpe?g|png|ico|css|js|swf)$">
-     Header set Cache-Control "max-age=172800, public, must-revalidate"
+     Header set Cache-Control "max-age=31536050, public, must-revalidate"
 </FilesMatch>
-
-# gzip html, css and js
