@@ -1,0 +1,36 @@
+<div class="header">
+	<div class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+    			<a class="navbar-brand" ng-href="#/">Built By Will</a>
+			</div>
+			<div class="collapse navbar-collapse" id="js-navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li ng-repeat="item in ctrl.navItems" ng-class="{active: item.url === ctrl.currentPath() }"><a ng-href="#{{ item.url }}">{{ item.title }}</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="content container">
+	<div ng-view></div>
+</div>
+
+<div class="footer">
+	<div class="container">
+        <ul class="clearfix">
+        	<li><a href="#" title="builtbywill [at] gmail.com" id="gmail-link">gmail</a></li>
+	        <li><a href="http://twitter.com/builtbywill" title="@builtbywill" id="twitter-link">@builtbywill</a></li>
+        </ul>
+    	<p><a ng-href="#/" id="logo-footer-link">&copy; 2010 - 2015</a></p>
+	</div>
+</div>

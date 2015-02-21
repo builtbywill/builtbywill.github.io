@@ -1,0 +1,220 @@
+/* @Fonts
+----------------------------------------*/
+
+	@font-face {
+	  font-family: "Ubuntu";
+	  font-style: normal;
+	  font-weight: 300;
+	  src: local("Ubuntu Light"), local("Ubuntu-Light"), url("../fonts/Ubuntu-L.ttf") format("ttf");
+	}
+	@font-face {
+	  font-family: "Ubuntu";
+	  font-style: normal;
+	  font-weight: 400;
+	  src: local("Ubuntu"), url("../fonts/Ubuntu-R.ttf") format("ttf");
+	}
+	@font-face {
+	  font-family: "Ubuntu";
+	  font-style: normal;
+	  font-weight: 700;
+	  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("../fonts/Ubuntu-B.ttf") format("ttf");
+	}
+	
+/* @Reset
+----------------------------------------*/
+
+	a {color:#09F; text-decoration:none;}
+	
+/* Classes
+----------------------------------------*/
+
+	.clear {display:block; clear:both;}
+	.right {float:right;}
+	.left  {float:left;}
+	
+/* @General
+----------------------------------------*/
+
+	html, .footer {background-color:#e6e6e6;}
+	/*body {font:300 16px/24px "Ubuntu", sans-serif; overflow-x:hidden;}*/
+	.container {/*max-width:575px;*/}
+
+	.header {}
+	h1     {display:block; text-indent:-999em; width:185px; height:122px; background:url("../images/logo.png") no-repeat 0 0; margin:0 auto;}
+	h1 a   {display:block; width:185px; height:122px;}
+	/*h2     {font:700 25px/1.5em "Ubuntu", sans-serif;}*/
+
+	.content {background-color:#fff; padding-bottom:100px;}
+
+	#about     {background-color:#e6e6e6; border-radius:8px; padding:22px; box-shadow: inset 0 1px 1px #dbdbdb; position:relative; line-height:26px; text-shadow:0 1px 0 #fff;}	
+	#about img {position:absolute; right:-30px; bottom:-50px;}
+
+	#content-list         {padding:45px 0 0;}
+	#content-list li      {display:inline;}
+	#content-list a       {display:block; clear:both; padding:35px 15px; text-decoration:none; border-bottom:2px solid #e6e6e6; color:#000; transition:.25s; -webkit-transition:.25s;}
+	#content-list a:hover {color:#09F; border-bottom:2px solid #09F; transition:.25s; -webkit-transition:.25s;}
+	#content-list img     {float:left; margin:0 20px 0 0;}
+	#content-list span    {display:block; padding-left:163px;}
+	
+	.footer   {padding-top:30px; padding-bottom:50px; box-shadow:inset 0 1px 1px #dbdbdb; clear:both;}
+	.footer p {text-align:center; font-weight:bold; text-shadow:0 -1px 0px #b8b8b8; letter-spacing:-1px;}
+	.footer a {}
+    .footer a:hover {text-decoration:none;}
+	
+    .footer ul      {width:100px; margin:0 auto 10px; padding:0;}
+	.footer ul li   {display:inline;}	
+	.footer ul li a {display:inline-block; width:50px; height:50px; text-indent:-999em; float:left;}
+    
+	#gmail-link    {background:url("../images/gmail.png") no-repeat 50% 50%;}
+	#twitter-link  {background:url("../images/twitter.png") no-repeat 50% 50%;}
+    #logo-footer-link {display:block; margin:0 auto; width:100px; height:90px; color:#d6d6d6 !important; background:url("../images/logo-footer.png") no-repeat 50% 30px;}
+
+/* @Responsive Design
+----------------------------------------*/
+
+	@media only screen and (min-width: 1260px) {
+	}
+	@media handheld, only screen and (max-width: 767px) {
+		#content-list img {float:none; display:block; margin: 0 auto 10px;}
+		#content-list p   {padding-left:0;}
+	}
+	@media handheld, only screen and (max-width: 480px) {
+	}
+	@media handheld, only screen and (max-width: 300px) {
+	}
+    
+    
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
