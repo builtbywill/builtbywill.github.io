@@ -254,7 +254,7 @@
     .featurette-divider {margin:80px 0;} /* Space out the Bootstrap <hr> more */
     .featurette-heading {font-weight:300; line-height:1; letter-spacing:-1px;} /* Thin out the marketing headings */
     
-    .featurette .label {display:inline-block; margin-right:5px;}
+    .featurette .label {display:inline-block; margin:0 5px 5px 0;}
     
 	#content-list         {padding:45px 0 0;}
 	#content-list li      {display:inline;}

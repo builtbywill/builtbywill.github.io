@@ -3,7 +3,7 @@
 		<div class="carousel-caption">
 			<img src="content/images/profile-picture.png" alt="Profile Picture" />
 			<h1>Hi! My name is Will.</h1>
-			<p>I love to solve problems, find creative solutions, and come up with new ways to share content on web and mobile platforms.</p>
+			<p>I love to solve problems with creative solutions and come up with new ways to share content on web and mobile platforms.</p>
 		</div>
 	</div>
 </div>
@@ -12,7 +12,7 @@
 	
 	<div class="well well-lg">
 		<h1>What I've Done</h1>		
-		<p class="lead">These are some of the projects I have worked on the past few years. For most projects, I contributed a part of a larger whole. Specific areas I worked on are highlighted below.</p>
+		<p class="lead">These are some of the projects I have worked on the past few years. The areas I worked on are highlighted below, with my role and specific technologies that were utilized.</p>
 	</div>
 	<hr class="featurette-divider" />
 	
@@ -24,7 +24,10 @@
 				<div ng-repeat="area in project.areas">
 					<h3>{{ area.name }}</h3>
 					<p>{{ area.text }}</p>
-					<span class="label label-{{ area.label }}" ng-repeat="tech in area.tech">{{tech}}</span>
+					<h4>
+						<span class="label label-default">{{ area.type }}</span>
+						<span class="label label-{{ area.label }}" ng-repeat="tech in area.tech">{{ tech }}</span>
+					</h4>
 				</div>
 		    </div>
 		    <div class="col-md-5">
@@ -34,87 +37,4 @@
 		<hr class="featurette-divider" />
 	</div>
 	
-	<div class="row featurette">
-		<div class="col-md-7">
-			<h2 class="featurette-heading">Skyepack <span class="text-muted"></span></h2>
-	        <p class="lead">Skyepack is solution for textbook replacement, and so much more. It supports self assessments, graded quizzes, and discussion boards, videos, images, documents, audio, and even customized HTML. Skyepack delivers content to iOS, Android, and the Web.
-			<a href="https://skyepack.com">link</a></p>
-			<h3>
-				<span class="label label-primary">iOS - Objective-C</span>
-				<span class="label label-success">Web - C#</span>
-				<span class="label label-warning">Android - Java</span>
-				<span class="label label-default">Design</span>
-			</h3>
-	    </div>
-	    <div class="col-md-5">
-	    	<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
-	    </div>
-	</div>
-	<hr class="featurette-divider" />
-	
-	<div class="row featurette">
-		<div class="col-md-7">
-			<h2 class="featurette-heading">Convoy <span class="text-muted"></span></h2>
-	        <p class="lead">Deliver interactive presentations, supplemental materials, and lecture notes together in a single package.
-			<a href="https://purdue.edu/studio">link</a></p>
-			<h3>
-				<span class="label label-primary">iOS - Objective-C</span>
-				<span class="label label-success">Web - C#</span>
-				<span class="label label-default">Design</span>
-			</h3>
-	    </div>
-	    <div class="col-md-5">
-	    	<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
-	    </div>
-	</div>
-	<hr class="featurette-divider" />
-	
-	<div class="row featurette">
-		<div class="col-md-7">
-			<h2 class="featurette-heading">Passport <span class="text-muted"></span></h2>
-	        <p class="lead">Passport is a learning and e-portfolio system that uses digital badges to demonstrate learners' competencies and achievements.</p>
-			<h3>
-				<span class="label label-primary">iOS - Objective-C</span>
-				<span class="label label-success">Web - C#</span>
-				<span class="label label-info">Web - Javascript / jQuery</span>
-				<span class="label label-default">Design</span>
-			</h3>
-		</div>
-	    <div class="col-md-5">
-	    	<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
-	    </div>
-	</div>
-	<hr class="featurette-divider" />
-	
-	<div class="row featurette">
-		<div class="col-md-7">
-			<h2 class="featurette-heading">Hotseat <span class="text-muted"></span></h2>
-	        <p class="lead"> <a href="https://purdue.edu/studio">link</a>
-</p>
-			<h3>
-				<span class="label label-primary">iOS - Objective-C</span>
-				<span class="label label-success">Web - C#</span>
-				<span class="label label-success">Web - Javascript / jQuery</span>
-				<span class="label label-default">Design</span>
-			</h3>
-	    </div>
-	    <div class="col-md-5">
-	    	<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
-	    </div>
-	</div>
-	<hr class="featurette-divider" />
-
-	<div class="row featurette">
-		<div class="col-md-7">
-			<h2 class="featurette-heading">Booklet <span class="text-muted"></span></h2>
-	        <p class="lead">Booklet is a jQuery tool for displaying content on the web in a flipbook layout. View demos, installation instructions, and documentation. <a href="/code/booklet/">link</a></p>
-			<h3>
-				<span class="label label-success">Web - Javascript / jQuery</span>
-			</h3>
-	    </div>
-	    <div class="col-md-5">
-	    	<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
-	    </div>
-	</div>
-	<hr class="featurette-divider" />
 </div>
