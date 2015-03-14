@@ -248,14 +248,21 @@
     .marketing h2 {font-weight:normal;}
     .marketing .col-lg-4 p {margin-right:10px; margin-left:10px;}
 
-/* @Featurettes
+/* @Projects
 ------------------------- */
-
-    .featurette-divider {margin:80px 0;} /* Space out the Bootstrap <hr> more */
-    .featurette-heading {font-weight:300; line-height:1; letter-spacing:-1px;} /* Thin out the marketing headings */
     
-    .featurette .label {display:inline-block; margin:0 5px 5px 0;}
-    
+	#projects .row {
+		padding:40px 0;
+		margin:0;
+		-moz-transition: background 0.3s ease;
+  		-webkit-transition: background 0.3s ease;
+  		transition: background 0.3s ease;
+	}
+	#projects .row:hover {background-color:rgba(240, 240, 240, 0.5);}
+    #projects .row .label {display:inline-block; margin:0 5px 5px 0;}
+	#projects h2 {font-weight:300; line-height:1; letter-spacing:-1px;}
+    #projects img {}
+	
 	#content-list         {padding:45px 0 0;}
 	#content-list li      {display:inline;}
 	#content-list a       {display:block; clear:both; padding:35px 15px; text-decoration:none; border-bottom:2px solid #e6e6e6; color:#000; transition:.25s; -webkit-transition:.25s;}

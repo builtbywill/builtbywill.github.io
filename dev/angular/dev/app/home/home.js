@@ -13,6 +13,7 @@
 
         ctrl.projects = [{
             title: 'Pattern',
+			subtitle: 'Purdue University',
             text: 'Pattern is a simple way to measure your study habits, providing you analytics and insights to become a better learner.',
             url: 'http://www.itap.purdue.edu/studio/pattern/',
             areas: [{
@@ -30,6 +31,7 @@
             }]
         }, {
             title: 'Skyepack',
+			subtitle: '',
             text: 'Skyepack is solution for textbook replacement, and so much more. It supports self assessments, graded quizzes, and discussion boards, videos, images, documents, audio, and even customized HTML. Skyepack delivers content to iOS, Android, and the Web.',
             url: 'https://skyepack.com',
             areas: [{
@@ -53,6 +55,7 @@
             }]
         }, {
             title: 'Convoy',
+			subtitle: 'Purdue University',
             text: 'Convoy delivers interactive presentations, supplemental materials, and lecture notes together in a single package.',
             url: '',
             areas: [{
@@ -70,6 +73,7 @@
             }]
         }, {
             title: 'Passport',
+			subtitle: 'Purdue University',
             text: 'Passport is a learning and e-portfolio system that uses digital badges to demonstrate learners\' competencies and achievements.',
             url: '',
             areas: [{
@@ -87,6 +91,7 @@
             }]
         }, {
             title: 'Hotseat',
+			subtitle: 'Purdue University',
             text: '',
             url: '',
             areas: [{
@@ -104,6 +109,7 @@
             }]
         }, {
             title: 'Booklet',
+			subtitle: '',
             text: 'Booklet is a jQuery tool for displaying content on the web in a flipbook layout. View demos, installation instructions, and documentation.',
             url: '/code/booklet',
             areas: [{
