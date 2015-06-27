@@ -2,10 +2,11 @@
     "name": "portfolio",
     "description": "Portfolio",
     "version": "0.0.0",
-    "dev": "./dev",
+    
+    "src": "./src",
     "test": "./test",
-    "dist": "./dist",
-	
+    "output": "./output",
+
     "repository": {},
     "dependencies": {},
     "devDependencies": {

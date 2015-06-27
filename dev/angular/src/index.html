@@ -8,9 +8,9 @@
 		
         <title ng-bind="title"></title>
 
-		<!-- build:css(dev) styles/vendor.css -->
+		<!-- build:css(src) styles/vendor.css -->
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
 		<!-- bower:css -->
-		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
 		<link rel="stylesheet" href="bower_components/angular-motion/dist/angular-motion.css" />
 		<link rel="stylesheet" href="bower_components/toastr/toastr.css" />
 		<!-- endbower -->
@@ -32,7 +32,7 @@
 			
 		<div ng-include="'app/shared/layout/shell.html'" ng-controller="ShellController as ctrl"></div>
 
-		<!-- build:js(dev) scripts/vendor.js -->
+		<!-- build:js(src) scripts/vendor.js -->
 		<!-- bower:js -->
 		<script src="bower_components/jquery/dist/jquery.js"></script>
 		<script src="bower_components/angular/angular.js"></script>
@@ -49,7 +49,7 @@
 		<!-- endbower -->
 		<!-- endbuild -->
 
-		<!-- build:js({.tmp,dev}) scripts/scripts.js -->		
+		<!-- build:js({.tmp,src}) scripts/scripts.js -->		
         <script src="app/app.module.js"></script>
         
         <script src="app/shared/constants/constants.module.js"></script>
