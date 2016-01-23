@@ -8,18 +8,7 @@ module.exports = function(grunt) {
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
 
-    var config = require('./package.json');  
-
-    var configurations = {
-        debug: 'debug',
-        release: 'release'
-    };
-
-    var tiers = {
-        local: 'local',
-        dev: 'dev',
-        prod: 'prod'
-    };  
+    var config = require('./package.json');
 
     // Define the configuration for all the tasks
     grunt.initConfig({
@@ -43,10 +32,6 @@ module.exports = function(grunt) {
             jsTest: {
                 files: ['<%= pkg.src %>/app/**/*.spec.js'],
                 tasks: ['newer:jshint:test', 'karma']
-            },
-            styles: {
-                files: ['<%= pkg.src %>/content/styles/{,*/}*.css'],
-                tasks: ['newer:copy:styles', 'autoprefixer']
             },
             gruntfile: {
                 files: ['gruntfile.js']
@@ -80,10 +65,6 @@ module.exports = function(grunt) {
                             connect().use(
                                 '/bower_components',
                                 connect.static('./<%= pkg.src %>/bower_components')
-                            ),
-                            connect().use(
-                                '/content/styles',
-                                connect.static('./<%= pkg.src %>/content/styles')
                             ),
                             connect.static('./<%= pkg.src %>')
                         ];
@@ -160,23 +141,12 @@ module.exports = function(grunt) {
             options: {
                 browsers: ['last 1 version']
             },
-            server: {
-                options: {
-                    map: true,
-                },
-                files: [{
-                    expand: true,
-                    cwd: '.tmp/content/styles/',
-                    src: '{,*/}*.css',
-                    dest: '.tmp/content/styles/'
-                }]
-            },
             release: {
                 files: [{
                     expand: true,
-                    cwd: '.tmp/content/styles/',
+                    cwd: '<%= pkg.release %>/content/styles/',
                     src: '{,*/}*.css',
-                    dest: '.tmp/content/styles/'
+                    dest: '<%= pkg.release %>/content/styles/'
                 }]
             }
         },
@@ -209,10 +179,11 @@ module.exports = function(grunt) {
         filerev: {
             release: {
                 src: [
-                    '<%= pkg.output %>/**/{,*/}*.js',
+                    '<%= pkg.output %>/scripts/{,*/}*.js',
                     '<%= pkg.output %>/content/styles/{,*/}*.css',
                     '<%= pkg.output %>/content/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
-                    '<%= pkg.output %>/content/fonts/*'
+                    '<%= pkg.output %>/content/fonts/*',
+                    '<%= pkg.output %>/app/**/{,*/}*.html'
                 ]
             }
         },
@@ -223,6 +194,7 @@ module.exports = function(grunt) {
         useminPrepare: {
             html: '<%= pkg.src %>/index.html',
             options: {
+                staging: '<%= pkg.output %>/src',
                 dest: '<%= pkg.output %>',
                 flow: {
                     html: {
@@ -240,13 +212,32 @@ module.exports = function(grunt) {
         usemin: {
             html: ['<%= pkg.output %>/**/*.html'],
             css: ['<%= pkg.output %>/content/styles/{,*/}*.css'],
+            js: ['<%= pkg.output %>/**/scripts*.js'],
             options: {
                 assetsDirs: [
                     '<%= pkg.output %>',
                     '<%= pkg.output %>/content/images',
                     '<%= pkg.output %>/content/styles',
                     '<%= pkg.output %>/content/fonts'
-                ]
+                ],
+                patterns: {
+                    html: [
+                        [
+                            /([^:"']+\.(?:html))/gm,
+                            'Update the HTML to reference our revved html files'
+                        ]
+                    ],
+                    js: [
+                        [
+                            /["']([^:"']+\.(?:png|gif|jpg|jpeg|webp|svg))["']/img,
+                            'Update the JS to reference our revved images'
+                        ],
+                        [
+                            /([^:"']+\.(?:html))/gm,
+                            'Update the JS to reference our revved html files'
+                        ]
+                    ]
+                }
             }
         },
 
@@ -275,6 +266,20 @@ module.exports = function(grunt) {
         // concat: {
         //   release: {}
         // },
+
+        concat: {
+            options: {
+                sourceMap: true
+            }
+        },
+
+        uglify: {
+            options: {
+                sourceMap: true,
+                compress: {},
+                mangle: true
+            }
+        },
 
         imagemin: {
             release: {
@@ -368,8 +373,12 @@ module.exports = function(grunt) {
                         '.htaccess',
                         '*.html',
                         'app/**/{,*/}*.html',
+                        'app/**/{,*/}*.json',
+                        'app/**/{,*/}*.csv',
                         'content/images/{,*/}*.{webp}',
-                        'content/fonts/*.*'
+                        'content/fonts/*.*',
+                        'vendor/**/{,*/}*.png',
+                        'vendor/**/{,*/}*.swf'
                     ]
                 }, {
                     expand: true,
@@ -378,29 +387,22 @@ module.exports = function(grunt) {
                     src: ['generated/*']
                 }, {
                     expand: true,
-                    cwd: '<%= pkg.src %>/bower_components/bootstrap/output',
-                    src: 'fonts/*',
-                    dest: '<%= pkg.output %>'
+                    dot: true,
+                    flatten: true,
+                    cwd: '<%= pkg.src %>/bower_components',
+                    dest: '<%= pkg.release %>/content/fonts',
+                    src: ['**/dist/fonts/*.*']
                 }]
-            },
-            styles: {
-                expand: true,
-                cwd: '<%= pkg.src %>/content/styles',
-                dest: '.tmp/content/styles/',
-                src: '{,*/}*.css'
             }
         },
 
         // Run some tasks in parallel to speed up the build process
         concurrent: {
             server: [
-                'copy:styles'
             ],
             test: [
-                'copy:styles'
             ],
             release: [
-                'copy:styles',
                 'imagemin',
                 'svgmin'
             ]
@@ -416,64 +418,86 @@ module.exports = function(grunt) {
     });
 
 
-/**
-* TASKS
-* ------------------------------------------------------------------------------------------------------
-*/
+    /**
+     * TASKS
+     * ------------------------------------------------------------------------------------------------------
+     */
+
+    var configurations = {
+        debug: 'debug',
+        release: 'release'
+    };
+
+    grunt.registerTask('build', 'Build Project for Configuration', function(config) {
+
+        // Argument Validation
+        if (config == null || (config !== configurations.debug && config !== configurations.release)) {
+            grunt.log.warn('"grunt build:config": `config` is required and must be set to `debug` or `release`.');
+            return;
+        }
+
+        grunt.task.run([
+            'wiredep',              // inject bower packages into html
+            //'ngconstant:' + tier    // create 'app.constants' module with ENV variable
+        ]);
+
+        if (config === configurations.release) {
+            grunt.task.run([
+                'clean:release',      // clear out .tmp/ and release/ folders
+                'useminPrepare',      // congifure usemin, targets <!-- build --> blocks in HTML
+                'concurrent:release', // start concurrent dist tasks (imgmin, svgmin)
+                'concat',             // concatenate JS into new files in '.tmp'
+                'cssmin',             // concatenate and minify CSS into new 'release' files
+                'uglify',             // minify JS files from '.tmp' and copy to 'release'
+                'copy:release',       // copy all remaining files to 'release' (e.g. HTML, Fonts, .htaccess, etc.)
+                'replace:release',    // replace variables, e.g. '@@foo' with 'bar'
+                'filerev',            // rename CSS, JS and Font files with unique hashes
+                'usemin',             // update references in HTML with new minified, rev-ed files
+                'htmlmin'             // minify HTML markup
+            ]);
+        }
+
+    });
+
+    grunt.registerTask('serve', 'Compile then start and connect web server', function (config) {
+
+        // Defaults
+        config = config || configurations.debug;
+
+        // Argument Validation
+        if (config !== configurations.debug && config !== configurations.release) {
+            grunt.log.warn('"grunt serve:config:tier": `config` is required and must be set to `debug` or `release`.');
+            return;
+        }
+
+        var tasks = [
+            'build:' + config
+        ];
+
+        if (config === configurations.release) {
+            grunt.task.run(tasks.concat([
+                'connect:release:keepalive'
+            ]));
+            return;
+        }
+
+        grunt.task.run(tasks.concat([
+            'clean:server',
+            'concurrent:server',
+            'connect:debug:livereload',
+            'watch'
+        ]));
+    });
 
     grunt.registerTask('test', [
-        'clean:server',
-        'wiredep',
         'concurrent:test',
-        'autoprefixer',
-        'connect:test',
         'newer:jshint:test',
         'karma'
     ]);
 
-    grunt.registerTask('build', function(configuration, tier){
-
-        grunt.task.run([
-            'clean:release', // clear out .tmp/ and output/ folders
-            'wiredep', // inject bower packages into html
-            'useminPrepare', // congifure usemin, targets <!-- build --> blocks in HTML
-            'concurrent:release', // start concurrent output tasks (compass, imgmin, svgmin)
-            'autoprefixer',
-            'concat', // concatenate JS into new files in '.tmp'
-            'ngAnnotate', // JS dependency injection for safe minification, looks for /* @ngInject */ comments, adds $inject
-            'copy:release', // copy all remaining files to 'output' (e.g. HTML, Fonts, .htaccess, etc.)
-            'cssmin', // concatenate and minify CSS into new 'output' files
-            'uglify', // minify JS files from '.tmp' and copy to 'output'
-            //'replace', // replace variables, e.g. '@@foo' with 'bar'
-            'filerev', // rename CSS, JS and Font files with unique hashes
-            'usemin', // update references in HTML with new minified, rev-ed files
-            'htmlmin' // minify HTML markup
-        ]);
-
-    });
-
-    grunt.registerTask('serve', 'Compile then start and connect web server', function(configuration, tier) {
-
-        if (configuration === configurations.release) {
-            return grunt.task.run([
-                'build', 
-                'connect:release:keepalive'
-            ]);
-        }
-
-        grunt.task.run([
-            'clean:server',
-            'wiredep',
-            'concurrent:server',
-            'autoprefixer:server',
-            'connect:livereload',
-            'watch'
-        ]);
-    });
-
     grunt.registerTask('default', [
         'newer:jshint',
         'test',
-        'build'
+        'build:debug'
     ]);
 };

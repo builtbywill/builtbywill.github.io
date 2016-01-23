@@ -218,7 +218,7 @@
     body {color: #5a5a5a; padding-top:50px;}
 
 	.logo  {display:block; text-indent:-999em; width:185px; height:122px; background:url("../images/logo.png") no-repeat 0 0; margin:0 auto;}
-	.navbar-brand {text-indent:-999em; background:url("../images/logo.png") no-repeat 0 0;}
+	.navbar-brand {text-indent:-999em; background:url("../images/logo.png") no-repeat 50% 50%; background-size: cover;}
     /*h2     {font:700 25px/1.5em "Ubuntu", sans-serif;}*/
 
 	a {color:#09F; text-decoration:none;}
