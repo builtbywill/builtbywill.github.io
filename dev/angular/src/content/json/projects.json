@@ -89,18 +89,18 @@
     "title": "Hotseat",
     "for": "Purdue University",
     "summary": "<p>Hotseat provides real-time polling and a place to quickly and easily participate in a productive backchannel discussion during class.</p>",
-    "description": "<p></p>",
+    "description": "<p>Hotseat gives learners the opportunity to ask questions or voice their opinion in class. With the option to post \"anonymously,\" Hotseat allows everyone to speak up, especially useful for large courses or sensitive topics.</p><p>With polls, questions can be set up ahead of time or on the fly, and launching a poll makes it immediately visible on the mobile app or website.</p>",
     "dates": "2011 - present",
     "roles": "Lead iOS Developer, Web Developer",
     "url": "http://www.itap.purdue.edu/studio/passport/",
     "areas": [{
         "name": "iOS",
-        "text": "",
+        "text": "<p>I originally developed the iOS app using Titanium, but later re-created it in Objective-C to provide better native functionality and reduce complexity.</p><p>In order to make the app more responsive and give users immediate feedback I implemented websockets and SignalR for instantaneous posts, votes and poll notifications.</p>",
         "label": "primary",
         "tech": ["Objective-C", "RestKit", "SignalR", "Websockets"]
     }, {
         "name": "Web",
-        "text": "",
+        "text": "<p>As a joint effort with the iOS app, we implemented SignalR and websockets to increase responsiveness and improve user experience.</p><p>I helped develop automatic course roster sync functionality to let instructors directly link their course sections to Hotseat. This feature automatically handles student adds, drops and enrollment changes and greatly improved the instructors' experience in the application.</p>",
         "label": "success",
         "tech": ["C#", ".NET MVC", "Windows Azure", "SignalR", "Websockets"]
     }],
