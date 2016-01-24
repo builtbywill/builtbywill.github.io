@@ -1,11 +1,12 @@
-<a ng-href="#/" class="link-back">&larr; Back</a>
 <div class="carousel carousel-project" style="background-color: {{ctrl.project.color}};">
     <div class="container layout-single-column">
         <div class="carousel-caption">
             <img class="logo-small" src="content/images/logo.png" alt="Built by Will" />
             <h1 class="type-jumbo">{{ ctrl.project.title }}</h1>
+            <a class="btn btn-default" href="{{ctrl.project.url}}">Visit Website <span class="glyphicon glyphicon-chevron-right"></span></a>
         </div>
     </div>
+    <a ng-href="#/" class="btn btn-default link-back"> <span class="glyphicon glyphicon-chevron-left"></span> Back</a>
 </div>
 <div class="content">
     <div class="row">

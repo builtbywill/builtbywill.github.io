@@ -4,7 +4,7 @@
     "summary": "<p>Pattern is a simple way for learners to measure their study habits and for instructors to gain high-level insights about their students.</p>",
     "description": "<p>Using an interactive study log and timer, learners can track how they're spending their time, both in and out of the classroom.</p><p>From Pattern's dashboards, learners can view personalized visualizations of their own data across all of their courses. Learners can also see how their habits compare with peers in the same courses.</p><p>Instructors and course coordinators have access to broader analytics on academic behavior and study trends for a specific course, or an entire organization.</p>",
     "dates": "2014 - present",
-    "url": "https://www.studypattern.org",
+    "url": "https://studypattern.org",
     "roles": "Project Lead (Fall 2015 - present), Lead Developer (Summer 2015 - Fall 2015), Team Developer (Fall 2014 - Summer 2015)",
     "areas": [{
         "name": "iOS",
@@ -25,7 +25,7 @@
     "description": "<p>Skyepack delivers a variety of rich-media including self assessments, graded quizzes, discussion boards, videos, images, documents, audio, and even customized HTML. Skyepack delivers content to the Web, iOS, and Android.</p><p>Users can access their content anywhere offline using the mobile iOS and Android applications. Simply download packs of content to your device and you are good to go.</p><p>I have been a part of improving and implementing new functionality across all platforms including drawing boards, bookmarks and notes, highlights and annotations, and mockups, design and logo updates.</p>",
     "dates": "2013 - present",
     "roles": "Independant Contractor, Lead iOS Developer, Lead Android Developer, Web Developer",
-    "url": "https://skyepack.com",
+    "url": "http://skyepack.com",
     "areas": [{
         "name": "iOS",
         "text": "",
@@ -90,16 +90,16 @@
     "for": "Purdue University",
     "summary": "<p>Hotseat provides real-time polling and a place to quickly and easily participate in a productive backchannel discussion during class.</p>",
     "description": "<p></p>",
-    "url": "",
+    "dates": "2011 - present",
+    "roles": "Lead iOS Developer, Web Developer",
+    "url": "http://www.itap.purdue.edu/studio/passport/",
     "areas": [{
         "name": "iOS",
-        "type": "Lead Developer",
         "text": "",
         "label": "primary",
         "tech": ["Objective-C", "RestKit", "SignalR", "Websockets"]
     }, {
         "name": "Web",
-        "type": "Team Developer",
         "text": "",
         "label": "success",
         "tech": ["C#", ".NET MVC", "Windows Azure", "SignalR", "Websockets"]
@@ -107,16 +107,17 @@
     "color": "#D97400"
 }, {
     "title": "Booklet",
-    "for": "",
+    "for": "Purdue University, Open Source",
     "summary": "<p>Booklet is a jQuery tool for displaying content on the web in a flipbook layout.</p>",
-    "description": "<p></p>",
-    "url": "/code/booklet",
+    "description": "<p>I originally started development on the Booklet plugin while supporting Discovery Park at Purdue developing their <a href=\"http://www.purdue.edu/discoverypark/viewbook/overview/\">Visions of Discovery</a> viewbook. I then made additional development improvements and was able to transform the code into a jQuery Plugin and release it as open source software</p>",
+    "dates": "2012 - 2014",
+    "roles": "Developer",
+    "url": "http://builtbywill.com/code/booklet",
     "areas": [{
-        "name": "Web",
-        "type": "Personal",
+        "name": "",
         "text": "",
         "label": "success",
-        "tech": ["Javascript", "jQuery"]
+        "tech": ["Javascript", "jQuery", "CSS", "Open Source"]
     }],
     "color": "#4c9bc0"
 }]

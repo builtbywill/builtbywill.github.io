@@ -182,6 +182,7 @@ a:visted {
 /* @Logo
 ----------------------------------------*/
 
+
 /*
 .logo {
     text-indent: -999em;
@@ -213,20 +214,16 @@ a:visted {
     z-index: 100;
     top: 10px;
     left: 10px;
-    background: white;
-    padding: 10px 20px;
+    background-color: transparent;
+    color: white !important;
     color: #222;
     border-radius: 5px;
-    font-size: 0.7em;
 }
 
-
-/* @Content
-----------------------------------------*/
-
-.content {
-    background-color: #fff;
-    font-family: "Ovo", Georgia, Cambria, "Times New Roman", Times, serif;
+.link-back:hover {
+    background-color: transparent;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -252,18 +249,34 @@ a:visted {
 
 .carousel-project,
 .carousel-project .carousel-caption {
-    height: 150px;
+    height: 200px;
     color: white;
 }
 
 .carousel-project .carousel-caption h1 {
     font-weight: 300;
-    margin-top: 0.5em;
+    margin: 0.5em 0 0em;
+}
+
+.carousel-project .carousel-caption .btn {
+    background-color: transparent;
+    margin-top: 10px;
+    color: white;
+}
+
+.carousel-project .carousel-caption .btn:hover {
+    border-color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
-/* @Projects
-------------------------- */
+/* @Content
+----------------------------------------*/
+
+.content {
+    background-color: #fff;
+    font-family: "Ovo", Georgia, Cambria, "Times New Roman", Times, serif;
+}
 
 .content .row {
     padding: 5% 0;
