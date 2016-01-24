@@ -7,14 +7,7 @@
 	Project.$inject = ['$resource'];
 
 	function Project($resource) {
-		return $resource('content/json/projects.json', {}, {
-			get: {
-				method: 'GET',
-				transformResponse: function(data, headers) {
-					return data; //angular.fromJson(data).value;
-				}
-			}
-		});
+		return $resource('content/json/projects.json', {}, {});
 	}
 
 })();

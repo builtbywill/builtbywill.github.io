@@ -145,10 +145,62 @@ h6,
 ----------------------------------------*/
 
 html,
+body,
 .footer {
     background-color: #e6e6e6;
 }
 
+a {
+    color: #09F;
+    text-decoration: none;
+}
+
+
+/* @Layout
+----------------------------------------*/
+
+.layout-single-column {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+
+/* @Nav
+----------------------------------------*/
+
+ul.nav-small {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    left: 1%;
+}
+
+ul.nav-small > li {
+    display: inline;
+}
+
+ul.nav-small > li > a {
+    display: block;
+    float: left;
+    color: white;
+    font-family: "Lato", sans-serif;
+    padding: 20px;
+}
+
+.logo {
+    text-indent: -999em;
+    background: url("../images/logo.png") no-repeat 50% 50%;
+    width: 100px;
+    height: 69px;
+    padding: 0;
+    margin: 0;
+    background-size: contain;
+}
+
+
+/*
 .logo {
     display: block;
     text-indent: -999em;
@@ -157,25 +209,15 @@ html,
     background: url("../images/logo.png") no-repeat 0 0;
     margin: 0 auto;
 }
+*/
 
-.navbar-brand {
-    text-indent: -999em;
-    background: url("../images/logo.png") no-repeat 50% 50%;
-    background-size: cover;
-}
 
-a {
-    color: #09F;
-    text-decoration: none;
-}
+/* @Content
+----------------------------------------*/
 
 .content {
     background-color: #fff;
 }
-
-
-/* @Sections
-----------------------------------------*/
 
 .section {}
 
@@ -273,7 +315,7 @@ hr.section-divider {
     height: 300px;
     /*margin-bottom: 60px;*/
     /*background-color: #777;*/
-    background-color: hsl(150, 29%, 47%);
+    /*background-color: hsl(150, 29%, 47%);*/
 }
 
 .carousel-caption {
@@ -293,6 +335,8 @@ hr.section-divider {
     height: 500px;
 }
 
+
+/*
 ul.links {
     margin: 0 auto 10px;
     padding: 0;
@@ -320,53 +364,44 @@ ul.links li a {
     text-indent: -999em;
     background: url("../images/twitter.png") no-repeat 50% 50%;
 }
-
-
-/* @Marketing
--------------------------------------------------- */
-
-.marketing .col-lg-4 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.marketing h2 {
-    font-weight: normal;
-}
-
-.marketing .col-lg-4 p {
-    margin-right: 10px;
-    margin-left: 10px;
-}
+*/
 
 
 /* @Projects
 ------------------------- */
 
-#projects .row {
-    padding: 40px 0;
+.content .row {
+    padding: 5% 0;
     margin: 0;
+    background-color: #222;
+    color: white;
     -moz-transition: background 0.3s ease;
     -webkit-transition: background 0.3s ease;
     transition: background 0.3s ease;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-#projects .row:hover {
-    background-color: rgba(240, 240, 240, 0.5);
-}
-
-#projects .row .label {
+.content .row .label {
     display: inline-block;
     margin: 0 5px 5px 0;
 }
 
-#projects h2 {
+.content h2 {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
 }
 
-#projects img {}
+.content img {}
+
+#projects .row {
+    cursor: pointer;
+}
+
+#projects .row:hover {
+    background-color: rgba(100, 100, 100, 1);
+}
 
 #content-list {
     padding: 45px 0 0;
@@ -420,6 +455,7 @@ ul.links li a {
     font-weight: bold;
     text-shadow: 0 -1px 0px #b8b8b8;
     letter-spacing: -1px;
+    font-size: 0.8em;
 }
 
 .footer a {}

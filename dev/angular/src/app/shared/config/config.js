@@ -6,8 +6,8 @@
     // Core Config Details
 
     var coreConfigDetails = {
-        name: '@@name'.indexOf('@@') === -1 ? '@@name' : '[name]',
-        version: '@@version'.indexOf('@@') === -1 ? '@@version' : '[version]',
+        name: 'Built by Will',
+        version: '1.0.0',
         debug: '@@debug'.indexOf('@@') !== -1
     };
     coreConfigDetails.appErrorPrefix = '[' + coreConfigDetails.name + ' Error] '; // Configure the exceptionHandler decorator

@@ -2,7 +2,7 @@
     "title": "Pattern",
     "subtitle": "Purdue University",
     "text": "Pattern is a simple way to measure your study habits, providing you analytics and insights to become a better learner.",
-    "url": "http://www.itap.purdue.edu/studio/pattern/",
+    "url": "https://www.studypattern.org",
     "areas": [{
         "name": "iOS",
         "type": "Lead Developer",
@@ -18,7 +18,7 @@
     }]
 }, {
     "title": "Skyepack",
-    "subtitle": "",
+    "subtitle": "Skyepack, LLC",
     "text": "Skyepack is solution for textbook replacement, and so much more. It supports self assessments, graded quizzes, and discussion boards, videos, images, documents, audio, and even customized HTML. Skyepack delivers content to iOS, Android, and the Web.",
     "url": "https://skyepack.com",
     "areas": [{

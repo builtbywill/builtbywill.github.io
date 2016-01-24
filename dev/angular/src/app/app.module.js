@@ -6,7 +6,8 @@
         'app.resources',
 		
 		'app.home',
-		'app.about'
+		'app.about',
+		'app.projects'
 	]);
 
 })();

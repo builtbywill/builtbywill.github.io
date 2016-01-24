@@ -1,0 +1,23 @@
+<div class="carousel">
+    <div class="container">
+        <div class="carousel-caption">
+            <h1 class="type-jumbo">{{ ctrl.project.title }}</h1>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="row">
+        <div class="container">
+            <h2>{{ ctrl.project.subtitle }}</h2>
+            <p>{{ ctrl.project.text }}</p>
+            <div ng-repeat="area in ctrl.project.areas">
+                <h3>{{ area.name }}</h3>
+                <p>{{ area.text }}</p>
+                <h4>
+					<span class="label label-default">{{ area.type }}</span>
+					<span class="label label-{{ area.label }}" ng-repeat="tech in area.tech">{{ tech }}</span>
+				</h4>
+            </div>
+        </div>
+    </div>
+</div>
