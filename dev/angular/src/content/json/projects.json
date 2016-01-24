@@ -1,85 +1,95 @@
 [{
     "title": "Pattern",
-    "subtitle": "Purdue University",
-    "text": "Pattern is a simple way to measure your study habits, providing you analytics and insights to become a better learner.",
+    "for": "Purdue University",
+    "summary": "<p>Pattern is a simple way for learners to measure their study habits and for instructors to gain high-level insights about their students.</p>",
+    "description": "<p>Using an interactive study log and timer, learners can track how they're spending their time, both in and out of the classroom.</p><p>From Pattern's dashboards, learners can view personalized visualizations of their own data across all of their courses. Learners can also see how their habits compare with peers in the same courses.</p><p>Instructors and course coordinators have access to broader analytics on academic behavior and study trends for a specific course, or an entire organization.</p>",
+    "dates": "2014 - present",
     "url": "https://www.studypattern.org",
+    "roles": "Project Lead (Fall 2015 - present), Lead Developer (Summer 2015 - Fall 2015), Team Developer (Fall 2014 - Summer 2015)",
     "areas": [{
         "name": "iOS",
-        "type": "Lead Developer",
-        "text": "Developed the iOS client for Pattern to be simple, clean and have life with transitions and animations.",
+        "text": "<p>The iOS client for Pattern is designed to be simple, clean, and have life with transitions and animations.</p><p>I completed the initial development in Fall 2014 and have since been making continuous improvements, including an Apple Watch Extension, and guiding other developers.</p>",
         "label": "primary",
-        "tech": ["Objective-C", "CoreData", "RestKit", "POP"]
+        "tech": ["Objective-C", "watchOS", "CoreData", "AFNetwork", "RestKit", "POP"]
     }, {
         "name": "Web",
-        "type": "Team Developer",
-        "text": "We developed the Web Client using Angular JS, run on the cloud using Windows Azure, and made the server side lightweight and fast.",
+        "text": "<p>The Pattern Web Client uses Angular JS, runs on the cloud using Windows Azure, and uses Entity Framework and OData on the server side to be lightweight and fast.</p><p>In Fall 2015 I was the lead developer on our effort to make Pattern follow SaaS architecture patterns in order to bring the product to more outside license partners.</p>",
         "label": "success",
-        "tech": ["Angular JS", "Grunt", "Bootstrap", "C#", "Windows Azure", "Entity Framework", "OData"]
-    }]
+        "tech": ["Angular JS", "Grunt", "Bootstrap", "C#", "Windows Azure", "Entity Framework", "OData", "SQL", "LINQ"]
+    }],
+    "color": "#00838F"
 }, {
     "title": "Skyepack",
-    "subtitle": "Skyepack, LLC",
-    "text": "Skyepack is solution for textbook replacement, and so much more. It supports self assessments, graded quizzes, and discussion boards, videos, images, documents, audio, and even customized HTML. Skyepack delivers content to iOS, Android, and the Web.",
+    "for": "Skyepack, LLC",
+    "summary": "<p>Skyepack is a solution for textbook replacement and much more.</p>",
+    "description": "<p>Skyepack delivers a variety of rich-media including self assessments, graded quizzes, discussion boards, videos, images, documents, audio, and even customized HTML. Skyepack delivers content to the Web, iOS, and Android.</p><p>Users can access their content anywhere offline using the mobile iOS and Android applications. Simply download packs of content to your device and you are good to go.</p><p>I have been a part of improving and implementing new functionality across all platforms including drawing boards, bookmarks and notes, highlights and annotations, and mockups, design and logo updates.</p>",
+    "dates": "2013 - present",
+    "roles": "Independant Contractor, Lead iOS Developer, Lead Android Developer, Web Developer",
     "url": "https://skyepack.com",
     "areas": [{
         "name": "iOS",
-        "type": "Lead Developer",
         "text": "",
         "label": "primary",
         "tech": ["Objective-C", "CoreData", "RestKit"]
     }, {
         "name": "Android",
-        "type": "Lead Developer",
         "text": "",
         "label": "warning",
-        "tech": ["Java", "Gradle"]
+        "tech": ["Android SDK", "Java", "Gradle", "SQLite"]
     }, {
         "name": "Web",
-        "type": "Team Developer",
         "text": "",
         "label": "success",
-        "tech": ["C#", ".NET MVC", "Windows Azure"]
-    }]
+        "tech": ["C#", ".NET MVC", "Windows Azure", "SQL", "LINQ"]
+    }],
+    "color": "#1C86C3"
 }, {
     "title": "Convoy",
-    "subtitle": "Purdue University",
-    "text": "Convoy delivers interactive presentations, supplemental materials, and lecture notes together in a single package.",
-    "url": "",
+    "for": "Purdue University",
+    "summary": "<p>Convoy delivers interactive presentations, supplemental materials, and lecture notes together in a single package.</p>",
+    "description": "<p>Convoy was designed out of a need to simplify how materials are consumed in large lectures. In the past, instructors would provided PowerPoint slides online and external links to supplemental materials in the syllabus. Learners would then need to access both of these items separately while also taking notes in another program on their computer.</p><p>Convoy combines all of these items into a single package, where students can view the PowerPoint presentation along with relevant materials at the same time, and take notes while both are visible in a single application.</p><p>Building on the concept of the \"second screen\", Convoy is available on Web, iOS, and Android.</p>",
+    "dates": "2014",
+    "roles": "Project Lead, Lead Developer",
+    "url": "http://www.itap.purdue.edu/studio/convoy/",
     "areas": [{
         "name": "iOS",
         "type": "Lead Developer",
-        "text": "",
+        "text": "<p>The iOS App was developed to specifically target the iPad. I designed and developed a custom interface using UICollectionViews to display presentation slides and supplmental websites in a user friendly fashion.</p>",
         "label": "primary",
         "tech": ["Objective-C", "CoreData", "RestKit"]
     }, {
         "name": "Web",
         "type": "Lead Developer",
-        "text": "",
+        "text": "<p>Built using C# and .NET MVC, the website for Convoy provides APIs for the mobile applciations to access, as well as a web interface for instructors to build their slide collections and for learners to view content.</p><p>The web utilizes the Aspose for .NET library in order to convert uploaded PowerPoint and PDF files into HTML for accurate cross-device consumption and display on Web, iOS, and Android.</p>",
         "label": "success",
-        "tech": ["C#", ".NET MVC"]
-    }]
+        "tech": ["C#", ".NET MVC", "Aspose for .NET", "SQL", "LINQ"]
+    }],
+    "color": "#4c67ff"
 }, {
     "title": "Passport",
-    "subtitle": "Purdue University",
-    "text": "Passport is a learning and e-portfolio system that uses digital badges to demonstrate learners\" competencies and achievements.",
-    "url": "",
+    "for": "Purdue University",
+    "summary": "<p>Passport is a learning and e-portfolio system that uses digital badges to demonstrate learners' competencies and achievements.</p>",
+    "description": "<p>Passport makes it easy to create interactive course content and assignments. Upload files, share links, and even write your own custom HTML. Deliver quizzes, video assignments, and file upload assignments using Passport’s feature-rich authoring tools.</p>",
+    "dates": "2013 - present",
+    "roles": "iOS Developer, Web Developer",
+    "url": "http://www.itap.purdue.edu/studio/passport/",
     "areas": [{
         "name": "iOS",
-        "type": "Lead Developer",
-        "text": "",
+        "text": "<p>I developed the iOS app for Passport in an effort to allow learners more easily access and compelete their badges and assignments. It fully utilizes the RESTful APIs provided by the website to allow full access to all features for learners. I developed custom interface controllers for iPhone, with a root slide over menu, and iPad, with a stacked view controller layout allowing for a unique user experience.</p>",
         "label": "primary",
         "tech": ["Objective-C", "CoreData", "RestKit"]
     }, {
         "name": "Web",
-        "type": "Team Developer",
-        "text": "",
+        "text": "<p>In order to provide better reliability at larger scale, we moved Passport to the cloud in Spring 2015 using Windows Azure. I helped make all necessary architecture changes and plan and exexute the migration.</p><p>I developed Passport's flexible badge builder for easy creation of great-looking badges. Users are guided step-by-step through the creation process and can select different styles, colors, icons, and text for each badge image. Once complete, the site will combines all selected options into a new badge image.</p>",
         "label": "success",
-        "tech": ["C#", ".NET MVC"]
-    }]
+        "tech": ["C#", ".NET MVC", "SQL", "LINQ"]
+    }],
+    "color": "#713eb0"
 }, {
     "title": "Hotseat",
-    "subtitle": "Purdue University",
-    "text": "",
+    "for": "Purdue University",
+    "summary": "<p>Hotseat provides real-time polling and a place to quickly and easily participate in a productive backchannel discussion during class.</p>",
+    "description": "<p></p>",
     "url": "",
     "areas": [{
         "name": "iOS",
@@ -93,11 +103,13 @@
         "text": "",
         "label": "success",
         "tech": ["C#", ".NET MVC", "Windows Azure", "SignalR", "Websockets"]
-    }]
+    }],
+    "color": "#D97400"
 }, {
     "title": "Booklet",
-    "subtitle": "",
-    "text": "Booklet is a jQuery tool for displaying content on the web in a flipbook layout. View demos, installation instructions, and documentation.",
+    "for": "",
+    "summary": "<p>Booklet is a jQuery tool for displaying content on the web in a flipbook layout.</p>",
+    "description": "<p></p>",
     "url": "/code/booklet",
     "areas": [{
         "name": "Web",
@@ -105,5 +117,6 @@
         "text": "",
         "label": "success",
         "tech": ["Javascript", "jQuery"]
-    }]
+    }],
+    "color": "#4c9bc0"
 }]

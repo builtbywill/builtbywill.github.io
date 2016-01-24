@@ -1,6 +1,8 @@
-<div class="carousel">
-    <div class="container">
+<a ng-href="#/" class="link-back">&larr; Back</a>
+<div class="carousel carousel-project" style="background-color: {{ctrl.project.color}};">
+    <div class="container layout-single-column">
         <div class="carousel-caption">
+            <img class="logo-small" src="content/images/logo.png" alt="Built by Will" />
             <h1 class="type-jumbo">{{ ctrl.project.title }}</h1>
         </div>
     </div>
@@ -8,15 +10,29 @@
 <div class="content">
     <div class="row">
         <div class="container">
-            <h2>{{ ctrl.project.subtitle }}</h2>
-            <p>{{ ctrl.project.text }}</p>
-            <div ng-repeat="area in ctrl.project.areas">
-                <h3>{{ area.name }}</h3>
-                <p>{{ area.text }}</p>
-                <h4>
-					<span class="label label-default">{{ area.type }}</span>
-					<span class="label label-{{ area.label }}" ng-repeat="tech in area.tech">{{ tech }}</span>
-				</h4>
+            <div class="col-md-7">
+                <h2>About</h2>
+                <div ng-bind-html="ctrl.project.summary"></div>
+                <div ng-bind-html="ctrl.project.description"></div>
+                <div>
+                    <div class="col-md-6 no-pad">
+                        <h2>For</h2>
+                        <p>{{ ctrl.project.for }}</p>
+                    </div>
+                    <div class="col-md-6 no-pad">
+                        <h2>Dates</h2>
+                        <p>{{ ctrl.project.dates }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h2>Roles</h2>
+                <div ng-bind-html="ctrl.project.roles"></div>
+                <div ng-repeat="area in ctrl.project.areas">
+                    <h3>{{ area.name }}</h3>
+                    <p ng-bind-html="area.text"></p>
+                    <h4><span class="label label-{{ area.label }}" ng-repeat="tech in area.tech">{{ tech }}</span></h4>
+                </div>
             </div>
         </div>
     </div>

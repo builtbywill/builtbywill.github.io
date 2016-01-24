@@ -1,23 +1,27 @@
 <div class="carousel">
-    <div class="container">
+    <div class="container layout-single-column">
         <div class="carousel-caption">
-            <img src="content/images/logo.png" alt="Built by Will" />
-            <p><a ng-href="#/about">About</a></p>
+            <img class="logo" src="content/images/logo.png" alt="Built by Will" />
+            <p>
+                <a ng-href="#/about">Will Grauvogel</a>
+                <br/> Development + Design
+            </p>
         </div>
     </div>
 </div>
 <div class="content">
     <div id="projects" ng-repeat="project in ctrl.projects">
-        <div class="row" ng-click="ctrl.openProject(project)">
-            <div class="container">
-                <div class="col-md-5">
-                    <h2 class="type-largest">{{ project.title }}</h2>
-                    <h3>{{ project.subtitle }}</h3>
-                    <p>{{ project.text }}</p>
-                    <a class="btn btn-default" ng-href="#/projects/{{ project.title | lowercase }}">See More <span class="glyphicon glyphicon-chevron-right"></span></a>
-                </div>
-                <div class="col-md-7">
-                    <img class="project-image img-responsive" src="http://fillmurray.com/g/1330/1000" alt="project image">
+        <div ng-click="ctrl.openProject(project)" style="background-color: {{project.color}}">
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-5">
+                        <h2 class="type-largest">{{ project.title }}</h2>
+                        <div ng-bind-html="project.summary"></div>
+                        <a class="btn btn-default" ng-href="#/projects/{{ project.title | lowercase }}">See More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                    <div class="col-md-7">
+                        <img class="project-image img-responsive" src="http://fillmurray.com/g/1330/1000" alt="project image">
+                    </div>
                 </div>
             </div>
         </div>
