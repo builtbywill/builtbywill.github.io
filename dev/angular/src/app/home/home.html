@@ -20,7 +20,7 @@
                         <a class="btn btn-default" ng-href="#/projects/{{ project.title | lowercase }}">See More <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                     <div class="col-md-7">
-                        <img class="project-image img-responsive" src="http://fillmurray.com/g/1330/1000" alt="project image">
+                        <img class="img-responsive" ng-src="content/images/{{ project.title | lowercase }}/{{ project.cover }}" alt="{{project.title}} image">
                     </div>
                 </div>
             </div>

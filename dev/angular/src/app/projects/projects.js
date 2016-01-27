@@ -23,8 +23,7 @@
                 ctrl.project = projects.filter(function(project){
                     return project.title.toLowerCase() === projectName;
                 })[0];
-            });
-        
+            });        
         }
     }
 

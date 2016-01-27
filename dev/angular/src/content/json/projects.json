@@ -5,19 +5,33 @@
     "description": "<p>Using an interactive study log and timer, learners can track how they're spending their time, both in and out of the classroom.</p><p>From Pattern's dashboards, learners can view personalized visualizations of their own data across all of their courses. Learners can also see how their habits compare with peers in the same courses.</p><p>Instructors and course coordinators have access to broader analytics on academic behavior and study trends for a specific course, or an entire organization.</p>",
     "dates": "2014 - present",
     "url": "https://studypattern.org",
-    "roles": "Project Lead (Fall 2015 - present), Lead Developer (Summer 2015 - Fall 2015), Team Developer (Fall 2014 - Summer 2015)",
+    "roles": "Project Lead (Fall 2015 - present), Lead Developer (Summer 2015 - present), Team Developer (Fall 2014 - Summer 2015)",
     "areas": [{
         "name": "iOS",
-        "text": "<p>The iOS client for Pattern is designed to be simple, clean, and have life with transitions and animations.</p><p>I completed the initial development in Fall 2014 and have since been making continuous improvements, including an Apple Watch Extension, and guiding other developers.</p>",
+        "text": "<p>I designed the iOS client for Pattern to be simple, clean, and have life with transitions and animations.</p><p>I completed the initial development in Fall 2014 and have since been making continuous improvements, including an Apple Watch Extension, and guiding other developers.</p>",
         "label": "primary",
-        "tech": ["Objective-C", "watchOS", "CoreData", "AFNetwork", "RestKit", "POP"]
+        "tech": ["Objective-C", "WatchKit", "CoreData", "AFNetwork", "RestKit", "POP"]
     }, {
         "name": "Web",
         "text": "<p>The Pattern Web Client uses Angular JS, runs on the cloud using Windows Azure, and uses Entity Framework and OData on the server side to be lightweight and fast.</p><p>In Fall 2015 I was the lead developer on our effort to make Pattern follow SaaS architecture patterns in order to bring the product to more outside license partners.</p>",
         "label": "success",
-        "tech": ["Angular JS", "Grunt", "Bootstrap", "C#", "Windows Azure", "Entity Framework", "OData", "SQL", "LINQ"]
+        "tech": ["C#", "Windows Azure", "Entity Framework", "OData", "SQL", "LINQ", "Angular JS", "Grunt", "Bootstrap", "d3"]
     }],
-    "color": "#00838F"
+    "color": "#00838F",
+    "cover": "pattern-home.png",
+    "images": [{
+        "name": "pattern-ios.png",
+        "description": "iOS App"
+    }, {
+        "name": "Pattern-Apple-Watch.png",
+        "description": "Apple Watch App"
+    }, {
+        "name": "pattern-learner.png",
+        "description": "Learner Dashboard"
+    }, {
+        "name": "pattern-instructor-charts.png",
+        "description": "Instructor Dashboard with Charts"
+    }]
 }, {
     "title": "Skyepack",
     "for": "Skyepack, LLC",
