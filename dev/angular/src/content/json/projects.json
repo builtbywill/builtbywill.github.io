@@ -18,12 +18,12 @@
         "tech": ["C#", "Windows Azure", "Entity Framework", "OData", "SQL", "LINQ", "Angular JS", "Grunt", "Bootstrap", "d3"]
     }],
     "color": "#00838F",
-    "cover": "pattern-home.png",
+    "cover": "pattern-cover.png",
     "images": [{
         "name": "pattern-ios.png",
         "description": "iOS App"
     }, {
-        "name": "Pattern-Apple-Watch.png",
+        "name": "pattern-apple-watch.png",
         "description": "Apple Watch App"
     }, {
         "name": "pattern-learner.png",
@@ -56,29 +56,21 @@
         "label": "success",
         "tech": ["C#", ".NET MVC", "Windows Azure", "SQL", "LINQ"]
     }],
-    "color": "#1C86C3"
-}, {
-    "title": "Convoy",
-    "for": "Purdue University",
-    "summary": "<p>Convoy delivers interactive presentations, supplemental materials, and lecture notes together in a single package.</p>",
-    "description": "<p>Convoy was designed out of a need to simplify how materials are consumed in large lectures. In the past, instructors would provided PowerPoint slides online and external links to supplemental materials in the syllabus. Learners would then need to access both of these items separately while also taking notes in another program on their computer.</p><p>Convoy combines all of these items into a single package, where students can view the PowerPoint presentation along with relevant materials at the same time, and take notes while both are visible in a single application.</p><p>Building on the concept of the \"second screen\", Convoy is available on Web, iOS, and Android.</p>",
-    "dates": "2014",
-    "roles": "Project Lead, Lead Developer",
-    "url": "http://www.itap.purdue.edu/studio/convoy/",
-    "areas": [{
-        "name": "iOS",
-        "type": "Lead Developer",
-        "text": "<p>The iOS App was developed to specifically target the iPad. I designed and developed a custom interface using UICollectionViews to display presentation slides and supplmental websites in a user friendly fashion.</p>",
-        "label": "primary",
-        "tech": ["Objective-C", "CoreData", "RestKit"]
+    "color": "#1C86C3",
+    "cover": "skyepack-cover.png",
+    "images": [{
+        "name": "skyepack-ios.png",
+        "description": "iOS App"
     }, {
-        "name": "Web",
-        "type": "Lead Developer",
-        "text": "<p>Built using C# and .NET MVC, the website for Convoy provides APIs for the mobile applciations to access, as well as a web interface for instructors to build their slide collections and for learners to view content.</p><p>The web utilizes the Aspose for .NET library in order to convert uploaded PowerPoint and PDF files into HTML for accurate cross-device consumption and display on Web, iOS, and Android.</p>",
-        "label": "success",
-        "tech": ["C#", ".NET MVC", "Aspose for .NET", "SQL", "LINQ"]
-    }],
-    "color": "#4c67ff"
+        "name": "skyepack-android-app.png",
+        "description": "Android App"
+    }, {
+        "name": "skyepack-web-reader.png",
+        "description": "Web Reader"
+    }, {
+        "name": "skyepack-authoring.png",
+        "description": "Pack Creation and Authoring"
+    }]
 }, {
     "title": "Passport",
     "for": "Purdue University",
@@ -98,7 +90,30 @@
         "label": "success",
         "tech": ["C#", ".NET MVC", "SQL", "LINQ"]
     }],
-    "color": "#713eb0"
+    "color": "#713eb0",
+    "cover": "passport-cover.png",
+    "images": [{
+        "name": "passport-iphone.png",
+        "description": "iPhone App"
+    }, {
+        "name": "passport-ipad-1.png",
+        "description": "iPad App - Home & Groups"
+    }, {
+        "name": "passport-ipad-2.png",
+        "description": "iPad App - Challenge Instructions"
+    }, {
+        "name": "passport-ipad-3.png",
+        "description": "iPad App - Submission"
+    }, {
+        "name": "passport-learner-dashboard.png",
+        "description": "Learner Dashboard"
+    }, {
+        "name": "passport-challenge.png",
+        "description": "Challenge Instructions"
+    }, {
+        "name": "passport-badge-creator.png",
+        "description": "Badge Creator"
+    }]
 }, {
     "title": "Hotseat",
     "for": "Purdue University",
@@ -134,4 +149,26 @@
         "tech": ["Javascript", "jQuery", "CSS", "Open Source"]
     }],
     "color": "#4c9bc0"
+}, {
+    "title": "Convoy",
+    "for": "Purdue University",
+    "summary": "<p>Convoy delivers interactive presentations, supplemental materials, and lecture notes together in a single package.</p>",
+    "description": "<p>Convoy was designed out of a need to simplify how materials are consumed in large lectures. In the past, instructors would provided PowerPoint slides online and external links to supplemental materials in the syllabus. Learners would then need to access both of these items separately while also taking notes in another program on their computer.</p><p>Convoy combines all of these items into a single package, where students can view the PowerPoint presentation along with relevant materials at the same time, and take notes while both are visible in a single application.</p><p>Building on the concept of the \"second screen\", Convoy is available on Web, iOS, and Android.</p>",
+    "dates": "2014",
+    "roles": "Project Lead, Lead Developer",
+    "url": "http://www.itap.purdue.edu/studio/convoy/",
+    "areas": [{
+        "name": "iOS",
+        "type": "Lead Developer",
+        "text": "<p>The iOS App was developed to specifically target the iPad. I designed and developed a custom interface using UICollectionViews to display presentation slides and supplmental websites in a user friendly fashion.</p>",
+        "label": "primary",
+        "tech": ["Objective-C", "CoreData", "RestKit"]
+    }, {
+        "name": "Web",
+        "type": "Lead Developer",
+        "text": "<p>Built using C# and .NET MVC, the website for Convoy provides APIs for the mobile applciations to access, as well as a web interface for instructors to build their slide collections and for learners to view content.</p><p>The web utilizes the Aspose for .NET library in order to convert uploaded PowerPoint and PDF files into HTML for accurate cross-device consumption and display on Web, iOS, and Android.</p>",
+        "label": "success",
+        "tech": ["C#", ".NET MVC", "Aspose for .NET", "SQL", "LINQ"]
+    }],
+    "color": "#4c67ff"
 }]
