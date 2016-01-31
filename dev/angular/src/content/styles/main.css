@@ -309,6 +309,7 @@ a:visted {
     background-color: transparent;
     padding-bottom: 0;
     overflow: hidden;
+    min-height: 420px;
 }
 
 #projects .row:hover {
@@ -331,7 +332,6 @@ a:visted {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;*/
     width: 665px;
-    height: 466px;
 }
 
 .project-image {}

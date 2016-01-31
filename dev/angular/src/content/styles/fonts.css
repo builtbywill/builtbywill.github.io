@@ -2,27 +2,6 @@
 ----------------------------------------*/
 
 @font-face {
-    font-family: "Ubuntu";
-    font-style: normal;
-    font-weight: 300;
-    src: local("Ubuntu Light"), local("Ubuntu-Light"), url("../fonts/Ubuntu-L.ttf") format("ttf");
-}
-
-@font-face {
-    font-family: "Ubuntu";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Ubuntu"), url("../fonts/Ubuntu-R.ttf") format("ttf");
-}
-
-@font-face {
-    font-family: "Ubuntu";
-    font-style: normal;
-    font-weight: 700;
-    src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("../fonts/Ubuntu-B.ttf") format("ttf");
-}
-
-@font-face {
     font-family: 'icomoon';
     src: url('../fonts/icomoon.eot?-z3kfos');
     src: url('../fonts/icomoon.eot?#iefix-z3kfos') format('embedded-opentype'), url('../fonts/icomoon.woff?-z3kfos') format('woff'), url('../fonts/icomoon.ttf?-z3kfos') format('truetype'), url('../fonts/icomoon.svg?-z3kfos#icomoon') format('svg');
