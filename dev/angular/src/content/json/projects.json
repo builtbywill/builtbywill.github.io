@@ -62,7 +62,7 @@
         "name": "skyepack-ios.png",
         "description": "iOS App"
     }, {
-        "name": "skyepack-android-app.png",
+        "name": "skyepack-android.png",
         "description": "Android App"
     }, {
         "name": "skyepack-web-reader.png",
@@ -135,21 +135,6 @@
     }],
     "color": "#D97400"
 }, {
-    "title": "Booklet",
-    "for": "Purdue University, Open Source",
-    "summary": "<p>Booklet is a jQuery tool for displaying content on the web in a flipbook layout.</p>",
-    "description": "<p>I originally started development on the Booklet plugin while supporting Discovery Park at Purdue developing their <a href=\"http://www.purdue.edu/discoverypark/viewbook/overview/\">Visions of Discovery</a> viewbook. I then made additional development improvements and was able to transform the code into a jQuery Plugin and release it as open source software</p>",
-    "dates": "2012 - 2014",
-    "roles": "Developer",
-    "url": "http://builtbywill.com/code/booklet",
-    "areas": [{
-        "name": "",
-        "text": "",
-        "label": "success",
-        "tech": ["Javascript", "jQuery", "CSS", "Open Source"]
-    }],
-    "color": "#4c9bc0"
-}, {
     "title": "Convoy",
     "for": "Purdue University",
     "summary": "<p>Convoy delivers interactive presentations, supplemental materials, and lecture notes together in a single package.</p>",
@@ -171,4 +156,19 @@
         "tech": ["C#", ".NET MVC", "Aspose for .NET", "SQL", "LINQ"]
     }],
     "color": "#4c67ff"
+}, {
+    "title": "Booklet",
+    "for": "Purdue University, Open Source",
+    "summary": "<p>Booklet is a jQuery tool for displaying content on the web in a flipbook layout.</p>",
+    "description": "<p>I originally started development on the Booklet plugin while supporting Discovery Park at Purdue developing their <a href=\"http://www.purdue.edu/discoverypark/viewbook/overview/\">Visions of Discovery</a> viewbook. I then made additional development improvements and was able to transform the code into a jQuery Plugin and release it as open source software</p>",
+    "dates": "2012 - 2014",
+    "roles": "Developer",
+    "url": "http://builtbywill.com/code/booklet",
+    "areas": [{
+        "name": "",
+        "text": "",
+        "label": "success",
+        "tech": ["Javascript", "jQuery", "CSS", "Open Source"]
+    }],
+    "color": "#4c9bc0"
 }]
