@@ -12,34 +12,33 @@
     <div class="row">
         <div class="container">
             <div class="col-md-7">
-                <h2>About</h2>
+                <h2 class="type-larger">About</h2>
                 <div ng-bind-html="ctrl.project.summary"></div>
                 <div ng-bind-html="ctrl.project.description"></div>
             </div>
             <div class="col-md-5">
-                <div class="col-md-6 no-pad">
-                    <h2>For</h2>
-                    <p>{{ ctrl.project.for }}</p>
-                </div>
-                <div class="col-md-6 no-pad">
-                    <h2>Dates</h2>
-                    <p>{{ ctrl.project.dates }}</p>
-                </div>
                 <h2>Roles</h2>
-                <p><span ng-repeat="role in ctrl.project.roles">{{ role }}<br/></span></p>
+                <div ng-bind-html="ctrl.project.roles"></div>
+                <div ng-repeat="area in ctrl.project.areas">
+                    <h3>{{ area.name }} Technologies</h3>
+                    <p ng-bind-html="area.text"></p>
+                    <h4><span class="label label-{{ area.label }}" ng-repeat="tech in area.tech">{{ tech }}</span></h4>
+                </div>
+                <div>
+                    <div class="col-md-6 no-pad">
+                        <h2>For</h2>
+                        <p>{{ ctrl.project.for }}</p>
+                    </div>
+                    <div class="col-md-6 no-pad">
+                        <h2>Dates</h2>
+                        <p>{{ ctrl.project.dates }}</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="container" ng-repeat="area in ctrl.project.areas">
-            <div class="col-md-12">
-                <h1>{{ area.name }}</h1>
-                <h4><span class="label label-{{ area.label }}" ng-repeat="tech in area.tech">{{ tech }}</span></h4>
-                <p ng-bind-html="area.text"></p>
-            </div>
-            <div class="project-image col-md-12" ng-repeat="image in area.images">
-                <h3>{{ image.title }}</h3>
-                <p ng-bind-html="image.description"></p>
-                <img class="img-responsive" ng-src="content/images/{{ ctrl.project.title | lowercase }}/{{ image.name }}" alt="{{ image.description }}" />
-            </div>
+        <div class="container project-image" ng-repeat="image in ctrl.project.images">
+            <h2 class="text-center">{{ image.description }}</h2>
+            <img class="img-responsive" ng-src="content/images/{{ ctrl.project.title | lowercase }}/{{ image.name }}" alt="{{ image.description }}" />
         </div>
     </div>
 </div>

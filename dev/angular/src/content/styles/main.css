@@ -293,7 +293,6 @@ a:visted {
 .content .row .label {
     display: inline-block;
     margin: 0 5px 5px 0;
-    font-size: 70%;
 }
 
 .content h2,
@@ -301,6 +300,10 @@ a:visted {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
+}
+
+.content h2.type-larger {
+    margin-top: 0.4em;
 }
 
 .content img {}
@@ -335,16 +338,14 @@ a:visted {
     width: 665px;
 }
 
-.project-image {
-    margin: 0;
-}
+.project-image {}
 
 .project-image h2 {
     margin: 2em 0;
 }
 
 .project-image img {
-    margin: 1em auto;
+    margin: 0 auto;
 }
 
 
