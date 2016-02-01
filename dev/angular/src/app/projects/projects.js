@@ -4,9 +4,9 @@
     angular.module('app.projects')
         .controller('ProjectsController', ProjectsController);
 
-    ProjectsController.$inject = ['$scope', '$routeParams', 'Project'];
+    ProjectsController.$inject = ['$scope', '$routeParams', '$rootScope', 'Project'];
 
-    function ProjectsController($scope, $routeParams, Project) {
+    function ProjectsController($scope, $routeParams, $rootScope, Project) {
 
         /*jshint validthis: true */
         var ctrl = this;

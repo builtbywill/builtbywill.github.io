@@ -293,6 +293,7 @@ a:visted {
 .content .row .label {
     display: inline-block;
     margin: 0 5px 5px 0;
+    font-size: 70%;
 }
 
 .content h2,
@@ -334,11 +335,17 @@ a:visted {
     width: 665px;
 }
 
-.project-image {}
+.project-image {
+    margin: 0;
+}
 
-.project-image h2 {margin:2em 0;}
+.project-image h2 {
+    margin: 2em 0;
+}
 
-.project-image img {margin:0 auto;}
+.project-image img {
+    margin: 1em auto;
+}
 
 
 /* @Footer
