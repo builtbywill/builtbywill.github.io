@@ -144,9 +144,9 @@ module.exports = function(grunt) {
             release: {
                 files: [{
                     expand: true,
-                    cwd: '<%= pkg.release %>/content/styles/',
+                    cwd: '<%= pkg.src %>/content/styles/',
                     src: '{,*/}*.css',
-                    dest: '<%= pkg.release %>/content/styles/'
+                    dest: '<%= pkg.output %>/content/styles/'
                 }]
             }
         },
@@ -183,6 +183,7 @@ module.exports = function(grunt) {
                     '<%= pkg.output %>/content/styles/{,*/}*.css',
                     '<%= pkg.output %>/content/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
                     '<%= pkg.output %>/content/fonts/*',
+                    '<%= pkg.output %>/content/json/*',
                     '<%= pkg.output %>/app/**/{,*/}*.html'
                 ]
             }
@@ -219,6 +220,7 @@ module.exports = function(grunt) {
                     '<%= pkg.output %>/content/images',
                     '<%= pkg.output %>/content/styles',
                     '<%= pkg.output %>/content/fonts'
+                    '<%= pkg.output %>/content/json'
                 ],
                 patterns: {
                     html: [
@@ -377,6 +379,7 @@ module.exports = function(grunt) {
                         'app/**/{,*/}*.csv',
                         'content/images/{,*/}*.{webp}',
                         'content/fonts/*.*',
+                        'content/json/*.*',
                         'vendor/**/{,*/}*.png',
                         'vendor/**/{,*/}*.swf'
                     ]
@@ -390,7 +393,7 @@ module.exports = function(grunt) {
                     dot: true,
                     flatten: true,
                     cwd: '<%= pkg.src %>/bower_components',
-                    dest: '<%= pkg.release %>/content/fonts',
+                    dest: '<%= pkg.output %>/content/fonts',
                     src: ['**/dist/fonts/*.*']
                 }]
             }
