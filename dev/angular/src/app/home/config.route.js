@@ -18,7 +18,7 @@
 				templateUrl: 'app/home/home.html',
 				controller: 'HomeController',
 				controllerAs: 'ctrl',
-				title: 'Home'
+				title: 'Development + Design'
 			}
 		}];
 	}

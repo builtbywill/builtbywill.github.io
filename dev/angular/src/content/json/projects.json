@@ -75,7 +75,7 @@
     "title": "Passport",
     "for": "Purdue University",
     "summary": "<p>Passport is a learning and e-portfolio system that uses digital badges to demonstrate learners' competencies and achievements.</p>",
-    "description": "<p>Passport makes it easy to create interactive course content and assignments. Upload files, share links, and even write your own custom HTML. Deliver quizzes, video assignments, and file upload assignments using Passport’s feature-rich authoring tools.</p><h3>iOS</h3><p>I developed the iOS app for Passport in an effort to allow learners more easily access and compelete their badges and assignments. It fully utilizes the RESTful APIs provided by the website to allow full access to all features for learners. I developed custom interface controllers for iPhone, with a root slide over menu, and iPad, with a stacked view controller layout allowing for a unique user experience.</p><h3>Web</h3><p>In order to provide better reliability at larger scale, we moved Passport to the cloud in Spring 2015 using Windows Azure. I helped make all necessary architecture changes and plan and exexute the migration.</p><p>I developed Passport's flexible badge builder for easy creation of great-looking badges. Users are guided step-by-step through the creation process and can select different styles, colors, icons, and text for each badge image. Once complete, the site will combines all selected options into a new badge image.</p>",
+    "description": "<p>Passport makes it easy to create interactive course content and assignments. Upload files, share links, and even write your own custom HTML. Deliver quizzes, video assignments, and file upload assignments using Passport’s feature-rich authoring tools.</p><h3>iOS</h3><p>I developed the iOS app for Passport in an effort to allow learners to more easily access and compelete their badges and assignments. It fully utilizes the RESTful APIs provided by the website to allow full access to all features for learners. I developed custom interface controllers for iPhone, with a root slide over menu, and iPad, with a stacked view controller layout allowing for a unique user experience.</p><h3>Web</h3><p>In order to provide better reliability at larger scale, we moved Passport to the cloud in Spring 2015 using Windows Azure. I helped make all necessary architecture changes and plan and exexute the migration.</p><p>I developed Passport's flexible badge builder for easy creation of great-looking badges. Users are guided step-by-step through the creation process and can select different styles, colors, icons, and text for each badge image. Once complete, the site will combines all selected options into a new badge image.</p>",
     "dates": "2013 - present",
     "roles": "iOS Developer<br/>Web Developer",
     "url": "http://www.itap.purdue.edu/studio/passport/",
@@ -83,12 +83,12 @@
         "name": "iOS",
         "text": "",
         "label": "primary",
-        "tech": ["Objective-C", "CoreData", "RestKit"]
+        "tech": ["Objective-C", "CoreData", "RestKit", "Dropbox SDK", "Google Drive SDK"]
     }, {
         "name": "Web",
         "text": "",
         "label": "success",
-        "tech": ["C#", ".NET MVC", "SQL", "LINQ"]
+        "tech": ["C#", ".NET MVC", "Windows Azure", "SQL", "LINQ"]
     }],
     "color": "#713eb0",
     "cover": "passport-cover.png",
@@ -118,7 +118,7 @@
     "title": "Hotseat",
     "for": "Purdue University",
     "summary": "<p>Hotseat provides real-time polling and a place to quickly and easily participate in a productive backchannel discussion during class.</p>",
-    "description": "<p>Hotseat gives learners the opportunity to ask questions or voice their opinion in class. With the option to post \"anonymously,\" Hotseat allows everyone to speak up, especially useful for large courses or sensitive topics.</p><p>With polls, questions can be set up ahead of time or on the fly, and launching a poll makes it immediately visible on the mobile app or website.</p><h3></h3><p>I originally developed the iOS app using Titanium, but later re-created it in Objective-C to provide better native functionality and reduce complexity.</p><p>In order to make the app more responsive and give users immediate feedback I implemented websockets and SignalR for instantaneous posts, votes and poll notifications.</p><h3>Web</h3><p>As a joint effort with the iOS app, we implemented SignalR and websockets to increase responsiveness and improve user experience.</p><p>I helped develop automatic course roster sync functionality to let instructors directly link their course sections to Hotseat. This feature automatically handles student adds, drops and enrollment changes and greatly improved the instructors' experience in the application.</p>",
+    "description": "<p>Hotseat gives learners the opportunity to ask questions or voice their opinion in class. With the option to post \"anonymously,\" Hotseat allows everyone to speak up, especially useful for large courses or sensitive topics.</p><p>With polls, questions can be set up ahead of time or on the fly, and launching a poll makes it immediately visible on the mobile app or website.</p><h3>iOS</h3><p>I originally developed the iOS app using Titanium, but later re-created it in Objective-C to provide better native functionality and reduce complexity.</p><p>In order to make the app more responsive and give users immediate feedback I implemented websockets and SignalR for instantaneous posts, votes and poll notifications.</p><h3>Web</h3><p>As a joint effort with the iOS app, we implemented SignalR and websockets to increase responsiveness and improve user experience.</p><p>I helped develop automatic course roster sync functionality to let instructors directly link their course sections to Hotseat. This feature automatically handles student adds, drops and enrollment changes and greatly improved the instructors' experience in the application.</p>",
     "dates": "2011 - present",
     "roles": "Lead iOS Developer<br/>Web Developer",
     "url": "http://www.itap.purdue.edu/studio/passport/",
@@ -152,7 +152,7 @@
     "title": "Convoy",
     "for": "Purdue University",
     "summary": "<p>Convoy delivers interactive presentations, supplemental materials, and lecture notes together in a single package.</p>",
-    "description": "<p>Convoy was designed out of a need to simplify how materials are consumed in large lectures. In the past, instructors would provided PowerPoint slides online and external links to supplemental materials in the syllabus. Learners would then need to access both of these items separately while also taking notes in another program on their computer.</p><p>Convoy combines all of these items into a single package, where students can view the PowerPoint presentation along with relevant materials at the same time, and take notes while both are visible in a single application.</p><p>Building on the concept of the \"second screen\", Convoy is available on Web, iOS, and Android.</p><h3>iOS</h3><p>The iOS App was developed to specifically target the iPad. I designed and developed a custom interface using UICollectionViews to display presentation slides and supplmental websites in a user friendly fashion.</p><h3>Web</h3><p>Built using C# and .NET MVC, the website for Convoy provides APIs for the mobile applciations to access, as well as a web interface for instructors to build their slide collections and for learners to view content.</p><p>The web utilizes the Aspose for .NET library in order to convert uploaded PowerPoint and PDF files into HTML for accurate cross-device consumption and display on Web, iOS, and Android.</p>",
+    "description": "<p>Convoy was designed out of a need to simplify how materials are consumed in large lectures. In the past, instructors would provide PowerPoint slides online and external links to supplemental materials in the syllabus. Learners would then need to access both of these items separately while also taking notes in another program on their computer.</p><p>Convoy combines all of these items into a single package, where students can view the PowerPoint presentation along with relevant materials at the same time, and take notes while both are visible in a single application.</p><p>Building on the concept of the \"second screen\", Convoy is available on Web, iOS, and Android.</p><h3>iOS</h3><p>The iOS App was developed to specifically target the iPad. I designed and developed a custom interface using UICollectionViews to display presentation slides and supplmental websites in a user friendly fashion.</p><h3>Web</h3><p>Built using C# and .NET MVC, the website for Convoy provides APIs for the mobile applciations to access, as well as a web interface for instructors to build their slide collections and for learners to view content.</p><p>The web utilizes the Aspose for .NET library in order to convert uploaded PowerPoint and PDF files into HTML for accurate cross-device consumption and display on Web, iOS, and Android.</p>",
     "dates": "2014",
     "roles": "Project Lead<br/>Lead Web Developer<br/>Lead iOS Developer",
     "url": "http://www.itap.purdue.edu/studio/convoy/",
@@ -197,12 +197,12 @@
     "title": "Booklet",
     "for": "Purdue University, Open Source",
     "summary": "<p>Booklet is a jQuery tool for displaying content on the web in a flipbook layout.</p>",
-    "description": "<p>I originally started development on the Booklet plugin while supporting Discovery Park at Purdue developing their <a href=\"http://www.purdue.edu/discoverypark/viewbook/overview/\">Visions of Discovery</a> viewbook.</p><p>I continued to make additional development improvements and was able to transform the code into a jQuery Plugin and release it as open source software</p><h3>Inspiration</h3><p>The Booklet Plugin was originally based on the work of <a href=\"http://clickheredammit.com/pageflip/\">Charles Mangin (http://clickheredammit.com/pageflip/)</a></p>",
+    "description": "<p>I originally started development on the Booklet plugin while supporting Discovery Park at Purdue developing their <a href=\"http://www.purdue.edu/discoverypark/viewbook/overview/\">Visions of Discovery</a> viewbook.</p><p>I continued to make additional development improvements and was able to transform the code into a jQuery Plugin and release it as open source software.</p><h3>Inspiration</h3><p>The Booklet Plugin was originally based on the work of <a href=\"http://clickheredammit.com/pageflip/\">Charles Mangin (http://clickheredammit.com/pageflip/)</a></p>",
     "dates": "2012 - 2014",
     "roles": "Developer",
     "url": "http://builtbywill.com/code/booklet",
     "areas": [{
-        "name": "",
+        "name": "Web",
         "text": "",
         "label": "success",
         "tech": ["Javascript", "jQuery", "CSS", "Open Source"]
