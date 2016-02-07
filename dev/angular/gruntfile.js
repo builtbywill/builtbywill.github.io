@@ -331,11 +331,8 @@ module.exports = function(grunt) {
             release: {
                 options: {
                     patterns: [{
-                        match: 'name',
-                        replacement: '<%= pkg.name %>'
-                    }, {
-                        match: 'version',
-                        replacement: '<%= pkg.version %>'
+                        match: 'year',
+                        replacement: grunt.template.today('yyyy')
                     }, {
                         match: 'debug',
                         replacement: 'false'

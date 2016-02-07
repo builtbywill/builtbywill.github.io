@@ -20,7 +20,7 @@
 
     function coreConfig($provide, $logProvider, $locationProvider, $routeProvider, $httpProvider, routeHelperConfigProvider, exceptionHandlerProvider) {
 
-        $locationProvider.html5Mode(true);
+        //$locationProvider.html5Mode(true).hashPrefix('!');
 
         // TODO: move to provider?
         // turn $log off/on
@@ -71,7 +71,7 @@
             // scroll to top after ng-leave animation (0.2s)
             $timeout(function() {
                 $window.scrollTo(0, 0);
-                
+
                 // call scroll event after ng-enter animation (0.2s) to trigger lazy load images
                 $timeout(function() {
                     $($window).scroll();
