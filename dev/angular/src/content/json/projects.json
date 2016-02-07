@@ -18,18 +18,19 @@
         "tech": ["C#", "Windows Azure", "Entity Framework", "OData", "SQL", "LINQ", "Angular JS", "Grunt", "Bootstrap", "d3"]
     }],
     "color": "#00838F",
-    "cover": "pattern-cover.png",
+    "loader": "content/images/pattern/loader.gif",
+    "cover": "content/images/pattern/pattern-cover.png",
     "images": [{
-        "name": "pattern-ios.png",
+        "src": "content/images/pattern/pattern-ios.png",
         "description": "iOS App"
     }, {
-        "name": "pattern-apple-watch.png",
+        "src": "content/images/pattern/pattern-apple-watch.png",
         "description": "Apple Watch App"
     }, {
-        "name": "pattern-learner.png",
+        "src": "content/images/pattern/pattern-learner.png",
         "description": "Learner Dashboard"
     }, {
-        "name": "pattern-instructor-charts.png",
+        "src": "content/images/pattern/pattern-instructor-charts.png",
         "description": "Instructor Dashboard with Charts"
     }]
 }, {
@@ -57,18 +58,19 @@
         "tech": ["C#", ".NET MVC", "Windows Azure", "SQL", "LINQ"]
     }],
     "color": "#1C86C3",
-    "cover": "skyepack-cover.png",
+    "loader": "content/images/skyepack/loader.gif",
+    "cover": "content/images/skyepack/skyepack-cover.png",
     "images": [{
-        "name": "skyepack-ios.png",
+        "src": "content/images/skyepack/skyepack-ios.png",
         "description": "iOS App"
     }, {
-        "name": "skyepack-android.png",
+        "src": "content/images/skyepack/skyepack-android.png",
         "description": "Android App"
     }, {
-        "name": "skyepack-web-reader.png",
+        "src": "content/images/skyepack/skyepack-web-reader.png",
         "description": "Web Reader"
     }, {
-        "name": "skyepack-authoring.png",
+        "src": "content/images/skyepack/skyepack-authoring.png",
         "description": "Pack Creation and Authoring"
     }]
 }, {
@@ -91,27 +93,28 @@
         "tech": ["C#", ".NET MVC", "Windows Azure", "SQL", "LINQ"]
     }],
     "color": "#713eb0",
-    "cover": "passport-cover.png",
+    "loader": "content/images/passport/loader.gif",
+    "cover": "content/images/passport/passport-cover.png",
     "images": [{
-        "name": "passport-iphone.png",
+        "src": "content/images/passport/passport-iphone.png",
         "description": "iPhone App"
     }, {
-        "name": "passport-ipad-1.png",
+        "src": "content/images/passport/passport-ipad-1.png",
         "description": "iPad App - Home & Groups"
     }, {
-        "name": "passport-ipad-2.png",
+        "src": "content/images/passport/passport-ipad-2.png",
         "description": "iPad App - Challenge Instructions"
     }, {
-        "name": "passport-ipad-3.png",
+        "src": "content/images/passport/passport-ipad-3.png",
         "description": "iPad App - Submission"
     }, {
-        "name": "passport-learner-dashboard.png",
+        "src": "content/images/passport/passport-learner-dashboard.png",
         "description": "Learner Dashboard"
     }, {
-        "name": "passport-challenge.png",
+        "src": "content/images/passport/passport-challenge.png",
         "description": "Challenge Instructions"
     }, {
-        "name": "passport-badge-creator.png",
+        "src": "content/images/passport/passport-badge-creator.png",
         "description": "Badge Creator"
     }]
 }, {
@@ -134,18 +137,19 @@
         "tech": ["C#", ".NET MVC", "Windows Azure", "SignalR", "Websockets"]
     }],
     "color": "#D97400",
-    "cover": "hotseat-cover.png",
+    "loader": "content/images/hotseat/loader.gif",
+    "cover": "content/images/hotseat/hotseat-cover.png",
     "images": [{
-        "name": "hotseat-ios.png",
+        "src": "content/images/hotseat/hotseat-ios.png",
         "description": "iOS App"
     }, {
-        "name": "hotseat-feed.png",
+        "src": "content/images/hotseat/hotseat-feed.png",
         "description": "Topic Discussion Feed"
     }, {
-        "name": "hotseat-poll.png",
+        "src": "content/images/hotseat/hotseat-poll.png",
         "description": "Real-time Poll"
     }, {
-        "name": "hotseat-roster-sync.png",
+        "src": "content/images/hotseat/hotseat-roster-sync.png",
         "description": "Automatic Course Roster Syncing"
     }]
 }, {
@@ -170,27 +174,28 @@
         "tech": ["C#", ".NET MVC", "Aspose for .NET", "SQL", "LINQ"]
     }],
     "color": "#4c67ff",
-    "cover": "convoy-cover.png",
+    "loader": "content/images/convoy/loader.gif",
+    "cover": "content/images/convoy/convoy-cover.png",
     "images": [{
-        "name": "convoy-ipad-slide.png",
+        "src": "content/images/convoy/convoy-ipad-slide.png",
         "description": "Presentation Slide"
     }, {
-        "name": "convoy-ipad-child-slide.png",
+        "src": "content/images/convoy/convoy-ipad-child-slide.png",
         "description": "Supplemental Content Slide"
     }, {
-        "name": "convoy-ipad-notes.png",
+        "src": "content/images/convoy/convoy-ipad-notes.png",
         "description": "Side-by-Side Presentation and Notes"
     }, {
-        "name": "convoy-ipad-grid.png",
+        "src": "content/images/convoy/convoy-ipad-grid.png",
         "description": "Presentation Overview"
     }, {
-        "name": "convoy-ipad-print.png",
+        "src": "content/images/convoy/convoy-ipad-print.png",
         "description": "Printable Presentation Overview with Notes"
     }, {
-        "name": "convoy-home.png",
+        "src": "content/images/convoy/convoy-home.png",
         "description": "Web Home"
     }, {
-        "name": "convoy-edit-collection.png",
+        "src": "content/images/convoy/convoy-edit-collection.png",
         "description": "Edit Collection Slides"
     }]
 }, {
@@ -208,5 +213,6 @@
         "tech": ["Javascript", "jQuery", "CSS", "Open Source"]
     }],
     "color": "#4c9bc0",
-    "cover": "booklet-cover.png"
+    "loader": "content/images/booklet/loader.gif",
+    "cover": "content/images/booklet/booklet-cover.png"
 }]

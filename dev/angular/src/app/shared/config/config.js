@@ -20,12 +20,14 @@
 
     function coreConfig($provide, $logProvider, $routeProvider, $httpProvider, routeHelperConfigProvider, exceptionHandlerProvider) {
 
-		// TODO: move to provider?
+        // TODO: move to provider?
         // turn $log off/on
         if (!coreConfigDetails.debug) {
             $logProvider.debugEnabled(false);
-            $provide.decorator('$log', ['$delegate', function ($delegate) {
-                var falseLog = function () { return false; };
+            $provide.decorator('$log', ['$delegate', function($delegate) {
+                var falseLog = function() {
+                    return false;
+                };
                 $delegate.info = falseLog;
                 $delegate.warn = falseLog;
                 $delegate.error = falseLog;
@@ -37,7 +39,7 @@
         routeHelperConfigProvider.config.$routeProvider = $routeProvider;
         routeHelperConfigProvider.config.docTitle = coreConfigDetails.name + ' - ';
         var resolveAlways = {
-            ready: function () {
+            ready: function() {
                 return true;
             }
         };
@@ -51,10 +53,30 @@
 
     toastrConfig.$inject = ['toastr'];
     core.config(toastrConfig);
-	
-	function toastrConfig(toastr) {
+
+    function toastrConfig(toastr) {
         toastr.options.timeOut = 4000;
         toastr.options.positionClass = 'toast-bottom-right';
-	}
+    }
+
+    // Core Run (setup items that are only available at runtime)
+
+    core.run(coreRun);
+    coreRun.$inject = ['$rootScope', '$window', '$timeout'];
+
+    function coreRun($rootScope, $window, $timeout) {
+        $rootScope.$on('$locationChangeSuccess', function(event) {
+            // scroll to top after ng-leave animation (0.2s)
+            $timeout(function() {
+                $window.scrollTo(0, 0);
+                
+                // call scroll event after ng-enter animation (0.2s) to trigger lazy load images
+                $timeout(function() {
+                    $($window).scroll();
+                }, 200);
+
+            }, 200);
+        });
+    }
 
 })();

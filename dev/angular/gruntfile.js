@@ -139,12 +139,12 @@ module.exports = function(grunt) {
         // Add vendor prefixed styles
         autoprefixer: {
             options: {
-                browsers: ['last 1 version']
+                browsers: ['last 2 versions']
             },
             release: {
                 files: [{
                     expand: true,
-                    cwd: '<%= pkg.src %>/content/styles/',
+                    cwd: '<%= pkg.output %>/content/styles/',
                     src: '{,*/}*.css',
                     dest: '<%= pkg.output %>/content/styles/'
                 }]
@@ -213,7 +213,8 @@ module.exports = function(grunt) {
         usemin: {
             html: ['<%= pkg.output %>/**/*.html'],
             css: ['<%= pkg.output %>/content/styles/{,*/}*.css'],
-            js: ['<%= pkg.output %>/**/scripts*.js'],
+            js: ['<%= pkg.output %>/**/scripts*.js'], // do not target vendor.js, target file name starts with "scripts."
+            json: ['<%= pkg.output %>/content/json/{,*/}*.json'],
             options: {
                 assetsDirs: [
                     '<%= pkg.output %>',
@@ -225,49 +226,37 @@ module.exports = function(grunt) {
                 patterns: {
                     html: [
                         [
+                            /["']([^:"']+\.(?:png|gif|jpg|jpeg|webp|svg))["']/img,
+                            'Update HTML to reference revved images'
+                        ],
+                        [
                             /([^:"']+\.(?:html))/gm,
-                            'Update the HTML to reference our revved html files'
+                            'Update HTML to reference revved html files'
                         ]
                     ],
                     js: [
                         [
                             /["']([^:"']+\.(?:png|gif|jpg|jpeg|webp|svg))["']/img,
-                            'Update the JS to reference our revved images'
+                            'Update JS to reference revved images'
                         ],
                         [
                             /([^:"']+\.(?:html))/gm,
-                            'Update the JS to reference our revved html files'
+                            'Update JS to reference revved html files'
+                        ],
+                        [
+                            /([^:"']+\.(?:json))/gm,
+                            'Update JS to reference revved json files'
+                        ]
+                    ],
+                    json: [
+                        [
+                            /["']([^:"']+\.(?:png|gif|jpg|jpeg|webp|svg))["']/img,
+                            'Update JSON to reference revved images'
                         ]
                     ]
                 }
             }
         },
-
-        // The following *-min tasks will produce minified files in the output folder
-        // By default, your `index.html`'s <!-- Usemin block --> will take care of
-        // minification. These next options are pre-configured if you do not wish
-        // to use the Usemin blocks.
-        // cssmin: {
-        //   release: {
-        //     files: {
-        //       '<%= pkg.output %>/styles/main.css': [
-        //         '.tmp/styles/{,*/}*.css'
-        //       ]
-        //     }
-        //   }
-        // },
-        // uglify: {
-        //   release: {
-        //     files: {
-        //       '<%= pkg.output %>/scripts/scripts.js': [
-        //         '<%= pkg.output %>/scripts/scripts.js'
-        //       ]
-        //     }
-        //   }
-        // },
-        // concat: {
-        //   release: {}
-        // },
 
         concat: {
             options: {
@@ -377,17 +366,12 @@ module.exports = function(grunt) {
                         'app/**/{,*/}*.html',
                         'app/**/{,*/}*.json',
                         'app/**/{,*/}*.csv',
-                        'content/images/{,*/}*.{webp}',
+                        'content/images/{,*/}*.{png,jpg,jpeg,gif,webp}',
                         'content/fonts/*.*',
                         'content/json/*.*',
                         'vendor/**/{,*/}*.png',
                         'vendor/**/{,*/}*.swf'
                     ]
-                }, {
-                    expand: true,
-                    cwd: '.tmp/images',
-                    dest: '<%= pkg.output %>/content/images',
-                    src: ['generated/*']
                 }, {
                     expand: true,
                     dot: true,
@@ -401,12 +385,10 @@ module.exports = function(grunt) {
 
         // Run some tasks in parallel to speed up the build process
         concurrent: {
-            server: [
-            ],
-            test: [
-            ],
+            server: [],
+            test: [],
             release: [
-                'imagemin',
+                //'imagemin',
                 'svgmin'
             ]
         },
@@ -440,29 +422,29 @@ module.exports = function(grunt) {
         }
 
         grunt.task.run([
-            'wiredep',              // inject bower packages into html
+            'wiredep', // inject bower packages into html
             //'ngconstant:' + tier    // create 'app.constants' module with ENV variable
         ]);
 
         if (config === configurations.release) {
             grunt.task.run([
-                'clean:release',      // clear out .tmp/ and release/ folders
-                'useminPrepare',      // congifure usemin, targets <!-- build --> blocks in HTML
+                'clean:release', // clear out .tmp/ and release/ folders
+                'useminPrepare', // congifure usemin, targets <!-- build --> blocks in HTML
                 'concurrent:release', // start concurrent dist tasks (imgmin, svgmin)
-                'concat',             // concatenate JS into new files in '.tmp'
-                'cssmin',             // concatenate and minify CSS into new 'release' files
-                'uglify',             // minify JS files from '.tmp' and copy to 'release'
-                'copy:release',       // copy all remaining files to 'release' (e.g. HTML, Fonts, .htaccess, etc.)
-                'replace:release',    // replace variables, e.g. '@@foo' with 'bar'
-                'filerev',            // rename CSS, JS and Font files with unique hashes
-                'usemin',             // update references in HTML with new minified, rev-ed files
-                'htmlmin'             // minify HTML markup
+                'concat', // concatenate JS into new files in '.tmp'
+                'cssmin', // concatenate and minify CSS into new 'release' files
+                'uglify', // minify JS files from '.tmp' and copy to 'release'
+                'copy:release', // copy all remaining files to 'release' (e.g. HTML, Fonts, .htaccess, etc.)
+                'replace:release', // replace variables, e.g. '@@foo' with 'bar'
+                'filerev', // rename CSS, JS and Font files with unique hashes
+                'usemin', // update references in HTML with new minified, rev-ed files
+                'htmlmin' // minify HTML markup,
             ]);
         }
 
     });
 
-    grunt.registerTask('serve', 'Compile then start and connect web server', function (config) {
+    grunt.registerTask('serve', 'Compile then start and connect web server', function(config) {
 
         // Defaults
         config = config || configurations.debug;

@@ -39,8 +39,9 @@
         <div class="container container-image" ng-repeat="image in ctrl.project.images">
             <h2 class="text-center">{{ image.description }}</h2>
             <div class="image-loader">
-                <img class="image img-responsive" lazy-src="content/images/{{ ctrl.project.title | lowercase }}/{{ image.name }}" alt="{{ image.description }}" />
+                <img class="image img-responsive" lazy-src="{{ image.src }}" alt="{{ image.description }}" />
             </div>
         </div>
     </div>
 </div>
+<div ng-include="'app/layout/footer.html'"></div>

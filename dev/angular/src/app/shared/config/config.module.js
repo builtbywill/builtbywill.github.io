@@ -20,8 +20,7 @@
         'shared.exception',
         'shared.directives',
         'shared.filters',
-        'shared.route',
-        'shared.layout'
+        'shared.route'
 
     ]);
 

@@ -11,7 +11,7 @@
 </div>
 <div class="content">
     <div class="project-list" ng-repeat="project in ctrl.projects">
-        <div ng-click="ctrl.openProject(project)" style="background-color: {{project.color}}">
+        <div ng-click="ctrl.openProject(project)" style="background-color: {{ project.color }}">
             <div class="row">
                 <div class="container">
                     <div class="col-md-5">
@@ -20,8 +20,8 @@
                         <a class="btn btn-default" ng-href="#/projects/{{ project.title | lowercase }}">See More <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                     <div class="col-md-7">
-                        <div class="image-loader" style="background-image:url(content/images/{{ project.title | lowercase }}/loader.gif)">
-                            <img class="image img-responsive" lazy-src="content/images/{{ project.title | lowercase }}/{{ project.cover }}" animate-visible="true" animate-speed="0.5s" alt="{{project.title}} image">
+                        <div class="image-loader" style="background-image:url({{ project.loader }})">
+                            <img class="image img-responsive" lazy-src="{{ project.cover }}" animate-visible="true" animate-speed="0.5s" alt="{{ project.title }} image">
                         </div>
                     </div>
                 </div>
@@ -29,3 +29,4 @@
         </div>
     </div>
 </div>
+<div ng-include="'app/layout/footer.html'"></div>

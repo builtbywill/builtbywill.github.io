@@ -29,7 +29,7 @@
 		<link rel="stylesheet" href="content/styles/main.css" />
 		<!-- endbuild -->
 
-		<link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
+		<link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
 
 	</head>
 	<body>
@@ -40,7 +40,7 @@
 		</p>
 		<![endif]-->
 			
-		<div ng-include="'app/shared/layout/shell.html'" ng-controller="ShellController as ctrl"></div>
+		<div ng-view class="view"></div>
 
 		<!-- build:js(src) scripts/vendor.js -->
 		<!-- bower:js -->
@@ -80,9 +80,6 @@
 
         <script src="app/shared/route/route.module.js"></script>
         <script src="app/shared/route/route-helper.js"></script>
-
-        <script src="app/shared/layout/layout.module.js"></script>
-        <script src="app/shared/layout/shell.js"></script>
 
         <script src="app/shared/config/config.module.js"></script>
         <script src="app/shared/config/config.js"></script>
