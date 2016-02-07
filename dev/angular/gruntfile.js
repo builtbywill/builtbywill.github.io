@@ -42,7 +42,7 @@ module.exports = function(grunt) {
                 },
                 files: [
                     '<%= pkg.src %>/**/*.html',
-                    '.tmp/content/styles/{,*/}*.css',
+                    '<%= pkg.src %>/content/styles/{,*/}*.css',
                     '<%= pkg.src %>/content/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
                 ]
             }
@@ -219,7 +219,7 @@ module.exports = function(grunt) {
                     '<%= pkg.output %>',
                     '<%= pkg.output %>/content/images',
                     '<%= pkg.output %>/content/styles',
-                    '<%= pkg.output %>/content/fonts'
+                    '<%= pkg.output %>/content/fonts',
                     '<%= pkg.output %>/content/json'
                 ],
                 patterns: {

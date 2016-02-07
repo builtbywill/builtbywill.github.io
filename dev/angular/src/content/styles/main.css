@@ -335,7 +335,7 @@ a:visted {
     border-top: 20px solid rgba(0, 0, 0, 0.5);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;*/
-    width: 665px;
+    width: 635px;
 }
 
 .project-image {}
@@ -346,6 +346,20 @@ a:visted {
 
 .project-image img {
     margin: 0 auto;
+}
+
+ul.links {
+    list-style: none;
+    padding: 0;
+}
+
+ul.links li {
+    margin:0.5em 0;
+}
+
+ul.links [class^="icon-"],
+ul.links [class*=" icon-"] {
+    vertical-align: text-top;
 }
 
 
