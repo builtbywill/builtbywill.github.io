@@ -15,10 +15,12 @@
 
     // Core Config
 
-    coreConfig.$inject = ['$provide', '$logProvider', '$routeProvider', '$httpProvider', 'routeHelperConfigProvider', 'exceptionHandlerProvider'];
+    coreConfig.$inject = ['$provide', '$logProvider', '$locationProvider', '$routeProvider', '$httpProvider', 'routeHelperConfigProvider', 'exceptionHandlerProvider'];
     core.config(coreConfig);
 
-    function coreConfig($provide, $logProvider, $routeProvider, $httpProvider, routeHelperConfigProvider, exceptionHandlerProvider) {
+    function coreConfig($provide, $logProvider, $locationProvider, $routeProvider, $httpProvider, routeHelperConfigProvider, exceptionHandlerProvider) {
+
+        $locationProvider.html5Mode(true);
 
         // TODO: move to provider?
         // turn $log off/on
