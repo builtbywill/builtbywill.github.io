@@ -10,7 +10,7 @@
     </div>
 </div>
 <div class="content">
-    <div id="projects" ng-repeat="project in ctrl.projects">
+    <div class="project-list" ng-repeat="project in ctrl.projects">
         <div ng-click="ctrl.openProject(project)" style="background-color: {{project.color}}">
             <div class="row">
                 <div class="container">
@@ -20,7 +20,9 @@
                         <a class="btn btn-default" ng-href="#/projects/{{ project.title | lowercase }}">See More <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                     <div class="col-md-7">
-                        <img class="img-responsive" ng-src="content/images/{{ project.title | lowercase }}/{{ project.cover }}" alt="{{project.title}} image">
+                        <div class="image-loader" style="background-image:url(content/images/{{ project.title | lowercase }}/loader.gif)">
+                            <img class="image img-responsive" lazy-src="content/images/{{ project.title | lowercase }}/{{ project.cover }}" animate-visible="true" animate-speed="0.5s" alt="{{project.title}} image">
+                        </div>
                     </div>
                 </div>
             </div>

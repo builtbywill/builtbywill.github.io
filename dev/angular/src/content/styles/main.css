@@ -297,9 +297,28 @@ a:visted {
     margin-top: 0.4em;
 }
 
-.content img {}
+.image-loader {
+    background-color: transparent;
+    background-image: url("../images/loader.gif");
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    background-position: 50% 50%;
+}
 
-#projects .row {
+.image-loader .image {
+    display: block;
+    background-color: transparent !important;
+}
+
+.project-image {
+    background-color: transparent !important;
+}
+
+
+/* @Home
+------------------------- */
+
+.project-list .row {
     cursor: pointer;
     background-color: transparent;
     padding-bottom: 0;
@@ -307,33 +326,41 @@ a:visted {
     min-height: 414px;
 }
 
-#projects .row:hover {
+.project-list .row:hover {
     background-color: rgba(100, 100, 100, 0.2);
 }
 
-#projects .row .btn {
+.project-list .row .btn {
     margin: 10px 0 20px;
     background: transparent;
     color: white;
 }
 
-#projects .row:hover .btn {
+.project-list .row:hover .btn {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#projects .row img {
+.project-list .row .image {
     width: 635px;
 }
 
-.project-image {}
 
-.project-image h2 {
+/* @Projects
+------------------------- */
+
+.container-image {}
+
+.container-image h2 {
     margin: 2em 0;
 }
 
-.project-image img {
+.container-image .image {
     margin: 0 auto;
 }
+
+
+/* @About
+------------------------- */
 
 ul.links {
     list-style: none;
@@ -377,6 +404,11 @@ ul.links [class*=" icon-"] {
 
 .footer a:hover {
     text-decoration: none;
+}
+
+.logo-footer {
+    width: 77px;
+    height: 51px;
 }
 
 

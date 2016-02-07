@@ -12,7 +12,7 @@
 
         // 3rd Party Modules 
         'mgcrea.ngStrap',
-        'angularLazyImg',
+        'me-lazyload',
 
         // Shared Modules 
         'shared.constants',

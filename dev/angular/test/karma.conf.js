@@ -31,7 +31,7 @@ module.exports = function(config) {
       'src/bower_components/angular-strap/dist/angular-strap.js',
       'src/bower_components/angular-strap/dist/angular-strap.tpl.js',
       'src/bower_components/toastr/toastr.js',
-      'src/bower_components/angular-lazy-img/release/angular-lazy-img.js',
+      'src/bower_components/me-lazyload/me-lazyload.js',
       'src/bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

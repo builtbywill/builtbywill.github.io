@@ -36,9 +36,11 @@
                 </div>
             </div>
         </div>
-        <div class="container project-image" ng-repeat="image in ctrl.project.images">
+        <div class="container container-image" ng-repeat="image in ctrl.project.images">
             <h2 class="text-center">{{ image.description }}</h2>
-            <img class="img-responsive" ng-src="content/images/{{ ctrl.project.title | lowercase }}/{{ image.name }}" alt="{{ image.description }}" />
+            <div class="image-loader">
+                <img class="image img-responsive" lazy-src="content/images/{{ ctrl.project.title | lowercase }}/{{ image.name }}" alt="{{ image.description }}" />
+            </div>
         </div>
     </div>
 </div>
