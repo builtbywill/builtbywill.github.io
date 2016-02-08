@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "built by will - Development"
-AuthUserFile "/home2/willgrau/.htpasswds/public_html/dev/passwd"
-require valid-user
