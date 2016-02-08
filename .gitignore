@@ -5,3 +5,5 @@ output
 
 *.sublime-*
 .idea
+
+.DS_Store
