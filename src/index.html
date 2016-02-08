@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" ng-app="app" ng-strict-di>
+	<head>
+		<meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="google-site-verification" content="Vv-F3PTIcS6Y_WyioQB9ZjrE6i4dlSPD6JeLb_ubZdA" />
+		<meta name="author" content="Built By Will"/>
+	    <meta name="copyright" content="&copy; 2016 Will Grauvogel"/>
+	    <meta name="description" content="Portfolio site of Developer and Designer Will Grauvogel" />
+	    <meta name="keywords" content="builtbywill, built, will, grauvogel, purdue, west lafayette, design, web design, interface, multimedia, portfolio, graphic design, standards compliant, mobile developer, ios developer" />    
+
+        <title ng-bind="title"></title>
+
+		<!-- build:css(src) content/styles/vendor.css -->
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<!-- bower:css -->
+		<link rel="stylesheet" href="bower_components/angular-motion/dist/angular-motion.css" />
+		<link rel="stylesheet" href="bower_components/toastr/toastr.css" />
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		<link href='https://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900,900italic,700italic,400italic,300italic,100italic' rel='stylesheet' type='text/css'>
+		
+		<!-- build:css(src) content/styles/main.css -->
+		<link rel="stylesheet" href="content/styles/normalize.css" />
+		<link rel="stylesheet" href="content/styles/fonts.css" />
+		<link rel="stylesheet" href="content/styles/main.css" />
+		<!-- endbuild -->
+
+		<link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+
+		<base href="/">
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+		<p class="browsehappy">
+			You are using an <strong>outdated</strong> browser. 
+			Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+		</p>
+		<![endif]-->
+			
+		<div ng-view class="view"></div>
+
+		<script>
+		(function(i, s, o, g, r, a, m) {
+		    i['GoogleAnalyticsObject'] = r;
+		    i[r] = i[r] || function() {
+		        (i[r].q = i[r].q || []).push(arguments)
+		    }, i[r].l = 1 * new Date();
+		    a = s.createElement(o),
+		        m = s.getElementsByTagName(o)[0];
+		    a.async = 1;
+		    a.src = g;
+		    m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		var hostname = window.location.hostname;
+		if (hostname.indexOf('localhost') === -1) {
+		    ga('create', 'UA-5500036-2', 'builtbywill.com');
+		}
+		</script>
+
+
+		<!-- build:js(src) content/scripts/vendor.js -->
+		<!-- bower:js -->
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-animate/angular-animate.js"></script>
+		<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+		<script src="bower_components/angular-resource/angular-resource.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+		<script src="bower_components/angular-touch/angular-touch.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="bower_components/angular-strap/dist/angular-strap.js"></script>
+		<script src="bower_components/angular-strap/dist/angular-strap.tpl.js"></script>
+		<script src="bower_components/toastr/toastr.js"></script>
+		<script src="bower_components/me-lazyload/me-lazyload.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		<!-- build:js(src) content/scripts/scripts.js -->		
+        <script src="app/app.module.js"></script>
+        
+        <script src="app/shared/constants/constants.module.js"></script>
+        <script src="app/shared/constants/constants.js"></script>
+		
+		<script src="app/shared/logger/logger.module.js"></script>
+        <script src="app/shared/logger/logger.js"></script>
+		
+        <script src="app/shared/exception/exception.module.js"></script>
+        <script src="app/shared/exception/exception-handler.provider.js"></script>
+
+        <script src="app/shared/directives/directives.module.js"></script>
+        <script src="app/shared/directives/ngReallyClick.js"></script>
+
+        <script src="app/shared/filters/filters.module.js"></script>
+        <script src="app/shared/filters/mpReverse.js"></script>
+
+        <script src="app/shared/route/route.module.js"></script>
+        <script src="app/shared/route/route-helper.js"></script>
+
+        <script src="app/shared/config/config.module.js"></script>
+        <script src="app/shared/config/config.js"></script>
+
+		<script src="app/resources/resources.module.js"></script>
+		<script src="app/resources/project.resource.js"></script>		
+						
+		<script src="app/home/home.module.js"></script>
+		<script src="app/home/config.route.js"></script>
+		<script src="app/home/home.js"></script>
+		
+		<script src="app/about/about.module.js"></script>
+		<script src="app/about/config.route.js"></script>
+		<script src="app/about/about.js"></script>
+
+		<script src="app/projects/projects.module.js"></script>
+		<script src="app/projects/config.route.js"></script>
+		<script src="app/projects/projects.js"></script>
+		
+		<!-- endbuild -->
+	</body>
+</html>
