@@ -8,11 +8,11 @@
 		<meta name="author" content="Built By Will"/>
 	    <meta name="copyright" content="&copy; 2016 Will Grauvogel"/>
 	    <meta name="description" content="Portfolio site of Developer and Designer Will Grauvogel" />
-	    <meta name="keywords" content="builtbywill, built, will, grauvogel, purdue, west lafayette, design, web design, interface, multimedia, portfolio, graphic design, standards compliant, mobile developer, ios developer" />    
+	    <meta name="keywords" content="builtbywill, built, will, grauvogel, purdue, west lafayette, design, web design, interface, multimedia, portfolio, graphic design, standards compliant, mobile developer, ios developer" />
 
         <title ng-bind="title"></title>
 
-		<!-- build:css(src) content/styles/vendor.css -->
+		<!-- build:css(src) /content/styles/vendor.css -->
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
 		<!-- bower:css -->
 		<link rel="stylesheet" href="bower_components/angular-motion/dist/angular-motion.css" />
@@ -22,11 +22,11 @@
 
 		<link href='https://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900,900italic,700italic,400italic,300italic,100italic' rel='stylesheet' type='text/css'>
-		
-		<!-- build:css(src) content/styles/main.css -->
-		<link rel="stylesheet" href="content/styles/normalize.css" />
-		<link rel="stylesheet" href="content/styles/fonts.css" />
-		<link rel="stylesheet" href="content/styles/main.css" />
+
+		<!-- build:css(src) /content/styles/main.css -->
+		<link rel="stylesheet" href="/content/styles/normalize.css" />
+		<link rel="stylesheet" href="/content/styles/fonts.css" />
+		<link rel="stylesheet" href="/content/styles/main.css" />
 		<!-- endbuild -->
 
 		<link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
@@ -36,11 +36,11 @@
 	<body>
 		<!--[if lt IE 7]>
 		<p class="browsehappy">
-			You are using an <strong>outdated</strong> browser. 
+			You are using an <strong>outdated</strong> browser.
 			Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
 		</p>
 		<![endif]-->
-			
+
 		<div ng-view class="view"></div>
 
 		<script>
@@ -63,7 +63,7 @@
 		</script>
 
 
-		<!-- build:js(src) content/scripts/vendor.js -->
+		<!-- build:js(src) /content/scripts/vendor.js -->
 		<!-- bower:js -->
 		<script src="bower_components/jquery/dist/jquery.js"></script>
 		<script src="bower_components/angular/angular.js"></script>
@@ -81,15 +81,15 @@
 		<!-- endbower -->
 		<!-- endbuild -->
 
-		<!-- build:js(src) content/scripts/scripts.js -->		
+		<!-- build:js(src) /content/scripts/scripts.js -->
         <script src="app/app.module.js"></script>
-        
+
         <script src="app/shared/constants/constants.module.js"></script>
         <script src="app/shared/constants/constants.js"></script>
-		
+
 		<script src="app/shared/logger/logger.module.js"></script>
         <script src="app/shared/logger/logger.js"></script>
-		
+
         <script src="app/shared/exception/exception.module.js"></script>
         <script src="app/shared/exception/exception-handler.provider.js"></script>
 
@@ -106,12 +106,12 @@
         <script src="app/shared/config/config.js"></script>
 
 		<script src="app/resources/resources.module.js"></script>
-		<script src="app/resources/project.resource.js"></script>		
-						
+		<script src="app/resources/project.resource.js"></script>
+
 		<script src="app/home/home.module.js"></script>
 		<script src="app/home/config.route.js"></script>
 		<script src="app/home/home.js"></script>
-		
+
 		<script src="app/about/about.module.js"></script>
 		<script src="app/about/config.route.js"></script>
 		<script src="app/about/about.js"></script>
@@ -119,7 +119,7 @@
 		<script src="app/projects/projects.module.js"></script>
 		<script src="app/projects/config.route.js"></script>
 		<script src="app/projects/projects.js"></script>
-		
+
 		<!-- endbuild -->
 	</body>
 </html>
