@@ -205,7 +205,7 @@
     "description": "<p>I originally started development on the Booklet plugin while supporting Discovery Park at Purdue developing their <a href=\"http://www.purdue.edu/discoverypark/viewbook/overview/\">Visions of Discovery</a> viewbook.</p><p>I continued to make additional development improvements and was able to transform the code into a jQuery Plugin and release it as open source software.</p><h3>Inspiration</h3><p>The Booklet Plugin was originally based on the work of <a href=\"http://clickheredammit.com/pageflip/\">Charles Mangin (http://clickheredammit.com/pageflip/)</a></p>",
     "dates": "2012 - 2014",
     "roles": "Developer",
-    "url": "http://builtbywill.com/code/booklet",
+    "url": "https://builtbywill.com/booklet",
     "areas": [{
         "name": "Web",
         "text": "",
