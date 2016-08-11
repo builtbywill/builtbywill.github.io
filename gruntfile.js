@@ -359,7 +359,7 @@ module.exports = function(grunt) {
                     dest: '<%= pkg.output %>',
                     src: [
                         '*.{ico,png,txt,ini,xml}',
-                        '.htaccess',
+                        'CNAME',
                         '*.html',
                         'app/**/{,*/}*.html',
                         'app/**/{,*/}*.json',
