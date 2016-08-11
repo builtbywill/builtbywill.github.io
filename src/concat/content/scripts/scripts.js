@@ -491,7 +491,7 @@
 	Project.$inject = ['$resource'];
 
 	function Project($resource) {
-		return $resource('content/json/projects.8baf04ca.json', {}, {});
+		return $resource('content/json/projects.0680cf5e.json', {}, {});
 	}
 
 })();
