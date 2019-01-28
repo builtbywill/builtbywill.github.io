@@ -20,7 +20,6 @@ const Projects: IDictionary<IProject> = {
 	// 		},
 	// 	],
 	// 	color: '#e6007e',
-	// 	loader: '',
 	// 	cover: '',
 	// 	images: [],
 	// },
@@ -41,7 +40,6 @@ const Projects: IDictionary<IProject> = {
 	// 		},
 	// 	],
 	// 	color: '#0075dc',
-	// 	loader: '',
 	// 	cover: '',
 	// 	images: [],
 	// },
@@ -62,7 +60,6 @@ const Projects: IDictionary<IProject> = {
 	// 		},
 	// 	],
 	// 	color: '#3c5575',
-	// 	loader: '',
 	// 	cover: '',
 	// 	images: [],
 	// },
@@ -83,7 +80,6 @@ const Projects: IDictionary<IProject> = {
 	// 		},
 	// 	],
 	// 	color: '#005e5a',
-	// 	loader: '',
 	// 	cover: '',
 	// 	images: [],
 	// },
@@ -173,7 +169,6 @@ const Projects: IDictionary<IProject> = {
 			},
 		],
 		color: '#00838F',
-		loader: require('images/pattern/loader.gif'),
 		cover: require('images/pattern/pattern-cover.png'),
 		images: [
 			{
@@ -253,7 +248,6 @@ const Projects: IDictionary<IProject> = {
 			},
 		],
 		color: '#1C86C3',
-		loader: require('images/skyepack/loader.gif'),
 		cover: require('images/skyepack/skyepack-cover.png'),
 		images: [
 			{
@@ -332,7 +326,6 @@ const Projects: IDictionary<IProject> = {
 			},
 		],
 		color: '#713eb0',
-		loader: require('images/passport/loader.gif'),
 		cover: require('images/passport/passport-cover.png'),
 		images: [
 			{
@@ -426,7 +419,6 @@ const Projects: IDictionary<IProject> = {
 			},
 		],
 		color: '#D97400',
-		loader: require('images/hotseat/loader.gif'),
 		cover: require('images/hotseat/hotseat-cover.png'),
 		images: [
 			{
@@ -511,7 +503,6 @@ const Projects: IDictionary<IProject> = {
 			},
 		],
 		color: '#4c67ff',
-		loader: require('images/convoy/loader.gif'),
 		cover: require('images/convoy/convoy-cover.png'),
 		images: [
 			{
@@ -585,7 +576,6 @@ const Projects: IDictionary<IProject> = {
 			},
 		],
 		color: '#4c9bc0',
-		loader: require('images/booklet/loader.gif'),
 		cover: require('images/booklet/booklet-cover.png'),
 		images: [],
 	},

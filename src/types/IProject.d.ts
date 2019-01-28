@@ -10,8 +10,7 @@ export interface IProject {
 	url: string
 	roles: any
 	color: string
-	loader: string
-	cover: string
+	cover: any
 	areas: IArea[]
 	images: IImage[]
 }
