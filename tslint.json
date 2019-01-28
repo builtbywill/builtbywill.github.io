@@ -16,6 +16,7 @@
 			"options": ["ban-single-arg-parens"]
 		},
 		"no-console": false,
-		"trailing-comma": false
+		"trailing-comma": false,
+		"object-literal-sort-keys": false
 	}
 }
