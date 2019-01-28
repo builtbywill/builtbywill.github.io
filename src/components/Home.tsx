@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Grid, Row } from 'react-bootstrap'
-import LazyLoad from 'react-lazyload'
 import { Link, RouteComponentProps } from 'react-router-dom'
 import Projects from '../data/Projects'
+import FadeInImage from './FadeInImage'
 import Header from './Header'
 
 export default (props: RouteComponentProps) => (
@@ -26,24 +26,10 @@ export default (props: RouteComponentProps) => (
 								</Link>
 							</Col>
 							<Col md={7}>
-								{/* <LazyLoad
-									placeholder={
-										<div className="image image-placeholder">
-											<img
-												className="center-block"
-												src={project.loader}
-												alt=""
-												width={64}
-												height={64}
-											/>
-										</div>
-									}> */}
-								<img
-									className="image"
+								<FadeInImage
 									src={project.cover}
 									alt={`${project.title} screenshot`}
 								/>
-								{/* </LazyLoad> */}
 							</Col>
 						</Grid>
 					</Row>

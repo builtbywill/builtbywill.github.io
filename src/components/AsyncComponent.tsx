@@ -12,21 +12,21 @@ export default (importComponent: () => any) => {
 	return class AsyncComponent extends Component<any, Readonly<IState>> {
 		public readonly state: Readonly<IState> = initialState
 
-		private isMounted = false
+		private hasMounted = false
 
 		constructor(props: any) {
 			super(props)
 			this.state = {
 				component: null,
 			}
-			this.isMounted = false
+			this.hasMounted = false
 		}
 
 		public async componentDidMount() {
-			this.isMounted = true
+			this.hasMounted = true
 			const { default: component } = await importComponent()
 			// component may have unmounted while awaiting importComponent()
-			if (!this.isMounted) {
+			if (!this.hasMounted) {
 				return
 			}
 			this.setState({
@@ -35,7 +35,7 @@ export default (importComponent: () => any) => {
 		}
 
 		public componentWillUnmount() {
-			this.isMounted = false
+			this.hasMounted = false
 		}
 
 		public render() {

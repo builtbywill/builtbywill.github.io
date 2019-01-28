@@ -3,6 +3,7 @@ import { Col, Grid, Row } from 'react-bootstrap'
 import Helmet from 'react-helmet'
 import { Link } from 'react-router-dom'
 import { IProject } from '../types/IProject'
+import FadeInImage from './FadeInImage'
 
 interface IProps {
 	project: IProject
@@ -70,9 +71,7 @@ export default (props: IProps) => {
 					{project.images.map((image, key) => (
 						<Grid className="container-image" key={key}>
 							<h2 className="text-center">{image.description}</h2>
-							<div className="image-loader">
-								<img className="image" src={image.src} alt={image.description} />
-							</div>
+							<FadeInImage src={image.src} alt={image.description} />
 						</Grid>
 					))}
 				</Row>
