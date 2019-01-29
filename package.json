@@ -49,9 +49,6 @@
 		"fix:css": "npm run lint:css -- --fix",
 		"fix": "run-s fix:**"
 	},
-	"eslintConfig": {
-		"extends": "react-app"
-	},
 	"browserslist": [
 		">0.2%",
 		"not dead",
@@ -84,6 +81,19 @@
 			"!src/index.tsx",
 			"!src/utils/serviceWorker.ts"
 		]
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"prettier": {
+		"parser": "typescript",
+		"trailingComma": "es5",
+		"useTabs": true,
+		"tabWidth": 4,
+		"semi": false,
+		"singleQuote": true,
+		"printWidth": 100,
+		"jsxBracketSameLine": true
 	},
 	"stylelint": {
 		"extends": "stylelint-config-standard",

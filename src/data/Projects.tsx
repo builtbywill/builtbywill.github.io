@@ -220,8 +220,17 @@ const Projects: IDictionary<IProject> = {
 			</>
 		),
 		dates: '2013 - present',
-		roles:
-			<>(Independant Contractor)<br/>Lead iOS Developer<br/>Lead Android Developer<br/>Web Developer</>,
+		roles: (
+			<>
+				(Independant Contractor)
+				<br />
+				Lead iOS Developer
+				<br />
+				Lead Android Developer
+				<br />
+				Web Developer
+			</>
+		),
 		url: 'http://skyepack.com',
 		areas: [
 			{

@@ -48,7 +48,9 @@ export default (props: IProps) => {
 									<h3>{area.name} Technologies</h3>
 									<h4>
 										{area.tech.map((tech, j) => (
-											<span key={j} className={`label ${area.name.toLowerCase()}-tech`}>
+											<span
+												key={j}
+												className={`label ${area.name.toLowerCase()}-tech`}>
 												{tech}
 											</span>
 										))}
