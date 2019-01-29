@@ -2,8 +2,8 @@ import React from 'react'
 import { Col, Grid, Row } from 'react-bootstrap'
 import { Link, RouteComponentProps } from 'react-router-dom'
 import Projects from '../data/Projects'
-import FadeInImage from './FadeInImage'
-import Header from './Header'
+import FadeInImage from './Shared/FadeInImage'
+import Header from './Shared/Header'
 
 export default (props: RouteComponentProps) => (
 	<>
@@ -21,7 +21,8 @@ export default (props: RouteComponentProps) => (
 								<div>{project.summary}</div>
 								<Link
 									className="btn btn-default"
-									to={`/projects/${project.title.toLowerCase()}`}>
+									to={`/projects/${project.title.toLowerCase()}`}
+									aria-label={`See more about ${project.title}`}>
 									See More <span className="glyphicon glyphicon-chevron-right" />
 								</Link>
 							</Col>

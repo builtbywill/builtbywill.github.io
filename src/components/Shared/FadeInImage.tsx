@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import LazyLoad from 'react-lazy-load'
 import Loader from 'react-loader-spinner'
-import { IDictionary } from '../types/IDictionary'
+import { IDictionary } from '../../types/IDictionary'
 
 interface IState {
 	isLoaded: boolean
@@ -37,7 +37,9 @@ export default class FadeInImage extends Component<IProps, Readonly<IState>> {
 				<LazyLoad debounce={false} offsetVertical={250}>
 					<img
 						{...props}
-						className={`image ${isLoaded ? 'image-loaded' : 'image-loading'} ${className}`}
+						className={`image ${
+							isLoaded ? 'image-loaded' : 'image-loading'
+						} ${className}`}
 						onLoad={this.onLoad}
 					/>
 				</LazyLoad>

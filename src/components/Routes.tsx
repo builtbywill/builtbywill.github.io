@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Projects from '../data/Projects'
-import AsyncComponent from './AsyncComponent'
+import AsyncComponent from './Shared/AsyncComponent'
 
 const Home = AsyncComponent(() => import('./Home'))
 const About = AsyncComponent(() => import('./About'))

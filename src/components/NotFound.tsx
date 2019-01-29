@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid, Row } from 'react-bootstrap'
 import Helmet from 'react-helmet'
 import { Link } from 'react-router-dom'
-import Header from './Header'
+import Header from './Shared/Header'
 
 export default () => (
 	<>

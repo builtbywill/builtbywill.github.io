@@ -145,13 +145,10 @@ const Projects: IDictionary<IProject> = {
 		),
 		areas: [
 			{
-				label: 'primary',
 				name: 'iOS',
 				tech: ['Objective-C', 'WatchKit', 'CoreData', 'AFNetwork', 'RestKit', 'POP'],
-				text: '',
 			},
 			{
-				label: 'success',
 				name: 'Web',
 				tech: [
 					'C#',
@@ -165,7 +162,6 @@ const Projects: IDictionary<IProject> = {
 					'Bootstrap',
 					'd3',
 				],
-				text: '',
 			},
 		],
 		color: '#00838F',
@@ -213,37 +209,31 @@ const Projects: IDictionary<IProject> = {
 				<p>I am primarily responsible for developing the iOS and Android applications.</p>
 				<p>
 					In addition, I have been a part of improving and implementing new functionality
-					across all platforms including{' '}
-					<ul>
-						<li>Custom touch drawing boards which convert to SVG</li>
-						<li>Bookmarks and notes</li>
-						<li>Inline highlights and annotations</li>
-						<li>Mockups, design and logo updates</li>
-					</ul>
+					across all platforms including
 				</p>
+				<ul>
+					<li>Custom touch drawing boards which convert to SVG</li>
+					<li>Bookmarks and notes</li>
+					<li>Inline highlights and annotations</li>
+					<li>Mockups, design and logo updates</li>
+				</ul>
 			</>
 		),
 		dates: '2013 - present',
 		roles:
-			'(Independant Contractor)<br/>Lead iOS Developer<br/>Lead Android Developer<br/>Web Developer',
+			<>(Independant Contractor)<br/>Lead iOS Developer<br/>Lead Android Developer<br/>Web Developer</>,
 		url: 'http://skyepack.com',
 		areas: [
 			{
 				name: 'iOS',
-				text: '',
-				label: 'primary',
 				tech: ['Objective-C', 'CoreData', 'RestKit'],
 			},
 			{
 				name: 'Android',
-				text: '',
-				label: 'warning',
 				tech: ['Android SDK', 'Java', 'Gradle', 'SQLite'],
 			},
 			{
 				name: 'Web',
-				text: '',
-				label: 'success',
 				tech: ['C#', '.NET MVC', 'Windows Azure', 'SQL', 'LINQ'],
 			},
 		],
@@ -314,14 +304,10 @@ const Projects: IDictionary<IProject> = {
 		areas: [
 			{
 				name: 'iOS',
-				text: '',
-				label: 'primary',
 				tech: ['Objective-C', 'CoreData', 'RestKit', 'Dropbox SDK', 'Google Drive SDK'],
 			},
 			{
 				name: 'Web',
-				text: '',
-				label: 'success',
 				tech: ['C#', '.NET MVC', 'Windows Azure', 'SQL', 'LINQ'],
 			},
 		],
@@ -407,14 +393,10 @@ const Projects: IDictionary<IProject> = {
 		areas: [
 			{
 				name: 'iOS',
-				text: '',
-				label: 'primary',
 				tech: ['Objective-C', 'RestKit', 'SignalR', 'Websockets'],
 			},
 			{
 				name: 'Web',
-				text: '',
-				label: 'success',
 				tech: ['C#', '.NET MVC', 'Windows Azure', 'SignalR', 'Websockets'],
 			},
 		],
@@ -491,14 +473,10 @@ const Projects: IDictionary<IProject> = {
 		areas: [
 			{
 				name: 'iOS',
-				text: '',
-				label: 'primary',
 				tech: ['Objective-C', 'CoreData', 'RestKit'],
 			},
 			{
 				name: 'Web',
-				text: '',
-				label: 'success',
 				tech: ['C#', '.NET MVC', 'Aspose for .NET', 'SQL', 'LINQ'],
 			},
 		],
@@ -570,8 +548,6 @@ const Projects: IDictionary<IProject> = {
 		areas: [
 			{
 				name: 'Web',
-				text: '',
-				label: 'success',
 				tech: ['Javascript', 'jQuery', 'CSS', 'Open Source'],
 			},
 		],

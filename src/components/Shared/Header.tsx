@@ -6,7 +6,7 @@ export default () => (
 	<div className="carousel">
 		<Grid className="layout-single-column">
 			<div className="carousel-caption">
-				<img className="logo" src={require('images/logo.png')} alt="Built by Will" />
+				<h1 className="ma0"><img className="logo" src={require('images/logo.png')} alt="Built by Will" /></h1>
 				<p>
 					<Link to="/about">Will Grauvogel</Link>
 					<br /> Development + Design

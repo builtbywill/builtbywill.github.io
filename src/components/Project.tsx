@@ -3,7 +3,7 @@ import { Col, Grid, Row } from 'react-bootstrap'
 import Helmet from 'react-helmet'
 import { Link } from 'react-router-dom'
 import { IProject } from '../types/IProject'
-import FadeInImage from './FadeInImage'
+import FadeInImage from './Shared/FadeInImage'
 
 interface IProps {
 	project: IProject
@@ -46,10 +46,9 @@ export default (props: IProps) => {
 							{project.areas.map((area, i) => (
 								<div key={i}>
 									<h3>{area.name} Technologies</h3>
-									<p>{area.text}</p>
 									<h4>
 										{area.tech.map((tech, j) => (
-											<span key={j} className={`label label-${area.label}`}>
+											<span key={j} className={`label ${area.name.toLowerCase()}-tech`}>
 												{tech}
 											</span>
 										))}
