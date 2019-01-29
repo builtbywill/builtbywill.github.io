@@ -13,5 +13,5 @@
 		},
 		"ignoreFiles": "src/**/*.{ts,tsx,js,jsx}"
 	},
-	"jest.pathToJest": "yarn test --coverage"
+	// "jest.pathToJest": "yarn test --coverage"
 }
