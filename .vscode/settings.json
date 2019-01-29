@@ -2,12 +2,16 @@
 	"javascript.validate.enable": false,
 	"css.validate": false,
 	"scss.validate": false,
-	"tslint.autoFixOnSave": true,
+	"prettier.tslintIntegration": true,
+	"prettier.eslintIntegration": true,
+	"prettier.stylelintIntegration": true,
+	"editor.formatOnSave": true,
 	"stylelint.config": {
 		"extends": "stylelint-config-standard",
 		"rules": {
 			"indentation": "tab"
 		},
 		"ignoreFiles": "src/**/*.{ts,tsx,js,jsx}"
-	}
+	},
+	"jest.pathToJest": "yarn test --coverage"
 }
