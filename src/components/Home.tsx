@@ -12,7 +12,7 @@ export default (props: RouteComponentProps) => (
 			{Object.values(Projects).map((project, i) => (
 				<div
 					key={i}
-					style={{ backgroundColor: project.color }}
+					className={`bg-color-${project.title.toLowerCase()}`}
 					onClick={() => props.history.push(`/projects/${project.title.toLowerCase()}`)}>
 					<Row>
 						<Grid>

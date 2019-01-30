@@ -1,3 +1,9 @@
+# builtbywill.com
+
+## Features
+* React with TypeScript
+* LazyLoad images with loaders and transitions
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Learn More

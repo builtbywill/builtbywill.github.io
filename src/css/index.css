@@ -48,6 +48,50 @@ body {
 	padding: 0;
 }
 
+.color-light-bg {
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.bg-color-circuit {
+	background-color: #e6007e;
+}
+
+.bg-color-scope {
+	background-color: #0075dc;
+}
+
+.bg-color-replay {
+	background-color: #3c5575;
+}
+
+.bg-color-forecast {
+	background-color: #005e5a;
+}
+
+.bg-color-pattern {
+	background-color: #00838f;
+}
+
+.bg-color-skyepack {
+	background-color: #1c86c3;
+}
+
+.bg-color-passport {
+	background-color: #713eb0;
+}
+
+.bg-color-hotseat {
+	background-color: #d97400;
+}
+
+.bg-color-convoy {
+	background-color: #4c67ff;
+}
+
+.bg-color-booklet {
+	background-color: #4c9bc0;
+}
+
 /* @Type Scale
 ---------------------------------------- */
 

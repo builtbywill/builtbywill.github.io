@@ -19,7 +19,6 @@ const Projects: IDictionary<IProject> = {
 	// 			text: '',
 	// 		},
 	// 	],
-	// 	color: '#e6007e',
 	// 	cover: '',
 	// 	images: [],
 	// },
@@ -39,7 +38,6 @@ const Projects: IDictionary<IProject> = {
 	// 			text: '',
 	// 		},
 	// 	],
-	// 	color: '#0075dc',
 	// 	cover: '',
 	// 	images: [],
 	// },
@@ -59,7 +57,6 @@ const Projects: IDictionary<IProject> = {
 	// 			text: '',
 	// 		},
 	// 	],
-	// 	color: '#3c5575',
 	// 	cover: '',
 	// 	images: [],
 	// },
@@ -79,7 +76,6 @@ const Projects: IDictionary<IProject> = {
 	// 			text: '',
 	// 		},
 	// 	],
-	// 	color: '#005e5a',
 	// 	cover: '',
 	// 	images: [],
 	// },
@@ -164,7 +160,6 @@ const Projects: IDictionary<IProject> = {
 				],
 			},
 		],
-		color: '#00838F',
 		cover: require('images/pattern/pattern-cover.png'),
 		images: [
 			{
@@ -246,7 +241,6 @@ const Projects: IDictionary<IProject> = {
 				tech: ['C#', '.NET MVC', 'Windows Azure', 'SQL', 'LINQ'],
 			},
 		],
-		color: '#1C86C3',
 		cover: require('images/skyepack/skyepack-cover.png'),
 		images: [
 			{
@@ -320,7 +314,6 @@ const Projects: IDictionary<IProject> = {
 				tech: ['C#', '.NET MVC', 'Windows Azure', 'SQL', 'LINQ'],
 			},
 		],
-		color: '#713eb0',
 		cover: require('images/passport/passport-cover.png'),
 		images: [
 			{
@@ -409,7 +402,6 @@ const Projects: IDictionary<IProject> = {
 				tech: ['C#', '.NET MVC', 'Windows Azure', 'SignalR', 'Websockets'],
 			},
 		],
-		color: '#D97400',
 		cover: require('images/hotseat/hotseat-cover.png'),
 		images: [
 			{
@@ -489,7 +481,6 @@ const Projects: IDictionary<IProject> = {
 				tech: ['C#', '.NET MVC', 'Aspose for .NET', 'SQL', 'LINQ'],
 			},
 		],
-		color: '#4c67ff',
 		cover: require('images/convoy/convoy-cover.png'),
 		images: [
 			{
@@ -560,7 +551,6 @@ const Projects: IDictionary<IProject> = {
 				tech: ['Javascript', 'jQuery', 'CSS', 'Open Source'],
 			},
 		],
-		color: '#4c9bc0',
 		cover: require('images/booklet/booklet-cover.png'),
 		images: [],
 	},

@@ -14,7 +14,7 @@ export default (props: IProps) => {
 	return (
 		<>
 			<Helmet title={project.title} />
-			<div className="carousel carousel-project" style={{ backgroundColor: project.color }}>
+			<div className={`carousel carousel-project bg-color-${project.title.toLowerCase()}`}>
 				<Grid className="layout-single-column">
 					<div className="carousel-caption">
 						<img
