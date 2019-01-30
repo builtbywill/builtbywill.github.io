@@ -1,11 +1,10 @@
 import React from 'react'
-import { Grid, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 export default () => (
 	<>
 		<div className="carousel">
-			<Grid>
+			<div className="container">
 				<div className="carousel-caption layout-single-column">
 					<img
 						className="profile-picture"
@@ -15,14 +14,14 @@ export default () => (
 					<h1>Will Grauvogel</h1>
 					<p>About Me</p>
 				</div>
-			</Grid>
+			</div>
 			<Link to="/" className="btn btn-default link-back link-back-dark">
-				<span className="glyphicon glyphicon-chevron-left" /> Back
+				&lt; Back
 			</Link>
 		</div>
 		<div className="content">
-			<Row>
-				<Grid className="layout-single-column">
+			<div className="row">
+				<div className="container layout-single-column">
 					<h2>Hi, I'm Will!</h2>
 					<p>
 						I work as a developer and designer for{' '}
@@ -80,8 +79,8 @@ export default () => (
 							</a>
 						</li>
 					</ul>
-				</Grid>
-			</Row>
+				</div>
+			</div>
 		</div>
 	</>
 )

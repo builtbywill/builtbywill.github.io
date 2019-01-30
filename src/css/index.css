@@ -2,29 +2,14 @@
 -------------------------------------------------- */
 
 body {
-	font-size: 110%;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
 	color: rgba(0, 0, 0, 0.8);
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-moz-font-feature-settings: 'liga' on;
 	word-wrap: break-word;
-}
-
-.clearfix::before,
-.clearfix::after {
-	content: '';
-	display: block;
-	height: 0;
-	overflow: hidden;
-}
-
-.clearfix::after {
-	clear: both;
-}
-
-.clearfix {
-	zoom: 1;
 }
 
 .left {
@@ -50,6 +35,18 @@ body {
 
 .color-light-bg {
 	color: rgba(0, 0, 0, 0.85);
+}
+
+.darker-gray {
+	color: #222;
+}
+
+.bg-darker-gray {
+	background-color: #222;
+}
+
+.bg-lightish-gray {
+	background-color: #e6e6e6;
 }
 
 .bg-color-circuit {
@@ -92,16 +89,24 @@ body {
 	background-color: #4c9bc0;
 }
 
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.ovo {
+	font-family: 'Ovo', Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+.shadow-inset-light-gray {
+	box-shadow: inset 0 1px 1px #dbdbdb;
+}
+
 /* @Type Scale
 ---------------------------------------- */
 
-html {
+/* html {
 	font-size: inherit;
 }
-
-/* body {
-	font-size: 110%;
-} */
 
 .type-jumbo {
 	font-size: 3em;
@@ -138,55 +143,44 @@ html {
 
 .type-micro {
 	font-size: 0.5em;
-}
+} */
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h6 {
 	line-height: 1;
 	margin: 1em 0 0.5em;
 	font-family: 'Lato', sans-serif;
+	font-weight: 500;
 	clear: both;
 }
 
-h1,
-.h1 {
+/* h1 {
 	font-size: 1.5em;
 }
 
-h2,
-.h2 {
+h2 {
 	font-size: 1.4em;
 }
 
-h3,
-.h3 {
+h3 {
 	font-size: 1.3em;
 }
 
-h4,
-.h4 {
+h4 {
 	font-size: 1.2em;
 }
 
-h5,
-.h5 {
+h5 {
 	font-size: 1.1em;
 }
 
-h6,
-.h6 {
+h6 {
 	font-size: 1em;
-}
+} */
 
 /* @General
 ---------------------------------------- */
@@ -225,23 +219,6 @@ p {
 /* @Carousel
 -------------------------------------------------- */
 
-.carousel {
-	height: 250px;
-}
-
-.carousel-caption {
-	z-index: 10;
-	bottom: 0;
-	color: #222;
-	text-shadow: none;
-	font-size: 0.9em;
-	font-family: 'Lato', sans-serif;
-}
-
-.carousel-caption img.logo {
-	margin-bottom: 20px;
-}
-
 .carousel-project,
 .carousel-project .carousel-caption {
 	height: 200px;
@@ -276,15 +253,16 @@ p {
 .logo {
 	width: 100px;
 	height: 66px;
-	padding: 0;
-	margin: 0;
 }
 
 .logo-small {
 	width: 50px;
 	height: 34px;
-	padding: 0;
-	margin: 0;
+}
+
+.logo-footer {
+	width: 77px;
+	height: 51px;
 }
 
 .profile-picture {
@@ -453,54 +431,4 @@ ul.links [class^='icon-'],
 ul.links [class*=' icon-'] {
 	vertical-align: text-top;
 	margin-right: 5px;
-}
-
-/* @Footer
-------------------------- */
-
-.footer {
-	padding-top: 30px;
-	padding-bottom: 50px;
-	box-shadow: inset 0 1px 1px #dbdbdb;
-	clear: both;
-}
-
-.footer p {
-	text-align: center;
-	font-weight: bold;
-	letter-spacing: -1px;
-	font-size: 0.8em;
-	font-family: 'Lato', sans-serif;
-	color: #4a4a4a;
-}
-
-.footer a {
-	border: none;
-}
-
-.footer a:hover {
-	text-decoration: none;
-}
-
-.logo-footer {
-	margin-top: 10px;
-	width: 77px;
-	height: 51px;
-}
-
-/* @Responsive Design
----------------------------------------- */
-
-/* @media (max-width: 900px) {} */
-
-@media (max-width: 767px) {
-	body {
-		font-size: 100%;
-	}
-}
-
-@media (max-width: 480px) {
-	body {
-		font-size: 90%;
-	}
 }

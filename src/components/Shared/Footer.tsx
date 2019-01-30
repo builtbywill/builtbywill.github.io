@@ -1,21 +1,20 @@
 import React from 'react'
-import { Grid } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 export default () => (
-	<div className="footer">
-		<Grid>
-			<p>
+	<div className="bg-lightish-gray shadow-inset-light-gray">
+		<div className="mw7 center ph3 pt4 pb5">
+			<p className="lato tc b f6 tracked-tight mid-gray">
 				&copy; 2010 - {new Date().getFullYear()}
 				<br />
-				<Link to="/">
+				<Link to="/" className="bn">
 					<img
-						className="logo-footer"
+						className="logo-footer mt2"
 						src={require('images/logo-footer.png')}
 						alt="Built by Will"
 					/>
 				</Link>
 			</p>
-		</Grid>
+		</div>
 	</div>
 )
