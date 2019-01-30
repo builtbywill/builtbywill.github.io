@@ -1,6 +1,11 @@
 /* @Base
 -------------------------------------------------- */
 
+html,
+body {
+	background-color: #e6e6e6;
+}
+
 body {
 	font-family: 'Lato', sans-serif;
 	font-size: 17px;
@@ -12,37 +17,56 @@ body {
 	word-wrap: break-word;
 }
 
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
-}
-
-.clear {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
 	clear: both;
 }
 
-.animate-all {
-	transition: all 300ms cubic-bezier(0.5, 0, 0, 1.3) !important;
-	animation-timing-function: cubic-bezier(0.5, 0, 0, 1.3);
+h2 {
+	font-weight: 300;
+	letter-spacing: -0.05rem;
 }
 
-.no-pad {
-	padding: 0;
+p {
+	line-height: 1.4;
 }
 
-.color-light-bg {
-	color: rgba(0, 0, 0, 0.85);
+a {
+	text-decoration: none !important;
+	color: rgb(22, 107, 156);
+	border-bottom: 1px solid rgba(22, 107, 156, 0.25);
+	transition: all 200ms;
 }
+
+a:hover,
+a:active {
+	text-decoration: none !important;
+	border-bottom-color: rgba(22, 107, 156, 1);
+}
+
+/* @Colors
+-------------------------------------------------- */
 
 .darker-gray {
 	color: #222;
 }
 
+/* @Background Colors
+-------------------------------------------------- */
+
 .bg-darker-gray {
 	background-color: #222;
+}
+
+.bg-darker-gray a {
+	color: #96ccff;
 }
 
 .bg-lightish-gray {
@@ -89,6 +113,9 @@ body {
 	background-color: #4c9bc0;
 }
 
+/* @Fonts
+-------------------------------------------------- */
+
 .lato {
 	font-family: 'Lato', sans-serif;
 }
@@ -97,123 +124,11 @@ body {
 	font-family: 'Ovo', Georgia, Cambria, 'Times New Roman', Times, serif;
 }
 
+/* @Shadows
+-------------------------------------------------- */
+
 .shadow-inset-light-gray {
 	box-shadow: inset 0 1px 1px #dbdbdb;
-}
-
-/* @Type Scale
----------------------------------------- */
-
-/* html {
-	font-size: inherit;
-}
-
-.type-jumbo {
-	font-size: 3em;
-}
-
-.type-largest {
-	font-size: 2.5em;
-}
-
-.type-larger {
-	font-size: 2em;
-}
-
-.type-large {
-	font-size: 1.5em;
-}
-
-.type-base {
-	font-size: 1.2em;
-	line-height: 1.8em;
-}
-
-.type-small {
-	font-size: 0.8em;
-}
-
-.type-smaller {
-	font-size: 0.7em;
-}
-
-.type-smallest {
-	font-size: 0.6em;
-}
-
-.type-micro {
-	font-size: 0.5em;
-} */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	line-height: 1;
-	margin: 1em 0 0.5em;
-	font-family: 'Lato', sans-serif;
-	font-weight: 500;
-	clear: both;
-}
-
-/* h1 {
-	font-size: 1.5em;
-}
-
-h2 {
-	font-size: 1.4em;
-}
-
-h3 {
-	font-size: 1.3em;
-}
-
-h4 {
-	font-size: 1.2em;
-}
-
-h5 {
-	font-size: 1.1em;
-}
-
-h6 {
-	font-size: 1em;
-} */
-
-/* @General
----------------------------------------- */
-
-html,
-body,
-.footer {
-	background-color: #e6e6e6;
-}
-
-a {
-	text-decoration: none !important;
-	color: rgb(22, 107, 156);
-	border-bottom: 1px solid rgba(22, 107, 156, 0.25);
-	transition: all 200ms;
-}
-
-a:hover,
-a:active {
-	text-decoration: none !important;
-	border-bottom-color: rgba(22, 107, 156, 1);
-}
-
-p {
-	margin: 0 0 1rem;
-}
-
-/* @Layout
----------------------------------------- */
-
-.layout-single-column {
-	margin: 0 auto;
-	max-width: 700px;
 }
 
 /* @Carousel
@@ -228,12 +143,6 @@ p {
 .carousel-project .carousel-caption h1 {
 	font-weight: 300;
 	margin: 0.5em 0 0;
-}
-
-.project-list .row .btn {
-	margin: 10px 0 20px;
-	background-color: rgba(0, 0, 0, 0.3);
-	color: #fff;
 }
 
 .carousel-project .carousel-caption .btn {
@@ -268,26 +177,6 @@ p {
 .profile-picture {
 	width: 97px;
 	height: 97px;
-}
-
-.link-back {
-	position: absolute;
-	z-index: 100;
-	top: 10px;
-	left: 10px;
-	background-color: rgba(0, 0, 0, 0.3);
-	color: white !important;
-	color: #222;
-	border-radius: 5px;
-}
-
-.link-back:hover {
-	border-color: white;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
-.link-back-dark {
-	background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* @Content
@@ -400,12 +289,6 @@ p {
 	background-color: rgba(100, 100, 100, 0.2);
 }
 
-/* .project-list .row .btn {
-	margin: 10px 0 20px;
-	background: transparent;
-	color: white;
-} */
-
 .project-list .row:hover .btn {
 	background-color: rgba(0, 0, 0, 0.5);
 }
@@ -417,11 +300,6 @@ p {
 
 /* @About
 ------------------------- */
-
-ul.links {
-	list-style: none;
-	padding: 0;
-}
 
 ul.links li {
 	margin: 0.5em 0;

@@ -1,8 +1,7 @@
 import React from 'react'
-import { Col, Grid, Row } from 'react-bootstrap'
 import Helmet from 'react-helmet'
-import { Link } from 'react-router-dom'
 import { IProject } from '../types/IProject'
+import BackLink from './Shared/BackLink'
 import FadeInImage from './Shared/FadeInImage'
 
 interface IProps {
@@ -15,32 +14,30 @@ export default (props: IProps) => {
 		<>
 			<Helmet title={project.title} />
 			<div className={`carousel carousel-project bg-color-${project.title.toLowerCase()}`}>
-				<Grid className="layout-single-column">
+				<div className="mw7 center ph3">
 					<div className="carousel-caption">
 						<img
 							className="logo-small"
 							src={require('images/logo.png')}
 							alt="Built by Will"
 						/>
-						<h1 className="type-jumbo">{project.title}</h1>
+						<h1 className="f1">{project.title}</h1>
 						<a className="btn btn-default" href={project.url} target="_blank">
 							Visit Website <span className="glyphicon glyphicon-chevron-right" />
 						</a>
 					</div>
-				</Grid>
-				<Link to="/" className="btn btn-default link-back">
-					<span className="glyphicon glyphicon-chevron-left" /> Back
-				</Link>
+				</div>
+				<BackLink />
 			</div>
 			<div className="content">
-				<Row>
-					<Grid>
-						<Col md={7}>
-							<h2 className="type-larger">About</h2>
+				<div className="row">
+					<div>
+						<div className="col-md-7">
+							<h2 className="f2">About</h2>
 							{project.summary}
 							{project.description}
-						</Col>
-						<Col md={5}>
+						</div>
+						<div className="col-md-5">
 							<h2>Roles</h2>
 							{project.roles}
 							{project.areas.map((area, i) => (
@@ -58,24 +55,24 @@ export default (props: IProps) => {
 								</div>
 							))}
 							<div>
-								<Col md={6} className="no-pad">
+								<div className="col-md-6 pa0">
 									<h2>For</h2>
 									<p>{project.for}</p>
-								</Col>
-								<Col md={6} className="no-pad">
+								</div>
+								<div className="col-md-6 pa0">
 									<h2>Dates</h2>
 									<p>{project.dates}</p>
-								</Col>
+								</div>
 							</div>
-						</Col>
-					</Grid>
+						</div>
+					</div>
 					{project.images.map((image, key) => (
-						<Grid className="container-image" key={key}>
+						<div className="container container-image" key={key}>
 							<h2 className="text-center">{image.description}</h2>
 							<FadeInImage src={image.src} alt={image.description} />
-						</Grid>
+						</div>
 					))}
-				</Row>
+				</div>
 			</div>
 		</>
 	)

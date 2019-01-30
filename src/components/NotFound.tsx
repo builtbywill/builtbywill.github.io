@@ -1,34 +1,29 @@
 import React from 'react'
-import { Grid, Row } from 'react-bootstrap'
 import Helmet from 'react-helmet'
-import { Link } from 'react-router-dom'
+import BackLink from './Shared/BackLink'
 import Header from './Shared/Header'
 
 export default () => (
 	<>
 		<Helmet title="Page Not Found :(" />
-		<Link to="/" className="btn btn-default link-back link-back-dark">
-			<span className="glyphicon glyphicon-chevron-left" /> Home
-		</Link>
+		<BackLink />
 		<Header />
-		<div className="content">
-			<Row>
-				<Grid className="layout-single-column">
-					<h1>
-						Not Found{' '}
-						<a
-							href="http://www.myinstants.com/instant/the-price-is-right-losing-horn/"
-							target="_blank"
-							style={{ border: 'none', fontWeight: 'bold' }}>
-							:(
-						</a>
-					</h1>
-					<p>
-						It looks like the page you were trying to access does not exist. Check the
-						URL and try again!
-					</p>
-				</Grid>
-			</Row>
+		<div className="ovo bg-darker-gray white pv3 pv4-ns">
+			<div className="mw7 center ph3">
+				<h1>
+					Not Found{' '}
+					<a
+						href="http://www.myinstants.com/instant/the-price-is-right-losing-horn/"
+						target="_blank"
+						style={{ border: 'none', fontWeight: 'bold' }}>
+						:(
+					</a>
+				</h1>
+				<p>
+					It looks like the page you were trying to access does not exist. Check the URL
+					and try again!
+				</p>
+			</div>
 		</div>
 	</>
 )
