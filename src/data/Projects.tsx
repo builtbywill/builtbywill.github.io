@@ -10,7 +10,7 @@ const Projects: IDictionary<IProject> = {
 	// 	description: <></>,
 	// 	dates: '2017 - present',
 	// 	url: 'https://peercircuit.org',
-	// 	roles: <>Lead Developer (Summer 2017 - present)</>,
+	// 	roles: <p>Lead Developer (Summer 2017 - present)</p>,
 	// 	areas: [
 	// 		{
 	// 			label: 'success',
@@ -29,7 +29,7 @@ const Projects: IDictionary<IProject> = {
 	// 	description: <></>,
 	// 	dates: '2017 - present',
 	// 	url: 'https://learningscope.org',
-	// 	roles: <>Lead Developer (Summer 2017 - present)</>,
+	// 	roles: <p>Lead Developer (Summer 2017 - present)</p>,
 	// 	areas: [
 	// 		{
 	// 			label: 'success',
@@ -48,7 +48,7 @@ const Projects: IDictionary<IProject> = {
 	// 	description: <></>,
 	// 	dates: '2016 - 2017',
 	// 	url: 'https://openreplay.org',
-	// 	roles: <>Lead Developer (Summer 2017)</>,
+	// 	roles: <p>Lead Developer (Summer 2017)</p>,
 	// 	areas: [
 	// 		{
 	// 			label: 'success',
@@ -67,7 +67,7 @@ const Projects: IDictionary<IProject> = {
 	// 	description: <></>,
 	// 	dates: '2016 - 2017',
 	// 	url: 'https://academicforecast.org',
-	// 	roles: <>Lead Developer (Summer 2017)</>,
+	// 	roles: <p>Lead Developer (Summer 2017)</p>,
 	// 	areas: [
 	// 		{
 	// 			label: 'success',
@@ -131,13 +131,13 @@ const Projects: IDictionary<IProject> = {
 		dates: '2014 - present',
 		url: 'https://studypattern.org',
 		roles: (
-			<>
+			<p>
 				Project Lead (Fall 2015 - present)
 				<br />
 				Lead Developer (Summer 2015 - present)
 				<br />
 				Team Developer (Fall 2014 - Summer 2015)
-			</>
+			</p>
 		),
 		areas: [
 			{
@@ -216,7 +216,7 @@ const Projects: IDictionary<IProject> = {
 		),
 		dates: '2013 - present',
 		roles: (
-			<>
+			<p>
 				(Independant Contractor)
 				<br />
 				Lead iOS Developer
@@ -224,7 +224,7 @@ const Projects: IDictionary<IProject> = {
 				Lead Android Developer
 				<br />
 				Web Developer
-			</>
+			</p>
 		),
 		url: 'http://skyepack.com',
 		areas: [
@@ -302,7 +302,13 @@ const Projects: IDictionary<IProject> = {
 			</>
 		),
 		dates: '2013 - present',
-		roles: 'iOS Developer<br/>Web Developer',
+		roles: (
+			<p>
+				iOS Developer
+				<br />
+				Web Developer
+			</p>
+		),
 		url: 'http://www.itap.purdue.edu/studio/passport/',
 		areas: [
 			{
@@ -390,7 +396,13 @@ const Projects: IDictionary<IProject> = {
 			</>
 		),
 		dates: '2011 - present',
-		roles: 'Lead iOS Developer<br/>Web Developer',
+		roles: (
+			<p>
+				Lead iOS Developer
+				<br />
+				Web Developer
+			</p>
+		),
 		url: 'http://www.itap.purdue.edu/studio/passport/',
 		areas: [
 			{
@@ -469,7 +481,15 @@ const Projects: IDictionary<IProject> = {
 			</>
 		),
 		dates: '2014',
-		roles: 'Project Lead<br/>Lead Web Developer<br/>Lead iOS Developer',
+		roles: (
+			<p>
+				Project Lead
+				<br />
+				Lead Web Developer
+				<br />
+				Lead iOS Developer
+			</p>
+		),
 		url: 'http://www.itap.purdue.edu/studio/convoy/',
 		areas: [
 			{
@@ -543,7 +563,7 @@ const Projects: IDictionary<IProject> = {
 			</>
 		),
 		dates: '2012 - 2014',
-		roles: 'Developer',
+		roles: <p>>Developer</p>,
 		url: 'https://builtbywill.com/booklet',
 		areas: [
 			{

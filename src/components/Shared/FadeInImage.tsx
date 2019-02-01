@@ -37,9 +37,9 @@ export default class FadeInImage extends Component<IProps, Readonly<IState>> {
 				<LazyLoad debounce={false} offsetVertical={250}>
 					<img
 						{...props}
-						className={`image ${
-							isLoaded ? 'image-loaded' : 'image-loading'
-						} ${className}`}
+						className={`image ${isLoaded ? 'image-loaded' : 'image-loading'}${
+							!!className ? ` ${className}` : ''
+						}`}
 						onLoad={this.onLoad}
 					/>
 				</LazyLoad>

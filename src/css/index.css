@@ -8,7 +8,7 @@ body {
 
 body {
 	font-family: 'Lato', sans-serif;
-	font-size: 17px;
+	font-size: 17.6px;
 	color: rgba(0, 0, 0, 0.8);
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -55,6 +55,22 @@ li [class^='icon-'],
 li [class*=' icon-'] {
 	vertical-align: text-top;
 	margin-right: 0.5rem;
+}
+
+/* @Spacing
+-------------------------------------------------- */
+
+.pt-5 {
+	padding-top: 5%;
+}
+
+.pb-5 {
+	padding-bottom: 5%;
+}
+
+.pv-5 {
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 /* @Colors
@@ -137,38 +153,8 @@ li [class*=' icon-'] {
 	box-shadow: inset 0 1px 1px #dbdbdb;
 }
 
-/* @Content
+/* @Images
 ---------------------------------------- */
-
-.content {
-	background-color: #fff;
-	font-family: 'Ovo', Georgia, Cambria, 'Times New Roman', Times, serif;
-}
-
-.content .row {
-	padding: 5% 0;
-	margin: 0;
-	background-color: #222;
-	color: white;
-	transition: background 0.3s ease;
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.content .row .label {
-	display: inline-block;
-	margin: 0 5px 5px 0;
-}
-
-.content h2,
-.content h3 {
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: -1px;
-}
-
-.content h2.type-larger {
-	margin-top: 0.4em;
-}
 
 .image-placeholder {
 	height: 350px;
@@ -205,18 +191,38 @@ li [class*=' icon-'] {
 	animation-delay: 0.1s;
 }
 
-/* @Projects
+/* @Content
+---------------------------------------- */
+
+.content h3 {
+	font-weight: 400;
+	letter-spacing: -0.05rem;
+	margin-bottom: 0.5rem;
+}
+
+.content p {
+	margin-top: 0.5rem;
+}
+
+/* @Home
 ------------------------- */
 
-/* .container-image {} */
-
-.container-image h2 {
-	margin: 2em 0;
+.project-list .project {
+	cursor: pointer;
+	min-height: 391px;
 }
 
-.container-image .image {
-	margin: 0 auto;
+.project-list .project:hover {
+	background-color: rgba(100, 100, 100, 0.1);
 }
+
+.project-list .image {
+	width: 635px;
+	max-width: 100%;
+}
+
+/* @Projects
+------------------------- */
 
 .ios-tech {
 	background-color: #337ab7;
@@ -231,30 +237,3 @@ li [class*=' icon-'] {
 	background-color: #5cb85c;
 	color: #051509;
 }
-
-/* @Home
-------------------------- */
-
-.project-list .row {
-	cursor: pointer;
-	background-color: transparent;
-	padding-bottom: 0;
-	overflow: hidden;
-	min-height: 414px;
-}
-
-.project-list .row:hover {
-	background-color: rgba(100, 100, 100, 0.2);
-}
-
-.project-list .row:hover .btn {
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
-.project-list .row .image {
-	width: 635px;
-	max-width: 100%;
-}
-
-/* @About
-------------------------- */

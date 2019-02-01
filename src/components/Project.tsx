@@ -31,46 +31,46 @@ export default (props: IProps) => {
 				</div>
 				<BackLink />
 			</div>
-			<div className="content">
-				<div className="row">
-					<div>
-						<div className="col-md-7">
-							<h2 className="f2">About</h2>
+			<div className="content ovo">
+				<div className="white bg-darker-gray white pv-5 bt b--white-10 bg-animate">
+					<div className="mw8 center cf">
+						<div className="fl w-100 w-60-l ph3">
+							<h2 className="f2 mt0 mb3">About</h2>
 							{project.summary}
 							{project.description}
 						</div>
-						<div className="col-md-5">
-							<h2>Roles</h2>
+						<div className="fl w-100 w-40-l ph3">
+							<h2 className="mt0 mb2">Roles</h2>
 							{project.roles}
 							{project.areas.map((area, i) => (
 								<div key={i}>
 									<h3>{area.name} Technologies</h3>
-									<h4>
+									<h4 className="mv3">
 										{area.tech.map((tech, j) => (
 											<span
 												key={j}
-												className={`label ${area.name.toLowerCase()}-tech`}>
+												className={`br3 dib pa2 mr2 mb2 ${area.name.toLowerCase()}-tech`}>
 												{tech}
 											</span>
 										))}
 									</h4>
 								</div>
 							))}
-							<div>
-								<div className="col-md-6 pa0">
-									<h2>For</h2>
+							<div className="cf">
+								<div className="fl w-100 w-50-ns pa0">
+									<h2 className="mt0 mb2">For</h2>
 									<p>{project.for}</p>
 								</div>
-								<div className="col-md-6 pa0">
-									<h2>Dates</h2>
+								<div className="fl w-100 w-50-ns pa0">
+									<h2 className="mt0 mb2">Dates</h2>
 									<p>{project.dates}</p>
 								</div>
 							</div>
 						</div>
 					</div>
 					{project.images.map((image, key) => (
-						<div className="container container-image" key={key}>
-							<h2 className="text-center">{image.description}</h2>
+						<div className="mw8 center" key={key}>
+							<h2 className="tc mt5 mb4">{image.description}</h2>
 							<FadeInImage src={image.src} alt={image.description} />
 						</div>
 					))}
