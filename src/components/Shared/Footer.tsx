@@ -9,7 +9,9 @@ export default () => (
 				<br />
 				<Link to="/" className="bn">
 					<img
-						className="logo-footer mt2"
+						width={77}
+						height={51}
+						className="mt2"
 						src={require('images/logo-footer.png')}
 						alt="Built by Will"
 					/>

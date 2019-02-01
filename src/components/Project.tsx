@@ -13,19 +13,21 @@ export default (props: IProps) => {
 	return (
 		<>
 			<Helmet title={project.title} />
-			<div className={`carousel carousel-project bg-color-${project.title.toLowerCase()}`}>
-				<div className="mw7 center ph3">
-					<div className="carousel-caption">
-						<img
-							className="logo-small"
-							src={require('images/logo.png')}
-							alt="Built by Will"
-						/>
-						<h1 className="f1">{project.title}</h1>
-						<a className="btn btn-default" href={project.url} target="_blank">
-							Visit Website <span className="glyphicon glyphicon-chevron-right" />
-						</a>
-					</div>
+			<div className={`pv1 bg-color-${project.title.toLowerCase()}`}>
+				<div className="mw7 center pv3 lato tc f5 dark-gray">
+					<img
+						width={50}
+						height={33}
+						src={require('images/logo.png')}
+						alt="Built by Will"
+					/>
+					<h1 className="white f1 fw3 mv3">{project.title}</h1>
+					<a
+						className="dib white no-underline bg-black-60 br3 f6 pa2 grow"
+						href={project.url}
+						target="_blank">
+						Visit Website &raquo;
+					</a>
 				</div>
 				<BackLink />
 			</div>

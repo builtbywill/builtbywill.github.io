@@ -6,7 +6,8 @@ export default () => (
 		<div className="h5 pt4">
 			<div className="mw7 center pv3 lato tc f5 dark-gray">
 				<img
-					className="profile-picture"
+					width={97}
+					height={97}
 					src={require('images/profile-picture.png')}
 					alt="Profile Picture"
 				/>
@@ -19,32 +20,33 @@ export default () => (
 			<div className="mw7 center ph3">
 				<h2>Hi, I'm Will!</h2>
 				<p>
-					I work as a developer and designer for{' '}
+					I am a Lead Application Developer at{' '}
 					<a href="https://purdue.edu/studio" target="_blank">
 						Purdue University
 					</a>
-					, as an independent contractor for{' '}
+					, an an Independent Contractor for{' '}
 					<a href="http://skyepack.com" target="_blank">
 						Skyepack, LLC
 					</a>
-					, and also do freelance work.
+					, and also sometimes do freelance work.
 				</p>
 				<p>
-					Across all my projects, I touch the full stack of application development from
-					architecture and design all the way to front-end interfaces. I am passionate
-					about making things that work and doing it the right way.
+					I work the full stack of application development from ideation, architecture and
+					design, all the way to front-end interfaces. I am passionate about making things
+					that work and doing it the right way.
 				</p>
 				<p>
-					Professionally, I am interested in Design Patterns, DRY and SOLID code, Scrum
-					and agile software development, and Minimum Viable/Delightful Product (MVP/MDP)
-					driven development. Plus making really cool looking apps.
+					Professionally, I am interested in all things code (design patterns, unit
+					testing, DRY, SOLID), Scrum and agile software development, and delivering
+					Minimum Viable/Delightful Products (MVP/MDP). Plus making really cool looking
+					apps. There’s always more to learn!
 				</p>
 				<p>
-					Unprofessionally, I enjoy cooking (LCHF), fitness and lifting, reading, board
-					games, video games, and cats.
+					Unprofessionally, I enjoy cooking (and eating), fitness and lifting, reading,
+					board games, video games, cats, and communicating exclusively by GIF.
 				</p>
 				<h2>Hello, World!</h2>
-				<ul className="links list pa0">
+				<ul className="list pa0 lh-copy">
 					<li>
 						<span className="icon-mail" />
 						builtbywill [at] gmail.com
