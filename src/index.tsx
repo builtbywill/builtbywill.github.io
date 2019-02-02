@@ -1,6 +1,8 @@
+import createHistory from 'history/createBrowserHistory'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
+import ga from 'react-ga'
+import { Router } from 'react-router-dom'
 import '../node_modules/tachyons/css/tachyons.min.css'
 import App from './components/App'
 import './css/fonts.css'
@@ -12,10 +14,23 @@ import 'core-js/es6/promise'
 import 'core-js/fn/object/values'
 import 'core-js/fn/promise'
 
+// Google Analytics
+const GOOGLE_ANALYTICS_TRACKING_ID = 'UA-5500036-2'
+ga.initialize(GOOGLE_ANALYTICS_TRACKING_ID)
+
+// track initial page
+ga.pageview(window.location.pathname)
+
+const history = createHistory()
+history.listen(location => {
+	// send pageview to Google Analytics
+	ga.pageview(location.pathname)
+})
+
 ReactDOM.render(
-	<BrowserRouter>
+	<Router history={history}>
 		<App />
-	</BrowserRouter>,
+	</Router>,
 	document.getElementById('root')
 )
 
