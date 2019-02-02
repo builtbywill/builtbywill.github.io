@@ -7,7 +7,7 @@ export interface IProject {
 	summary: any
 	description: any
 	dates: string
-	url: string
+	url: string | undefined
 	roles: any
 	cover: any
 	areas: IArea[]

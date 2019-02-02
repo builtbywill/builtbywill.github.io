@@ -25,12 +25,14 @@ export default (props: IProps) => {
 						alt="Built by Will"
 					/>
 					<h1 className="white f1 fw3 mv3">{project.title}</h1>
-					<a
-						className="dib white no-underline bg-black-60 br3 f6 pa2 grow"
-						href={project.url}
-						target="_blank">
-						Visit Website &raquo;
-					</a>
+					{!!project.url && (
+						<a
+							className="dib white no-underline bg-black-60 br3 f6 pa2 grow"
+							href={project.url}
+							target="_blank">
+							Visit Website &raquo;
+						</a>
+					)}
 				</div>
 				<BackLink />
 			</div>

@@ -16,11 +16,11 @@ const Projects: IDictionary<IProject> = {
 			<>
 				<h3>Learners</h3>
 				<p>
-					Using an interactive study log and timer, learners can track how they're
+					Using an interactive study log and timer, learners can track how they’re
 					spending their time, both in and out of the classroom.
 				</p>
 				<p>
-					From Pattern's dashboards, learners can view personalized visualizations of
+					From Pattern’s dashboards, learners can view personalized visualizations of
 					their own data across all of their courses. Learners can also see how their
 					habits compare with peers in the same courses.
 				</p>
@@ -28,6 +28,11 @@ const Projects: IDictionary<IProject> = {
 				<p>
 					Instructors and course coordinators have access to broader analytics on academic
 					behavior and study trends for a specific course, or an entire organization.
+				</p>
+				<h3>Advisors</h3>
+				<p>
+					Advisors and can connect directly with their advisees to view each learner’s
+					individual dashboard.
 				</p>
 				<h3>iOS</h3>
 				<p>
@@ -128,9 +133,10 @@ const Projects: IDictionary<IProject> = {
 				<p>I am primarily responsible for developing the iOS and Android applications.</p>
 				<p>
 					In addition, I have been a part of improving and implementing new functionality
-					across all platforms including
+					across all platforms including:
 				</p>
 				<ul>
+					<li>Offline assessments</li>
 					<li>Custom touch drawing boards which convert to SVG</li>
 					<li>Bookmarks and notes</li>
 					<li>Inline highlights and annotations</li>
@@ -191,7 +197,7 @@ const Projects: IDictionary<IProject> = {
 		summary: (
 			<p>
 				Passport is a learning and e-portfolio system that uses digital badges to
-				demonstrate learners' competencies and achievements.
+				demonstrate learners’ competencies and achievements.
 			</p>
 		),
 		description: (
@@ -215,13 +221,13 @@ const Projects: IDictionary<IProject> = {
 				<p>
 					In order to provide better reliability at larger scale, we moved Passport to the
 					cloud in Spring 2015 using Windows Azure. I helped make all necessary
-					architecture changes and plan and exexute the migration.
+					architecture changes and plan and execute the migration.
 				</p>
 				<p>
-					I developed Passport's flexible badge builder for easy creation of great-looking
+					I developed Passport’s flexible badge builder for easy creation of great-looking
 					badges. Users are guided step-by-step through the creation process and can
 					select different styles, colors, icons, and text for each badge image. Once
-					complete, the site will combines all selected options into a new badge image.
+					complete, the site will combine all selected options into a new badge image.
 				</p>
 			</>
 		),
@@ -233,7 +239,7 @@ const Projects: IDictionary<IProject> = {
 				Web Developer
 			</p>
 		),
-		url: 'http://www.itap.purdue.edu/studio/passport/',
+		url: 'https://openpassport.org',
 		areas: [
 			{
 				name: 'iOS',
@@ -315,11 +321,11 @@ const Projects: IDictionary<IProject> = {
 					I helped develop automatic course roster sync functionality to let instructors
 					directly link their course sections to Hotseat. This feature automatically
 					handles student adds, drops and enrollment changes and greatly improved the
-					instructors\' experience in the application.
+					instructors’ experience in the application.
 				</p>
 			</>
 		),
-		dates: '2011 - present',
+		dates: '2011 - 2018',
 		roles: (
 			<p>
 				Lead iOS Developer
@@ -327,7 +333,7 @@ const Projects: IDictionary<IProject> = {
 				Web Developer
 			</p>
 		),
-		url: 'http://www.itap.purdue.edu/studio/passport/',
+		url: 'https://openhotseat.org',
 		areas: [
 			{
 				name: 'iOS',
@@ -382,8 +388,8 @@ const Projects: IDictionary<IProject> = {
 					and take notes while both are visible in a single application.
 				</p>
 				<p>
-					Building on the concept of the "second screen", Convoy is available on Web, iOS,
-					and Android.
+					Building on the concept of the "second screen", Convoy was developed for Web,
+					iOS, and Android.
 				</p>
 				<h3>iOS</h3>
 				<p>
@@ -414,7 +420,7 @@ const Projects: IDictionary<IProject> = {
 				Lead iOS Developer
 			</p>
 		),
-		url: 'http://www.itap.purdue.edu/studio/convoy/',
+		url: undefined,
 		areas: [
 			{
 				name: 'iOS',
@@ -467,10 +473,7 @@ const Projects: IDictionary<IProject> = {
 			<>
 				<p>
 					I originally started development on the Booklet plugin while supporting
-					Discovery Park at Purdue developing their{' '}
-					<a href="http://www.purdue.edu/discoverypark/viewbook/overview/">
-						Visions of Discovery
-					</a>{' '}
+					Discovery Park at Purdue developing their <strong>Visions of Discovery</strong>
 					viewbook.
 				</p>
 				<p>
