@@ -1,0 +1,254 @@
+/* @Base
+-------------------------------------------------- */
+
+html {
+	font-size: calc(1rem + 0.25vw);
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: rgba(0, 0, 0, 0.8);
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-feature-settings: 'liga' on;
+	word-wrap: break-word;
+}
+
+html,
+body {
+	background-color: #e6e6e6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	clear: both;
+}
+
+h2 {
+	font-weight: 300;
+	letter-spacing: -0.05rem;
+}
+
+p {
+	line-height: 1.4;
+}
+
+a {
+	text-decoration: none !important;
+	color: rgb(22, 107, 156);
+	border-bottom: 1px solid rgba(22, 107, 156, 0.25);
+	transition: all 200ms;
+}
+
+a:hover,
+a:active {
+	text-decoration: none !important;
+	border-bottom-color: rgba(22, 107, 156, 1);
+}
+
+li [class^='icon-'],
+li [class*=' icon-'] {
+	vertical-align: text-top;
+	margin-right: 0.5rem;
+}
+
+/* @Widths
+-------------------------------------------------- */
+
+.mw6p5 {
+	max-width: 40rem;
+}
+
+@media screen and (max-width: 60em) {
+	.mw6p5-nl {
+		max-width: 40rem;
+	}
+}
+
+/* @Colors
+-------------------------------------------------- */
+
+.darker-gray {
+	color: #222;
+}
+
+/* @Background Colors
+-------------------------------------------------- */
+
+.bg-darker-gray {
+	background-color: #222;
+}
+
+.bg-darker-gray a {
+	color: #96ccff;
+}
+
+.bg-lightish-gray {
+	background-color: #e6e6e6;
+}
+
+.bg-color-circuit {
+	background-color: #e6007e;
+}
+
+.bg-color-scope {
+	background-color: #0075dc;
+}
+
+.bg-color-replay {
+	background-color: #3c5575;
+}
+
+.bg-color-forecast {
+	background-color: #005e5a;
+}
+
+.bg-color-pattern {
+	background-color: #00838f;
+}
+
+.bg-color-skyepack {
+	background-color: #1c86c3;
+}
+
+.bg-color-passport {
+	background-color: #713eb0;
+}
+
+.bg-color-hotseat {
+	background-color: #d97400;
+}
+
+.bg-color-convoy {
+	background-color: #4c67ff;
+}
+
+.bg-color-booklet {
+	background-color: #4c9bc0;
+}
+
+/* @Fonts
+-------------------------------------------------- */
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.ovo {
+	font-family: 'Ovo', Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+/* @Shadows
+-------------------------------------------------- */
+
+.shadow-inset-light-gray {
+	box-shadow: inset 0 1px 1px #dbdbdb;
+}
+
+/* @Images
+---------------------------------------- */
+
+.image-placeholder {
+	height: 350px;
+	padding-top: 130px;
+}
+
+.image-placeholder div {
+	width: 32px;
+	margin: 0 auto;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.image-loading {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.image-loaded {
+	animation: fadeIn cubic-bezier(0.23, 1, 0.32, 1) 1;
+	position: relative;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-duration: 0.7s;
+	animation-delay: 0.1s;
+}
+
+.logo {
+	width: calc(5rem + 0.5vw);
+	height: calc(3.3rem + 0.5vw);
+}
+
+.logo-small {
+	width: calc(2.5rem + 0.5vw);
+	height: calc(1.65rem + 0.5vw);
+}
+
+.profile-picture {
+	width: calc(5rem + 0.5vw);
+	height: calc(5rem + 0.5vw);
+}
+
+/* @Content
+---------------------------------------- */
+
+.content h3 {
+	font-weight: 400;
+	letter-spacing: -0.05rem;
+	margin-bottom: 0.5rem;
+}
+
+.content p {
+	margin-top: 0.5rem;
+}
+
+/* @Home
+------------------------- */
+
+.project-list .project {
+	cursor: pointer;
+	min-height: 391px;
+}
+
+.project-list .project:hover {
+	background-color: rgba(100, 100, 100, 0.1);
+}
+
+.project-list .image {
+	width: 635px;
+	max-width: 100%;
+}
+
+/* @Projects
+------------------------- */
+
+.ios-tech {
+	background-color: #337ab7;
+}
+
+.android-tech {
+	background-color: #f0ad4e;
+	color: #37260b;
+}
+
+.web-tech {
+	background-color: #5cb85c;
+	color: #051509;
+}

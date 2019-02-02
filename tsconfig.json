@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+
+		/* Basic Options */
+		"target": "es5",
+		"module": "esnext",
+		"lib": ["es5", "dom", "es2015.promise", "es2017.object"],
+		"allowJs": true,
+		"jsx": "preserve",
+		"noEmit": true,
+
+		/* Strict Type-Checking Options */
+		"strict": true,
+		"skipLibCheck": false,
+		"forceConsistentCasingInFileNames": true,
+
+		/* Module Resolution Options */
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+
+		"typeRoots": [
+			"src/types"
+		]
+
+	},
+	"include": [
+		"src"
+	]
+}
