@@ -16,8 +16,7 @@ export default (props: IProps) => {
 			<div className={`pv1 bg-color-${project.title.toLowerCase()}`}>
 				<div className="mw7 center pv3 lato tc f5 dark-gray">
 					<img
-						width={50}
-						height={33}
+						className="logo-small"
 						src={require('images/logo.png')}
 						alt="Built by Will"
 					/>
@@ -32,7 +31,7 @@ export default (props: IProps) => {
 				<BackLink />
 			</div>
 			<div className="content ovo">
-				<div className="white bg-darker-gray white pv-5 bt b--white-10 bg-animate">
+				<div className="white bg-darker-gray white pv4 bt b--white-10 bg-animate">
 					<div className="mw8 center cf">
 						<div className="fl w-100 w-60-l ph3">
 							<h2 className="f2 mt0 mb3">About</h2>

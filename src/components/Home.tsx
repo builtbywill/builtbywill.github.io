@@ -15,14 +15,14 @@ export default (props: RouteComponentProps) => (
 					key={i}
 					className={`bg-color-${project.title.toLowerCase()}`}
 					onClick={() => props.history.push(`/projects/${project.title.toLowerCase()}`)}>
-					<div className="project white pt-5 bt b--white-10 bg-animate overflow-hidden">
-						<div className="mw8 center ph3 cf">
-							<div className="fl w-100 w-40-m w-40-l ph3">
-								<h2 className="f1 fw3 mb3">{project.title}</h2>
+					<div className="project white pt4 bt b--white-10 bg-animate overflow-hidden">
+						<div className="mw6p5-nl mw8-l center ph3 cf">
+							<div className="fl w-100 w-40-l ph3">
+								<h2 className="f2 fw3 mb3">{project.title}</h2>
 								<div
 									className={`${
 										lightBgProjects.indexOf(project.title.toLowerCase()) > -1
-											? ' black-80'
+											? ' black-90'
 											: ''
 									}`}>
 									{project.summary}
@@ -34,7 +34,7 @@ export default (props: RouteComponentProps) => (
 									See More &raquo;
 								</Link>
 							</div>
-							<div className="fl w-100 w-60-m w-60-l ph3">
+							<div className="fl w-100 w-60-l ph3 pt3 pt0-l">
 								<FadeInImage
 									src={project.cover}
 									alt={`${project.title} screenshot`}

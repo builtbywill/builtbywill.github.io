@@ -6,8 +6,7 @@ export default () => (
 		<div className="h5 pt4">
 			<div className="mw7 center pv3 lato tc f5 dark-gray">
 				<img
-					width={97}
-					height={97}
+					className="profile-picture"
 					src={require('images/profile-picture.png')}
 					alt="Profile Picture"
 				/>

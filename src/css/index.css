@@ -1,20 +1,23 @@
 /* @Base
 -------------------------------------------------- */
 
-html,
-body {
-	background-color: #e6e6e6;
+html {
+	font-size: calc(1rem + 0.25vw);
 }
 
 body {
 	font-family: 'Lato', sans-serif;
-	font-size: 17.6px;
 	color: rgba(0, 0, 0, 0.8);
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-moz-font-feature-settings: 'liga' on;
 	word-wrap: break-word;
+}
+
+html,
+body {
+	background-color: #e6e6e6;
 }
 
 h1,
@@ -57,20 +60,17 @@ li [class*=' icon-'] {
 	margin-right: 0.5rem;
 }
 
-/* @Spacing
+/* @Widths
 -------------------------------------------------- */
 
-.pt-5 {
-	padding-top: 5%;
+.mw6p5 {
+	max-width: 40rem;
 }
 
-.pb-5 {
-	padding-bottom: 5%;
-}
-
-.pv-5 {
-	padding-top: 5%;
-	padding-bottom: 5%;
+@media screen and (max-width: 60em) {
+	.mw6p5-nl {
+		max-width: 40rem;
+	}
 }
 
 /* @Colors
@@ -189,6 +189,26 @@ li [class*=' icon-'] {
 	animation-fill-mode: forwards;
 	animation-duration: 0.7s;
 	animation-delay: 0.1s;
+}
+
+.logo {
+	width: calc(5rem + 0.5vw);
+	height: calc(3.3rem + 0.5vw);
+}
+
+.logo-small {
+	width: calc(2.5rem + 0.5vw);
+	height: calc(1.65rem + 0.5vw);
+}
+
+.logo-footer {
+	width: calc(2.5rem + 0.5vw);
+	height: calc(1.65rem + 0.5vw);
+}
+
+.profile-picture {
+	width: calc(3.85rem + 0.5vw);
+	height: calc(2.55rem + 0.5vw);
 }
 
 /* @Content
