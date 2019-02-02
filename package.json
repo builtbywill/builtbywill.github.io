@@ -1,7 +1,8 @@
 {
 	"name": "builtbywill",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"private": true,
+	"homepage": "https://builtbywill.com",
 	"dependencies": {
 		"@types/jest": "^23.3.12",
 		"@types/node": "^10.12.18",
@@ -10,6 +11,7 @@
 		"@types/react-helmet": "^5.0.8",
 		"@types/react-router-dom": "^4.3.1",
 		"core-js": "^2.6.2",
+		"gh-pages": "^2.0.1",
 		"react": "^16.7.0",
 		"react-dom": "^16.7.0",
 		"react-helmet": "^5.2.0",
@@ -44,7 +46,9 @@
 		"prettier:write": "prettier --write \"src/**/*.{ts,tsx}\"",
 		"fix:ts": "yarn prettier:write && yarn lint:ts --fix",
 		"fix:css": "npm run lint:css -- --fix",
-		"fix": "run-s fix:**"
+		"fix": "run-s fix:**",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -b master -d build"
 	},
 	"browserslist": [
 		">0.2%",
