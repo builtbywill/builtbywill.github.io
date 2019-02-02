@@ -7,9 +7,9 @@ export default () => (
 			<p className="lato tc b f6 tracked-tight mid-gray">
 				&copy; 2010 - {new Date().getFullYear()}
 				<br />
-				<Link to="/" className="bn">
+				<Link to="/" className="dib bn grow">
 					<img
-						className="logo-footer mt2"
+						className="logo mt2"
 						src={require('images/logo-footer.png')}
 						alt="Built by Will"
 					/>

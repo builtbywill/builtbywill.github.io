@@ -201,11 +201,6 @@ li [class*=' icon-'] {
 	height: calc(1.65rem + 0.5vw);
 }
 
-.logo-footer {
-	width: calc(2.5rem + 0.5vw);
-	height: calc(1.65rem + 0.5vw);
-}
-
 .profile-picture {
 	width: calc(3.85rem + 0.5vw);
 	height: calc(2.55rem + 0.5vw);

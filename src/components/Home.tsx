@@ -17,12 +17,12 @@ export default (props: RouteComponentProps) => (
 					onClick={() => props.history.push(`/projects/${project.title.toLowerCase()}`)}>
 					<div className="project white pt4 bt b--white-10 bg-animate overflow-hidden">
 						<div className="mw6p5-nl mw8-l center ph3 cf">
-							<div className="fl w-100 w-40-l ph3">
-								<h2 className="f2 fw3 mb3">{project.title}</h2>
+							<div className="fl w-100 w-40-l ph3 pt4-l">
+								<h2 className="f2 fw3 mv3">{project.title}</h2>
 								<div
 									className={`${
 										lightBgProjects.indexOf(project.title.toLowerCase()) > -1
-											? ' black-90'
+											? 'black'
 											: ''
 									}`}>
 									{project.summary}
