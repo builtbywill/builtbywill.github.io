@@ -490,7 +490,7 @@ const Projects: IDictionary<IProject> = {
 			</>
 		),
 		dates: '2012 - 2014',
-		roles: <p>>Developer</p>,
+		roles: <p>Developer</p>,
 		url: 'https://builtbywill.com/booklet',
 		areas: [
 			{
