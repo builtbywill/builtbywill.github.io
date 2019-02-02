@@ -38,17 +38,17 @@
 		"build": "cross-env NODE_PATH=src/ react-scripts build",
 		"analyze": "source-map-explorer build/static/js/main.*",
 		"test": "cross-env NODE_PATH=src/ react-scripts test",
-		"test:ci": "cross-env CI=true npm run test",
+		"test:ci": "cross-env CI=true yarn test",
 		"lint:ts": "tslint -c tslint.json -p tsconfig.json 'src/**/*.{ts,tsx}'",
 		"lint:css": "stylelint \"src/**/*.css\"",
 		"lint": "run-s lint:**",
 		"prettier:check": "prettier --list-different \"src/**/*.{ts,tsx}\"",
 		"prettier:write": "prettier --write \"src/**/*.{ts,tsx}\"",
 		"fix:ts": "yarn prettier:write && yarn lint:ts --fix",
-		"fix:css": "npm run lint:css -- --fix",
+		"fix:css": "yarn lint:css --fix",
 		"fix": "run-s fix:**",
 		"predeploy": "yarn build",
-		"deploy": "gh-pages -b master -d build"
+		"deploy": "gh-pages -b master -d build -m"
 	},
 	"browserslist": [
 		">0.2%",
