@@ -1,9 +1,0 @@
-node_modules
-bower_components
-dist
-output
-
-*.sublime-*
-.idea
-
-.DS_Store
