@@ -54,6 +54,10 @@ export default () => (
 						<span className="icon-twitter" />
 						<a href="http://twitter.com/builtbywill" target="_blank">
 							@builtbywill
+						</a>{' '}
+						and{' '}
+						<a href="http://twitter.com/willgrauvogel" target="_blank">
+							@willgrauvogel
 						</a>
 					</li>
 					<li>

@@ -9,6 +9,11 @@ const lightBgProjects = ['skyepack', 'hotseat', 'convoy', 'booklet']
 export default (props: RouteComponentProps) => (
 	<>
 		<Header />
+		<Link
+			to="/about"
+			className="absolute top-1 right-1 white no-underline bg-black-60 br3 f6 pa2 grow">
+			About &raquo;
+		</Link>
 		<div className="content ovo project-list">
 			{Object.values(Projects).map((project, i) => (
 				<div

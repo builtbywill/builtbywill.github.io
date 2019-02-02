@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Redirect } from 'react-router'
 import { IProject } from '../types/IProject'
 import BackLink from './Shared/BackLink'
 import FadeInImage from './Shared/FadeInImage'
@@ -10,6 +11,9 @@ interface IProps {
 
 export default (props: IProps) => {
 	const { project } = props
+	if (!project) {
+		return <Redirect to="/not-found" />
+	}
 	return (
 		<>
 			<Helmet title={project.title} />

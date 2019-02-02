@@ -202,8 +202,8 @@ li [class*=' icon-'] {
 }
 
 .profile-picture {
-	width: calc(3.85rem + 0.5vw);
-	height: calc(2.55rem + 0.5vw);
+	width: calc(5rem + 0.5vw);
+	height: calc(5rem + 0.5vw);
 }
 
 /* @Content
