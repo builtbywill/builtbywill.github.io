@@ -47,7 +47,7 @@ export default () => (
 				<h2>Hello, World!</h2>
 				<ul className="list pa0 lh-copy">
 					<li>
-						<span className="icon-mail" />
+						<span className="icon-envelope" />
 						builtbywill [at] gmail.com
 					</li>
 					<li>
@@ -61,21 +61,15 @@ export default () => (
 						</a>
 					</li>
 					<li>
-						<span className="icon-linkedin2" />
+						<span className="icon-linkedin" />
 						<a href="https://www.linkedin.com/in/willgrauvogel" target="_blank">
 							linkedIn
 						</a>
 					</li>
 					<li>
-						<span className="icon-link" />
+						<span className="icon-github" />
 						<a href="https://github.com/builtbywill" target="_blank">
 							github
-						</a>
-					</li>
-					<li>
-						<span className="icon-link" />
-						<a href="http://stackoverflow.com/users/374489/will" target="_blank">
-							stackoverflow
 						</a>
 					</li>
 				</ul>
