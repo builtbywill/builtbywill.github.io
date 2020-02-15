@@ -7,8 +7,8 @@ export default () => (
 			<div className="mw7 center pv3 lato tc f5 dark-gray">
 				<img
 					className="profile-picture"
-					src={require('images/profile-picture.png')}
-					alt="Profile Picture"
+					src={require('../images/profile-picture.png')}
+					alt="Profile"
 				/>
 				<h1 className="ma0 mt3 f3">Will Grauvogel</h1>
 				<p className="mt2">About Me</p>
@@ -20,11 +20,11 @@ export default () => (
 				<h2>Hi, I'm Will!</h2>
 				<p>
 					I am a Lead Application Developer at{' '}
-					<a href="https://purdue.edu/studio" target="_blank">
+					<a href="https://purdue.edu/studio" target="_blank" rel="noopener noreferrer">
 						Purdue University
 					</a>
 					, an an Independent Contractor for{' '}
-					<a href="http://skyepack.com" target="_blank">
+					<a href="http://skyepack.com" target="_blank" rel="noopener noreferrer">
 						Skyepack, LLC
 					</a>
 					, and also sometimes do freelance work.
@@ -52,23 +52,35 @@ export default () => (
 					</li>
 					<li>
 						<span className="icon-twitter" />
-						<a href="http://twitter.com/builtbywill" target="_blank">
+						<a
+							href="http://twitter.com/builtbywill"
+							target="_blank"
+							rel="noopener noreferrer">
 							@builtbywill
 						</a>{' '}
 						and{' '}
-						<a href="http://twitter.com/willgrauvogel" target="_blank">
+						<a
+							href="http://twitter.com/willgrauvogel"
+							target="_blank"
+							rel="noopener noreferrer">
 							@willgrauvogel
 						</a>
 					</li>
 					<li>
 						<span className="icon-linkedin" />
-						<a href="https://www.linkedin.com/in/willgrauvogel" target="_blank">
+						<a
+							href="https://www.linkedin.com/in/willgrauvogel"
+							target="_blank"
+							rel="noopener noreferrer">
 							linkedIn
 						</a>
 					</li>
 					<li>
 						<span className="icon-github" />
-						<a href="https://github.com/builtbywill" target="_blank">
+						<a
+							href="https://github.com/builtbywill"
+							target="_blank"
+							rel="noopener noreferrer">
 							github
 						</a>
 					</li>

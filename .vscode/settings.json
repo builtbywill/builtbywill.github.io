@@ -2,10 +2,6 @@
 	"javascript.validate.enable": false,
 	"css.validate": false,
 	"scss.validate": false,
-	"prettier.tslintIntegration": true,
-	"prettier.eslintIntegration": true,
-	"prettier.stylelintIntegration": true,
-	"editor.formatOnSave": true,
 	"stylelint.config": {
 		"extends": "stylelint-config-standard",
 		"rules": {
@@ -13,5 +9,9 @@
 		},
 		"ignoreFiles": "src/**/*.{ts,tsx,js,jsx}"
 	},
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	}
 	// "jest.pathToJest": "yarn test --coverage"
 }

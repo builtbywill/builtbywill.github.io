@@ -15,6 +15,7 @@ export default () => (
 					<a
 						href="http://www.myinstants.com/instant/the-price-is-right-losing-horn/"
 						target="_blank"
+						rel="noopener noreferrer"
 						style={{ border: 'none', fontWeight: 'bold' }}>
 						:(
 					</a>

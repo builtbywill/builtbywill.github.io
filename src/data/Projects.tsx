@@ -89,23 +89,23 @@ const Projects: IDictionary<IProject> = {
 				],
 			},
 		],
-		cover: require('images/pattern/pattern-cover.png'),
+		cover: require('../images/pattern/pattern-cover.png'),
 		images: [
 			{
 				description: 'iOS App',
-				src: require('images/pattern/pattern-ios.png'),
+				src: require('../images/pattern/pattern-ios.png'),
 			},
 			{
 				description: 'Apple Watch App',
-				src: require('images/pattern/pattern-apple-watch.png'),
+				src: require('../images/pattern/pattern-apple-watch.png'),
 			},
 			{
 				description: 'Learner Dashboard',
-				src: require('images/pattern/pattern-learner.png'),
+				src: require('../images/pattern/pattern-learner.png'),
 			},
 			{
 				description: 'Instructor Dashboard with Charts',
-				src: require('images/pattern/pattern-instructor-charts.png'),
+				src: require('../images/pattern/pattern-instructor-charts.png'),
 			},
 		],
 	},
@@ -171,22 +171,22 @@ const Projects: IDictionary<IProject> = {
 				tech: ['C#', '.NET MVC', 'Windows Azure', 'SQL', 'LINQ'],
 			},
 		],
-		cover: require('images/skyepack/skyepack-cover.png'),
+		cover: require('../images/skyepack/skyepack-cover.png'),
 		images: [
 			{
-				src: require('images/skyepack/skyepack-ios.png'),
+				src: require('../images/skyepack/skyepack-ios.png'),
 				description: 'iOS App',
 			},
 			{
-				src: require('images/skyepack/skyepack-android.png'),
+				src: require('../images/skyepack/skyepack-android.png'),
 				description: 'Android App',
 			},
 			{
-				src: require('images/skyepack/skyepack-web-reader.png'),
+				src: require('../images/skyepack/skyepack-web-reader.png'),
 				description: 'Web Reader',
 			},
 			{
-				src: require('images/skyepack/skyepack-authoring.png'),
+				src: require('../images/skyepack/skyepack-authoring.png'),
 				description: 'Pack Creation and Authoring',
 			},
 		],
@@ -250,34 +250,34 @@ const Projects: IDictionary<IProject> = {
 				tech: ['C#', '.NET MVC', 'Windows Azure', 'SQL', 'LINQ'],
 			},
 		],
-		cover: require('images/passport/passport-cover.png'),
+		cover: require('../images/passport/passport-cover.png'),
 		images: [
 			{
-				src: require('images/passport/passport-iphone.png'),
+				src: require('../images/passport/passport-iphone.png'),
 				description: 'iPhone App',
 			},
 			{
-				src: require('images/passport/passport-ipad-1.png'),
+				src: require('../images/passport/passport-ipad-1.png'),
 				description: 'iPad App - Home & Groups',
 			},
 			{
-				src: require('images/passport/passport-ipad-2.png'),
+				src: require('../images/passport/passport-ipad-2.png'),
 				description: 'iPad App - Challenge Instructions',
 			},
 			{
-				src: require('images/passport/passport-ipad-3.png'),
+				src: require('../images/passport/passport-ipad-3.png'),
 				description: 'iPad App - Submission',
 			},
 			{
-				src: require('images/passport/passport-learner-dashboard.png'),
+				src: require('../images/passport/passport-learner-dashboard.png'),
 				description: 'Learner Dashboard',
 			},
 			{
-				src: require('images/passport/passport-challenge.png'),
+				src: require('../images/passport/passport-challenge.png'),
 				description: 'Challenge Instructions',
 			},
 			{
-				src: require('images/passport/passport-badge-creator.png'),
+				src: require('../images/passport/passport-badge-creator.png'),
 				description: 'Badge Creator',
 			},
 		],
@@ -344,22 +344,22 @@ const Projects: IDictionary<IProject> = {
 				tech: ['C#', '.NET MVC', 'Windows Azure', 'SignalR', 'Websockets'],
 			},
 		],
-		cover: require('images/hotseat/hotseat-cover.png'),
+		cover: require('../images/hotseat/hotseat-cover.png'),
 		images: [
 			{
-				src: require('images/hotseat/hotseat-ios.png'),
+				src: require('../images/hotseat/hotseat-ios.png'),
 				description: 'iOS App',
 			},
 			{
-				src: require('images/hotseat/hotseat-feed.png'),
+				src: require('../images/hotseat/hotseat-feed.png'),
 				description: 'Topic Discussion Feed',
 			},
 			{
-				src: require('images/hotseat/hotseat-poll.png'),
+				src: require('../images/hotseat/hotseat-poll.png'),
 				description: 'Real-time Poll',
 			},
 			{
-				src: require('images/hotseat/hotseat-roster-sync.png'),
+				src: require('../images/hotseat/hotseat-roster-sync.png'),
 				description: 'Automatic Course Roster Syncing',
 			},
 		],
@@ -431,34 +431,34 @@ const Projects: IDictionary<IProject> = {
 				tech: ['C#', '.NET MVC', 'Aspose for .NET', 'SQL', 'LINQ'],
 			},
 		],
-		cover: require('images/convoy/convoy-cover.png'),
+		cover: require('../images/convoy/convoy-cover.png'),
 		images: [
 			{
-				src: require('images/convoy/convoy-ipad-slide.png'),
+				src: require('../images/convoy/convoy-ipad-slide.png'),
 				description: 'Presentation Slide',
 			},
 			{
-				src: require('images/convoy/convoy-ipad-child-slide.png'),
+				src: require('../images/convoy/convoy-ipad-child-slide.png'),
 				description: 'Supplemental Content Slide',
 			},
 			{
-				src: require('images/convoy/convoy-ipad-notes.png'),
+				src: require('../images/convoy/convoy-ipad-notes.png'),
 				description: 'Side-by-Side Presentation and Notes',
 			},
 			{
-				src: require('images/convoy/convoy-ipad-grid.png'),
+				src: require('../images/convoy/convoy-ipad-grid.png'),
 				description: 'Presentation Overview',
 			},
 			{
-				src: require('images/convoy/convoy-ipad-print.png'),
+				src: require('../images/convoy/convoy-ipad-print.png'),
 				description: 'Printable Presentation Overview with Notes',
 			},
 			{
-				src: require('images/convoy/convoy-home.png'),
+				src: require('../images/convoy/convoy-home.png'),
 				description: 'Web Home',
 			},
 			{
-				src: require('images/convoy/convoy-edit-collection.png'),
+				src: require('../images/convoy/convoy-edit-collection.png'),
 				description: 'Edit Collection Slides',
 			},
 		],
@@ -498,7 +498,7 @@ const Projects: IDictionary<IProject> = {
 				tech: ['Javascript', 'jQuery', 'CSS', 'Open Source'],
 			},
 		],
-		cover: require('images/booklet/booklet-cover.png'),
+		cover: require('../images/booklet/booklet-cover.png'),
 		images: [],
 	},
 }

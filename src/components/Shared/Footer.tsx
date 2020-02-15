@@ -10,7 +10,7 @@ export default () => (
 				<Link to="/" className="dib bn grow">
 					<img
 						className="logo mt2"
-						src={require('images/logo-footer.png')}
+						src={require('../../images/logo-footer.png')}
 						alt="Built by Will"
 					/>
 				</Link>

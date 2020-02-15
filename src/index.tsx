@@ -1,4 +1,4 @@
-import createHistory from 'history/createBrowserHistory'
+import * as history from 'history'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ga from 'react-ga'
@@ -10,9 +10,7 @@ import './css/index.css'
 import * as serviceWorker from './utils/serviceWorker'
 
 // pollyfills
-import 'core-js/es6/promise'
-import 'core-js/fn/object/values'
-import 'core-js/fn/promise'
+import 'core-js'
 
 // Google Analytics
 const GOOGLE_ANALYTICS_TRACKING_ID = 'UA-5500036-2'
@@ -21,14 +19,14 @@ ga.initialize(GOOGLE_ANALYTICS_TRACKING_ID)
 // track initial page
 ga.pageview(window.location.pathname)
 
-const history = createHistory()
-history.listen(location => {
+const browserHistory = history.createBrowserHistory()
+browserHistory.listen(location => {
 	// send pageview to Google Analytics
 	ga.pageview(location.pathname)
 })
 
 ReactDOM.render(
-	<Router history={history}>
+	<Router history={browserHistory}>
 		<App />
 	</Router>,
 	document.getElementById('root')

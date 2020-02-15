@@ -31,7 +31,7 @@ export default class FadeInImage extends Component<IProps, Readonly<IState>> {
 			<>
 				{!isLoaded && (
 					<div className="image image-placeholder">
-						<Loader type="Oval" color="#fff" height="32" width="32" />
+						<Loader type="Oval" color="#fff" height={32} width={32} />
 					</div>
 				)}
 				<LazyLoad debounce={false} offsetVertical={250}>
@@ -41,6 +41,7 @@ export default class FadeInImage extends Component<IProps, Readonly<IState>> {
 							!!className ? ` ${className}` : ''
 						}`}
 						onLoad={this.onLoad}
+						alt=""
 					/>
 				</LazyLoad>
 			</>

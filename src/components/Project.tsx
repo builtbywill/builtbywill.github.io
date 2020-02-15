@@ -21,7 +21,7 @@ export default (props: IProps) => {
 				<div className="mw7 center pv3 lato tc f5 dark-gray">
 					<img
 						className="logo-small"
-						src={require('images/logo.png')}
+						src={require('../images/logo.png')}
 						alt="Built by Will"
 					/>
 					<h1 className="white f1 fw3 mv3">{project.title}</h1>
@@ -29,7 +29,8 @@ export default (props: IProps) => {
 						<a
 							className="dib white no-underline bg-black-60 br3 f6 pa2 grow"
 							href={project.url}
-							target="_blank">
+							target="_blank"
+							rel="noopener noreferrer">
 							Visit Website &raquo;
 						</a>
 					)}

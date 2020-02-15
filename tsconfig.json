@@ -4,7 +4,7 @@
 		/* Basic Options */
 		"target": "es5",
 		"module": "esnext",
-		"lib": ["es5", "dom", "es2015.promise", "es2017.object"],
+		"lib": ["esnext", "dom"],
 		"allowJs": true,
 		"jsx": "preserve",
 		"noEmit": true,
