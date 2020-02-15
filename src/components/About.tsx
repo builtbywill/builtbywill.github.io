@@ -20,7 +20,10 @@ export default () => (
 				<h2>Hi, I'm Will!</h2>
 				<p>
 					I am a Lead Application Developer at{' '}
-					<a href="https://purdue.edu/studio" target="_blank" rel="noopener noreferrer">
+					<a
+						href="https://www.purdue.edu/innovativelearning"
+						target="_blank"
+						rel="noopener noreferrer">
 						Purdue University
 					</a>
 					, an an Independent Contractor for{' '}
