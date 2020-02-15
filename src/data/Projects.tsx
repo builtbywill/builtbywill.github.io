@@ -1,8 +1,8 @@
 import React from 'react'
-import { IDictionary } from '../types/IDictionary'
-import { IProject } from '../types/IProject'
+import { Dictionary } from '../types/Dictionary'
+import { Project } from '../types/Project'
 
-const Projects: IDictionary<IProject> = {
+const Projects: Dictionary<Project> = {
 	pattern: {
 		title: 'Pattern',
 		for: 'Purdue University',

@@ -6,7 +6,7 @@ import Routes from './Routes'
 import Footer from './Shared/Footer'
 
 export class App extends Component<RouteComponentProps> {
-	public componentDidUpdate(prevProps: RouteComponentProps) {
+	componentDidUpdate(prevProps: RouteComponentProps) {
 		const { location: prevLocation } = prevProps
 		const { location } = this.props
 		if (location.pathname !== prevLocation.pathname) {
@@ -14,7 +14,11 @@ export class App extends Component<RouteComponentProps> {
 		}
 	}
 
-	public render() {
+	scrollToTop() {
+		window.scrollTo(0, 0)
+	}
+
+	render() {
 		return (
 			<>
 				<Helmet
@@ -25,10 +29,6 @@ export class App extends Component<RouteComponentProps> {
 				<Footer />
 			</>
 		)
-	}
-
-	private scrollToTop() {
-		window.scrollTo(0, 0)
 	}
 }
 

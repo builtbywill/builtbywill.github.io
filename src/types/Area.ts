@@ -1,4 +1,4 @@
-export interface IArea {
+export interface Area {
 	name: string
 	tech: string[]
 }

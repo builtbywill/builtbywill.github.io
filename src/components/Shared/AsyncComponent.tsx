@@ -1,46 +1,44 @@
-import React, { Component } from 'react'
+import React, { Component, ComponentType } from 'react'
 
-interface IState {
-	component: any
+interface AsyncComponentState<TOwnProps extends {}> {
+	component: ComponentType<TOwnProps> | undefined
 }
 
-const initialState: IState = {
-	component: null,
-}
+export type AsyncWrappedComponent<TOwnProps extends {}> = () => Promise<{
+	default: ComponentType<TOwnProps>
+}>
 
-export default (importComponent: () => any) => {
-	return class AsyncComponent extends Component<any, Readonly<IState>> {
-		public readonly state: Readonly<IState> = initialState
-
-		private hasMounted = false
-
-		constructor(props: any) {
+export default function asyncComponent<TOwnProps extends {}>(
+	importComponent: AsyncWrappedComponent<TOwnProps>
+) {
+	return class AsyncComponent extends Component<TOwnProps, AsyncComponentState<TOwnProps>> {
+		_isMounted: boolean = false
+		constructor(props: TOwnProps) {
 			super(props)
 			this.state = {
-				component: null,
+				component: undefined,
 			}
-			this.hasMounted = false
 		}
 
-		public async componentDidMount() {
-			this.hasMounted = true
+		async componentDidMount() {
+			this._isMounted = true
 			const { default: component } = await importComponent()
 			// component may have unmounted while awaiting importComponent()
-			if (!this.hasMounted) {
-				return
+			if (this._isMounted) {
+				this.setState({ component })
 			}
-			this.setState({
-				component,
-			})
 		}
 
-		public componentWillUnmount() {
-			this.hasMounted = false
+		componentWillUnmount() {
+			this._isMounted = false
 		}
 
-		public render() {
-			const ImportedComponent = this.state.component
-			return ImportedComponent ? <ImportedComponent {...this.props} /> : <div />
+		render() {
+			const { component: ImportedComponent } = this.state
+			if (!ImportedComponent) {
+				return null
+			}
+			return <ImportedComponent {...this.props} />
 		}
 	}
 }

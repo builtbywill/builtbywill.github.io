@@ -1,4 +1,4 @@
-export interface IImage {
+export interface Image {
 	src: string
 	description: string
 }

@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import LazyLoad from 'react-lazyload'
 import Loader from 'react-loader-spinner'
-import { IDictionary } from '../../types/IDictionary'
+import { Dictionary } from '../../types/Dictionary'
 
-interface IState {
-	isLoaded: boolean
-}
-
-interface IProps extends React.ImgHTMLAttributes<HTMLImageElement> {
+interface FadeInImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 	alt: string
 	src: string
 }
 
-const loadedImages: IDictionary<boolean> = {}
+interface FadeInImageState {
+	isLoaded: boolean
+}
 
-export default class FadeInImage extends Component<IProps, Readonly<IState>> {
+const loadedImages: Dictionary<boolean> = {}
+
+export default class FadeInImage extends Component<FadeInImageProps, Readonly<FadeInImageState>> {
 	public state = {
 		isLoaded: loadedImages[this.props.src],
 	}
