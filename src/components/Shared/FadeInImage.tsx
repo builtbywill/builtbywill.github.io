@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import LazyLoad from 'react-lazy-load'
+import LazyLoad from 'react-lazyload'
 import Loader from 'react-loader-spinner'
 import { IDictionary } from '../../types/IDictionary'
 
@@ -34,7 +34,7 @@ export default class FadeInImage extends Component<IProps, Readonly<IState>> {
 						<Loader type="Oval" color="#fff" height={32} width={32} />
 					</div>
 				)}
-				<LazyLoad debounce={false} offsetVertical={250}>
+				<LazyLoad offset={250}>
 					<img
 						{...props}
 						className={`image ${isLoaded ? 'image-loaded' : 'image-loading'}${
