@@ -19,12 +19,7 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
-
-		"typeRoots": [
-			"src/types"
-		]
-
+		"allowSyntheticDefaultImports": true
 	},
 	"include": [
 		"src"
