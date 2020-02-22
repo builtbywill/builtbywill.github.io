@@ -95,6 +95,10 @@ li [class*=' icon-'] {
 	background-color: #e6e6e6;
 }
 
+.bg-color-variate {
+	background-color: #4450be;
+}
+
 .bg-color-circuit {
 	background-color: #e6007e;
 }
