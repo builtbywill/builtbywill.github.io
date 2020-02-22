@@ -9,7 +9,6 @@
 		},
 		"ignoreFiles": "src/**/*.{ts,tsx,js,jsx}"
 	},
-	"editor.formatOnSave": true,
 	"editor.codeActionsOnSave": {
 		"source.fixAll": true
 	}

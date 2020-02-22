@@ -4,9 +4,7 @@
 	"private": true,
 	"homepage": "https://builtbywill.com",
 	"dependencies": {
-		"@types/jest": "^25.1.2",
-		"@types/node": "^10.17.15",
-		"@types/react": "^16.9.19",
+		"@types/react": "^16.9.22",
 		"@types/react-dom": "^16.9.5",
 		"@types/react-helmet": "^5.0.15",
 		"@types/react-lazyload": "^2.6.0",
@@ -14,6 +12,7 @@
 		"@types/react-router-dom": "^5.1.3",
 		"core-js": "^3.6.4",
 		"gh-pages": "^2.2.0",
+		"history": "^4.10.1",
 		"prop-types": "^15.7.2",
 		"react": "^16.12.0",
 		"react-dom": "^16.12.0",
@@ -21,26 +20,38 @@
 		"react-helmet": "^5.2.1",
 		"react-lazyload": "^2.6.5",
 		"react-loader-spinner": "^3.1.5",
+		"react-router": "^5.1.2",
 		"react-router-dom": "^5.1.2",
-		"react-scripts": "3.4.0",
-		"tachyons": "^4.11.1",
-		"typescript": "^3.7.5"
+		"react-scripts": "^3.4.0",
+		"tachyons": "^4.11.1"
 	},
 	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^2.20.0",
+		"@typescript-eslint/parser": "^2.20.0",
+		"babel-eslint": "^10.0.3",
 		"cross-env": "^7.0.0",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.10.0",
+		"eslint-config-react-app": "^5.2.0",
+		"eslint-config-studiokit": "purdue-tlt/eslint-config-studiokit.git#feature/typescript",
+		"eslint-plugin-flowtype": "^3.1.2",
+		"eslint-plugin-import": "^2.20.1",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-react": "^7.18.3",
+		"eslint-plugin-react-hooks": "^1.7.0",
 		"husky": "^4.2.3",
 		"lint-staged": "^10.0.7",
 		"npm-run-all": "^4.1.5",
 		"prettier": "^1.19.1",
-		"source-map-explorer": "^2.2.2",
+		"source-map-explorer": "^2.3.1",
 		"stylelint": "^13.2.0",
 		"stylelint-config-standard": "^20.0.0",
-		"tslint": "^6.0.0"
+		"stylelint-config-studiokit": "purdue-tlt/stylelint-config-studiokit#feature/eslint-and-updates",
+		"typescript": "^3.7.5"
 	},
 	"resolutions": {
-		"@types/node": "^10.17.15",
-		"@types/react": "^16.9.19",
-		"@types/react-router": "^5.1.4",
+		"@types/react": "^16.9.22",
 		"react-side-effect": "^2.1.0"
 	},
 	"scripts": {
@@ -49,13 +60,12 @@
 		"analyze": "source-map-explorer build/static/js/main.*",
 		"test": "react-scripts test",
 		"test:ci": "cross-env CI=true yarn test",
-		"lint:ts": "tslint -c tslint.json -p tsconfig.json 'src/**/*.{ts,tsx}'",
-		"lint:css": "stylelint \"src/**/*.css\"",
+		"lint-code-core": "eslint --ext .js,.jsx,.ts,.tsx",
+		"lint:code": "yarn lint-code-core src",
+		"lint:styles": "stylelint \"src/**/*.css\"",
 		"lint": "run-s lint:**",
-		"prettier:check": "prettier --list-different \"src/**/*.{ts,tsx}\"",
-		"prettier:write": "prettier --write \"src/**/*.{ts,tsx}\"",
-		"fix:ts": "yarn prettier:write && yarn lint:ts --fix",
-		"fix:css": "yarn lint:css --fix",
+		"fix:code": "yarn lint:code --fix",
+		"fix:styles": "yarn lint:styles --fix",
 		"fix": "run-s fix:**",
 		"predeploy": "yarn build",
 		"deploy": "gh-pages -b master -d build -m"
@@ -73,17 +83,11 @@
 		}
 	},
 	"lint-staged": {
-		"*.ts": [
-			"tslint --fix",
-			"git add"
-		],
-		"*.tsx": [
-			"tslint --fix",
-			"git add"
+		"**/*.(j|t)s?(x)": [
+			"yarn lint-code-core --fix"
 		],
 		"*.css": [
-			"stylelint --fix",
-			"git add"
+			"stylelint --fix"
 		]
 	},
 	"jest": {
@@ -94,22 +98,20 @@
 		]
 	},
 	"eslintConfig": {
-		"extends": "react-app"
-	},
-	"prettier": {
-		"parser": "typescript",
-		"trailingComma": "es5",
-		"useTabs": true,
-		"tabWidth": 4,
-		"semi": false,
-		"singleQuote": true,
-		"printWidth": 100,
-		"jsxBracketSameLine": true
+		"extends": "studiokit/react",
+		"overrides": [
+			{
+				"files": [
+					"**/*.ts?(x)"
+				],
+				"parser": "@typescript-eslint/parser",
+				"parserOptions": {
+					"project": "tsconfig.json"
+				}
+			}
+		]
 	},
 	"stylelint": {
-		"extends": "stylelint-config-standard",
-		"rules": {
-			"indentation": "tab"
-		}
+		"extends": "stylelint-config-studiokit"
 	}
 }
