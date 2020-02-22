@@ -8,11 +8,7 @@ export default () => (
 				&copy; 2010 - {new Date().getFullYear()}
 				<br />
 				<Link to="/" className="dib bn grow">
-					<img
-						className="logo mt2"
-						src={require('../../images/logo-footer.png')}
-						alt="Built by Will"
-					/>
+					<img className="logo mt2" src={require('../../images/logo-footer.png')} alt="Built by Will" />
 				</Link>
 			</p>
 		</div>

@@ -8,15 +8,13 @@ export type AsyncWrappedComponent<TOwnProps extends {}> = () => Promise<{
 	default: ComponentType<TOwnProps>
 }>
 
-export default function asyncComponent<TOwnProps extends {}>(
-	importComponent: AsyncWrappedComponent<TOwnProps>
-) {
+export default function asyncComponent<TOwnProps extends {}>(importComponent: AsyncWrappedComponent<TOwnProps>) {
 	return class AsyncComponent extends Component<TOwnProps, AsyncComponentState<TOwnProps>> {
-		_isMounted: boolean = false
+		_isMounted = false
 		constructor(props: TOwnProps) {
 			super(props)
 			this.state = {
-				component: undefined,
+				component: undefined
 			}
 		}
 

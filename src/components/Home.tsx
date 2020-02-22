@@ -9,9 +9,7 @@ const lightBgProjects = ['skyepack', 'hotseat', 'convoy', 'booklet']
 export default (props: RouteComponentProps) => (
 	<>
 		<Header />
-		<Link
-			to="/about"
-			className="absolute top-1 right-1 white no-underline bg-black-60 br3 f6 pa2 grow">
+		<Link to="/about" className="absolute top-1 right-1 white no-underline bg-black-60 br3 f6 pa2 grow">
 			About &raquo;
 		</Link>
 		<div className="content ovo project-list">
@@ -26,9 +24,7 @@ export default (props: RouteComponentProps) => (
 								<h2 className="f2 fw3 mv3">{project.title}</h2>
 								<div
 									className={`${
-										lightBgProjects.indexOf(project.title.toLowerCase()) > -1
-											? 'black'
-											: ''
+										lightBgProjects.includes(project.title.toLowerCase()) ? 'black' : ''
 									}`}>
 									{project.summary}
 								</div>

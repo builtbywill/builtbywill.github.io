@@ -20,10 +20,7 @@ export default () => (
 						:(
 					</a>
 				</h1>
-				<p>
-					It looks like the page you were trying to access does not exist. Check the URL
-					and try again!
-				</p>
+				<p>It looks like the page you were trying to access does not exist. Check the URL and try again!</p>
 			</div>
 		</div>
 	</>

@@ -21,10 +21,7 @@ export class App extends Component<RouteComponentProps> {
 	render() {
 		return (
 			<>
-				<Helmet
-					titleTemplate="Built by Will - %s"
-					defaultTitle="Built by Will - Development + Design"
-				/>
+				<Helmet titleTemplate="Built by Will - %s" defaultTitle="Built by Will - Development + Design" />
 				<Routes />
 				<Footer />
 			</>

@@ -19,11 +19,7 @@ export default (props: ProjectProps) => {
 			<Helmet title={project.title} />
 			<div className={`pv1 bg-color-${project.title.toLowerCase()}`}>
 				<div className="mw7 center pv3 lato tc f5 dark-gray">
-					<img
-						className="logo-small"
-						src={require('../images/logo.png')}
-						alt="Built by Will"
-					/>
+					<img className="logo-small" src={require('../images/logo.png')} alt="Built by Will" />
 					<h1 className="white f1 fw3 mv3">{project.title}</h1>
 					{!!project.url && (
 						<a

@@ -16,7 +16,7 @@ const loadedImages: Dictionary<boolean> = {}
 
 export default class FadeInImage extends Component<FadeInImageProps, Readonly<FadeInImageState>> {
 	public state = {
-		isLoaded: loadedImages[this.props.src],
+		isLoaded: loadedImages[this.props.src]
 	}
 
 	public onLoad = () => {
@@ -38,7 +38,7 @@ export default class FadeInImage extends Component<FadeInImageProps, Readonly<Fa
 					<img
 						{...props}
 						className={`image ${isLoaded ? 'image-loaded' : 'image-loading'}${
-							!!className ? ` ${className}` : ''
+							className ? ` ${className}` : ''
 						}`}
 						onLoad={this.onLoad}
 						alt=""
