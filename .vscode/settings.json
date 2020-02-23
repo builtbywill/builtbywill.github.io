@@ -10,7 +10,8 @@
 		"ignoreFiles": "src/**/*.{ts,tsx,js,jsx}"
 	},
 	"editor.codeActionsOnSave": {
-		"source.fixAll": true
+		"source.fixAll": true,
+		"source.organizeImports": true
 	}
 	// "jest.pathToJest": "yarn test --coverage"
 }
