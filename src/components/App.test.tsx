@@ -1,17 +1,45 @@
+import { shallow } from 'enzyme'
 import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
-import App from './App'
+import { RouteComponentProps } from 'react-router'
+import { scrollToTop } from '../utils/window'
+import { App } from './App'
+
+jest.mock('../utils/window', () => {
+	return {
+		scrollToTop: jest.fn()
+	}
+})
+
+const props = {
+	location: {
+		pathname: '/'
+	}
+} as RouteComponentProps
 
 describe('App', () => {
-	it('renders without crashing', () => {
-		const div = document.createElement('div')
-		ReactDOM.render(
-			<BrowserRouter>
-				<App />
-			</BrowserRouter>,
-			div
-		)
-		ReactDOM.unmountComponentAtNode(div)
+	it('renders', () => {
+		const wrapper = shallow(<App {...props} />)
+		expect(wrapper).toBeTruthy()
+	})
+	it('calls scrollToTop when pathname changes', () => {
+		const wrapper = shallow(<App {...props} />)
+		expect(scrollToTop).toHaveBeenCalledTimes(0)
+		wrapper.setProps({
+			location: {
+				pathname: '/about'
+			}
+		})
+		expect(scrollToTop).toHaveBeenCalledTimes(1)
+	})
+	it('does not call scrollToTop when other props change', () => {
+		expect(scrollToTop).toHaveBeenCalledTimes(1)
+		const wrapper = shallow(<App {...props} />)
+		wrapper.setProps({
+			location: {
+				pathname: '/',
+				search: 'test'
+			}
+		})
+		expect(scrollToTop).toHaveBeenCalledTimes(1)
 	})
 })
