@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import LazyLoad from 'react-lazyload'
 import Loader from 'react-loader-spinner'
 import { Dictionary } from '../../types/Dictionary'
@@ -8,43 +8,40 @@ interface FadeInImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 	src: string
 }
 
-interface FadeInImageState {
-	isLoaded: boolean
-}
-
+// persist whether or not an image has been loaded
 const loadedImages: Dictionary<boolean> = {}
 
-export default class FadeInImage extends Component<FadeInImageProps, Readonly<FadeInImageState>> {
-	public state = {
-		isLoaded: loadedImages[this.props.src]
+export function setImageLoaded(src: string) {
+	loadedImages[src] = true
+}
+
+export const FadeInImage = (props: FadeInImageProps) => {
+	const { className, ...otherProps } = props
+	const [isLoaded, setIsLoaded] = useState(loadedImages[props.src])
+
+	// istanbul ignore next: setImageLoaded tested separately
+	const onLoad = () => {
+		setImageLoaded(props.src)
+		setIsLoaded(true)
 	}
 
-	public onLoad = () => {
-		loadedImages[this.props.src] = true
-		this.setState(() => ({ isLoaded: true }))
-	}
-
-	public render() {
-		const { className, ...props } = this.props
-		const { isLoaded } = this.state
-		return (
-			<>
-				{!isLoaded && (
-					<div className="image image-placeholder">
-						<Loader type="Oval" color="#fff" height={32} width={32} />
-					</div>
-				)}
-				<LazyLoad offset={250}>
-					<img
-						{...props}
-						className={`image ${isLoaded ? 'image-loaded' : 'image-loading'}${
-							className ? ` ${className}` : ''
-						}`}
-						onLoad={this.onLoad}
-						alt=""
-					/>
-				</LazyLoad>
-			</>
-		)
-	}
+	return (
+		<>
+			{!isLoaded && (
+				<div className="image image-placeholder">
+					<Loader type="Oval" color="#fff" height={32} width={32} />
+				</div>
+			)}
+			<LazyLoad offset={250}>
+				<img
+					{...otherProps}
+					className={`image ${isLoaded ? 'image-loaded' : 'image-loading'}${
+						className ? ` ${className}` : ''
+					}`}
+					onLoad={onLoad}
+					alt=""
+				/>
+			</LazyLoad>
+		</>
+	)
 }

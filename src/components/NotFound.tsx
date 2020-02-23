@@ -1,9 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import BackLink from './Shared/BackLink'
-import Header from './Shared/Header'
+import { BackLink } from './Shared/BackLink'
+import { Header } from './Shared/Header'
 
-export default () => (
+export const NotFound = () => (
 	<>
 		<Helmet title="Page Not Found :(" />
 		<BackLink />

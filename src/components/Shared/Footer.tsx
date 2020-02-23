@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default () => (
+export const Footer = () => (
 	<div className="bg-lightish-gray shadow-inset-light-gray">
 		<div className="mw7 center ph3 pt4 pb5">
 			<p className="lato tc b f6 tracked-tight mid-gray">

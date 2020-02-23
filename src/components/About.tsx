@@ -1,7 +1,7 @@
 import React from 'react'
-import BackLink from './Shared/BackLink'
+import { BackLink } from './Shared/BackLink'
 
-export default () => (
+export const About = () => (
 	<>
 		<div className="h5 pt4">
 			<div className="mw7 center pv3 lato tc f5 dark-gray">
@@ -13,7 +13,7 @@ export default () => (
 		</div>
 		<div className="ovo bg-darker-gray white pv3 pv4-ns">
 			<div className="mw7 center ph3">
-				<h2>Hi, I'm Will!</h2>
+				<h2>Hi, I’m Will!</h2>
 				<p>
 					I am a Lead Application Developer at{' '}
 					<a href="https://www.purdue.edu/innovativelearning" target="_blank" rel="noopener noreferrer">
