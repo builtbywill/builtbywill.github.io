@@ -3,6 +3,99 @@ import { Dictionary } from '../types/Dictionary'
 import { Project } from '../types/Project'
 
 const Projects: Dictionary<Project> = {
+	variate: {
+		title: 'Variate',
+		for: 'Purdue University',
+		summary: <p></p>,
+		description: <></>,
+		dates: '',
+		url: 'https://purdue.variate.org',
+		roles: <p></p>,
+		areas: [
+			{
+				name: 'Web',
+				tech: []
+			}
+		],
+		cover: undefined,
+		images: []
+	},
+	circuit: {
+		title: 'Circuit',
+		for: 'Purdue University',
+		summary: <p></p>,
+		description: <></>,
+		dates: '',
+		url: 'https://purdue.peercircuit.org',
+		roles: <p></p>,
+		areas: [
+			{
+				name: 'Web',
+				tech: []
+			}
+		],
+		cover: undefined,
+		images: []
+	},
+	scope: {
+		title: 'Scope',
+		for: 'Purdue University',
+		summary: <p></p>,
+		description: <></>,
+		dates: '',
+		url: 'https://purdue.learningscope.org',
+		roles: <p></p>,
+		areas: [
+			{
+				name: 'Web',
+				tech: []
+			}
+		],
+		cover: undefined,
+		images: []
+	},
+	replay: {
+		title: 'Replay',
+		for: 'Purdue University',
+		summary: <p></p>,
+		description: <></>,
+		dates: '',
+		url: 'https://purdue.openreplay.org',
+		roles: <p></p>,
+		areas: [
+			{
+				name: 'Web',
+				tech: ['React', 'React Scripts', 'Bootstrap', 'Material UI']
+			},
+			{
+				name: 'API',
+				tech: ['C#', 'Azure', 'Entity Framework', 'SQL']
+			}
+		],
+		cover: undefined,
+		images: []
+	},
+	forecast: {
+		title: 'Forecast',
+		for: 'Purdue University',
+		summary: <p>Forecast</p>,
+		description: <></>,
+		dates: '2016',
+		url: undefined,
+		roles: <p>Team Developer</p>,
+		areas: [
+			{
+				name: 'Web',
+				tech: ['React', 'Bootstrap', 'Webpack']
+			},
+			{
+				name: 'API',
+				tech: ['C#', 'Azure', 'Entity Framework', 'SQL']
+			}
+		],
+		cover: undefined,
+		images: []
+	},
 	pattern: {
 		title: 'Pattern',
 		for: 'Purdue University',
@@ -52,13 +145,13 @@ const Projects: Dictionary<Project> = {
 				</p>
 			</>
 		),
-		dates: '2014 - present',
+		dates: '2014 - 2016',
 		url: 'https://studypattern.org',
 		roles: (
 			<p>
-				Project Lead (Fall 2015 - present)
+				Project Lead (Fall 2015 - Fall 2016)
 				<br />
-				Lead Developer (Summer 2015 - present)
+				Lead Developer (Summer 2015 - Fall 2016)
 				<br />
 				Team Developer (Fall 2014 - Summer 2015)
 			</p>
@@ -70,18 +163,11 @@ const Projects: Dictionary<Project> = {
 			},
 			{
 				name: 'Web',
-				tech: [
-					'C#',
-					'Windows Azure',
-					'Entity Framework',
-					'OData',
-					'SQL',
-					'LINQ',
-					'Angular JS',
-					'Grunt',
-					'Bootstrap',
-					'd3'
-				]
+				tech: ['Angular JS', 'Grunt', 'Bootstrap', 'd3']
+			},
+			{
+				name: 'API',
+				tech: ['C#', 'Azure', 'Entity Framework', 'OData', 'SQL']
 			}
 		],
 		cover: require('../images/pattern/pattern-cover.png'),
@@ -158,7 +244,7 @@ const Projects: Dictionary<Project> = {
 			},
 			{
 				name: 'Web',
-				tech: ['C#', '.NET MVC', 'Windows Azure', 'SQL', 'LINQ']
+				tech: ['C#', '.NET MVC', 'Azure', 'SQL']
 			}
 		],
 		cover: require('../images/skyepack/skyepack-cover.png'),
@@ -235,7 +321,7 @@ const Projects: Dictionary<Project> = {
 			},
 			{
 				name: 'Web',
-				tech: ['C#', '.NET MVC', 'Windows Azure', 'SQL', 'LINQ']
+				tech: ['C#', '.NET MVC', 'Azure', 'SQL']
 			}
 		],
 		cover: require('../images/passport/passport-cover.png'),
@@ -327,7 +413,7 @@ const Projects: Dictionary<Project> = {
 			},
 			{
 				name: 'Web',
-				tech: ['C#', '.NET MVC', 'Windows Azure', 'SignalR', 'Websockets']
+				tech: ['C#', '.NET MVC', 'Azure', 'SignalR', 'Websockets']
 			}
 		],
 		cover: require('../images/hotseat/hotseat-cover.png'),
@@ -409,7 +495,7 @@ const Projects: Dictionary<Project> = {
 			},
 			{
 				name: 'Web',
-				tech: ['C#', '.NET MVC', 'Aspose for .NET', 'SQL', 'LINQ']
+				tech: ['C#', '.NET MVC', 'Aspose for .NET', 'SQL']
 			}
 		],
 		cover: require('../images/convoy/convoy-cover.png'),
@@ -474,7 +560,7 @@ const Projects: Dictionary<Project> = {
 		areas: [
 			{
 				name: 'Web',
-				tech: ['Javascript', 'jQuery', 'CSS', 'Open Source']
+				tech: ['JavaScript', 'jQuery', 'CSS', 'Open Source']
 			}
 		],
 		cover: require('../images/booklet/booklet-cover.png'),
