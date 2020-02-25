@@ -3,6 +3,79 @@
 	"version": "2.0.0",
 	"private": true,
 	"homepage": "https://builtbywill.com",
+	"scripts": {
+		"analyze": "source-map-explorer build/static/js/main.*",
+		"build": "react-scripts build",
+		"coverage": "yarn test --coverage --watchAll=false",
+		"coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -b master -d build -m",
+		"fix": "run-s fix:**",
+		"fix:code": "yarn lint:code --fix",
+		"fix:styles": "yarn lint:styles --fix",
+		"lint": "run-s lint:**",
+		"lint-code-core": "eslint --ext .js,.jsx,.ts,.tsx",
+		"lint:code": "yarn lint-code-core .",
+		"lint:styles": "stylelint \"src/**/*.css\"",
+		"start": "react-scripts start",
+		"test": "react-scripts test",
+		"test:ci": "cross-env CI=true yarn test"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged",
+			"pre-push": "npm run test:ci"
+		}
+	},
+	"lint-staged": {
+		"**/*.(j|t)s?(x)": [
+			"yarn lint-code-core --fix"
+		],
+		"*.css": [
+			"stylelint --fix"
+		],
+		"package.json": [
+			"sort-package-json"
+		]
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"eslintConfig": {
+		"extends": "studiokit/react",
+		"overrides": [
+			{
+				"files": [
+					"**/*.ts?(x)"
+				],
+				"parser": "@typescript-eslint/parser",
+				"parserOptions": {
+					"project": "tsconfig.json"
+				}
+			}
+		],
+		"ignorePatterns": [
+			"build/",
+			"coverage/"
+		]
+	},
+	"stylelint": {
+		"extends": "stylelint-config-studiokit"
+	},
+	"jest": {
+		"collectCoverageFrom": [
+			"src/**/*.{ts,tsx,js,jsx}",
+			"!src/index.tsx",
+			"!src/utils/serviceWorker.ts"
+		]
+	},
+	"resolutions": {
+		"@types/react": "^16.9.22",
+		"react-side-effect": "^2.1.0"
+	},
 	"dependencies": {
 		"@types/react": "^16.9.22",
 		"@types/react-dom": "^16.9.5",
@@ -51,76 +124,11 @@
 		"prettier": "^1.19.1",
 		"react-scripts": "^3.4.0",
 		"react-test-renderer": "^16.12.0",
+		"sort-package-json": "^1.40.0",
 		"source-map-explorer": "^2.3.1",
 		"stylelint": "^13.2.0",
 		"stylelint-config-standard": "^20.0.0",
 		"stylelint-config-studiokit": "purdue-tlt/stylelint-config-studiokit#feature/eslint-and-updates",
 		"typescript": "^3.7.5"
-	},
-	"resolutions": {
-		"@types/react": "^16.9.22",
-		"react-side-effect": "^2.1.0"
-	},
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"analyze": "source-map-explorer build/static/js/main.*",
-		"test": "react-scripts test",
-		"test:ci": "cross-env CI=true yarn test",
-		"coverage": "yarn test --coverage --watchAll=false",
-		"coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
-		"lint-code-core": "eslint --ext .js,.jsx,.ts,.tsx",
-		"lint:code": "yarn lint-code-core src",
-		"lint:styles": "stylelint \"src/**/*.css\"",
-		"lint": "run-s lint:**",
-		"fix:code": "yarn lint:code --fix",
-		"fix:styles": "yarn lint:styles --fix",
-		"fix": "run-s fix:**",
-		"predeploy": "yarn build",
-		"deploy": "gh-pages -b master -d build -m"
-	},
-	"browserslist": [
-		">0.2%",
-		"not dead",
-		"not ie <= 11",
-		"not op_mini all"
-	],
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged",
-			"pre-push": "npm run test:ci"
-		}
-	},
-	"lint-staged": {
-		"**/*.(j|t)s?(x)": [
-			"yarn lint-code-core --fix"
-		],
-		"*.css": [
-			"stylelint --fix"
-		]
-	},
-	"jest": {
-		"collectCoverageFrom": [
-			"src/**/*.{ts,tsx,js,jsx}",
-			"!src/index.tsx",
-			"!src/utils/serviceWorker.ts"
-		]
-	},
-	"eslintConfig": {
-		"extends": "studiokit/react",
-		"overrides": [
-			{
-				"files": [
-					"**/*.ts?(x)"
-				],
-				"parser": "@typescript-eslint/parser",
-				"parserOptions": {
-					"project": "tsconfig.json"
-				}
-			}
-		]
-	},
-	"stylelint": {
-		"extends": "stylelint-config-studiokit"
 	}
 }
