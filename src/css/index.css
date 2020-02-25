@@ -243,6 +243,10 @@ li [class*=' icon-'] {
 /* @Projects
 ------------------------- */
 
+.tech {
+	background-color: #444;
+}
+
 .ios-tech {
 	background-color: #337ab7;
 }

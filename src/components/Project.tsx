@@ -51,7 +51,7 @@ export const Project = (props: ProjectProps) => {
 										{area.tech.map((tech, j) => (
 											<span
 												key={j}
-												className={`br3 dib pa2 mr2 mb2 ${area.name.toLowerCase()}-tech`}>
+												className={`br3 dib pa2 mr2 mb2 tech ${area.name.toLowerCase()}-tech`}>
 												{tech}
 											</span>
 										))}

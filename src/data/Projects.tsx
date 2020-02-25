@@ -8,13 +8,21 @@ const Projects: Dictionary<Project> = {
 		for: 'Purdue University',
 		summary: <p></p>,
 		description: <></>,
-		dates: '',
+		dates: '2019 - present',
 		url: 'https://purdue.variate.org',
-		roles: <p></p>,
+		roles: <p>Lead Developer</p>,
 		areas: [
 			{
 				name: 'Web',
-				tech: []
+				tech: ['React', 'React Scripts', 'Bootstrap', 'Material UI', 'MathLive', 'Quill']
+			},
+			{
+				name: 'API',
+				tech: ['C#', '.NET', 'SQL', 'Entity Framework', 'Azure App Service', 'Web Jobs']
+			},
+			{
+				name: 'Solution Engine',
+				tech: ['Python', 'SymPy', 'Latex2Sympy']
 			}
 		],
 		cover: undefined,
@@ -25,13 +33,17 @@ const Projects: Dictionary<Project> = {
 		for: 'Purdue University',
 		summary: <p></p>,
 		description: <></>,
-		dates: '',
+		dates: '2017 - 2019',
 		url: 'https://purdue.peercircuit.org',
-		roles: <p></p>,
+		roles: <p>Team Developer</p>,
 		areas: [
 			{
 				name: 'Web',
-				tech: []
+				tech: ['React', 'React Scripts', 'Bootstrap', 'Material UI']
+			},
+			{
+				name: 'API',
+				tech: ['C#', '.NET', 'SQL', 'Entity Framework', 'Azure App Service', 'Web Jobs']
 			}
 		],
 		cover: undefined,
@@ -42,13 +54,21 @@ const Projects: Dictionary<Project> = {
 		for: 'Purdue University',
 		summary: <p></p>,
 		description: <></>,
-		dates: '',
+		dates: '2016 - 2017',
 		url: 'https://purdue.learningscope.org',
-		roles: <p></p>,
+		roles: <p>Lead Developer</p>,
 		areas: [
 			{
 				name: 'Web',
-				tech: []
+				tech: ['React', 'React Scripts', 'Material UI', 'Recharts']
+			},
+			{
+				name: 'API',
+				tech: ['Node.js', 'Express', 'JSON Schema', 'Azure App Service']
+			},
+			{
+				name: 'EventStore',
+				tech: ['Neo4j', 'IMS Caliper v1.0', 'Azure VM']
 			}
 		],
 		cover: undefined,
@@ -59,7 +79,7 @@ const Projects: Dictionary<Project> = {
 		for: 'Purdue University',
 		summary: <p></p>,
 		description: <></>,
-		dates: '',
+		dates: '2017',
 		url: 'https://purdue.openreplay.org',
 		roles: <p></p>,
 		areas: [
@@ -69,7 +89,7 @@ const Projects: Dictionary<Project> = {
 			},
 			{
 				name: 'API',
-				tech: ['C#', 'Azure', 'Entity Framework', 'SQL']
+				tech: ['C#', '.NET', 'SQL', 'Entity Framework', 'Azure Cloud Services', 'Worker Roles']
 			}
 		],
 		cover: undefined,
@@ -90,7 +110,7 @@ const Projects: Dictionary<Project> = {
 			},
 			{
 				name: 'API',
-				tech: ['C#', 'Azure', 'Entity Framework', 'SQL']
+				tech: ['C#', '.NET', 'SQL', 'Entity Framework', 'Azure Cloud Services', 'Worker Roles']
 			}
 		],
 		cover: undefined,
@@ -167,7 +187,7 @@ const Projects: Dictionary<Project> = {
 			},
 			{
 				name: 'API',
-				tech: ['C#', 'Azure', 'Entity Framework', 'OData', 'SQL']
+				tech: ['C#', '.NET', 'SQL', 'Entity Framework', 'OData', 'Azure Cloud Services']
 			}
 		],
 		cover: require('../images/pattern/pattern-cover.png'),
@@ -321,7 +341,7 @@ const Projects: Dictionary<Project> = {
 			},
 			{
 				name: 'Web',
-				tech: ['C#', '.NET MVC', 'Azure', 'SQL']
+				tech: ['C#', '.NET MVC', 'SQL', 'Azure Cloud Services']
 			}
 		],
 		cover: require('../images/passport/passport-cover.png'),
@@ -413,7 +433,7 @@ const Projects: Dictionary<Project> = {
 			},
 			{
 				name: 'Web',
-				tech: ['C#', '.NET MVC', 'Azure', 'SignalR', 'Websockets']
+				tech: ['C#', '.NET MVC', 'SignalR', 'Websockets', 'Azure Cloud Services']
 			}
 		],
 		cover: require('../images/hotseat/hotseat-cover.png'),
@@ -477,7 +497,7 @@ const Projects: Dictionary<Project> = {
 				</p>
 			</>
 		),
-		dates: '2014',
+		dates: '2013 - 2014',
 		roles: (
 			<p>
 				Project Lead
