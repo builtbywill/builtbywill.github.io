@@ -4539,9 +4539,10 @@ eslint-config-react-app@^5.2.0:
   dependencies:
     confusing-browser-globals "^1.0.9"
 
-eslint-config-studiokit@purdue-tlt/eslint-config-studiokit.git#feature/typescript:
-  version "1.0.1"
-  resolved "https://codeload.github.com/purdue-tlt/eslint-config-studiokit/tar.gz/645b976bc1347a1276f88be023ecdb87ac138a78"
+eslint-config-studiokit@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-studiokit/-/eslint-config-studiokit-2.0.1.tgz#c6f5de81974b97199b7956701561de7fae8e1eea"
+  integrity sha512-oCmLGpEqg5qxQqu3n+Yvo4Cgy8/I4WC3zwF0Llnb6/4y7ODReW5/XkyGkCZ293pl4aU8uiSUga0LuUEzsCU1bg==
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.3"
@@ -10243,10 +10244,10 @@ react-fast-compare@^2.0.2:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
-react-ga@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-2.7.0.tgz#24328f157f31e8cffbf4de74a3396536679d8d7c"
-  integrity sha512-AjC7UOZMvygrWTc2hKxTDvlMXEtbmA0IgJjmkhgmQQ3RkXrWR11xEagLGFGaNyaPnmg24oaIiaNPnEoftUhfXA==
+react-ga4@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-ga4/-/react-ga4-2.1.0.tgz#56601f59d95c08466ebd6edfbf8dede55c4678f9"
+  integrity sha512-ZKS7PGNFqqMd3PJ6+C2Jtz/o1iU9ggiy8Y8nUeksgVuvNISbmrQtJiZNvC/TjDsqD0QlU5Wkgs7i+w9+OjHhhQ==
 
 react-helmet@^5.2.1:
   version "5.2.1"
@@ -11870,9 +11871,10 @@ stylelint-config-standard@^20.0.0:
   dependencies:
     stylelint-config-recommended "^3.0.0"
 
-stylelint-config-studiokit@purdue-tlt/stylelint-config-studiokit#feature/eslint-and-updates:
-  version "1.0.1"
-  resolved "https://codeload.github.com/purdue-tlt/stylelint-config-studiokit/tar.gz/be2692da2f3c1d1663e9303a678867aaa20b16f0"
+stylelint-config-studiokit@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-studiokit/-/stylelint-config-studiokit-2.0.1.tgz#3ef4f6db8808972979a0d199a682deabc35a11da"
+  integrity sha512-aLR3Ivqe0TeHbtm6uQSIDqUGs7S/lVUJ9garEUpu8rCxhb0n4FVX0qQstRw+di5wQydnTiyrFM0y6IHNn2VeAQ==
   dependencies:
     postcss "^7.0.27"
     postcss-syntax "^0.36.2"

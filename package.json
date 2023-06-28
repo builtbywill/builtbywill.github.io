@@ -15,7 +15,7 @@
 		"prop-types": "^15.7.2",
 		"react": "^16.12.0",
 		"react-dom": "^16.12.0",
-		"react-ga": "^2.7.0",
+		"react-ga4": "^2.1.0",
 		"react-helmet": "^5.2.1",
 		"react-lazyload": "^2.6.5",
 		"react-loader-spinner": "^3.1.5",
@@ -37,7 +37,7 @@
 		"eslint": "^6.8.0",
 		"eslint-config-prettier": "^6.10.0",
 		"eslint-config-react-app": "^5.2.0",
-		"eslint-config-studiokit": "purdue-tlt/eslint-config-studiokit.git#feature/typescript",
+		"eslint-config-studiokit": "^2.0.1",
 		"eslint-plugin-flowtype": "^3.1.2",
 		"eslint-plugin-import": "^2.20.1",
 		"eslint-plugin-jsx-a11y": "^6.2.3",
@@ -54,7 +54,7 @@
 		"source-map-explorer": "^2.3.1",
 		"stylelint": "^13.2.0",
 		"stylelint-config-standard": "^20.0.0",
-		"stylelint-config-studiokit": "purdue-tlt/stylelint-config-studiokit#feature/eslint-and-updates",
+		"stylelint-config-studiokit": "^2.0.1",
 		"typescript": "^3.7.5"
 	},
 	"resolutions": {
