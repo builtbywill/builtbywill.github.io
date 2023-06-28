@@ -22,7 +22,7 @@ ga.send({ hitType: 'pageview', page: window.location.pathname })
 const browserHistory = history.createBrowserHistory()
 browserHistory.listen(location => {
 	// send pageview to Google Analytics
-	ga.send({ hitType: 'pageview', page: window.location.pathname })
+	ga.send({ hitType: 'pageview', page: location.pathname })
 })
 
 ReactDOM.render(
