@@ -1,0 +1,122 @@
+/* @Base
+-------------------------------------------------- */
+
+html {
+	font-size: calc(1rem + 0.25vw);
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: rgba(0, 0, 0, 0.8);
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-feature-settings: 'liga' on;
+	word-wrap: break-word;
+}
+
+html,
+body {
+	background-color: #e6e6e6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	clear: both;
+}
+
+h2,
+h3 {
+	letter-spacing: -0.05rem;
+}
+
+p {
+	line-height: 1.4;
+}
+
+p,
+li {
+	font-family: 'Ovo', Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+a {
+	text-decoration: none !important;
+	color: rgb(22, 107, 156);
+	border-bottom: 1px solid rgba(22, 107, 156, 0.25);
+	transition: all 200ms;
+}
+
+a:hover,
+a:active {
+	text-decoration: none !important;
+	border-bottom-color: rgba(22, 107, 156, 1);
+}
+
+/* @Colors
+-------------------------------------------------- */
+
+.darker-gray {
+	color: #222;
+}
+
+/* @Background Colors
+-------------------------------------------------- */
+
+.bg-darker-gray {
+	background-color: #222;
+}
+
+.bg-darker-gray a {
+	color: #96ccff;
+}
+
+.bg-lightish-gray {
+	background-color: #e6e6e6;
+}
+
+/* @Fonts
+-------------------------------------------------- */
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.ovo {
+	font-family: 'Ovo', Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+/* @Shadows
+-------------------------------------------------- */
+
+.shadow-inset-light-gray {
+	box-shadow: inset 0 1px 1px #dbdbdb;
+}
+
+/* @Images
+---------------------------------------- */
+
+.logo {
+	width: calc(5rem + 0.5vw);
+	height: calc(3.3rem + 0.5vw);
+}
+
+.profile-picture {
+	width: calc(5rem + 0.5vw);
+	height: calc(5rem + 0.5vw);
+}
+
+/* @Content
+---------------------------------------- */
+
+ul.news {
+	& li {
+		padding-bottom: 0.5rem;
+	}
+}
