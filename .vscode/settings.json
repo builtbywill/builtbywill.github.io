@@ -1,5 +1,4 @@
 {
-	"javascript.validate.enable": false,
 	"css.validate": false,
 	"scss.validate": false,
 	"stylelint.config": {
@@ -10,8 +9,7 @@
 		"ignoreFiles": "src/**/*.{ts,tsx,js,jsx}"
 	},
 	"editor.codeActionsOnSave": {
-		"source.fixAll": true,
-		"source.organizeImports": true
+		"source.fixAll": "explicit",
+		"source.organizeImports": "explicit"
 	}
-	// "jest.pathToJest": "yarn test --coverage"
 }
