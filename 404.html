@@ -1,11 +1,50 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Redirecting...</title>
-	</head>
-	<body>
-		<div class="ovo bg-darker-gray white pv3 pv4-ns">
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="theme-color" content="#000000" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="google-site-verification" content="Vv-F3PTIcS6Y_WyioQB9ZjrE6i4dlSPD6JeLb_ubZdA" />
+	<meta name="author" content="Built By Will" />
+	<meta name="copyright" content="&copy; 2026 Will Grauvogel" />
+	<meta name="description" content="Portfolio site of Will Grauvogel" />
+	<meta name="keywords"
+		content="builtbywill, built, will, grauvogel, purdue, west lafayette, design, web design, interface, multimedia, portfolio, graphic design, standards compliant, mobile developer, ios developer" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="manifest" href="manifest.json" />
+
+	<title>Not Found | Built by Will - Development + Design</title>
+
+	<link rel="stylesheet" href="css/tachyons.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/index.css" />
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-74F1W3WHLB"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-74F1W3WHLB');
+	</script>
+</head>
+
+<body>
+	<header class="pt4 pb3">
+		<div class="mw7 center pv3 lato tc f6 dark-gray">
+			<h1 class="ma0">
+				<img class="logo" src="images/logo.png" alt="" />
+				<span class="clip">Built by Will</span>
+			</h1>
+			<p class="lato lh-copy mb0">
+				Will Grauvogel<br />Development + Design
+			</p>
+		</div>
+	</header>
+	<main>
+		<section class="bg-darker-gray white pv4">
 			<div class="mw7 center ph3">
 				<h1>
 					Not Found
@@ -18,6 +57,20 @@
 				</h1>
 				<p>It looks like the page you were trying to access does not exist. Check the URL and try again!</p>
 			</div>
+		</section>
+	</main>
+	<footer class="bg-lightish-gray shadow-inset-light-gray">
+		<div class="mw7 center ph3 pt4 pb5">
+			<p class="lato tc fw6 f6 tracked-tight mid-gray">
+				&copy; 2010 - <span id="footer-date"></span>
+				<br />
+				<img class="logo mt2" src="images/logo-footer.png" alt="Built by Will" />
+			</p>
 		</div>
-	</body>
+	</footer>
+	<script type="text/javascript">
+		document.getElementById('footer-date').textContent = new Date().getFullYear()
+	</script>
+</body>
+
 </html>
