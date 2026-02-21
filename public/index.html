@@ -1,62 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="theme-color" content="#000000" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="google-site-verification" content="Vv-F3PTIcS6Y_WyioQB9ZjrE6i4dlSPD6JeLb_ubZdA" />
+		<meta name="author" content="Built By Will" />
+		<meta name="copyright" content="&copy; 2026 Will Grauvogel" />
+		<meta name="description" content="Portfolio site of Developer and Designer Will Grauvogel" />
+		<meta name="keywords"
+			content="builtbywill, built, will, grauvogel, purdue, west lafayette, design, web design, interface, multimedia, portfolio, graphic design, standards compliant, mobile developer, ios developer" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="manifest" href="manifest.json" />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="theme-color" content="#000000">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="google-site-verification" content="Vv-F3PTIcS6Y_WyioQB9ZjrE6i4dlSPD6JeLb_ubZdA" />
-	<meta name="author" content="Built By Will"/>
-	<meta name="copyright" content="&copy; 2023 Will Grauvogel"/>
-	<meta name="description" content="Portfolio site of Developer and Designer Will Grauvogel" />
-	<meta name="keywords" content="builtbywill, built, will, grauvogel, purdue, west lafayette, design, web design, interface, multimedia, portfolio, graphic design, standards compliant, mobile developer, ios developer" />
-	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-	<title>Built by Will - Development + Design</title>
+		<title>Built by Will - Development + Design</title>
 
-	<script type="text/javascript">
-	// Single Page Apps for GitHub Pages
-	// https://github.com/rafrex/spa-github-pages
-	// Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-	// ----------------------------------------------------------------------
-	// This script checks to see if a redirect is present in the query string
-	// and converts it back into the correct url and adds it to the
-	// browser's history using window.history.replaceState(...),
-	// which won't cause the browser to attempt to load the new url.
-	// When the single page app is loaded further down in this file,
-	// the correct url will be waiting in the browser's history for
-	// the single page app to route accordingly.
-	;(function(l) {
-		if (l.search) {
-			var q = {}
-			l.search
-				.slice(1)
-				.split('&')
-				.forEach(function(v) {
-					var a = v.split('=')
-					q[a[0]] = a
-						.slice(1)
-						.join('=')
-						.replace(/~and~/g, '&')
-				})
-			if (q.p !== undefined) {
-				window.history.replaceState(
-					null,
-					null,
-					l.pathname.slice(0, -1) + (q.p || '') + (q.q ? '?' + q.q : '') + l.hash
-				)
-			}
-		}
-	})(window.location)
-	</script>
-</head>
+		<link rel="stylesheet" href="css/tachyons.min.css" />
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="stylesheet" href="css/index.css" />
 
-<body>
-	<noscript>
-		You need to enable JavaScript to run this app.
-	</noscript>
-	<div id="root"></div>
-</body>
-
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-74F1W3WHLB"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-74F1W3WHLB');
+		</script>
+	</head>
+	<body>
+		<div class="h5 pt5">
+			<div class="mw7 center pv3 lato tc f6 dark-gray">
+				<h1 class="ma0">
+					<img class="logo" src="images/logo.png" alt="Built by Will" />
+				</h1>
+				<p class="lh-copy">
+					Will Grauvogel
+					<br /> Development + Design
+				</p>
+			</div>
+		</div>
+		<div class="ovo bg-darker-gray white pv3 pv4-ns">
+			<div class="mw7 center ph3">
+				<img class="profile-picture" src="images/profile-picture.png" alt="Profile" />
+				<h2>Hi, I’m Will!</h2>
+				<p>
+					I am a Lead Application Developer at <a href="https://www.purdue.edu/innovativelearning" target="_blank"
+						rel="noopener noreferrer">Purdue University</a>.
+				</p>
+				<p>
+					I work the full stack of application development from ideation, architecture and design, all the way
+					to front-end interfaces. I am passionate about making things that work and doing it the right way.
+				</p>
+				<p>
+					Professionally, I am interested in all things code (design patterns, unit testing, DRY, SOLID),
+					Scrum and agile software development, and delivering Minimum Viable/Delightful Products (MVP/MDP).
+					Plus making really cool looking apps. There’s always more to learn!
+				</p>
+				<p>
+					Unprofessionally, I enjoy cooking (and eating), fitness and lifting, reading, board games, video
+					games, cats, and communicating exclusively by GIF.
+				</p>
+				<h2>Hello, World!</h2>
+				<ul class="list pa0 lh-copy">
+					<li>
+						<span class="icon-envelope" />
+						info [at] builtbywill.com
+					</li>
+					<li>
+						<span class="icon-linkedin" />
+						<a href="https://www.linkedin.com/in/willgrauvogel" target="_blank" rel="noopener noreferrer">
+							linkedIn
+						</a>
+					</li>
+					<li>
+						<span class="icon-github" />
+						<a href="https://github.com/builtbywill" target="_blank" rel="noopener noreferrer">
+							github
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="bg-lightish-gray shadow-inset-light-gray">
+			<div class="mw7 center ph3 pt4 pb5">
+				<p class="lato tc b f6 tracked-tight mid-gray">
+					&copy; 2010 - <span id="footer-date"></span>
+					<br />
+					<img class="logo mt2" src="images/logo-footer.png" alt="Built by Will" />
+				</p>
+			</div>
+		</div>
+		<script defer type="text/javascript">
+			document.getElementById('footer-date').textContent = new Date().getFullYear()
+		</script>
+	</body>
 </html>
