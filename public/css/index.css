@@ -28,17 +28,22 @@ h5,
 h6 {
 	line-height: 1;
 	font-family: 'Lato', sans-serif;
-	font-weight: 500;
+	font-weight: 300;
 	clear: both;
 }
 
-h2 {
-	font-weight: 300;
+h2,
+h3 {
 	letter-spacing: -0.05rem;
 }
 
 p {
 	line-height: 1.4;
+}
+
+p,
+li {
+	font-family: 'Ovo', Georgia, Cambria, 'Times New Roman', Times, serif;
 }
 
 a {
@@ -52,25 +57,6 @@ a:hover,
 a:active {
 	text-decoration: none !important;
 	border-bottom-color: rgba(22, 107, 156, 1);
-}
-
-li [class^='icon-'],
-li [class*=' icon-'] {
-	vertical-align: text-top;
-	margin-right: 0.5rem;
-}
-
-/* @Widths
--------------------------------------------------- */
-
-.mw6p5 {
-	max-width: 40rem;
-}
-
-@media screen and (max-width: 60em) {
-	.mw6p5-nl {
-		max-width: 40rem;
-	}
 }
 
 /* @Colors
@@ -173,4 +159,13 @@ li [class*=' icon-'] {
 .profile-picture {
 	width: calc(5rem + 0.5vw);
 	height: calc(5rem + 0.5vw);
+}
+
+/* @Content
+---------------------------------------- */
+
+ul.news {
+	& li {
+		padding-bottom: 0.5rem;
+	}
 }
