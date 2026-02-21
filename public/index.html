@@ -1,62 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="theme-color" content="#000000">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="theme-color" content="#000000" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="google-site-verification" content="Vv-F3PTIcS6Y_WyioQB9ZjrE6i4dlSPD6JeLb_ubZdA" />
-	<meta name="author" content="Built By Will"/>
-	<meta name="copyright" content="&copy; 2023 Will Grauvogel"/>
+	<meta name="author" content="Built By Will" />
+	<meta name="copyright" content="&copy; 2026 Will Grauvogel" />
 	<meta name="description" content="Portfolio site of Developer and Designer Will Grauvogel" />
-	<meta name="keywords" content="builtbywill, built, will, grauvogel, purdue, west lafayette, design, web design, interface, multimedia, portfolio, graphic design, standards compliant, mobile developer, ios developer" />
-	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+	<meta name="keywords"
+		content="builtbywill, built, will, grauvogel, purdue, west lafayette, design, web design, interface, multimedia, portfolio, graphic design, standards compliant, mobile developer, ios developer" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="manifest" href="manifest.json" />
+
 	<title>Built by Will - Development + Design</title>
 
-	<script type="text/javascript">
-	// Single Page Apps for GitHub Pages
-	// https://github.com/rafrex/spa-github-pages
-	// Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-	// ----------------------------------------------------------------------
-	// This script checks to see if a redirect is present in the query string
-	// and converts it back into the correct url and adds it to the
-	// browser's history using window.history.replaceState(...),
-	// which won't cause the browser to attempt to load the new url.
-	// When the single page app is loaded further down in this file,
-	// the correct url will be waiting in the browser's history for
-	// the single page app to route accordingly.
-	;(function(l) {
-		if (l.search) {
-			var q = {}
-			l.search
-				.slice(1)
-				.split('&')
-				.forEach(function(v) {
-					var a = v.split('=')
-					q[a[0]] = a
-						.slice(1)
-						.join('=')
-						.replace(/~and~/g, '&')
-				})
-			if (q.p !== undefined) {
-				window.history.replaceState(
-					null,
-					null,
-					l.pathname.slice(0, -1) + (q.p || '') + (q.q ? '?' + q.q : '') + l.hash
-				)
-			}
-		}
-	})(window.location)
+	<link rel="stylesheet" href="css/tachyons.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/index.css" />
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-74F1W3WHLB"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-74F1W3WHLB');
 	</script>
 </head>
 
 <body>
-	<noscript>
-		You need to enable JavaScript to run this app.
-	</noscript>
-	<div id="root"></div>
+	<header class="pt4 pb3">
+		<div class="mw7 center pv3 lato tc f6 dark-gray">
+			<h1 class="ma0">
+				<img class="logo" src="images/logo.png" alt="" />
+				<span class="clip">Built by Will</span>
+			</h1>
+			<p class="lato lh-copy mb0">
+				Will Grauvogel<br />Development + Design
+			</p>
+		</div>
+	</header>
+	<main>
+		<section class="bg-darker-gray white pv4">
+			<div class="mw7 center ph3">
+				<div class="flex items-center">
+					<img class="profile-picture mr2" src="images/profile-picture.png" alt="profile picture" />
+					<h2>Hi, I’m Will!</h2>
+				</div>
+				<p>
+					I work as a Lead Developer at <a href="https://www.purdue.edu/innovativelearning" target="_blank"
+						rel="noopener noreferrer">Purdue University</a>, exploring the intersection of innovation and
+					educational technology.
+				</p>
+				<p>
+					I deal with the "full stack" of application development, including ideation, architecture and
+					design, backend, and front-end interfaces. I am passionate about making cool things that work well
+					and help improve teaching and learning.
+				</p>
+				<h3>Hello, World</h3>
+				<ul class="list pl2 lh-copy">
+					<li class="flex items-center">
+						<img src="images/email.svg" width="20" height="20" class="mr2" alt="email" />
+						info [at] builtbywill.com
+					</li>
+					<li class="flex items-center">
+						<img src="images/gitlab.svg" width="20" height="20" class="mr2" alt="gitlab" />
+						<a href="https://gitlab.com/builtbywill" target="_blank" rel="noopener noreferrer">
+							builtbywill
+						</a>
+					</li>
+					<li class="flex items-center">
+						<img src="images/github.svg" width="20" height="20" class="mr2" alt="github" />
+						<a href="https://github.com/builtbywill" target="_blank" rel="noopener noreferrer">
+							builtbywill
+						</a>
+					</li>
+					<li class="flex items-center">
+						<img src="images/linkedin.svg" width="20" height="20" class="mr2" alt="LinkedIn" />
+						<a href="https://www.linkedin.com/in/willgrauvogel" target="_blank" rel="noopener noreferrer">
+							willgrauvogel
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="bg-near-white pv3">
+			<div class="mw7 center ph3">
+				<h2>News</h2>
+				<ul class="news">
+					<li>
+						<a href="https://www.purdue.edu/newsroom/purduetoday/2026/Q1/purdues-charlie-ai-transforms-learning-by-empowering-student-writers/"
+							target="_blank" rel="noopener noreferrer">Purdue’s Charlie AI transforms learning by
+							empowering student writers</a>
+					</li>
+					<li>
+						<a href="https://www.purdue.edu/newsroom/2025/Q3/purdue-celebrates-opening-of-spatial-computing-hub/"
+							target="_blank" rel="noopener noreferrer">Purdue celebrates opening of Spatial Computing
+							Hub</a>
+					</li>
+					<li>
+						<a href="https://www.purdue.edu/online/purdue-teaching-and-learning-technologies-wins-bronze-at-qs-reimagine-education-awards/"
+							target="_blank" rel="noopener noreferrer">Purdue Teaching and Learning Technologies wins
+							bronze at QS Reimagine Education Awards</a>
+					</li>
+					<li>
+						<a href="https://www.purdue.edu/teaching-learning/news/09_20_24.php" target="_blank"
+							rel="noopener noreferrer">Purdue Innovative Learning develops game-changing AI tools to
+							enhance Teaching and Learning</a>
+					</li>
+					<li>
+						<a href="https://discover.online.purdue.edu/news/2023/01/18%20-%20Variate%20with%20Respondus%20LockDown%20Browser%20offers%20possibility%20of%20test-anywhere%20exams.php"
+							target="_blank" rel="noopener noreferrer">Variate with Respondus LockDown Browser offers
+							possibility of test-anywhere exams</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer class="bg-lightish-gray shadow-inset-light-gray">
+		<div class="mw7 center ph3 pt4 pb5">
+			<p class="lato tc fw6 f6 tracked-tight mid-gray">
+				&copy; 2010 - <span id="footer-date"></span>
+				<br />
+				<img class="logo mt2" src="images/logo-footer.png" alt="Built by Will" />
+			</p>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		document.getElementById('footer-date').textContent = new Date().getFullYear()
+	</script>
 </body>
 
 </html>
