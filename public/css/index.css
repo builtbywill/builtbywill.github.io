@@ -160,41 +160,6 @@ li [class*=' icon-'] {
 /* @Images
 ---------------------------------------- */
 
-.image-placeholder {
-	height: 350px;
-	padding-top: 130px;
-}
-
-.image-placeholder div {
-	width: 32px;
-	margin: 0 auto;
-}
-
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
-}
-
-.image-loading {
-	opacity: 0;
-	width: 0;
-	height: 0;
-}
-
-.image-loaded {
-	animation: fadeIn cubic-bezier(0.23, 1, 0.32, 1) 1;
-	position: relative;
-	opacity: 0;
-	animation-fill-mode: forwards;
-	animation-duration: 0.7s;
-	animation-delay: 0.1s;
-}
-
 .logo {
 	width: calc(5rem + 0.5vw);
 	height: calc(3.3rem + 0.5vw);
@@ -208,51 +173,4 @@ li [class*=' icon-'] {
 .profile-picture {
 	width: calc(5rem + 0.5vw);
 	height: calc(5rem + 0.5vw);
-}
-
-/* @Content
----------------------------------------- */
-
-.content h3 {
-	font-weight: 400;
-	letter-spacing: -0.05rem;
-	margin-bottom: 0.5rem;
-}
-
-.content p {
-	margin-top: 0.5rem;
-}
-
-/* @Home
-------------------------- */
-
-.project-list .project {
-	cursor: pointer;
-	min-height: 391px;
-}
-
-.project-list .project:hover {
-	background-color: rgba(100, 100, 100, 0.1);
-}
-
-.project-list .image {
-	width: 635px;
-	max-width: 100%;
-}
-
-/* @Projects
-------------------------- */
-
-.ios-tech {
-	background-color: #337ab7;
-}
-
-.android-tech {
-	background-color: #f0ad4e;
-	color: #37260b;
-}
-
-.web-tech {
-	background-color: #5cb85c;
-	color: #051509;
 }
